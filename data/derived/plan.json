@@ -1,58 +1,64 @@
 {
  "generated_for_gw": 4,
  "status": "Optimal",
- "objective": 368.6,
+ "objective": 329.76,
+ "chip_note": "chips holdt tilbake: bare 2 ferdigspilte runder, krever 6",
  "plan": [
   {
    "gw": 4,
-   "chip": "WILDCARD",
+   "chip": "",
    "in": [
-    "Calafiori",
-    "White",
-    "Saka",
-    "Rushworth",
-    "De Cuyper",
-    "Palmer",
-    "Nketiah",
-    "Barry",
-    "Guéhi",
-    "Tzolakis",
-    "Mendy"
+    "De Cuyper"
    ],
    "out": [
-    "Konsa",
-    "Verbruggen",
-    "Steele",
-    "van Ewijk",
-    "Ndiaye",
-    "Kusi-Asare",
-    "Virgil",
-    "Haaland",
-    "Maguire",
-    "N.Williams",
-    "M.Sangaré"
+    "Konsa"
    ],
    "hits": 0,
    "captain": "B.Fernandes",
    "xi": [
-    "Rushworth",
-    "Calafiori",
-    "White",
+    "Verbruggen",
+    "Virgil",
+    "N.Williams",
     "De Cuyper",
     "B.Fernandes",
-    "Palmer",
-    "Saka",
+    "Mbeumo",
     "Szoboszlai",
-    "João Pedro",
-    "Nketiah",
-    "Barry"
+    "Ndiaye",
+    "M.Sangaré",
+    "Haaland",
+    "João Pedro"
    ]
   },
   {
    "gw": 5,
    "chip": "",
    "in": [
-    "Foden"
+    "Guéhi"
+   ],
+   "out": [
+    "Virgil"
+   ],
+   "hits": 0,
+   "captain": "B.Fernandes",
+   "xi": [
+    "Verbruggen",
+    "Guéhi",
+    "N.Williams",
+    "De Cuyper",
+    "B.Fernandes",
+    "Mbeumo",
+    "Szoboszlai",
+    "Ndiaye",
+    "M.Sangaré",
+    "Haaland",
+    "João Pedro"
+   ]
+  },
+  {
+   "gw": 6,
+   "chip": "",
+   "in": [
+    "Rogers"
    ],
    "out": [
     "Szoboszlai"
@@ -60,62 +66,41 @@
    "hits": 0,
    "captain": "B.Fernandes",
    "xi": [
-    "Tzolakis",
+    "Verbruggen",
     "Guéhi",
-    "Calafiori",
-    "White",
+    "Maguire",
+    "De Cuyper",
     "B.Fernandes",
-    "Palmer",
-    "Saka",
     "Mbeumo",
-    "Foden",
-    "João Pedro",
-    "Barry"
-   ]
-  },
-  {
-   "gw": 6,
-   "chip": "BENCH BOOST",
-   "in": [
-    "Emersonn"
-   ],
-   "out": [
-    "Barry"
-   ],
-   "hits": 0,
-   "captain": "B.Fernandes",
-   "xi": [
-    "Rushworth",
-    "Guéhi",
-    "Calafiori",
-    "White",
-    "Mendy",
-    "B.Fernandes",
-    "Palmer",
-    "Saka",
-    "Foden",
-    "João Pedro",
-    "Emersonn"
+    "Rogers",
+    "Ndiaye",
+    "M.Sangaré",
+    "Haaland",
+    "João Pedro"
    ]
   },
   {
    "gw": 7,
    "chip": "",
-   "in": [],
-   "out": [],
+   "in": [
+    "Mendy"
+   ],
+   "out": [
+    "Maguire"
+   ],
    "hits": 0,
    "captain": "B.Fernandes",
    "xi": [
-    "Tzolakis",
+    "Verbruggen",
     "Guéhi",
-    "Calafiori",
-    "White",
     "De Cuyper",
+    "Mendy",
     "B.Fernandes",
-    "Palmer",
-    "Saka",
     "Mbeumo",
-    "Foden",
+    "Rogers",
+    "Ndiaye",
+    "M.Sangaré",
+    "Haaland",
     "João Pedro"
    ]
   },
@@ -123,25 +108,23 @@
    "gw": 8,
    "chip": "",
    "in": [
-    "Rogers",
-    "Gvardiol"
+    "Nketiah"
    ],
    "out": [
-    "Guéhi",
-    "Foden"
+    "Kusi-Asare"
    ],
    "hits": 0,
    "captain": "B.Fernandes",
    "xi": [
-    "Tzolakis",
-    "Calafiori",
-    "White",
+    "Verbruggen",
+    "Guéhi",
     "De Cuyper",
+    "Mendy",
     "B.Fernandes",
-    "Palmer",
-    "Saka",
     "Mbeumo",
     "Rogers",
+    "M.Sangaré",
+    "Haaland",
     "João Pedro",
     "Nketiah"
    ]
