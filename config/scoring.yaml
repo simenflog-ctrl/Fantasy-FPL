@@ -1,0 +1,74 @@
+# FPLs poengregler. Leses av modellen — ALDRI hardkodet i Python.
+#
+# Verdiene under `verified: false` er ikke bekreftet mot FPLs regelside ennå.
+# Modellen skal nekte å beregne poeng for en kategori som ikke er verifisert,
+# slik at vi ikke bygger anbefalinger på en gjetning.
+
+season: "2026/27"
+
+appearance:
+  verified: true
+  under_60: 1
+  from_60: 2
+
+goals:
+  verified: true
+  GK: 6
+  DEF: 6
+  MID: 5
+  FWD: 4
+
+assists:
+  verified: true
+  all: 3
+
+clean_sheet:
+  verified: true
+  GK: 4
+  DEF: 4
+  MID: 1
+  FWD: 0
+
+goals_conceded:
+  verified: true
+  # -1 per 2 innslupne, gjelder kun GK og DEF
+  per_n_conceded: 2
+  points: -1
+  applies_to: [GK, DEF]
+
+saves:
+  verified: true
+  per_n_saves: 3
+  points: 1
+
+cards:
+  verified: true
+  yellow: -1
+  red: -3
+
+penalties:
+  verified: true
+  saved: 5
+  missed: -2
+
+own_goal:
+  verified: true
+  points: -2
+
+bonus:
+  verified: true
+  first: 3
+  second: 2
+  third: 1
+
+# NY KATEGORI 2025/26 — bekreftet at feltet finnes i API-et
+# (`defensive_contribution` og `defensive_contribution_per_90` i bootstrap),
+# men terskelverdiene under er IKKE verifisert mot regelsiden.
+# Dette er sannsynligvis den største enkeltkilden til edge akkurat nå, fordi
+# de fleste vurderer spillere på xGI alene og overser denne helt.
+defensive_contribution:
+  verified: false
+  points: 2
+  threshold_DEF: 10   # antatt: klareringer+blokkeringer+avskjæringer+taklinger
+  threshold_MID_FWD: 12   # antatt: som over, pluss ballerobringer
+  note: "Må sjekkes mot https://fantasy.premierleague.com/help/rules før bruk"

@@ -1,0 +1,6 @@
+# Rå element-summary er ~700 filer og 7MB per snapshot. De committes ikke:
+# de er fullt reproduserbare fra API-et, og ville sprengt repoet på en sesong.
+data/raw/element_summary/
+__pycache__/
+*.pyc
+.venv/
