@@ -7795,7 +7795,7 @@
   "finished_provisional": false,
   "id": 27,
   "kickoff_time": "2026-09-05T11:30:00Z",
-  "minutes": 45,
+  "minutes": 62,
   "provisional_start_time": false,
   "pulse_id": 0,
   "started": true,
@@ -7856,6 +7856,10 @@
      {
       "element": 454,
       "value": 1
+     },
+     {
+      "element": 464,
+      "value": 1
      }
     ],
     "identifier": "yellow_cards"
@@ -7898,85 +7902,89 @@
     "a": [
      {
       "element": 68,
-      "value": 35
+      "value": 38
      },
      {
       "element": 69,
-      "value": 25
-     },
-     {
-      "element": 70,
-      "value": 7
+      "value": 29
      },
      {
       "element": 73,
-      "value": 7
+      "value": 13
      },
      {
       "element": 566,
-      "value": 5
+      "value": 12
      },
      {
-      "element": 67,
-      "value": 4
-     },
-     {
-      "element": 64,
-      "value": 3
-     },
-     {
-      "element": 57,
-      "value": 1
-     },
-     {
-      "element": 61,
-      "value": 1
+      "element": 70,
+      "value": 11
      },
      {
       "element": 60,
-      "value": -1
+      "value": 7
+     },
+     {
+      "element": 64,
+      "value": 7
+     },
+     {
+      "element": 67,
+      "value": 6
+     },
+     {
+      "element": 57,
+      "value": 4
+     },
+     {
+      "element": 61,
+      "value": 4
+     },
+     {
+      "element": 79,
+      "value": 1
      }
     ],
     "h": [
      {
       "element": 453,
-      "value": 23
+      "value": 26
      },
      {
       "element": 449,
-      "value": 10
+      "value": 18
      },
      {
       "element": 405,
-      "value": 8
-     },
-     {
-      "element": 460,
-      "value": 8
+      "value": 11
      },
      {
       "element": 567,
-      "value": 7
+      "value": 10
+     },
+     {
+      "element": 454,
+      "value": 8
      },
      {
       "element": 459,
-      "value": 3
+      "value": 7
+     },
+     {
+      "element": 460,
+      "value": 6
      },
      {
       "element": 464,
-      "value": 2
+      "value": 5
      },
      {
       "element": 447,
-      "value": -1
-     },
-     {
-      "element": 593,
-      "value": -5
+      "value": 2
      },
      {
       "element": 445,
-      "value": -10
+      "value": -3
      }
     ],
     "identifier": "bps"
@@ -7988,19 +7996,27 @@
       "value": 8
      },
      {
+      "element": 73,
+      "value": 8
+     },
+     {
       "element": 69,
       "value": 7
      },
      {
-      "element": 73,
-      "value": 7
+      "element": 79,
+      "value": 5
+     },
+     {
+      "element": 60,
+      "value": 4
      },
      {
       "element": 61,
       "value": 4
      },
      {
-      "element": 79,
+      "element": 70,
       "value": 4
      },
      {
@@ -8008,20 +8024,12 @@
       "value": 4
      },
      {
-      "element": 70,
-      "value": 3
-     },
-     {
-      "element": 60,
+      "element": 64,
       "value": 2
      },
      {
       "element": 67,
       "value": 2
-     },
-     {
-      "element": 64,
-      "value": 1
      }
     ],
     "h": [
@@ -8035,18 +8043,18 @@
      },
      {
       "element": 449,
-      "value": 4
+      "value": 5
      },
      {
       "element": 454,
       "value": 4
      },
      {
-      "element": 453,
-      "value": 3
+      "element": 459,
+      "value": 4
      },
      {
-      "element": 459,
+      "element": 453,
       "value": 3
      },
      {
