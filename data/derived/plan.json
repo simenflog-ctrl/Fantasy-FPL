@@ -1,0 +1,150 @@
+{
+ "generated_for_gw": 4,
+ "status": "Optimal",
+ "objective": 368.6,
+ "plan": [
+  {
+   "gw": 4,
+   "chip": "WILDCARD",
+   "in": [
+    "Calafiori",
+    "White",
+    "Saka",
+    "Rushworth",
+    "De Cuyper",
+    "Palmer",
+    "Nketiah",
+    "Barry",
+    "Guéhi",
+    "Tzolakis",
+    "Mendy"
+   ],
+   "out": [
+    "Konsa",
+    "Verbruggen",
+    "Steele",
+    "van Ewijk",
+    "Ndiaye",
+    "Kusi-Asare",
+    "Virgil",
+    "Haaland",
+    "Maguire",
+    "N.Williams",
+    "M.Sangaré"
+   ],
+   "hits": 0,
+   "captain": "B.Fernandes",
+   "xi": [
+    "Rushworth",
+    "Calafiori",
+    "White",
+    "De Cuyper",
+    "B.Fernandes",
+    "Palmer",
+    "Saka",
+    "Szoboszlai",
+    "João Pedro",
+    "Nketiah",
+    "Barry"
+   ]
+  },
+  {
+   "gw": 5,
+   "chip": "",
+   "in": [
+    "Foden"
+   ],
+   "out": [
+    "Szoboszlai"
+   ],
+   "hits": 0,
+   "captain": "B.Fernandes",
+   "xi": [
+    "Tzolakis",
+    "Guéhi",
+    "Calafiori",
+    "White",
+    "B.Fernandes",
+    "Palmer",
+    "Saka",
+    "Mbeumo",
+    "Foden",
+    "João Pedro",
+    "Barry"
+   ]
+  },
+  {
+   "gw": 6,
+   "chip": "BENCH BOOST",
+   "in": [
+    "Emersonn"
+   ],
+   "out": [
+    "Barry"
+   ],
+   "hits": 0,
+   "captain": "B.Fernandes",
+   "xi": [
+    "Rushworth",
+    "Guéhi",
+    "Calafiori",
+    "White",
+    "Mendy",
+    "B.Fernandes",
+    "Palmer",
+    "Saka",
+    "Foden",
+    "João Pedro",
+    "Emersonn"
+   ]
+  },
+  {
+   "gw": 7,
+   "chip": "",
+   "in": [],
+   "out": [],
+   "hits": 0,
+   "captain": "B.Fernandes",
+   "xi": [
+    "Tzolakis",
+    "Guéhi",
+    "Calafiori",
+    "White",
+    "De Cuyper",
+    "B.Fernandes",
+    "Palmer",
+    "Saka",
+    "Mbeumo",
+    "Foden",
+    "João Pedro"
+   ]
+  },
+  {
+   "gw": 8,
+   "chip": "",
+   "in": [
+    "Rogers",
+    "Gvardiol"
+   ],
+   "out": [
+    "Guéhi",
+    "Foden"
+   ],
+   "hits": 0,
+   "captain": "B.Fernandes",
+   "xi": [
+    "Tzolakis",
+    "Calafiori",
+    "White",
+    "De Cuyper",
+    "B.Fernandes",
+    "Palmer",
+    "Saka",
+    "Mbeumo",
+    "Rogers",
+    "João Pedro",
+    "Nketiah"
+   ]
+  }
+ ]
+}
