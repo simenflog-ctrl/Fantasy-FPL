@@ -41,7 +41,7 @@ from pathlib import Path
 
 import numpy as np
 import pandas as pd
-from scipy.stats import poisson
+from scipy.stats import nbinom, poisson
 
 ROOT = Path(__file__).resolve().parents[1]
 RAW = ROOT / "data" / "raw"
@@ -168,49 +168,80 @@ def per90_rates(pm: pd.DataFrame, minutes: pd.DataFrame, bs: dict) -> pd.DataFra
     return agg
 
 
-def calibrate_goals(pm: pd.DataFrame, teams_matches: pd.DataFrame,
-                    proj: pd.DataFrame) -> tuple[float, float, float]:
+PRIOR_FIXTURES = Path(__file__).resolve().parents[1] / "data" / "prior" / "fixtures_2025-26.csv"
+
+
+def fit_dispersion(teams_matches: pd.DataFrame) -> float:
     """
-    To kalibreringer som begge går på forsvarspoeng.
+    Overspredningen i innslupne mål, som negativ binomial-parameter r.
 
-    1. xG-til-mål. FPL gir poeng for MÅL, ikke for xG. Denne sesongen ligger
-       xG over faktiske mål (1.63 mot 1.45 per lag-kamp), så λ fra M1 må
-       skaleres ned før den brukes til å regne innslupne mål og clean sheets.
+    Momentmetoden gir r = m² / (v − m); lav r = mye overspredning, r → ∞ er
+    Poisson.
 
-    2. Clean sheet-inflasjon. Ren Poisson undervurderer 0-0: observert andel
-       er 0.275 mot 0.235 som Poisson tilsier ved samme λ. Det er den kjente
-       skjevheten Dixon-Coles-korreksjonen finnes for. Her måles den direkte
-       i stedet, som én faktor.
+    ESTIMERES PÅ FORRIGE SESONG, IKKE PÅ INNEVÆRENDE.
 
-    BEGGE ER PROVISORISKE. De hviler på 40 lag-kamper og skal kalibreres på
-    nytt i M9 når det finnes nok runder. Faktorene klippes derfor til et
-    smalt intervall, slik at de korrigerer uten å kunne løpe løpsk.
+    Overspredning er et andreordensmoment og krever mye mer data enn et snitt.
+    På årets 40 lag-kamper traff estimatoren taket — ikke fordi effekten ikke
+    finnes, men fordi utvalget er for lite til å se den. Fjorårets 760
+    lag-kamper gir et brukbart estimat, og overspredning i fotball er en
+    egenskap ved sporten, ikke ved sesongen.
+    """
+    if PRIOR_FIXTURES.exists():
+        fx = pd.read_csv(PRIOR_FIXTURES)
+        fx = fx[fx["finished"] & fx.team_h_score.notna()]
+        gc = np.concatenate([fx.team_a_score.to_numpy(float),
+                             fx.team_h_score.to_numpy(float)])
+        source = f"{len(gc)} lag-kamper fra i fjor"
+    else:
+        gc = teams_matches[teams_matches.player_minutes > 0].goals_against.to_numpy(float)
+        source = f"{len(gc)} lag-kamper fra i år"
+    m, v = gc.mean(), gc.var()
+    if v <= m or len(gc) < 20:
+        print(f"  ingen overspredning målt ({source}) — bruker Poisson")
+        return 1e6
+    r = float(np.clip(m ** 2 / (v - m), 0.5, 50.0))
+    print(f"  overspredning estimert på {source}: varians/snitt = {v/m:.3f}")
+    return r
+
+
+def nb_defence(lam: float, r: float) -> tuple[float, float]:
+    """P(clean sheet) og forventet straff for innslupne mål under negativ binomial."""
+    p = r / (r + lam)
+    k = np.arange(0, 15)
+    pmf = nbinom.pmf(k, r, p)
+    return float(pmf[0]), float(np.sum((k // 2) * pmf))
+
+
+def calibrate_xg_to_goals(teams_matches: pd.DataFrame, proj: pd.DataFrame) -> float:
+    """
+    Skalerer λ fra xG ned til faktiske mål.
+
+    FPL gir poeng for MÅL, ikke for xG. Lagstyrkemodellen er tilpasset på xG
+    fordi det er mindre støyete, men når λ skal brukes til clean sheets og
+    innslupne mål må nivået tilsvare mål.
+
+    MERK: dette er den ENESTE kalibreringsfaktoren som er igjen.
+
+    Fase 3 hadde i tillegg to "Dixon-Coles"-faktorer som blåste opp clean
+    sheets og innslupne mål, begge estimert på 40 lag-kamper. Fase 5 testet
+    antagelsen på 760 lag-kamper fra i fjor, og den holdt ikke:
+
+        faktisk clean sheet-andel  0.255
+        Poisson forutsier          0.253      (+1.0 %)
+        faktisk innslupne-straff   0.454
+        Poisson forutsier          0.453
+        varians/snitt = 0.940 — ingen overspredning i det hele tatt
+
+    Årets avvik (0.295 mot 0.250) hadde en standardfeil på ±0.069. Det var
+    støy, og korreksjonen for den ga +20 % skjevhet i forsvarspoeng. Å fjerne
+    den brakte skjevheten til +1 %. Marginalfordelingen for mål ER Poisson.
     """
     played = teams_matches[teams_matches.player_minutes > 0]
     actual_goals = float(played.goals_against.mean())
     model_xg = float(proj.xg_against.mean())
-    goal_scale = float(np.clip(actual_goals / max(model_xg, 1e-6), 0.80, 1.20))
-
-    obs_cs = float((played.goals_against == 0).mean())
-    poisson_cs = float(np.exp(-actual_goals))
-    cs_inflation = float(np.clip(obs_cs / max(poisson_cs, 1e-6), 1.0, 1.35))
-
-    # 3. Innslupne mål. Samme årsak som punkt 2, motsatt hale: målfordelingen
-    #    er overspredt, så det er BÅDE flere 0-0 og flere storseiere enn
-    #    Poisson tilsier. Da undervurderes straffen for innslupne mål med
-    #    samme logikk som clean sheets undervurderes.
-    #
-    #    Den riktige løsningen er å bytte Poisson mot negativ binomial i hele
-    #    modellen. Det hører hjemme i M9 sammen med kalibreringen — her måles
-    #    skjevheten i stedet direkte som én faktor.
-    k = np.arange(0, 12)
-    poisson_pen = float(np.sum((k // 2) * poisson.pmf(k, actual_goals)))
-    obs_pen = float((played.goals_against // 2).mean())
-    conceded_inflation = float(np.clip(obs_pen / max(poisson_pen, 1e-6), 1.0, 1.60))
-
-    print(f"  xG→mål: {goal_scale:.3f} | clean sheet-inflasjon: {cs_inflation:.3f} "
-          f"| innslupne-inflasjon: {conceded_inflation:.3f}")
-    return goal_scale, cs_inflation, conceded_inflation
+    scale = float(np.clip(actual_goals / max(model_xg, 1e-6), 0.80, 1.20))
+    print(f"  xG→mål-skalering: {scale:.3f}")
+    return scale
 
 
 def bonus_expectation(weights: np.ndarray) -> np.ndarray:
@@ -298,8 +329,8 @@ def fit_bonus_temperature(pm: pd.DataFrame) -> float:
     return best
 
 
-def expected_points(rates, teams, proj, bonus_tau, goal_scale, cs_inflation,
-                    conceded_inflation, n_gw=6) -> pd.DataFrame:
+def expected_points(rates, teams, proj, bonus_tau, goal_scale, dispersion,
+                    n_gw=6) -> pd.DataFrame:
     team_avg = teams.set_index("short_name").xg_vs_avg.to_dict()
     gws = sorted(proj.gw.unique())[:n_gw]
     proj = proj[proj.gw.isin(gws)]
@@ -321,15 +352,12 @@ def expected_points(rates, teams, proj, bonus_tau, goal_scale, cs_inflation,
         gp = squad.pos.map(GOAL_POINTS).to_numpy()
         csp = squad.pos.map(CS_POINTS).to_numpy()
 
-        # Clean sheet krever 60 minutter.
-        p_cs = min(float(np.exp(-lam_ag) * cs_inflation), 0.95)
+        # Clean sheet og innslupne mål fra SAMME fordeling, så de ikke lenger
+        # kan sprike i hver sin retning slik to uavhengige faktorer gjorde.
+        # Krever 60 minutter for clean sheet.
+        p_cs_raw, pen_per_match = nb_defence(lam_ag, dispersion)
+        p_cs = min(p_cs_raw, 0.95)
         cs = p_cs * squad.p_60.to_numpy() * csp
-
-        # Innslupne mål: -1 per 2, kun GK og DEF. Forventningen tas over
-        # Poisson-fordelingen, ikke som -0.5*λ, fordi gulvfunksjonen ikke er lineær.
-        k = np.arange(0, 12)
-        pen_per_match = float(np.sum((k // 2) * poisson.pmf(k, lam_ag)))
-        pen_per_match *= conceded_inflation
         conceded = np.where(squad.pos.isin(["GK", "DEF"]), -pen_per_match * squad.p_60.to_numpy(), 0.0)
 
         # Redninger gir 1 poeng per TRE redninger — en gulvfunksjon, ikke en
@@ -384,8 +412,9 @@ def main() -> None:
     tau = fit_bonus_temperature(pm)
     print(f"  bonus-temperatur tilpasset: {tau:.1f}")
     tmatch = pd.read_csv(DERIVED / "team_matches.csv")
-    goal_scale, cs_infl, con_infl = calibrate_goals(pm, tmatch, proj)
-    xp = expected_points(rates, teams, proj, tau, goal_scale, cs_infl, con_infl)
+    goal_scale = calibrate_xg_to_goals(tmatch, proj)
+    dispersion = fit_dispersion(tmatch)
+    xp = expected_points(rates, teams, proj, tau, goal_scale, dispersion)
 
     xp.to_csv(DERIVED / "expected_points.csv", index=False)
     horizon = (xp.groupby(["element", "web_name", "team", "pos", "price"], as_index=False)
