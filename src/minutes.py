@@ -153,6 +153,10 @@ def build(pm: pd.DataFrame, bs: dict, rates: dict) -> pd.DataFrame:
             "price": el["now_cost"] / 10,
             "n_matches": n,
             "p_start": round(p_start, 3),
+            # p_play inkluderer innbytte. Uten denne mister xP-modellen ALLE
+            # innbytterpoeng — målt til 108 poeng per runde på ligabasis, som
+            # var den største enkeltfeilen i første versjon av xP.
+            "p_play": round(p_start + p_sub, 3),
             "p_60": round(p60, 3),
             "exp_minutes": round(exp_min, 1),
             "avail_mult": mult,
