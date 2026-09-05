@@ -36,6 +36,8 @@ jobs:
         run: python src/minutes.py
       - name: Forventede poeng M3-M6
         run: python src/expected_points.py
+      - name: Optimizer M8
+        run: python src/optimize.py
       - name: Commit hvis noe endret seg
         run: |
           git config user.name  "fpl-model bot"
