@@ -41,17 +41,92 @@ DERIVED = ROOT / "data" / "derived"
 # mistet plassen for tre runder siden er mindre relevant enn forrige helg.
 HALF_LIFE = 4.0
 
-# Styrken på krympingen, i "antall kamper prioren er verdt". Uten den får en
-# spiller med 2/2 starter p_start = 1.0, som er en påstand data ikke bærer.
+# Styrken på krympingen, i "antall kamper prioren er verdt".
 #
-# Denne er bevisst lav. Spilletid er mye mer vedvarende fra kamp til kamp enn
-# xG er: en spiller som har startet alt starter nesten alltid igjen. Satt for
-# høyt (2.0 ble prøvd først) kollapser modellen — da fikk hver eneste startende
-# spiller identisk p_start, og Konsa fikk 0.37 til tross for null starter.
-PRIOR_MATCHES = 0.7
+# To slags prior:
+#
+# GENERISK — ligaens ubetingede startrate. Sier ingenting om spilleren, så den
+# skal veie lite. Satt for høyt (2.0 ble prøvd) kollapser modellen: da fikk hver
+# eneste startende spiller identisk p_start.
+#
+# PERSONLIG — spillerens egen startrate fra i fjor. Den er informativ og skiller
+# det årets to runder ikke kan: Haaland startet 34 av 38, Maguire 19 av 38.
+#
+# Vekten på den personlige ble først satt til 2.5. Det var for høyt: prioren fikk
+# over halve vekten etter to runder og overkjørte ferske bevis — De Cuyper startet
+# begge kampene med 77 og 90 minutter og fikk likevel p_start 0.67. Målt på en
+# hel simulert sesong ga 2.5 bare +3 poeng, mens 1.5 ga +61.
+PRIOR_MATCHES_GENERIC = 0.7
+PRIOR_MATCHES_PERSONAL = 1.5
+
+LAST_SEASON_GWS = ("https://raw.githubusercontent.com/vaastav/"
+                   "Fantasy-Premier-League/master/data/2025-26/gws/merged_gw.csv")
+
+# Minste spilletid i fjor for at spillerens egen rate skal brukes.
+MIN_PRIOR_MINUTES = 450
+
+# Krymping AV selve fjorårsprioren, i pseudo-kamper mot ligagrunnraten. En
+# spiller som startet 38 av 38 skal ikke få prior 1.00 — ingen starter med
+# sikkerhet. Det finnes alltid hvile, skader og karantener.
+PRIOR_SELF_SHRINK = 4.0
+
+# Klubbytte gjør fjorårets rolle mindre overførbar: ny klubb, ny konkurranse,
+# ofte ny rolle. Konsa er eksempelet — høy startrate i fjor, ny klubb, null
+# starter i år. Uten nedvektingen trakk prioren ham opp til 0.52 stikk i strid
+# med det som faktisk har skjedd.
+PRIOR_WEIGHT_AFTER_TRANSFER = 0.35
 
 # Status-koder i FPL-API-et som betyr at spilleren ikke er tilgjengelig.
 UNAVAILABLE = {"i", "s", "u", "n"}
+
+
+def _norm(s: pd.Series) -> pd.Series:
+    return (s.astype(str).str.normalize("NFKD").str.encode("ascii", "ignore")
+            .str.decode("ascii").str.lower().str.strip())
+
+
+def last_season_minutes(bs: dict) -> pd.DataFrame:
+    """
+    Spillerens egen startrate og typiske spilletid fra forrige sesong.
+
+    Uten dette krympes alle mot ligagjennomsnittet, og da får hver spiller med
+    to starter av to nøyaktig samme p_start — modellen kan ikke skille en fast
+    starter fra en rotasjonsspiller før langt uti sesongen.
+    """
+    try:
+        ls = pd.read_csv(LAST_SEASON_GWS)
+    except Exception as exc:  # noqa: BLE001
+        print(f"  fant ikke fjorårsdata ({exc}) — bruker bare ligaprior")
+        return pd.DataFrame(columns=["element"])
+
+    agg = ls.groupby("name", as_index=False).agg(
+        starts=("starts", "sum"), rounds=("starts", "size"),
+        mins=("minutes", "sum"))
+    started = ls[ls.starts == 1].groupby("name", as_index=False).agg(
+        min_given_start=("minutes", "mean"))
+    agg = agg.merge(started, on="name", how="left")
+    agg = agg[agg.mins >= MIN_PRIOR_MINUTES].copy()
+    agg["key"] = _norm(agg.name)
+    league = float((ls.starts == 1).mean())
+    agg["prior_p_start"] = ((agg.starts + PRIOR_SELF_SHRINK * league)
+                            / (agg.rounds + PRIOR_SELF_SHRINK))
+    agg["prior_team"] = agg.name.map(ls.groupby("name").team.last())
+
+    # MÅ sammenlignes mot lagets fulle navn, ikke forkortelsen: fjorårsdataene
+    # bruker "Aston Villa", API-et har begge former. Sammenligning mot
+    # forkortelsen ga falske klubbytter for nesten halve ligaen.
+    teams_now = {t["id"]: t["name"] for t in bs["teams"]}
+    now = pd.DataFrame([{"element": e["id"], "team_now": teams_now[e["team"]],
+                         "key": f"{e['first_name']} {e['second_name']}"}
+                        for e in bs["elements"]])
+    now["key"] = _norm(now.key)
+    out = now.merge(agg[["key", "prior_p_start", "min_given_start", "prior_team"]],
+                    on="key", how="inner").drop_duplicates("element")
+    out["moved"] = out.prior_team.astype(str).str.strip().str.lower() != \
+        out.team_now.astype(str).str.strip().str.lower()
+    print(f"  fjorårsprior for spilletid: {len(out)} av {len(now)} spillere "
+          f"({int(out.moved.sum())} har byttet klubb — prior nedvektet)")
+    return out[["element", "prior_p_start", "min_given_start", "moved"]]
 
 
 def load() -> tuple[pd.DataFrame, dict, pd.DataFrame]:
@@ -106,6 +181,7 @@ def build(pm: pd.DataFrame, bs: dict, rates: dict) -> pd.DataFrame:
     teams = {t["id"]: t["short_name"] for t in bs["teams"]}
 
     latest_gw = pm.gw.max()
+    prior = last_season_minutes(bs).set_index("element")
     rows = []
 
     by_player = {pid: g.sort_values("gw") for pid, g in pm.groupby("element")}
@@ -114,17 +190,35 @@ def build(pm: pd.DataFrame, bs: dict, rates: dict) -> pd.DataFrame:
         pid = el["id"]
         hist = by_player.get(pid)
 
+        # Personlig prior der den finnes, ellers ligaens grunnrate.
+        if pid in prior.index and not np.isnan(prior.prior_p_start.get(pid, np.nan)):
+            p_prior = float(prior.prior_p_start[pid])
+            k = (PRIOR_MATCHES_PERSONAL * PRIOR_WEIGHT_AFTER_TRANSFER
+                 if bool(prior.moved.get(pid, False)) else PRIOR_MATCHES_PERSONAL)
+            mgs = prior.min_given_start.get(pid, np.nan)
+            prior_min = float(mgs) if not np.isnan(mgs) else rates["min_given_start"]
+        else:
+            p_prior, k = rates["p_start_prior"], PRIOR_MATCHES_GENERIC
+            prior_min = rates["min_given_start"]
+
+        # Typisk spilletid gitt start MÅ blandes med årets faktiske minutter,
+        # ikke hentes rått fra i fjor. En spiller som nettopp har gått fra
+        # innhopper til å spille 90 hver kamp skal ikke bære fjorårets snitt.
+        own_starts = hist[hist.starts == 1] if hist is not None else None
+        if own_starts is not None and len(own_starts):
+            obs_min = float(own_starts.minutes.mean())
+            wm = len(own_starts) / (len(own_starts) + 2.0)
+            personal_min = wm * obs_min + (1 - wm) * prior_min
+        else:
+            personal_min = prior_min
+
         if hist is None or hist.empty:
-            n, p_raw, weight = 0, rates["p_start_prior"], 0.0
+            n, p_raw, weight = 0, p_prior, 0.0
         else:
             age = latest_gw - hist.gw
             w = 0.5 ** (age / HALF_LIFE)
             weight = float(w.sum())
-            # Beta-krymping mot ligagrunnraten.
-            p_raw = float(
-                (np.sum(w * (hist.starts == 1)) + PRIOR_MATCHES * rates["p_start_prior"])
-                / (weight + PRIOR_MATCHES)
-            )
+            p_raw = float((np.sum(w * (hist.starts == 1)) + k * p_prior) / (weight + k))
             n = int(len(hist))
 
         mult, reason = availability(el)
@@ -142,7 +236,7 @@ def build(pm: pd.DataFrame, bs: dict, rates: dict) -> pd.DataFrame:
             p_sub_given_no_start = 0.0
         p_sub = (1 - p_raw) * p_sub_given_no_start * mult
 
-        exp_min = p_start * rates["min_given_start"] + p_sub * rates["min_given_sub"]
+        exp_min = p_start * personal_min + p_sub * rates["min_given_sub"]
         p60 = p_start * rates["p60_given_start"]
 
         rows.append({
