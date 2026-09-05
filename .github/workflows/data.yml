@@ -1,0 +1,43 @@
+name: Hent FPL-data
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+    - cron: "0 6 * * 4"
+    - cron: "0 6 * * 6"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fpl-data
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Installer avhengigheter
+        run: pip install -r requirements.txt
+      - name: Hent fra FPL-API-et
+        run: python src/fetch.py
+      - name: Bygg tabeller
+        run: python src/build_matches.py
+      - name: Commit hvis noe endret seg
+        run: |
+          git config user.name  "fpl-model bot"
+          git config user.email "actions@github.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "Ingen endringer."
+          else
+            git commit -m "data: oppdatert $(date -u +%Y-%m-%d)"
+            git push
+          fi
