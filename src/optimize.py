@@ -62,8 +62,35 @@ TRANSFER_FRICTION = 0.05
 POOL_PER_POS = 26        # kandidater per posisjon, i tillegg til egen tropp
 BENCH_WEIGHT = 0.15      # hvor mye en benkeplass er verdt mot en ellever-plass
 HIT_COST = 4
+# Ekstra terskel for å ta et hit, utover de fire poengene FPL trekker.
+#
+# Et hit er en sikker kostnad mot en usikker gevinst. Modellen har rundt 4 %
+# skjevhet på totalnivå og betydelig større usikkerhet per spiller, så en plan
+# som "tjener" noen få poeng på et hit ligger innenfor støyen.
+#
+# Konkret tilfelle: optimizeren ville tatt −12 i GW4 for en plan verdt 331,0
+# mot 329,0 uten. Tolv poeng for to. Med denne marginen kreves det at hitet
+# tjener inn 8 poeng per ekstra bytte før det velges — da faller slike planer
+# bort av seg selv, uten at hits forbys.
+HIT_UNCERTAINTY_MARGIN = 4
 MAX_BANKED_FT = 5
 SOLVER_SECONDS = 90
+
+# Chips låses opp først når modellen har nok data til å velge klokt.
+#
+# Wildcard, Bench Boost og Free Hit er engangsressurser: de kan brukes én gang,
+# og et dårlig tidspunkt kan ikke angres. Tidlig i sesongen er modellens egne
+# innsatsfaktorer for tynne til å bære en slik beslutning — minuttmodellen kan
+# ikke skille faste startere fra hverandre før den har flere runder, og
+# lagratingene hviler tungt på fjorårets prior.
+#
+# Optimizeren ville brukt Wildcard i GW4 etter to spilte runder. Det var
+# matematisk riktig gitt tallene, men tallene var ikke gode nok ennå: den ville
+# låst femten valg på et grunnlag som forbedrer seg raskt de neste ukene.
+#
+# Regelen er derfor generell, ikke et unntak for én uke: ingen chips før
+# modellen har sett nok. Sett til 0 for å slå av sperren.
+MIN_FINISHED_GW_FOR_CHIPS = 6
 
 FORMATION = {"GK": (1, 1), "DEF": (3, 5), "MID": (2, 5), "FWD": (1, 3)}
 SQUAD_SIZE = {"GK": 2, "DEF": 5, "MID": 5, "FWD": 3}
@@ -142,7 +169,7 @@ def solve(pool: pd.DataFrame, grid: pd.DataFrame, gws: list[int],
                           BENCH_WEIGHT * xp[p, t] * (x[p][t] - y[p][t])]
             if z is not None:
                 objective.append((1 - BENCH_WEIGHT) * xp[p, t] * z[p][t])
-        objective.append(-HIT_COST * hits[t])
+        objective.append(-(HIT_COST + HIT_UNCERTAINTY_MARGIN) * hits[t])
         objective.append(-TRANSFER_FRICTION * pulp.lpSum(buy[p][t] for p in P))
     m += pulp.lpSum(objective)
 
@@ -257,8 +284,17 @@ def main() -> None:
         return
 
     available = {"wildcard", "bboost"} - chips_used
+    finished = sum(1 for e in json.loads((RAW / "bootstrap.json").read_text())["events"]
+                   if e["finished"])
+    chip_note = ""
+    if finished < MIN_FINISHED_GW_FOR_CHIPS and available:
+        chip_note = (f"chips holdt tilbake: bare {finished} ferdigspilte runder, "
+                     f"krever {MIN_FINISHED_GW_FOR_CHIPS}")
+        available = set()
     print(f"Utgangspunkt: GW{gw} · bank £{bank:.1f}m · chips tilgjengelig: "
           f"{', '.join(sorted(available)) or 'ingen'}")
+    if chip_note:
+        print(f"  {chip_note}")
 
     bs = json.loads((RAW / "bootstrap.json").read_text())
     nxt = next((e for e in bs["events"] if e["is_next"]), None)
@@ -270,7 +306,8 @@ def main() -> None:
 
     (DERIVED / "plan.json").write_text(json.dumps(
         {"generated_for_gw": int(gws[0]), "status": status,
-         "objective": round(pulp.value(m.objective), 2), "plan": plan},
+         "objective": round(pulp.value(m.objective), 2),
+         "chip_note": chip_note, "plan": plan},
         ensure_ascii=False, indent=1))
     print(f"\n✓ målfunksjon: {pulp.value(m.objective):.1f} forventede poeng over {len(gws)} runder")
 
