@@ -358,6 +358,50 @@ def run(use_chips: bool) -> dict:
         # komme først, slik at størrelsen på gevinsten er kjent før noe bygges.
         own = ownership_at(d, t)
         xi_own = sum(own.get(n, 0.0) for n in xi) / max(1, len(xi))
+        # Dekomponering med fasit i hånd: hva den samme troppen KUNNE gitt med
+        # perfekt laguttak og perfekt kaptein. Differansen mot det vi faktisk
+        # fikk er tapet i utvelgelse; resten av gapet til elitenivå ligger da i
+        # selve troppen. Uten dette skillet er det umulig å vite om neste
+        # innsats bør gå til prediksjon eller til laguttak.
+        act = pd.Series(actual, dtype=float)
+        hind_xi, hind_pts = best_xi(squad, act, pos_map)
+        hind_cap = max((actual.get(n, 0) for n in hind_xi), default=0)
+        xi_only = score_gw(xi, captain, squad, actual, played, pos_map, mult=1)
+
+        # Laguttaket målt mot enklere regler, på samme måte som kapteinen.
+        # Autobytter regnes med, ellers straffes reglene ulikt for blanke.
+        alt_xi = {}
+        if not hist.empty:
+            f3 = hist[hist.GW >= t - 3].groupby("name").total_points.mean()
+            sn = hist.groupby("name").total_points.mean()
+            for lab, key in (("form", f3), ("snitt", sn)):
+                sel, _ = best_xi(squad, key.reindex(squad).fillna(0.0), pos_map)
+                alt_xi[lab] = score_gw(sel, captain, squad, actual, played,
+                                       pos_map, mult=1)
+
+        # Kapteinsvalget målt mot enklere regler. Modellen velger høyest xP,
+        # og det er optimalt under modellens eget syn — men bare hvis modellen
+        # ser bedre enn form gjør. Det er ikke gitt, og det er billig å måle.
+        # Alle reglene bruker kun det som var kjent før runden.
+        alt_caps = {"xp": captain}
+        if xi:
+            form3 = (hist[hist.GW >= t - 3].groupby("name").total_points.mean()
+                     if not hist.empty else pd.Series(dtype=float))
+            snitt = (hist.groupby("name").total_points.mean()
+                     if not hist.empty else pd.Series(dtype=float))
+            alt_caps["form"] = max(xi, key=lambda n: form3.get(n, 0.0))
+            alt_caps["snitt"] = max(xi, key=lambda n: snitt.get(n, 0.0))
+            alt_caps["eid"] = max(xi, key=lambda n: own.get(n, 0.0))
+            # Mellomting: hold på xP-valget, men bytt til en mer eid spiller
+            # når forskjellen i xP er liten. Poenget er ikke poeng — det er at
+            # kapteinen er den enkeltbeslutningen som svinger rank mest, og en
+            # nesten like god kaptein som halve feltet også har, koster lite og
+            # demper svingningen kraftig.
+            top = xp_now.get(captain, 0.0)
+            for delta in (0.5, 1.0, 2.0):
+                nær = [n for n in xi if top - xp_now.get(n, 0.0) <= delta]
+                alt_caps[f"hybrid{delta}"] = max(
+                    nær, key=lambda n: (own.get(n, 0.0), xp_now.get(n, 0.0)))
         log.append({"gw": int(t), "pts": pts, "total": total, "chip": chip,
                     "xi_own": round(xi_own, 4),
                     "cap_own": round(own.get(captain, 0.0), 4) if captain else 0.0,
@@ -365,6 +409,13 @@ def run(use_chips: bool) -> dict:
                     # på hvordan malen gjorde det den runden.
                     "own_pts": round(sum(own.get(n, 0.0) * p
                                          for n, p in actual.items()), 2),
+                    "xi_only": xi_only,            # vårt ellever, uten kaptein
+                    "hind_xi": hind_pts,           # beste ellever med fasit
+                    "hind_cap": hind_cap,          # beste kaptein i det laget
+                    **{f"cap_{k}": actual.get(v, 0) for k, v in alt_caps.items()},
+                    **{f"capown_{k}": round(own.get(v, 0.0), 4)
+                       for k, v in alt_caps.items()},
+                    **{f"xi_{k}": v for k, v in alt_xi.items()},
                     "captain": captain, "bank": round(bank, 1),
                     "cap_pts": actual.get(captain, 0) if captain else 0,
                     "best_cap_pts": actual.get(best_cap, 0) if best_cap else 0,
