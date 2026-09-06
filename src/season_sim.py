@@ -24,6 +24,11 @@ CHIPS
 Kjøres i to varianter: uten chips (nedre grense), og med enkle chip-regler.
 Free Hit er ikke modellert.
 
+Målt 6. sep 2026, etter at doble runder ble telt riktig: chips er verdt
++53,5 ± 4,5 poeng (11,9 se), to par. Det er en NEDRE grense — reglene her er
+grove og Free Hit mangler. Den tidligere konklusjonen om at chip-timing var
+verdt maks 28 poeng ble målt mens doble runder ble halvtelt, og er forkastet.
+
 DET SIMULERINGEN IKKE FANGER
 
 Pressekonferanser og lagnytt. I virkeligheten overstyrer Claudes ukentlige
@@ -91,6 +96,31 @@ TRANSFER_MIN_GAIN = 0.5
 # søket en gang blir bedre enn grådig.
 MAX_MOVES_PER_GW = 1
 
+# Doble runder. En spiller med to kamper i samme runde har TO rader i dataene.
+# Oppslaget som var her beholdt bare den siste og kastet den andre kampen.
+#
+# Feilen var stille og skjev på verst tenkelige måte: xP summerte begge kampene
+# og valgte derfor riktig spiller, men fasiten ga uttelling for bare én av dem.
+# Simuleringen ble altså straffet for å gjøre det riktige — og hardest nettopp
+# i de rundene chips er til for.
+#
+# MÅLT 6. sep 2026, fem parvise kjøringer over tre sesonger:
+#   2023-24 frø 11   1924 → 2053   (+129)
+#   2024-25 frø 11   2018 → 2097   ( +79)
+#   2024-25 frø 12   1984 → 2052   ( +68)
+#   2025-26 frø 11   2040 → 2076   ( +36)
+#   2025-26 frø 12   2033 → 2069   ( +36)
+#   samlet +69,6 ± 17,1 (4,1 se) — alle fem samme vei
+#
+# Utslaget følger antall doble runder i sesongen, som det skal. Simuleringen har
+# altså undervurdert systemet med rundt 70 poeng, og alle nivåtall målt før
+# 6. sep er for lave. Parvise sammenligninger er derimot uberørt: begge sidene
+# hadde feilen.
+#
+# Flagget står igjen bare for å kunne måle dette på nytt. Skru det aldri av i
+# annet enn en måling.
+COUNT_ALL_FIXTURES = True
+
 
 def load_with_prices() -> pd.DataFrame:
     """
@@ -132,13 +162,13 @@ def ownership_at(d: pd.DataFrame, gw: int) -> dict:
     managers = g.selected.sum() / 15.0
     if managers <= 0:
         return {}
-    return dict(zip(g.name, g.selected / managers))
+    return (g.selected / managers).groupby(g.name).max().to_dict()
 
 
 def prices_at(d: pd.DataFrame, gw: int) -> dict:
     """Prisen slik den var den runden, ikke slik den endte."""
     g = d[d.GW == gw]
-    return dict(zip(g.name, g.value / 10.0))
+    return (g.value / 10.0).groupby(g.name).max().to_dict()
 
 
 def horizon_xp(d: pd.DataFrame, t: int, rates, att, dfn, ha, mu, disp) -> pd.Series:
@@ -275,8 +305,18 @@ def run(use_chips: bool) -> dict:
         xp_now = p_now.groupby("name").xp.sum() if not p_now.empty else pd.Series(dtype=float)
         xp_hor = horizon_xp(d, t, rates, att, dfn, ha, mu, disp)
         price = prices_at(d, t)
-        actual = dict(zip(this.name, this.total_points))
-        played = dict(zip(this.name, this.minutes))
+        # Doble runder: en spiller med to kamper i samme runde har TO rader.
+        # `dict(zip(...))` beholdt bare den siste og kastet den andre kampen.
+        # Feilen var stille og systematisk, og den rammet nettopp det chips er
+        # til for: xP summerte begge kampene og valgte riktig spiller, men
+        # fasiten ga bare uttelling for én av dem. Derfor så doble runder — og
+        # dermed Bench Boost og Triple Captain — kunstig verdiløse ut.
+        if COUNT_ALL_FIXTURES:
+            actual = this.groupby("name").total_points.sum().to_dict()
+            played = this.groupby("name").minutes.sum().to_dict()
+        else:
+            actual = dict(zip(this.name, this.total_points))
+            played = dict(zip(this.name, this.minutes))
 
         avail = pd.DataFrame({"name": list(price)})
         avail["price"] = avail.name.map(price)

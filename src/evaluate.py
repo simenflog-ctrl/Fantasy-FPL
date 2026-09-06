@@ -50,6 +50,7 @@ BASE = "https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/
 SEASONS = {
     "2025-26": (f"{BASE}/2025-26", f"{BASE}/2024-25/gws/merged_gw.csv"),
     "2024-25": (f"{BASE}/2024-25", f"{BASE}/2023-24/gws/merged_gw.csv"),
+    "2023-24": (f"{BASE}/2023-24", f"{BASE}/2022-23/gws/merged_gw.csv"),
 }
 SEEDS = (11, 12, 13)
 
@@ -71,7 +72,7 @@ def _noisy(orig, seed):
     return f
 
 
-def run_one(season: str, seed: int, apply_config) -> int:
+def run_one(season: str, seed: int, apply_config, use_chips: bool = False) -> int:
     """Én sesong, ett frø, én konfigurasjon. Returnerer sesongtotalen."""
     hist, prior = SEASONS[season]
     B.HIST, S.HIST, S.PRIOR_SEASON = hist, hist, prior
@@ -81,7 +82,7 @@ def run_one(season: str, seed: int, apply_config) -> int:
     B.predict = _noisy(orig_predict, seed)
     S.predict = B.predict
     try:
-        return int(S.run(use_chips=False)["total"])
+        return int(S.run(use_chips=use_chips)["total"])
     finally:
         B.predict = orig_predict
         S.predict = orig_predict
