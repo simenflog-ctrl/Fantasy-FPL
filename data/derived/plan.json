@@ -1,14 +1,14 @@
 {
  "generated_for_gw": 4,
  "status": "Optimal",
- "objective": 378.42,
+ "objective": 377.1,
  "chip_note": "chips holdt tilbake: bare 2 ferdigspilte runder, krever 6",
  "plan": [
   {
    "gw": 4,
    "chip": "",
    "in": [
-    "Mendy"
+    "Hall"
    ],
    "out": [
     "Maguire"
@@ -18,8 +18,8 @@
    "xi": [
     "Verbruggen",
     "Virgil",
+    "Hall",
     "N.Williams",
-    "Mendy",
     "B.Fernandes",
     "Mbeumo",
     "Szoboszlai",
@@ -43,8 +43,8 @@
    "xi": [
     "Verbruggen",
     "Guéhi",
+    "Hall",
     "N.Williams",
-    "Mendy",
     "B.Fernandes",
     "Mbeumo",
     "Szoboszlai",
@@ -61,20 +61,20 @@
     "Rogers"
    ],
    "out": [
-    "M.Sangaré"
+    "Szoboszlai"
    ],
    "hits": 0,
    "captain": "B.Fernandes",
    "xi": [
     "Verbruggen",
     "Guéhi",
+    "Hall",
     "N.Williams",
-    "Mendy",
     "B.Fernandes",
     "Mbeumo",
     "Rogers",
-    "Szoboszlai",
     "Ndiaye",
+    "M.Sangaré",
     "Haaland",
     "João Pedro"
    ]
@@ -93,13 +93,13 @@
    "xi": [
     "Verbruggen",
     "Guéhi",
+    "Hall",
     "De Cuyper",
-    "Mendy",
     "B.Fernandes",
     "Mbeumo",
     "Rogers",
-    "Szoboszlai",
     "Ndiaye",
+    "M.Sangaré",
     "Haaland",
     "João Pedro"
    ]
@@ -118,13 +118,13 @@
    "xi": [
     "Leno",
     "Guéhi",
+    "Hall",
     "De Cuyper",
-    "Mendy",
     "B.Fernandes",
     "Mbeumo",
     "Rogers",
-    "Szoboszlai",
     "Ndiaye",
+    "M.Sangaré",
     "Haaland",
     "João Pedro"
    ]
