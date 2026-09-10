@@ -1,30 +1,30 @@
 {
  "generated_for_gw": 4,
  "status": "Optimal",
- "objective": 377.1,
- "chip_note": "chips holdt tilbake: bare 2 ferdigspilte runder, krever 6",
+ "objective": 360.46,
+ "chip_note": "chips holdt tilbake: bare 3 ferdigspilte runder, krever 6",
  "plan": [
   {
    "gw": 4,
    "chip": "",
    "in": [
-    "Hall"
+    "Tavernier"
    ],
    "out": [
-    "Maguire"
+    "M.Sangaré"
    ],
    "hits": 0,
    "captain": "B.Fernandes",
    "xi": [
     "Verbruggen",
     "Virgil",
-    "Hall",
     "N.Williams",
+    "van Ewijk",
     "B.Fernandes",
     "Mbeumo",
     "Szoboszlai",
+    "Tavernier",
     "Ndiaye",
-    "M.Sangaré",
     "Haaland",
     "João Pedro"
    ]
@@ -43,13 +43,13 @@
    "xi": [
     "Verbruggen",
     "Guéhi",
-    "Hall",
     "N.Williams",
+    "van Ewijk",
     "B.Fernandes",
     "Mbeumo",
     "Szoboszlai",
+    "Tavernier",
     "Ndiaye",
-    "M.Sangaré",
     "Haaland",
     "João Pedro"
    ]
@@ -58,23 +58,23 @@
    "gw": 6,
    "chip": "",
    "in": [
-    "Rogers"
+    "Thomas"
    ],
    "out": [
-    "Szoboszlai"
+    "Konsa"
    ],
    "hits": 0,
    "captain": "B.Fernandes",
    "xi": [
     "Verbruggen",
     "Guéhi",
-    "Hall",
     "N.Williams",
+    "Thomas",
     "B.Fernandes",
     "Mbeumo",
-    "Rogers",
+    "Szoboszlai",
+    "Tavernier",
     "Ndiaye",
-    "M.Sangaré",
     "Haaland",
     "João Pedro"
    ]
@@ -86,20 +86,20 @@
     "De Cuyper"
    ],
    "out": [
-    "N.Williams"
+    "Maguire"
    ],
    "hits": 0,
    "captain": "B.Fernandes",
    "xi": [
     "Verbruggen",
     "Guéhi",
-    "Hall",
     "De Cuyper",
+    "Thomas",
     "B.Fernandes",
     "Mbeumo",
-    "Rogers",
+    "Szoboszlai",
+    "Tavernier",
     "Ndiaye",
-    "M.Sangaré",
     "Haaland",
     "João Pedro"
    ]
@@ -108,23 +108,23 @@
    "gw": 8,
    "chip": "",
    "in": [
-    "Leno"
+    "Henderson"
    ],
    "out": [
-    "Verbruggen"
+    "Steele"
    ],
    "hits": 0,
    "captain": "B.Fernandes",
    "xi": [
-    "Leno",
+    "Henderson",
     "Guéhi",
-    "Hall",
-    "De Cuyper",
+    "N.Williams",
+    "Thomas",
     "B.Fernandes",
     "Mbeumo",
-    "Rogers",
+    "Szoboszlai",
+    "Tavernier",
     "Ndiaye",
-    "M.Sangaré",
     "Haaland",
     "João Pedro"
    ]

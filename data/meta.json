@@ -1,9 +1,9 @@
 {
  "current_event": 3,
- "current_event_finished": false,
- "duration_seconds": 23.4,
+ "current_event_finished": true,
+ "duration_seconds": 4.4,
  "entry_id": "7089878",
- "fetched_at": "2026-09-07T06:24:59.770331+00:00",
+ "fetched_at": "2026-09-10T06:10:18.116817+00:00",
  "n_players": 654,
  "n_teams": 20,
  "next_deadline": "2026-09-12T12:30:00Z",
