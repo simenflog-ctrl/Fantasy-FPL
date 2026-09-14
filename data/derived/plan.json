@@ -1,34 +1,9 @@
 {
- "generated_for_gw": 4,
+ "generated_for_gw": 5,
  "status": "Optimal",
- "objective": 360.54,
+ "objective": 365.75,
  "chip_note": "chips holdt tilbake: bare 3 ferdigspilte runder, krever 6",
  "plan": [
-  {
-   "gw": 4,
-   "chip": "",
-   "in": [
-    "Tavernier"
-   ],
-   "out": [
-    "M.Sangaré"
-   ],
-   "hits": 0,
-   "captain": "B.Fernandes",
-   "xi": [
-    "Verbruggen",
-    "Virgil",
-    "N.Williams",
-    "van Ewijk",
-    "B.Fernandes",
-    "Mbeumo",
-    "Szoboszlai",
-    "Tavernier",
-    "Ndiaye",
-    "Haaland",
-    "João Pedro"
-   ]
-  },
   {
    "gw": 5,
    "chip": "",
@@ -36,20 +11,20 @@
     "Guéhi"
    ],
    "out": [
-    "Virgil"
+    "Maguire"
    ],
    "hits": 0,
    "captain": "B.Fernandes",
    "xi": [
     "Verbruggen",
     "Guéhi",
+    "Calafiori",
     "N.Williams",
-    "van Ewijk",
     "B.Fernandes",
     "Mbeumo",
     "Szoboszlai",
-    "Tavernier",
     "Ndiaye",
+    "M.Sangaré",
     "Haaland",
     "João Pedro"
    ]
@@ -68,12 +43,12 @@
    "xi": [
     "Verbruggen",
     "Guéhi",
+    "Calafiori",
     "N.Williams",
     "Thomas",
     "B.Fernandes",
     "Mbeumo",
     "Szoboszlai",
-    "Tavernier",
     "Ndiaye",
     "Haaland",
     "João Pedro"
@@ -83,17 +58,17 @@
    "gw": 7,
    "chip": "",
    "in": [
-    "De Cuyper"
+    "Tavernier"
    ],
    "out": [
-    "Maguire"
+    "M.Sangaré"
    ],
    "hits": 0,
    "captain": "B.Fernandes",
    "xi": [
     "Verbruggen",
     "Guéhi",
-    "De Cuyper",
+    "Calafiori",
     "Thomas",
     "B.Fernandes",
     "Mbeumo",
@@ -108,20 +83,45 @@
    "gw": 8,
    "chip": "",
    "in": [
-    "Henderson"
+    "Tzolakis"
    ],
    "out": [
-    "Steele"
+    "Verbruggen"
    ],
    "hits": 0,
    "captain": "B.Fernandes",
    "xi": [
-    "Henderson",
+    "Tzolakis",
     "Guéhi",
-    "N.Williams",
+    "Calafiori",
     "Thomas",
     "B.Fernandes",
     "Mbeumo",
+    "Szoboszlai",
+    "Tavernier",
+    "Ndiaye",
+    "Haaland",
+    "João Pedro"
+   ]
+  },
+  {
+   "gw": 9,
+   "chip": "",
+   "in": [
+    "Rogers"
+   ],
+   "out": [
+    "Mbeumo"
+   ],
+   "hits": 0,
+   "captain": "Haaland",
+   "xi": [
+    "Tzolakis",
+    "Guéhi",
+    "Calafiori",
+    "Thomas",
+    "B.Fernandes",
+    "Rogers",
     "Szoboszlai",
     "Tavernier",
     "Ndiaye",
