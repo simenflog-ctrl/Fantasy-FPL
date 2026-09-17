@@ -1,8 +1,8 @@
 {
  "generated_for_gw": 5,
  "status": "Optimal",
- "objective": 365.75,
- "chip_note": "chips holdt tilbake: bare 3 ferdigspilte runder, krever 6",
+ "objective": 340.26,
+ "chip_note": "chips holdt tilbake: bare 4 ferdigspilte runder, krever 6",
  "plan": [
   {
    "gw": 5,
@@ -33,10 +33,10 @@
    "gw": 6,
    "chip": "",
    "in": [
-    "Thomas"
+    "E.Le Fée"
    ],
    "out": [
-    "Konsa"
+    "Ndiaye"
    ],
    "hits": 0,
    "captain": "B.Fernandes",
@@ -45,11 +45,11 @@
     "Guéhi",
     "Calafiori",
     "N.Williams",
-    "Thomas",
     "B.Fernandes",
     "Mbeumo",
     "Szoboszlai",
-    "Ndiaye",
+    "E.Le Fée",
+    "M.Sangaré",
     "Haaland",
     "João Pedro"
    ]
@@ -58,23 +58,23 @@
    "gw": 7,
    "chip": "",
    "in": [
-    "Tavernier"
+    "Groß"
    ],
    "out": [
     "M.Sangaré"
    ],
    "hits": 0,
-   "captain": "B.Fernandes",
+   "captain": "Haaland",
    "xi": [
     "Verbruggen",
     "Guéhi",
     "Calafiori",
-    "Thomas",
+    "N.Williams",
     "B.Fernandes",
     "Mbeumo",
     "Szoboszlai",
-    "Tavernier",
-    "Ndiaye",
+    "E.Le Fée",
+    "Groß",
     "Haaland",
     "João Pedro"
    ]
@@ -94,12 +94,12 @@
     "Tzolakis",
     "Guéhi",
     "Calafiori",
-    "Thomas",
+    "N.Williams",
     "B.Fernandes",
     "Mbeumo",
     "Szoboszlai",
-    "Tavernier",
-    "Ndiaye",
+    "E.Le Fée",
+    "Groß",
     "Haaland",
     "João Pedro"
    ]
@@ -108,10 +108,10 @@
    "gw": 9,
    "chip": "",
    "in": [
-    "Rogers"
+    "Tavernier"
    ],
    "out": [
-    "Mbeumo"
+    "Szoboszlai"
    ],
    "hits": 0,
    "captain": "Haaland",
@@ -119,12 +119,12 @@
     "Tzolakis",
     "Guéhi",
     "Calafiori",
-    "Thomas",
+    "N.Williams",
     "B.Fernandes",
-    "Rogers",
-    "Szoboszlai",
+    "Mbeumo",
     "Tavernier",
-    "Ndiaye",
+    "E.Le Fée",
+    "Groß",
     "Haaland",
     "João Pedro"
    ]
