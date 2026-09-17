@@ -1,0 +1,74 @@
+[
+ {
+  "season": "2025-26",
+  "seed": 11,
+  "config": "terskel_0.5",
+  "total": 2114
+ },
+ {
+  "season": "2025-26",
+  "seed": 11,
+  "config": "terskel_2.0",
+  "total": 2103
+ },
+ {
+  "season": "2025-26",
+  "seed": 12,
+  "config": "terskel_0.5",
+  "total": 2083
+ },
+ {
+  "season": "2025-26",
+  "seed": 12,
+  "config": "terskel_2.0",
+  "total": 2079
+ },
+ {
+  "season": "2025-26",
+  "seed": 13,
+  "config": "terskel_0.5",
+  "total": 2099
+ },
+ {
+  "season": "2025-26",
+  "seed": 13,
+  "config": "terskel_2.0",
+  "total": 2081
+ },
+ {
+  "season": "2024-25",
+  "seed": 11,
+  "config": "terskel_0.5",
+  "total": 1974
+ },
+ {
+  "season": "2024-25",
+  "seed": 11,
+  "config": "terskel_2.0",
+  "total": 1985
+ },
+ {
+  "season": "2024-25",
+  "seed": 12,
+  "config": "terskel_0.5",
+  "total": 1973
+ },
+ {
+  "season": "2024-25",
+  "seed": 12,
+  "config": "terskel_2.0",
+  "total": 1985
+ },
+ {
+  "season": "2024-25",
+  "seed": 13,
+  "config": "terskel_0.5",
+  "total": 1979
+ },
+ {
+  "season": "2024-25",
+  "seed": 13,
+  "config": "terskel_2.0",
+  "total": 1990
+ }
+]

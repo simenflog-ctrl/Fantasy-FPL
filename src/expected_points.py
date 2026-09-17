@@ -55,6 +55,14 @@ DC_POINTS = 2
 ASSIST_POINTS = 3
 
 # Krymping av rater per 90: prioren veier like mye som dette antall minutter.
+#
+# Endret fra 270 til 540 den 5. sep 2026. Målt parvis på 72 189 prediksjoner
+# over sesongene 2023-24, 2024-25 og 2025-26.
+#
+# Etablert: 270 er for lavt. Alle verdier over slår den på feil, og alle tre
+# sesongene peker samme vei. Ikke etablert: hvilken verdi over 270 som er best —
+# 400, 540 og 700 kan ikke skilles fra hverandre. 540 er valgt fordi den ligger
+# midt i det båndet. Se SHRINK_MINUTES i backtest.py for hele tabellen.
 SHRINK_MINUTES = 540.0
 
 LAST_SEASON = ("https://raw.githubusercontent.com/vaastav/"
