@@ -55,7 +55,7 @@ DC_POINTS = 2
 ASSIST_POINTS = 3
 
 # Krymping av rater per 90: prioren veier like mye som dette antall minutter.
-SHRINK_MINUTES = 270.0
+SHRINK_MINUTES = 540.0
 
 LAST_SEASON = ("https://raw.githubusercontent.com/vaastav/"
                "Fantasy-Premier-League/master/data/2025-26/cleaned_players.csv")
