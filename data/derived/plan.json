@@ -1,42 +1,17 @@
 {
- "generated_for_gw": 5,
+ "generated_for_gw": 6,
  "status": "Optimal",
- "objective": 332.78,
+ "objective": 340.47,
  "chip_note": "chips holdt tilbake: bare 4 ferdigspilte runder, krever 6",
  "plan": [
   {
-   "gw": 5,
+   "gw": 6,
    "chip": "",
    "in": [
     "Guéhi"
    ],
    "out": [
     "Maguire"
-   ],
-   "hits": 0,
-   "captain": "Haaland",
-   "xi": [
-    "Verbruggen",
-    "Guéhi",
-    "Calafiori",
-    "N.Williams",
-    "B.Fernandes",
-    "Mbeumo",
-    "Szoboszlai",
-    "Ndiaye",
-    "M.Sangaré",
-    "Haaland",
-    "João Pedro"
-   ]
-  },
-  {
-   "gw": 6,
-   "chip": "",
-   "in": [
-    "Groß"
-   ],
-   "out": [
-    "Ndiaye"
    ],
    "hits": 0,
    "captain": "B.Fernandes",
@@ -58,10 +33,10 @@
    "gw": 7,
    "chip": "",
    "in": [
-    "Thomas"
+    "Calvert-Lewin"
    ],
    "out": [
-    "N.Williams"
+    "João Pedro"
    ],
    "hits": 0,
    "captain": "Haaland",
@@ -69,39 +44,39 @@
     "Verbruggen",
     "Guéhi",
     "Calafiori",
-    "Thomas",
+    "N.Williams",
     "B.Fernandes",
     "Mbeumo",
     "Szoboszlai",
     "Groß",
     "M.Sangaré",
     "Haaland",
-    "João Pedro"
+    "Calvert-Lewin"
    ]
   },
   {
    "gw": 8,
    "chip": "",
    "in": [
-    "Tzolakis"
+    "Raya"
    ],
    "out": [
-    "Steele"
+    "Verbruggen"
    ],
    "hits": 0,
    "captain": "B.Fernandes",
    "xi": [
-    "Tzolakis",
+    "Raya",
     "Guéhi",
     "Calafiori",
-    "Thomas",
+    "N.Williams",
     "B.Fernandes",
     "Mbeumo",
     "Szoboszlai",
     "Groß",
     "M.Sangaré",
     "Haaland",
-    "João Pedro"
+    "Calvert-Lewin"
    ]
   },
   {
@@ -111,22 +86,47 @@
     "Tavernier"
    ],
    "out": [
-    "Groß"
+    "M.Sangaré"
    ],
    "hits": 0,
    "captain": "Haaland",
    "xi": [
-    "Tzolakis",
+    "Raya",
     "Guéhi",
     "Calafiori",
-    "Thomas",
+    "N.Williams",
     "B.Fernandes",
     "Mbeumo",
     "Szoboszlai",
     "Tavernier",
-    "M.Sangaré",
+    "Groß",
     "Haaland",
-    "João Pedro"
+    "Calvert-Lewin"
+   ]
+  },
+  {
+   "gw": 10,
+   "chip": "",
+   "in": [
+    "Bogle"
+   ],
+   "out": [
+    "Konsa"
+   ],
+   "hits": 0,
+   "captain": "B.Fernandes",
+   "xi": [
+    "Raya",
+    "Guéhi",
+    "Calafiori",
+    "Bogle",
+    "B.Fernandes",
+    "Mbeumo",
+    "Szoboszlai",
+    "Tavernier",
+    "Groß",
+    "Haaland",
+    "Calvert-Lewin"
    ]
   }
  ]
