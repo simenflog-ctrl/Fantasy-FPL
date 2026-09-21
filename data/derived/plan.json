@@ -1,7 +1,7 @@
 {
  "generated_for_gw": 6,
  "status": "Optimal",
- "objective": 340.47,
+ "objective": 339.39,
  "chip_note": "chips holdt tilbake: bare 4 ferdigspilte runder, krever 6",
  "plan": [
   {
@@ -83,7 +83,7 @@
    "gw": 9,
    "chip": "",
    "in": [
-    "Tavernier"
+    "E.Le Fée"
    ],
    "out": [
     "M.Sangaré"
@@ -98,8 +98,8 @@
     "B.Fernandes",
     "Mbeumo",
     "Szoboszlai",
-    "Tavernier",
     "Groß",
+    "E.Le Fée",
     "Haaland",
     "Calvert-Lewin"
    ]
@@ -123,8 +123,8 @@
     "B.Fernandes",
     "Mbeumo",
     "Szoboszlai",
-    "Tavernier",
     "Groß",
+    "E.Le Fée",
     "Haaland",
     "Calvert-Lewin"
    ]
