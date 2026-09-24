@@ -1,32 +1,32 @@
 {
  "generated_for_gw": 6,
  "status": "Optimal",
- "objective": 339.39,
- "chip_note": "chips holdt tilbake: bare 4 ferdigspilte runder, krever 6",
+ "objective": 338.91,
+ "chip_note": "chips holdt tilbake: bare 5 ferdigspilte runder, krever 6",
  "plan": [
   {
    "gw": 6,
    "chip": "",
    "in": [
-    "Guéhi"
+    "E.Le Fée"
    ],
    "out": [
-    "Maguire"
+    "M.Sangaré"
    ],
    "hits": 0,
    "captain": "B.Fernandes",
    "xi": [
     "Verbruggen",
-    "Guéhi",
     "Calafiori",
     "N.Williams",
+    "Maguire",
+    "Konsa",
     "B.Fernandes",
     "Mbeumo",
     "Szoboszlai",
     "Groß",
-    "M.Sangaré",
-    "Haaland",
-    "João Pedro"
+    "E.Le Fée",
+    "Haaland"
    ]
   },
   {
@@ -42,14 +42,14 @@
    "captain": "Haaland",
    "xi": [
     "Verbruggen",
-    "Guéhi",
     "Calafiori",
     "N.Williams",
+    "Konsa",
     "B.Fernandes",
     "Mbeumo",
     "Szoboszlai",
     "Groß",
-    "M.Sangaré",
+    "E.Le Fée",
     "Haaland",
     "Calvert-Lewin"
    ]
@@ -67,14 +67,14 @@
    "captain": "B.Fernandes",
    "xi": [
     "Raya",
-    "Guéhi",
     "Calafiori",
     "N.Williams",
+    "Konsa",
     "B.Fernandes",
     "Mbeumo",
     "Szoboszlai",
     "Groß",
-    "M.Sangaré",
+    "E.Le Fée",
     "Haaland",
     "Calvert-Lewin"
    ]
@@ -83,16 +83,16 @@
    "gw": 9,
    "chip": "",
    "in": [
-    "E.Le Fée"
+    "Tarkowski"
    ],
    "out": [
-    "M.Sangaré"
+    "Maguire"
    ],
    "hits": 0,
    "captain": "Haaland",
    "xi": [
     "Raya",
-    "Guéhi",
+    "Tarkowski",
     "Calafiori",
     "N.Williams",
     "B.Fernandes",
@@ -111,13 +111,13 @@
     "Bogle"
    ],
    "out": [
-    "Konsa"
+    "N.Williams"
    ],
    "hits": 0,
    "captain": "B.Fernandes",
    "xi": [
     "Raya",
-    "Guéhi",
+    "Tarkowski",
     "Calafiori",
     "Bogle",
     "B.Fernandes",
