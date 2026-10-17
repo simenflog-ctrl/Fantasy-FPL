@@ -1,132 +1,148 @@
 {
- "generated_for_gw": 6,
+ "generated_for_gw": 7,
  "status": "Optimal",
- "objective": 338.91,
- "chip_note": "chips holdt tilbake: bare 5 ferdigspilte runder, krever 6",
+ "objective": 362.09,
+ "chip_note": "",
  "plan": [
   {
-   "gw": 6,
-   "chip": "",
-   "in": [
-    "E.Le Fée"
-   ],
-   "out": [
-    "M.Sangaré"
-   ],
-   "hits": 0,
-   "captain": "B.Fernandes",
-   "xi": [
-    "Verbruggen",
-    "Calafiori",
-    "N.Williams",
-    "Maguire",
-    "Konsa",
-    "B.Fernandes",
-    "Mbeumo",
-    "Szoboszlai",
-    "Groß",
-    "E.Le Fée",
-    "Haaland"
-   ]
-  },
-  {
    "gw": 7,
-   "chip": "",
+   "chip": "WILDCARD",
    "in": [
-    "Calvert-Lewin"
+    "Raya",
+    "Rogers",
+    "Tavernier",
+    "Van Hecke",
+    "De Cuyper",
+    "João Pedro",
+    "Thomas",
+    "Leno",
+    "Diop",
+    "Davis",
+    "Gonzalo"
    ],
    "out": [
-    "João Pedro"
+    "Calafiori",
+    "Konsa",
+    "Thiago",
+    "Verbruggen",
+    "Steele",
+    "van Ewijk",
+    "Kusi-Asare",
+    "Szoboszlai",
+    "Maguire",
+    "Mbeumo",
+    "N.Williams"
    ],
    "hits": 0,
    "captain": "Haaland",
    "xi": [
-    "Verbruggen",
-    "Calafiori",
-    "N.Williams",
-    "Konsa",
+    "Raya",
+    "De Cuyper",
+    "Van Hecke",
+    "Thomas",
     "B.Fernandes",
-    "Mbeumo",
-    "Szoboszlai",
+    "Rogers",
+    "Tavernier",
     "Groß",
     "E.Le Fée",
     "Haaland",
-    "Calvert-Lewin"
+    "João Pedro"
    ]
   },
   {
    "gw": 8,
    "chip": "",
-   "in": [
-    "Raya"
-   ],
-   "out": [
-    "Verbruggen"
-   ],
+   "in": [],
+   "out": [],
    "hits": 0,
    "captain": "B.Fernandes",
    "xi": [
     "Raya",
-    "Calafiori",
-    "N.Williams",
-    "Konsa",
+    "Van Hecke",
+    "Thomas",
+    "Davis",
     "B.Fernandes",
-    "Mbeumo",
-    "Szoboszlai",
+    "Rogers",
+    "Tavernier",
     "Groß",
     "E.Le Fée",
     "Haaland",
-    "Calvert-Lewin"
+    "João Pedro"
    ]
   },
   {
    "gw": 9,
    "chip": "",
    "in": [
-    "Tarkowski"
+    "Tarkowski",
+    "Dewsbury-Hall"
    ],
    "out": [
-    "Maguire"
+    "Rogers",
+    "De Cuyper"
    ],
    "hits": 0,
    "captain": "Haaland",
    "xi": [
     "Raya",
     "Tarkowski",
-    "Calafiori",
-    "N.Williams",
+    "Van Hecke",
+    "Thomas",
     "B.Fernandes",
-    "Mbeumo",
-    "Szoboszlai",
+    "Dewsbury-Hall",
+    "Tavernier",
     "Groß",
     "E.Le Fée",
     "Haaland",
-    "Calvert-Lewin"
+    "João Pedro"
    ]
   },
   {
    "gw": 10,
-   "chip": "",
-   "in": [
-    "Bogle"
-   ],
-   "out": [
-    "N.Williams"
-   ],
+   "chip": "BENCH BOOST",
+   "in": [],
+   "out": [],
    "hits": 0,
    "captain": "B.Fernandes",
    "xi": [
-    "Raya",
+    "Leno",
     "Tarkowski",
-    "Calafiori",
-    "Bogle",
+    "Van Hecke",
+    "Diop",
+    "Davis",
     "B.Fernandes",
-    "Mbeumo",
-    "Szoboszlai",
+    "Dewsbury-Hall",
     "Groß",
     "E.Le Fée",
     "Haaland",
-    "Calvert-Lewin"
+    "Gonzalo"
+   ]
+  },
+  {
+   "gw": 11,
+   "chip": "",
+   "in": [
+    "Rogers",
+    "Silva"
+   ],
+   "out": [
+    "Tarkowski",
+    "Dewsbury-Hall"
+   ],
+   "hits": 0,
+   "captain": "Haaland",
+   "xi": [
+    "Raya",
+    "Silva",
+    "Van Hecke",
+    "Thomas",
+    "B.Fernandes",
+    "Rogers",
+    "Tavernier",
+    "Groß",
+    "E.Le Fée",
+    "Haaland",
+    "João Pedro"
    ]
   }
  ]
