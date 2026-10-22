@@ -26,6 +26,13 @@ Første gjennomføring: `gw08/` (22. okt 2026). Bruk den som mal. Les `gw08/besl
    - Konflikter i `src/` → undersøk begge sider med `git log` før du velger (se mergen 22. okt: opplastingen hadde eldre kode).
 4. Kontroller at `main` er ren før du starter.
 
+## Steg 1–2 gjøres av agenten `fpl-datagrunnlag`
+
+For å holde økten kort delegerer Claude steg 1 og 2 til agenten i `.claude/agents/fpl-datagrunnlag.md`. Gi den runde N,
+ukens og forrige ukes mappe, og alt Simen har sagt om bytter eller lagstatus. Agenten følger stegene under og svarer med et kort sammendrag.
+Før steg 3 leser Claude **hele** `grunnlag.md` og `claude/evaluering-forrige.md` selv (rådataene trenger ikke leses).
+Melder agenten avvik eller feil, undersøker Claude dem før arbeidet går videre. Faller agenten ut, gjør Claude stegene selv.
+
 ## Steg 1: Datagrunnlag (Claude)
 
 Hent fra `https://fantasy.premierleague.com/api/` til `gwNN/data/`: `bootstrap-static/`, `fixtures/`, `entry/7089878/`,
