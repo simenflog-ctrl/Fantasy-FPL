@@ -8,3 +8,6 @@ __pycache__/
 # Samarbeidsmappene: samme regel for rå element-summary.
 samarbeid/*/data/element_summary/
 .DS_Store
+
+# Lokal kopi av vaastavs historiske sesonger for offline backtest.
+data/cache/
