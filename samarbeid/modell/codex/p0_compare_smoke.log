@@ -1,0 +1,17 @@
+  opprykkslag uten fjorårsdata: Burnley, Leeds, Sunderland → prior satt til snittet av fjorårets tre svakeste
+  kjørt 2025-26/baseline: 745 prediksjoner
+  opprykkslag uten fjorårsdata: Burnley, Leeds, Sunderland → prior satt til snittet av fjorårets tre svakeste
+  kjørt 2025-26/identisk: 745 prediksjoner
+   model   n     mae     mse    rmse  spearman_played  top10  top20  top50
+baseline 745 1.07258 4.40741 2.09938          0.40167    5.7   4.25   4.56
+identisk 745 1.07258 4.40741 2.09938          0.40167    5.7   4.25   4.56
+
+Parvis effekt, kandidat minus baseline, fire-runders blokk-SE:
+   model reference  season    metric  difference  se  blocks   n  relative_mse_reduction
+identisk  baseline 2025-26       mse         0.0 NaN       1 745                    -0.0
+identisk  baseline 2025-26       mae         0.0 NaN       1 745                     NaN
+identisk  baseline 2025-26 bonus_mse         0.0 NaN       1 745                     NaN
+identisk  baseline 2025-26     top10         0.0 NaN       1   1                     NaN
+identisk  baseline 2025-26     top20         0.0 NaN       1   1                     NaN
+identisk  baseline 2025-26     top50         0.0 NaN       1   1                     NaN
+PAIRING SMOKE OK: 745 rows, identical results; one block gives undefined SE as intended

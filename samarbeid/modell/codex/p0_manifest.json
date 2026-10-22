@@ -1,0 +1,12 @@
+{
+  "seconds": 259.8312289714813,
+  "python": "3.8.8 (default, Apr 13 2021, 12:59:45) \n[Clang 10.0.0 ]",
+  "minute_flag": false,
+  "sha256": {
+    "src/eval_engine.py": "610f99714e10d605165ff88ff12f1328813ccb402b97724b7294a488f3e99fab",
+    "src/evaluate_pred.py": "b46b2a4614e0615f9736f6e6755e05517c26801a81c5e72422f0044ad87e33fb",
+    "src/expected_points.py": "b7668c99ff08fab455e6678f0f608503c5a09e6b2f1f0dbada33b309eccec0f8",
+    "src/team_strength.py": "523c5c4852178384e8f36c4b12a0bb36f9e60873c8aedfafaf78e48e7c678798",
+    "src/minutes.py": "9744381060d552cbe03990c84b87868a458100dac2f3048264243b554be9ce5f"
+  }
+}

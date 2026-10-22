@@ -1,6 +1,10 @@
 """
 M9 — backtest og kalibrering.
 
+Dagens main() bruker produksjonsmotoren via evaluate_pred. Hjelpefunksjonene
+under beholdes foreløpig for season_sim og eksplisitte legacy-målinger; de
+er ikke produksjonsparitet. Resultatene nedenfor gjelder den eldre motoren.
+
 Dette er steget som avgjør om modellen er god eller bare virker god. Alt
 foregående er antagelser til de er målt mot fasit.
 
@@ -58,7 +62,7 @@ from scipy.stats import spearmanr
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from team_strength import _fit                  # samme estimator som i produksjon
-from expected_points import bonus_expectation   # samme bonusfordeling
+from expected_points import bonus_expectation, goal_points_for_season   # samme bonusfordeling
 
 HIST = ("https://raw.githubusercontent.com/vaastav/"
         "Fantasy-Premier-League/master/data/2025-26")
@@ -115,8 +119,11 @@ PRIOR_WEIGHT_AFTER_TRANSFER = 0.35   # klubbskifte gjør fjorårets rolle mindre
 PRIOR_WEIGHT_TEAM = 8.0
 
 
-def load() -> pd.DataFrame:
-    d = pd.read_csv(f"{HIST}/gws/merged_gw.csv")
+def load(path: str | Path | None = None) -> pd.DataFrame:
+    cache = (Path(__file__).resolve().parents[1] / "data/cache/vaastav"
+             / str(HIST).rstrip("/").split("/")[-1] / "gws/merged_gw.csv")
+    source = path if path is not None else (cache if cache.exists() else f"{HIST}/gws/merged_gw.csv")
+    d = pd.read_csv(source)
     keep = ["name", "position", "team", "GW", "fixture", "opponent_team", "was_home",
             "minutes", "starts", "total_points", "goals_scored", "assists",
             "clean_sheets", "goals_conceded", "saves", "bonus", "bps",
@@ -373,7 +380,8 @@ def _fixture_scale(att: dict, dfn: dict, home_adv: float, mu: float) -> dict:
 
 
 def predict(test: pd.DataFrame, rates: pd.DataFrame, att, dfn, home_adv, mu,
-            disp: float) -> pd.DataFrame:
+            disp: float, *, season="2025-26", game_config=None) -> pd.DataFrame:
+    goal_points = goal_points_for_season(season, game_config)
     r = rates.set_index("name")
     base_lam = _fixture_scale(att, dfn, home_adv, mu) if ATT_SCALING else {}
     rows = []
@@ -395,7 +403,7 @@ def predict(test: pd.DataFrame, rates: pd.DataFrame, att, dfn, home_adv, mu,
         p_cs, pen = negative_binomial_cs(float(lam_ag), disp)
         a_scale = lam_for / base_lam[row.team] if row.team in base_lam else 1.0
         xp = (p.p_play + p.p_60
-              + p.expected_goals90 * share * a_scale * GOAL_POINTS[p.pos]
+              + p.expected_goals90 * share * a_scale * goal_points[p.pos]
               + p.expected_assists90 * share * a_scale * 3
               + p_cs * p.p_60 * CS_POINTS[p.pos]
               - (pen * p.p_60 if p.pos in ("GK", "DEF") else 0.0)
@@ -417,7 +425,7 @@ def predict(test: pd.DataFrame, rates: pd.DataFrame, att, dfn, home_adv, mu,
     return out.drop(columns=["bps_w"])
 
 
-def main() -> None:
+def legacy_main() -> None:
     d = load()
     # Motstanderens navn utledes fra samme kamp: den andre siden av fixture-en.
     sides = d.groupby(["fixture", "team"], as_index=False).size()
@@ -485,6 +493,12 @@ def main() -> None:
         form = p.groupby("gw", group_keys=False).apply(lambda g: g.nlargest(k, "b_form"), include_groups=False)
         print(f"  topp {k:2d}: modell {picked.actual.mean():5.2f} | form {form.actual.mean():5.2f} "
               f"| fasit {best.actual.mean():5.2f} | snitt alle {p.actual.mean():5.2f}")
+
+
+def main() -> None:
+    """Current measurement entry point; legacy helpers remain for season_sim."""
+    from evaluate_pred import compare
+    compare({"produksjon": lambda: None})
 
 
 if __name__ == "__main__":

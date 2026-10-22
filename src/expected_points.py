@@ -90,7 +90,7 @@ def _norm(s: pd.Series) -> pd.Series:
             .str.decode("ascii").str.lower().str.strip())
 
 
-def last_season_priors(bs: dict) -> pd.DataFrame:
+def last_season_priors(bs: dict, last_season: pd.DataFrame | None = None) -> pd.DataFrame:
     """
     Spillerens egne tall fra i fjor, som prior for i år.
 
@@ -104,7 +104,9 @@ def last_season_priors(bs: dict) -> pd.DataFrame:
     kamper, som er problemet vi løser her.
     """
     try:
-        ls = pd.read_csv(LAST_SEASON)
+        cache = ROOT / "data/cache/vaastav/2025-26/cleaned_players.csv"
+        ls = (last_season.copy() if last_season is not None else
+              pd.read_csv(cache if cache.exists() else LAST_SEASON))
     except Exception as exc:  # noqa: BLE001
         print(f"  fant ikke fjorårsdata ({exc}) — faller tilbake på posisjonsprior")
         return pd.DataFrame(columns=["element"])
@@ -127,7 +129,8 @@ def last_season_priors(bs: dict) -> pd.DataFrame:
     return merged
 
 
-def per90_rates(pm: pd.DataFrame, minutes: pd.DataFrame, bs: dict) -> pd.DataFrame:
+def per90_rates(pm: pd.DataFrame, minutes: pd.DataFrame, bs: dict,
+                personal_priors: pd.DataFrame | None = None) -> pd.DataFrame:
     """
     Rater per 90 minutter, krympet mot posisjonsgjennomsnittet.
 
@@ -154,7 +157,7 @@ def per90_rates(pm: pd.DataFrame, minutes: pd.DataFrame, bs: dict) -> pd.DataFra
     pos_prior = {s: played.groupby("pos")[f"{s}_raw90"].mean().to_dict() for s in stats}
 
     # Spillerens egne fjorårstall overstyrer posisjonssnittet der de finnes.
-    ls = last_season_priors(bs)
+    ls = last_season_priors(bs) if personal_priors is None else personal_priors
     if not ls.empty:
         agg = agg.merge(ls, on="element", how="left")
     for c in ("p_goals", "p_assists", "p_bps", "p_bonus", "p_yellow"):
@@ -179,7 +182,8 @@ def per90_rates(pm: pd.DataFrame, minutes: pd.DataFrame, bs: dict) -> pd.DataFra
 PRIOR_FIXTURES = Path(__file__).resolve().parents[1] / "data" / "prior" / "fixtures_2025-26.csv"
 
 
-def fit_dispersion(teams_matches: pd.DataFrame) -> float:
+def fit_dispersion(teams_matches: pd.DataFrame,
+                   prior_fixtures: pd.DataFrame | None = None) -> float:
     """
     Overspredningen i innslupne mål, som negativ binomial-parameter r.
 
@@ -194,8 +198,8 @@ def fit_dispersion(teams_matches: pd.DataFrame) -> float:
     lag-kamper gir et brukbart estimat, og overspredning i fotball er en
     egenskap ved sporten, ikke ved sesongen.
     """
-    if PRIOR_FIXTURES.exists():
-        fx = pd.read_csv(PRIOR_FIXTURES)
+    if prior_fixtures is not None or PRIOR_FIXTURES.exists():
+        fx = prior_fixtures.copy() if prior_fixtures is not None else pd.read_csv(PRIOR_FIXTURES)
         fx = fx[fx["finished"] & fx.team_h_score.notna()]
         gc = np.concatenate([fx.team_a_score.to_numpy(float),
                              fx.team_h_score.to_numpy(float)])
@@ -337,8 +341,23 @@ def fit_bonus_temperature(pm: pd.DataFrame) -> float:
     return best
 
 
+def goal_points_for_season(season: str = "2026-27", game_config: dict | None = None) -> dict:
+    """Only keeper goals vary here; preserve every other scoring rule.
+
+    Historical evaluation always supplies its season. Live production uses
+    game_config when present, with the confirmed 2026/27 rule as fallback.
+    """
+    points = GOAL_POINTS.copy()
+    points["GK"] = 10 if int(season[:4]) >= 2026 else 6
+    if game_config is not None and int(season[:4]) >= 2026:
+        scoring = game_config.get("scoring", {}).get("goals_scored", {})
+        points["GK"] = scoring.get("GKP", scoring.get("GK", points["GK"]))
+    return points
+
+
 def expected_points(rates, teams, proj, bonus_tau, goal_scale, dispersion,
-                    n_gw=6) -> pd.DataFrame:
+                    n_gw=6, *, season="2026-27", game_config=None) -> pd.DataFrame:
+    goal_points = goal_points_for_season(season, game_config)
     team_avg = teams.set_index("short_name").xg_vs_avg.to_dict()
     gws = sorted(proj.gw.unique())[:n_gw]
     proj = proj[proj.gw.isin(gws)]
@@ -357,7 +376,7 @@ def expected_points(rates, teams, proj, bonus_tau, goal_scale, dispersion,
         goals = squad.expected_goals90.to_numpy() * share * att_scale
         assists = squad.expected_assists90.to_numpy() * share * att_scale
 
-        gp = squad.pos.map(GOAL_POINTS).to_numpy()
+        gp = squad.pos.map(goal_points).to_numpy()
         csp = squad.pos.map(CS_POINTS).to_numpy()
 
         # Clean sheet og innslupne mål fra SAMME fordeling, så de ikke lenger
@@ -413,16 +432,29 @@ def expected_points(rates, teams, proj, bonus_tau, goal_scale, dispersion,
     return out.sort_values(["gw", "xp"], ascending=[True, False]).reset_index(drop=True)
 
 
+def forecast(pm, minutes, teams, proj, bs, team_matches, *,
+             personal_priors=None, prior_fixtures=None, season="2026-27",
+             n_gw=6, bonus_tau=None):
+    """The production scoring pipeline, with optional in-memory prior inputs.
+
+    Defaults retain live loading and fitting. Evaluation supplies historical
+    inputs explicitly, never substituting another points/minutes formula.
+    """
+    rates = per90_rates(pm, minutes, bs, personal_priors=personal_priors)
+    rates["dc_rate"] = rates.element.map(dc_hit_rates(pm, rates)).fillna(0.0)
+    tau = fit_bonus_temperature(pm) if bonus_tau is None else bonus_tau
+    scale = calibrate_xg_to_goals(team_matches, proj)
+    dispersion = fit_dispersion(team_matches, prior_fixtures=prior_fixtures)
+    xp = expected_points(rates, teams, proj, tau, scale, dispersion, n_gw=n_gw,
+                         season=season, game_config=bs.get("game_config"))
+    return xp, {"tau": tau, "goal_scale": scale, "dispersion": dispersion}
+
+
 def main() -> None:
     pm, minutes, teams, proj, bs = load()
-    rates = per90_rates(pm, minutes, bs)
-    rates["dc_rate"] = rates.element.map(dc_hit_rates(pm, rates)).fillna(0.0)
-    tau = fit_bonus_temperature(pm)
-    print(f"  bonus-temperatur tilpasset: {tau:.1f}")
     tmatch = pd.read_csv(DERIVED / "team_matches.csv")
-    goal_scale = calibrate_xg_to_goals(tmatch, proj)
-    dispersion = fit_dispersion(tmatch)
-    xp = expected_points(rates, teams, proj, tau, goal_scale, dispersion)
+    xp, diagnostics = forecast(pm, minutes, teams, proj, bs, tmatch)
+    print(f"  bonus-temperatur tilpasset: {diagnostics['tau']:.1f}")
 
     xp.to_csv(DERIVED / "expected_points.csv", index=False)
     horizon = (xp.groupby(["element", "web_name", "team", "pos", "price"], as_index=False)

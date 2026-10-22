@@ -116,7 +116,8 @@ def ensure_prior_files() -> None:
         urllib.request.urlretrieve(f"{PRIOR_SOURCE}/{src}", target)
 
 
-def fit_prior_from_last_season() -> tuple[pd.DataFrame, float]:
+def fit_prior_from_last_season(fixtures: pd.DataFrame | None = None,
+                               teams: pd.DataFrame | None = None) -> tuple[pd.DataFrame, float]:
     """
     Rating fra forrige sesong, tilpasset på faktiske mål over 380 kamper.
     Mål er støyete per kamp, men over en hel sesong er datamengden rikelig.
@@ -124,9 +125,10 @@ def fit_prior_from_last_season() -> tuple[pd.DataFrame, float]:
     Lag-ID-er endres mellom sesonger (FPL nummererer alfabetisk hvert år), så
     sammenkoblingen må skje på lagkode, aldri på ID.
     """
-    ensure_prior_files()
-    fx = pd.read_csv(PRIOR / "fixtures_2025-26.csv")
-    tm = pd.read_csv(PRIOR / "teams_2025-26.csv")
+    if fixtures is None or teams is None:
+        ensure_prior_files()
+    fx = pd.read_csv(PRIOR / "fixtures_2025-26.csv") if fixtures is None else fixtures.copy()
+    tm = pd.read_csv(PRIOR / "teams_2025-26.csv") if teams is None else teams.copy()
     fx = fx[fx["finished"] & fx["team_h_score"].notna()].copy()
 
     ids = sorted(set(fx.team_h) | set(fx.team_a))
@@ -154,13 +156,14 @@ def fit_prior_from_last_season() -> tuple[pd.DataFrame, float]:
     return frame, float(home_adv)
 
 
-def build_priors(teams_now: pd.DataFrame) -> tuple[pd.DataFrame, float]:
+def build_priors(teams_now: pd.DataFrame,
+                 prior: tuple[pd.DataFrame, float] | None = None) -> tuple[pd.DataFrame, float]:
     """
     Kobler forrige sesongs rating til årets lag. Opprykkslag fantes ikke i
     Premier League i fjor og får derfor snittet av forrige sesongs tre svakeste
     lag — det er den beste tilgjengelige gjetningen, og den er konservativ.
     """
-    prior, home_adv = fit_prior_from_last_season()
+    prior, home_adv = fit_prior_from_last_season() if prior is None else prior
     merged = teams_now.merge(prior, on="short_name", how="left")
 
     bottom = prior.assign(net=prior.prior_att - prior.prior_def).nsmallest(3, "net")
@@ -240,7 +243,8 @@ def fit_current(matches: pd.DataFrame, priors: pd.DataFrame, home_adv_prior: flo
     return out.sort_values("net", ascending=False).reset_index(drop=True)
 
 
-def project_fixtures(ratings: pd.DataFrame, n_gw: int = 8) -> pd.DataFrame:
+def project_fixtures(ratings: pd.DataFrame, n_gw: int = 8,
+                     fixtures: pd.DataFrame | None = None) -> pd.DataFrame:
     """
     Forventede mål og clean sheet-sannsynlighet for hver kommende kamp.
 
@@ -249,7 +253,8 @@ def project_fixtures(ratings: pd.DataFrame, n_gw: int = 8) -> pd.DataFrame:
     inn. En forsvarsspiller bryr seg om det andre, en angrepsspiller om det
     første — FDR blandet dem sammen til ett tall.
     """
-    fixtures = pd.DataFrame(json.loads((RAW / "fixtures.json").read_text()))
+    fixtures = (pd.DataFrame(json.loads((RAW / "fixtures.json").read_text()))
+                if fixtures is None else fixtures.copy())
     upcoming = fixtures[(fixtures["finished"] != True) & fixtures["event"].notna()]  # noqa: E712
     if upcoming.empty:
         return pd.DataFrame()

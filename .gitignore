@@ -11,3 +11,6 @@ samarbeid/*/data/element_summary/
 
 # Lokal kopi av vaastavs historiske sesonger for offline backtest.
 data/cache/
+
+# Store prediksjonsdumper fra målemotoren; gjenskapes av skriptene.
+samarbeid/modell/**/*prediksjoner*.csv.gz

@@ -1,0 +1,12 @@
+{
+  "data_files_unchanged": 32,
+  "baseline_rows": 85113,
+  "baseline_seasons": [
+    "2023-24",
+    "2024-25",
+    "2025-26"
+  ],
+  "baseline_rounds": 111,
+  "tests": "15 passed in 2.24s",
+  "parity_with_legacy_prior_max_error": 2.664535259100376e-15
+}
