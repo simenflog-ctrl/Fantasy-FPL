@@ -153,6 +153,26 @@ def free_transfers(history: dict, next_gw: int) -> int:
     return ft
 
 
+def chip_windows(bootstrap: dict, history: dict) -> dict[str, list[tuple[int, int]]]:
+    """
+    Ubrukte chipvinduer per chip, som (første, siste runde).
+
+    Fra 2025/26 har hver halvdel sitt eget sett (bootstrap['chips'] har
+    start_event/stop_event per vindu). Et vindu er brukt når chipen er spilt i
+    en runde innenfor det. Før sto det `{"wildcard", "bboost"} - chips_used`:
+    da forsvant andre halvdels wildcard så snart den første var brukt, og
+    optimizeren visste ikke at første halvdels chips utløper etter runde 19.
+    """
+    used = [(c["name"], c["event"]) for c in history.get("chips", [])]
+    out: dict[str, list[tuple[int, int]]] = {}
+    for ch in bootstrap.get("chips", []):
+        lo, hi = int(ch["start_event"]), int(ch["stop_event"])
+        if any(n == ch["name"] and lo <= e <= hi for n, e in used):
+            continue
+        out.setdefault(ch["name"], []).append((lo, hi))
+    return out
+
+
 def load_state():
     bs = json.loads((RAW / "bootstrap.json").read_text())
     entry = json.loads((RAW / "entry.json").read_text())
@@ -226,8 +246,15 @@ def solve(pool: pd.DataFrame, grid: pd.DataFrame, gws: list[int],
     ft = pulp.LpVariable.dicts("ft", gws, lowBound=0, upBound=MAX_BANKED_FT, cat="Integer")
     bankv = pulp.LpVariable.dicts("bank", gws, lowBound=0)
 
-    wc = {t: pulp.LpVariable(f"wc_{t}", cat="Binary") for t in gws} if "wildcard" in chips_available else {}
-    bb = {t: pulp.LpVariable(f"bb_{t}", cat="Binary") for t in gws} if "bboost" in chips_available else {}
+    # chips_available: {chip: [(første, siste runde), ...]} for ubrukte vinduer.
+    # Et sett med navn (eldre kallere) tolkes som tilgjengelig i hele horisonten.
+    if not isinstance(chips_available, dict):
+        chips_available = {c: [(min(gws), max(gws))] for c in chips_available}
+    windows = {c: [(lo, hi) for lo, hi in w if any(lo <= t <= hi for t in gws)]
+               for c, w in chips_available.items()}
+    in_window = lambda c, t: any(lo <= t <= hi for lo, hi in windows.get(c, []))  # noqa: E731
+    wc = {t: pulp.LpVariable(f"wc_{t}", cat="Binary") for t in gws if in_window("wildcard", t)}
+    bb = {t: pulp.LpVariable(f"bb_{t}", cat="Binary") for t in gws if in_window("bboost", t)}
     # Benkepoeng som teller fullt når Bench Boost er aktiv. Produktet av to
     # binærvariabler linjæriseres på standard vis.
     z = pulp.LpVariable.dicts("bboost_bench", (P, gws), cat="Binary") if bb else None
@@ -261,7 +288,7 @@ def solve(pool: pd.DataFrame, grid: pd.DataFrame, gws: list[int],
             m += c[p][t] <= y[p][t]
             if z is not None:
                 m += z[p][t] <= x[p][t] - y[p][t]
-                m += z[p][t] <= bb[t]
+                m += z[p][t] <= bb.get(t, 0)
 
         # Troppen endrer seg bare gjennom kjøp og salg.
         for p in P:
@@ -271,7 +298,7 @@ def solve(pool: pd.DataFrame, grid: pd.DataFrame, gws: list[int],
         m += n_transfers == pulp.lpSum(sell[p][t] for p in P)
 
         # Transferbudsjett. Wildcard opphever begrensningen i sin runde.
-        free_now = ft[t] + hits[t] + (15 * wc[t] if wc else 0)
+        free_now = ft[t] + hits[t] + 15 * wc.get(t, 0)
         m += n_transfers <= free_now
 
         # Penger. Budsjettet håndheves ved at banken aldri kan bli negativ.
@@ -294,22 +321,25 @@ def solve(pool: pd.DataFrame, grid: pd.DataFrame, gws: list[int],
             # Vanlig runde: ubrukte frie transfers + én ny. I en wildcardrunde
             # oppheves denne grensen og erstattes av de to linjene under.
             m += ft[t] <= ft[prev_t] - pulp.lpSum(buy[p][prev_t] for p in P) \
-                 + hits[prev_t] + 1 + (big * wc[prev_t] if wc else 0)
+                 + hits[prev_t] + 1 + big * wc.get(prev_t, 0)
             if wc:
                 if CHIP_PRESERVES_FT:
                     # Fra 2024/25: lagrede beholdes, men chiprunden gir ingen ny.
-                    m += ft[t] <= ft[prev_t] + big * (1 - wc[prev_t])
+                    m += ft[t] <= ft[prev_t] + big * (1 - wc.get(prev_t, 0))
                 else:
-                    m += ft[t] <= 1 + MAX_BANKED_FT * (1 - wc[prev_t])
+                    m += ft[t] <= 1 + MAX_BANKED_FT * (1 - wc.get(prev_t, 0))
 
-    if wc:
-        m += pulp.lpSum(wc.values()) <= 1
-    if bb:
-        m += pulp.lpSum(bb.values()) <= 1
+    # Én bruk per ubrukt vindu. Spenner horisonten over to vinduer (runde 19
+    # til 20), kan chipen brukes én gang i hvert.
+    for name, var in (("wildcard", wc), ("bboost", bb)):
+        for lo, hi in windows.get(name, []):
+            ts = [t for t in var if lo <= t <= hi]
+            if ts:
+                m += pulp.lpSum(var[t] for t in ts) <= 1
     # FPL tillater bare ÉN chip per runde. Uten denne la løseren Wildcard og
     # Bench Boost i samme uke — en plan som ikke kan gjennomføres.
     for t in gws:
-        terms = [v[t] for v in (wc, bb) if v]
+        terms = [v[t] for v in (wc, bb) if t in v]
         if len(terms) > 1:
             m += pulp.lpSum(terms) <= 1
 
@@ -331,8 +361,8 @@ def report(pool, gws, v, status, grid=None):
         xi = [p for p in pool.element if val(v["y"][p][t])]
         cap = next((p for p in pool.element if val(v["c"][p][t])), None)
         h = val(v["hits"][t])
-        chip = ("WILDCARD" if v["wc"] and val(v["wc"][t]) else
-                "BENCH BOOST" if v["bb"] and val(v["bb"][t]) else "")
+        chip = ("WILDCARD" if t in v["wc"] and val(v["wc"][t]) else
+                "BENCH BOOST" if t in v["bb"] and val(v["bb"][t]) else "")
         print(f"\n── GW{t} {chip}")
         if ins:
             print("   inn : " + ", ".join(f"{name[p]} ({price[p]})" for p in ins))
@@ -369,17 +399,20 @@ def main() -> None:
         print("Fant ingen tropp — hopper over optimering.")
         return
 
-    available = {"wildcard", "bboost"} - chips_used
-    finished = sum(1 for e in json.loads((RAW / "bootstrap.json").read_text())["events"]
-                   if e["finished"])
+    bs_now = json.loads((RAW / "bootstrap.json").read_text())
+    history = json.loads((RAW / "entry_history.json").read_text())
+    # Free Hit og Triple Captain er ikke modellert ennå.
+    available = {c: w for c, w in chip_windows(bs_now, history).items()
+                 if c in ("wildcard", "bboost")}
+    finished = sum(1 for e in bs_now["events"] if e["finished"])
     chip_note = ""
     if finished < MIN_FINISHED_GW_FOR_CHIPS and available:
         chip_note = (f"chips holdt tilbake: bare {finished} ferdigspilte runder, "
                      f"krever {MIN_FINISHED_GW_FOR_CHIPS}")
-        available = set()
+        available = {}
     print(f"Utgangspunkt: GW{gw} · bank £{bank:.1f}m · frie transfers {ft_start} · "
           f"salgsverdi £{sum(sell.values()):.1f}m · chips tilgjengelig: "
-          f"{', '.join(sorted(available)) or 'ingen'}")
+          f"{', '.join(f'{c} R{lo}-{hi}' for c, w in sorted(available.items()) for lo, hi in w) or 'ingen'}")
     if chip_note:
         print(f"  {chip_note}")
 

@@ -65,3 +65,17 @@ def test_free_transfers_chip_preserves():
                            {"event": 4, "event_transfers": 12}]}
     # 3 lagret før wildcard i R4; beholdes, men R4 gir ingen ny.
     assert O.free_transfers(history, 5) == 3
+
+
+def test_chip_windows_gw08(gw08):
+    bs, *_, history = gw08
+    w = O.chip_windows(bs, history)
+    assert w["wildcard"] == [(2, 19), (20, 38)]
+    assert w["bboost"] == [(1, 19), (20, 38)]
+    assert w["3xc"] == [(20, 38)]                      # TC brukt i R3
+
+
+def test_chip_windows_second_half_survives_first_use(gw08):
+    bs, *_ = gw08
+    history = {"chips": [{"name": "wildcard", "event": 11}]}
+    assert O.chip_windows(bs, history)["wildcard"] == [(20, 38)]
