@@ -1,0 +1,14 @@
+{
+  "rows_per_model": 72583,
+  "tau": 7,
+  "only_locked_tau_on_control": true,
+  "baseline_max_delta_vs_p0": 1.7763568394002505e-15,
+  "model_source_unchanged_during_run": true,
+  "flags_restored": true,
+  "statuses": {
+    "P2": "UAVKLART",
+    "B1": "UAVKLART",
+    "B1+P2": "IKKE KJ\u00d8RT",
+    "B2": "IKKE KJ\u00d8RT"
+  }
+}

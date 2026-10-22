@@ -1,0 +1,29 @@
+{
+  "tau": 7,
+  "P2": {
+    "status": "UAVKLART",
+    "normal_requirements_met": false,
+    "exception_used": false,
+    "criteria": {
+      "mse_reduction_ge_0p5pct": false,
+      "total_mse_ge_3_block_se": true,
+      "total_mse_same_better_sign_all_seasons": true,
+      "top10_top20_guard_pooled": true
+    }
+  },
+  "B1": {
+    "status": "UAVKLART",
+    "normal_requirements_met": false,
+    "exception_used": false,
+    "criteria": {
+      "mse_reduction_ge_0p5pct": false,
+      "total_mse_ge_3_block_se": false,
+      "total_mse_same_better_sign_all_seasons": true,
+      "top10_top20_guard_pooled": true,
+      "control_total_mse_better": true,
+      "control_top10_top20_guard": true,
+      "bonus_mse_better_control_and_pooled": true,
+      "premium_bonus_wace_better_control_and_pooled": false
+    }
+  }
+}

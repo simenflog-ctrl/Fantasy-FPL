@@ -14,3 +14,4 @@ data/cache/
 
 # Store prediksjonsdumper fra målemotoren; gjenskapes av skriptene.
 samarbeid/modell/**/*prediksjoner*.csv.gz
+samarbeid/modell/**/p1p2_*.csv.gz

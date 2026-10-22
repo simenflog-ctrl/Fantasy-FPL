@@ -75,7 +75,7 @@ def frozen(tmp_path, monkeypatch):
     monkeypatch.setattr(M,'LAST_SEASON_GWS',str(prior/'minutes.csv'))
     now=pd.DataFrame([dict(team_id=1,short_name='A'),dict(team_id=2,short_name='B')])
     return dict(pm=pm,bs=bs,tm=tm,fxprev=fxprev,fx=fx,now=now,teams=teams,
-                totals=totals,prior_csv=prior_csv,derived=derived)
+                totals=totals,prev=prev,derived=derived)
 
 
 @pytest.mark.parametrize("minute_flag", [False, True])
@@ -98,7 +98,7 @@ def test_production_main_and_engine_parity(frozen, monkeypatch, minute_flag):
     personal=E.last_season_priors(f['bs'],last_season=f['totals'])
     saved=M.LAST_SEASON_GWS
     via_engine,_=X.predict_frames(f['pm'],f['bs'],f['tm'],priors2,ha2,f['fx'],
-        minute_prior_csv=f['prior_csv'],personal_priors=personal,
+        last_season=f['prev'],personal_priors=personal,
         prior_fixtures=f['fxprev'],season='2026-27')
     assert M.LAST_SEASON_GWS==saved
     cols=['element','fixture','xp','xp_attack','xp_bonus','xp_defence','xp_dc','exp_minutes']
@@ -108,6 +108,44 @@ def test_production_main_and_engine_parity(frozen, monkeypatch, minute_flag):
     assert len(production)==8
     assert production.xp_attack.max()>0
     assert production.xp_bonus.max()>0
+
+
+def test_score_cases_use_fixed_tau_and_restore_on_failure(frozen):
+    f=frozen
+    prior=T.fit_prior_from_last_season(f['fxprev'],f['teams'])
+    priors,ha=T.build_priors(f['now'],prior=prior)
+    personal=E.last_season_priors(f['bs'],last_season=f['totals'])
+    saved=E.BONUS_TAU_FIXED
+    def fixed():
+        E.BONUS_TAU_FIXED=8.
+        return lambda:setattr(E,'BONUS_TAU_FIXED',saved)
+    pred,diag=X.predict_frames(f['pm'],f['bs'],f['tm'],priors,ha,f['fx'],
+        last_season=f['prev'],personal_priors=personal,
+        prior_fixtures=f['fxprev'],season='2026-27',score_cases={'fixed8':fixed})
+    assert E.BONUS_TAU_FIXED is saved
+    assert diag['score_taus']['fixed8']==8.
+    np.testing.assert_allclose(pred['xp__fixed8']-pred.xp,
+        pred['bonus__fixed8']-pred.xp_bonus,rtol=1e-12,atol=1e-12)
+    assert (pred['bonus__fixed8']-pred.xp_bonus).abs().max()>1e-3
+    # Reusing minute/team stages must equal the independent full flag path.
+    E.BONUS_TAU_FIXED=8.
+    try:
+        independent,_=X.predict_frames(f['pm'],f['bs'],f['tm'],priors,ha,f['fx'],
+            last_season=f['prev'],personal_priors=personal,
+            prior_fixtures=f['fxprev'],season='2026-27')
+    finally:
+        E.BONUS_TAU_FIXED=saved
+    pd.testing.assert_series_equal(pred.set_index('element')['xp__fixed8'].sort_index(),
+        independent.set_index('element').xp.sort_index(),check_names=False)
+    def bad():
+        E.BONUS_TAU_FIXED=0.
+        return lambda:setattr(E,'BONUS_TAU_FIXED',saved)
+    with pytest.raises(Exception):
+        with np.errstate(all='raise'):
+            X.predict_frames(f['pm'],f['bs'],f['tm'],priors,ha,f['fx'],
+                last_season=f['prev'],personal_priors=personal,
+                prior_fixtures=f['fxprev'],season='2026-27',score_cases={'bad':bad})
+    assert E.BONUS_TAU_FIXED is saved
 
 
 def test_keeper_rule_only_changes_keeper_goals(frozen):
@@ -137,11 +175,14 @@ def test_keeper_rule_only_changes_keeper_goals(frozen):
     pd.testing.assert_frame_equal(old,predict('2025-26',config))
 
 
-def test_minute_input_restored_after_error():
+def test_minute_frame_input_matches_file_and_is_not_modified(frozen):
+    f=frozen
     saved=M.LAST_SEASON_GWS
-    with pytest.raises(RuntimeError):
-        with X.minute_history('unused'):
-            raise RuntimeError('candidate failed')
+    before=f['prev'].copy(deep=True)
+    via_file=M.last_season_minutes(f['bs'])
+    via_frame=M.last_season_minutes(f['bs'],last_season=f['prev'])
+    pd.testing.assert_frame_equal(via_file,via_frame)
+    pd.testing.assert_frame_equal(before,f['prev'])
     assert M.LAST_SEASON_GWS is saved
 
 

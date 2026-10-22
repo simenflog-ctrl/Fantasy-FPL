@@ -3,8 +3,8 @@
 Only input reconstruction lives here, never alternative xP/minute formulas.
 Historical API status and deadline rosters are unavailable: availability=1 and
 roster metadata comes from the observed round, as in the original baseline.
-Configurations are run serially; the minute prior bridge scopes one module
-input because minutes.py belongs to the parallel P2 change.
+Configurations are run serially. Prior minute history is passed explicitly
+to the production minute model; no module input bridge is needed.
 """
 from __future__ import annotations
 
@@ -72,28 +72,12 @@ def team_matches(d: pd.DataFrame, teams: dict) -> pd.DataFrame:
     return q.rename(columns={'GW':'gw'})
 
 
-@contextmanager
-def minute_history(csv_text: str):
-    """Inject CSV data in memory through the existing production reader.
-
-    No monkeypatch of formulas or functions, no disk/network and no edits to
-    minutes.py. Always restore the input, including when a candidate raises.
-    Must not be used concurrently from threads (flags are module-wide too).
-    """
-    saved = M.LAST_SEASON_GWS
-    try:
-        M.LAST_SEASON_GWS = StringIO(csv_text)
-        yield
-    finally:
-        M.LAST_SEASON_GWS = saved
-
 
 def predict_frames(pm, bs, team_matches, priors, home_adv, fixtures, *,
-                   minute_prior_csv, personal_priors, prior_fixtures,
-                   season, n_gw=1):
+                   last_season, personal_priors, prior_fixtures,
+                   season, n_gw=1, score_cases=None):
     """Run actual minute, team and points functions on supplied data frames."""
-    with minute_history(minute_prior_csv):
-        mins = M.build(pm, bs, M.league_rates(pm))
+    mins = M.build(pm, bs, M.league_rates(pm), last_season=last_season)
     ratings = T.fit_current(team_matches, priors, home_adv)
     proj = T.project_fixtures(ratings, n_gw=n_gw, fixtures=fixtures)
     # Production projections are serialized to 3 decimals before xP reads them.
@@ -101,6 +85,29 @@ def predict_frames(pm, bs, team_matches, priors, home_adv, fixtures, *,
     xp, diagnostics = E.forecast(pm[pm.minutes > 0], mins, ratings, proj, bs,
         team_matches, personal_priors=personal_priors, prior_fixtures=prior_fixtures,
         season=season, n_gw=n_gw)
+    # Score-only configurations reuse identical minutes/ratings/projections.
+    # They must only configure expected_points flags, never minute/team flags.
+    # Every score still runs E.forecast (including its actual fixed-tau flag).
+    for name, configure in (score_cases or {}).items():
+        undo = configure()
+        try:
+            candidate, diag = E.forecast(pm[pm.minutes > 0], mins, ratings, proj, bs,
+                team_matches, personal_priors=personal_priors, prior_fixtures=prior_fixtures,
+                season=season, n_gw=n_gw)
+        finally:
+            if callable(undo):
+                undo()
+        key = ['element','gw','fixture']
+        other = candidate[key+['xp','xp_bonus']].rename(columns={
+            'xp':f'xp__{name}', 'xp_bonus':f'bonus__{name}'})
+        if len(other) != len(xp):
+            raise RuntimeError('Score-only candidate changed forecast universe')
+        xp = xp.merge(other, on=key, how='left', validate='one_to_one')
+        if xp[[f'xp__{name}',f'bonus__{name}']].isna().any().any():
+            raise RuntimeError('Score-only candidate changed forecast keys')
+        diagnostics.setdefault('score_taus', {})[name] = diag['tau']
+    xp = xp.merge(mins[['element','p_start','p_play','p_60']], on='element',
+                  how='left', validate='many_to_one')
     return xp, diagnostics
 
 
@@ -125,7 +132,7 @@ def _prior_inputs(prev, teams, ids):
     return prior, ep, fx
 
 
-def walk_forward(d, prev, *, first_gw=8, rounds=None, quiet=True):
+def walk_forward(d, prev, *, first_gw=8, rounds=None, quiet=True, score_cases=None):
     """Train strictly before t, score t; same production functions as live.
 
     Historical player keys retain the original reconstruction's exact names;
@@ -137,7 +144,6 @@ def walk_forward(d, prev, *, first_gw=8, rounds=None, quiet=True):
     ids = {n:i+1 for i,n in enumerate(names)}
     teams = {n:i+1 for i,n in enumerate(sorted(set(d.team) | set(prev.team)))}
     prior, personal, prior_fx = _prior_inputs(prev, teams, ids)
-    prior_csv = prev.to_csv(index=False)
     results, diagnostics = [], []
     for gw in sorted(g for g in d.GW.unique() if g >= first_gw):
         if rounds is not None and gw not in rounds:
@@ -163,17 +169,22 @@ def walk_forward(d, prev, *, first_gw=8, rounds=None, quiet=True):
         # No test outcomes in any of the inputs above.
         with redirect_stdout(StringIO()) if quiet else _null_context():
             pred, diag = predict_frames(pm, bs, tm, priors, ha, fixtures,
-                minute_prior_csv=prior_csv, personal_priors=personal,
-                prior_fixtures=prior_fx, season=season)
+                last_season=prev, personal_priors=personal,
+                prior_fixtures=prior_fx, season=season, score_cases=score_cases)
         pred['name'] = pred.element.map({i:n for n,i in ids.items()})
-        obs = test[['name','fixture','source_fixture','total_points','bonus','minutes','value']].rename(
-            columns={'total_points':'actual','bonus':'actual_bonus','minutes':'mins'})
+        obs = test[['name','fixture','source_fixture','total_points','bonus','minutes','starts','value']].rename(
+            columns={'total_points':'actual','bonus':'actual_bonus','minutes':'mins','starts':'actual_start'})
         pred = pred.merge(obs, on=['name','fixture'], validate='one_to_one')
-        for col in ['xp','xp_bonus','actual','actual_bonus','mins']:
+        numeric = ['xp','xp_bonus','actual','actual_bonus','mins']
+        numeric += [c for c in pred if c.startswith(('xp__','bonus__'))]
+        for col in numeric:
             pred[col] = pd.to_numeric(pred[col], errors='raise')
         hist_recent = hist[hist.GW >= gw-3].groupby('name').total_points.mean()
         hist_avg = hist.groupby('name').total_points.mean()
         pred['b_form'] = pred.name.map(hist_recent).fillna(pred.name.map(hist_avg)).fillna(0)
+        # Premium classification uses last observed earlier-GW price only.
+        price_hist = hist.sort_values(['GW','source_fixture']).groupby(['name','GW'],as_index=False).value.first()
+        pred['pre_value'] = pred.name.map(price_hist.groupby('name').value.last())
         pred['season'] = season
         results.append(pred)
         diagnostics.append(dict(season=season, gw=int(gw), n=len(pred), **diag))

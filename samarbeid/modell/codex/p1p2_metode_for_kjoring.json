@@ -1,0 +1,30 @@
+{
+  "written_utc": "2026-10-22T20:48:46.894894+00:00",
+  "grid": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    10,
+    12
+  ],
+  "development": [
+    "2023-24",
+    "2024-25"
+  ],
+  "control": "2025-26",
+  "first_gw": 8,
+  "last_gw": 38,
+  "selection": "pooled development bonus-MSE; ties choose smaller tau",
+  "block_size": 4,
+  "block_origin": 8,
+  "calibration": "premium WACE = count-weighted absolute cell bias across price [8,10), >=10 x FWD,MID; use previous-GW price. Report all cells and total calibration separately.",
+  "exception": "Apply exact preregistered P1 exception by judging improved bonus calibration and top-k when the primary 3-SE requirement fails; report every failed primary criterion explicitly. No exception for top-k guard failures.",
+  "source_sha256": {
+    "samarbeid/modell/plan.md": "dfee5ca14822ae6a66092c979f41860821f682cbfa466a38bed37383f38379a1",
+    "samarbeid/modell/claude/p1-bonus-forhandsregistrering.md": "7fd2d09a2d2fcaf0b5ab4e76c552e9be53bdb31e1d35c9d78b868f877e8ef2a6"
+  },
+  "exception_scope": "B1 only: a combination must retain the ordinary primary requirements; no automatic extension of the P1 exception to B1+P2.",
+  "exception_scope_written_utc": "2026-10-22T20:52:41.504712+00:00"
+}
