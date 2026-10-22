@@ -93,7 +93,7 @@ def _norm(s: pd.Series) -> pd.Series:
             .str.decode("ascii").str.lower().str.strip())
 
 
-def last_season_minutes(bs: dict) -> pd.DataFrame:
+def last_season_minutes(bs: dict, last_season: pd.DataFrame | None = None) -> pd.DataFrame:
     """
     Spillerens egen startrate og typiske spilletid fra forrige sesong.
 
@@ -102,7 +102,9 @@ def last_season_minutes(bs: dict) -> pd.DataFrame:
     starter fra en rotasjonsspiller før langt uti sesongen.
     """
     try:
-        ls = pd.read_csv(LAST_SEASON_GWS)
+        # `last_season` lar målemotoren gi fjorårets kamprader direkte, i
+        # stedet for å bytte ut LAST_SEASON_GWS midlertidig.
+        ls = last_season.copy() if last_season is not None else pd.read_csv(LAST_SEASON_GWS)
     except Exception as exc:  # noqa: BLE001
         print(f"  fant ikke fjorårsdata ({exc}) — bruker bare ligaprior")
         return pd.DataFrame(columns=["element"])
@@ -186,12 +188,13 @@ def availability(el: dict) -> tuple[float, str]:
     return 1.0, ""
 
 
-def build(pm: pd.DataFrame, bs: dict, rates: dict) -> pd.DataFrame:
+def build(pm: pd.DataFrame, bs: dict, rates: dict,
+          last_season: pd.DataFrame | None = None) -> pd.DataFrame:
     pos = {1: "GK", 2: "DEF", 3: "MID", 4: "FWD"}
     teams = {t["id"]: t["short_name"] for t in bs["teams"]}
 
     latest_gw = pm.gw.max()
-    prior = last_season_minutes(bs).set_index("element")
+    prior = last_season_minutes(bs, last_season).set_index("element")
     rows = []
 
     by_player = {pid: g.sort_values("gw") for pid, g in pm.groupby("element")}

@@ -355,6 +355,19 @@ def goal_points_for_season(season: str = "2026-27", game_config: dict | None = N
     return points
 
 
+# Bonustemperatur. None = dagens oppførsel: tilpasses på REALISERT BPS i årets
+# kamper (fit_bonus_temperature) og brukes så på FORVENTET BPS. Forventet BPS
+# varierer mye mindre, så temperaturen blir for lav og bonusfordelingen for
+# skarp: favoritten i kampen får nesten alltid "3". Målt i 2026/27: Haaland
+# 2,79 predikert mot 1,71 faktisk per kamp, Fernandes 2,07 mot 0,43.
+#
+# En fast verdi (P1-kandidat B1) skal velges walk-forward på forventet BPS i
+# eval-motoren, på utviklingssesongene 2023-24 og 2024-25, og kontrolleres på
+# 2025-26. Se samarbeid/modell/claude/p1-bonus-forhandsregistrering.md.
+# Står på None til målingen er godkjent.
+BONUS_TAU_FIXED: float | None = None
+
+
 def expected_points(rates, teams, proj, bonus_tau, goal_scale, dispersion,
                     n_gw=6, *, season="2026-27", game_config=None) -> pd.DataFrame:
     goal_points = goal_points_for_season(season, game_config)
@@ -442,7 +455,12 @@ def forecast(pm, minutes, teams, proj, bs, team_matches, *,
     """
     rates = per90_rates(pm, minutes, bs, personal_priors=personal_priors)
     rates["dc_rate"] = rates.element.map(dc_hit_rates(pm, rates)).fillna(0.0)
-    tau = fit_bonus_temperature(pm) if bonus_tau is None else bonus_tau
+    if bonus_tau is not None:
+        tau = bonus_tau
+    elif BONUS_TAU_FIXED is not None:
+        tau = float(BONUS_TAU_FIXED)
+    else:
+        tau = fit_bonus_temperature(pm)
     scale = calibrate_xg_to_goals(team_matches, proj)
     dispersion = fit_dispersion(team_matches, prior_fixtures=prior_fixtures)
     xp = expected_points(rates, teams, proj, tau, scale, dispersion, n_gw=n_gw,

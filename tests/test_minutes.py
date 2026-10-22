@@ -21,7 +21,7 @@ RATES = {"p_start_prior": 0.4, "p_start_given_appeared": 0.7, "min_given_start":
 def _case(monkeypatch, flag: bool, n: int = 20) -> pd.Series:
     monkeypatch.setattr(M, "SUB_GIVEN_NO_START", flag)
     monkeypatch.setattr(M, "last_season_minutes",
-                        lambda bs: pd.DataFrame(columns=["element", "prior_p_start", "moved", "min_given_start"]))
+                        lambda bs, last_season=None: pd.DataFrame(columns=["element", "prior_p_start", "moved", "min_given_start"]))
     starts = [1 if g % 2 == 0 else 0 for g in range(1, n + 1)]
     pm = pd.DataFrame({"element": 1, "gw": range(1, n + 1), "starts": starts,
                        "minutes": [90 if s else 25 for s in starts]})
