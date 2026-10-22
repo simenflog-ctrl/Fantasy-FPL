@@ -31,3 +31,4 @@ Maks tre runder kritikk og revisjon (oppgave 5–6 kan gjentas).
 - 15:51: Codex får oppdrag 3 (siste beregningsrunde): like chipdatoer og skadesimulering.
 - 15:57: Codex leverer `kontroll_r3.md`: WC8 leder med +2 til +7 med like chipdatoer; skadesimulering gir ingen fordel ved å vente. Codex trekker tilbake WC nå og anbefaler å holde til R11 (marginen er modellavhengig).
 - ~16:00: Claude tar sluttbeslutning (`beslutning.md`) og fryser prognosen (`prognose/prognose_R8.json`, SHA256SUMS). Tredje kritikkrunde ble ikke brukt.
+- 16:44: Simen melder at byttet Szoboszlai → Tavernier er gjort (før prisjusteringen 23:00 UTC). Ikke synlig i offentlige data før fristen; kontrolleres i evalueringen i R9.
