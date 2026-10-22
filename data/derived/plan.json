@@ -1,7 +1,7 @@
 {
  "generated_for_gw": 8,
  "status": "Optimal",
- "objective": 363.14,
+ "objective": 362.55,
  "chip_note": "",
  "plan": [
   {
@@ -9,34 +9,38 @@
    "chip": "WILDCARD",
    "in": [
     "Raya",
+    "Gabriel",
     "Rogers",
+    "Tavernier",
     "Van Hecke",
     "João Pedro",
     "Thomas",
     "Diop",
-    "Davis",
-    "Emersonn"
+    "Emersonn",
+    "Bogle"
    ],
    "out": [
     "Calafiori",
     "Konsa",
     "Thiago",
     "Steele",
+    "van Ewijk",
     "Kusi-Asare",
     "Szoboszlai",
     "Maguire",
+    "B.Fernandes",
     "N.Williams"
    ],
    "hits": 0,
-   "captain": "B.Fernandes",
+   "captain": "Haaland",
    "xi": [
     "Raya",
+    "Gabriel",
     "Van Hecke",
     "Thomas",
-    "Davis",
-    "B.Fernandes",
     "Rogers",
     "Mbeumo",
+    "Tavernier",
     "Groß",
     "E.Le Fée",
     "Haaland",
@@ -50,20 +54,20 @@
     "Dewsbury-Hall"
    ],
    "out": [
-    "Mbeumo"
+    "E.Le Fée"
    ],
    "hits": 0,
    "captain": "Haaland",
    "xi": [
     "Raya",
+    "Gabriel",
     "Van Hecke",
     "Thomas",
-    "Davis",
-    "B.Fernandes",
     "Rogers",
+    "Mbeumo",
     "Dewsbury-Hall",
+    "Tavernier",
     "Groß",
-    "E.Le Fée",
     "Haaland",
     "João Pedro"
    ]
@@ -71,24 +75,20 @@
   {
    "gw": 10,
    "chip": "",
-   "in": [
-    "De Cuyper"
-   ],
-   "out": [
-    "van Ewijk"
-   ],
+   "in": [],
+   "out": [],
    "hits": 0,
-   "captain": "B.Fernandes",
+   "captain": "Haaland",
    "xi": [
     "Raya",
-    "De Cuyper",
+    "Gabriel",
     "Van Hecke",
-    "Davis",
-    "B.Fernandes",
+    "Bogle",
     "Rogers",
+    "Mbeumo",
     "Dewsbury-Hall",
+    "Tavernier",
     "Groß",
-    "E.Le Fée",
     "Haaland",
     "João Pedro"
    ]
@@ -102,14 +102,14 @@
    "captain": "Haaland",
    "xi": [
     "Raya",
-    "De Cuyper",
+    "Gabriel",
     "Van Hecke",
     "Thomas",
-    "B.Fernandes",
     "Rogers",
+    "Mbeumo",
     "Dewsbury-Hall",
+    "Tavernier",
     "Groß",
-    "E.Le Fée",
     "Haaland",
     "João Pedro"
    ]
@@ -118,24 +118,26 @@
    "gw": 12,
    "chip": "BENCH BOOST",
    "in": [
-    "Trafford",
-    "Mukiele"
+    "De Cuyper",
+    "B.Fernandes",
+    "Tzolakis"
    ],
    "out": [
     "Raya",
-    "Van Hecke"
+    "Gabriel",
+    "Rogers"
    ],
    "hits": 0,
    "captain": "B.Fernandes",
    "xi": [
-    "Trafford",
-    "Mukiele",
-    "De Cuyper",
+    "Tzolakis",
+    "Bogle",
     "Thomas",
+    "Diop",
     "B.Fernandes",
-    "Rogers",
+    "Mbeumo",
     "Dewsbury-Hall",
-    "E.Le Fée",
+    "Tavernier",
     "Haaland",
     "João Pedro",
     "Emersonn"

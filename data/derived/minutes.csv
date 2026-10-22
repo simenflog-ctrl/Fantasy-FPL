@@ -1,669 +1,669 @@
 element,web_name,team,pos,price,n_matches,p_start,p_play,p_60,exp_minutes,avail_mult,flag,news
-481,Anderson,MCI,MID,6.3,6,0.989,0.989,0.93,84.2,1.0,100% sjanse,
-40,Rogers,CHE,MID,7.9,6,0.989,0.989,0.93,86.2,1.0,,
-112,Van Hecke,TOT,DEF,4.9,6,0.987,0.987,0.928,88.6,1.0,100% sjanse,
-57,Petrović,BOU,GK,4.5,6,0.982,0.982,0.923,88.3,1.0,,
-61,Truffert,BOU,DEF,5.4,6,0.982,0.982,0.923,87.2,1.0,,
-109,Verbruggen,BHA,GK,4.6,6,0.982,0.982,0.923,88.3,1.0,,
-356,Virgil,LIV,DEF,6.4,6,0.982,0.982,0.923,88.3,1.0,,
-250,Leno,FUL,GK,4.5,6,0.982,0.982,0.923,88.3,1.0,,
-226,Pickford,EVE,GK,5.5,6,0.982,0.982,0.923,88.3,1.0,,
-106,Thiago,BRE,FWD,7.8,6,0.975,0.975,0.917,86.3,1.0,,
-82,Kelleher,BRE,GK,5.0,6,0.975,0.975,0.917,87.8,1.0,,
-1,Raya,ARS,GK,6.1,6,0.975,0.975,0.917,87.8,1.0,,
-229,Tarkowski,EVE,DEF,6.2,6,0.975,0.975,0.917,87.8,1.0,,
-455,Tonali,TOT,MID,5.3,6,0.973,0.973,0.915,82.4,1.0,100% sjanse,
-384,Donnarumma,MCI,GK,5.5,6,0.973,0.973,0.915,87.6,1.0,,
-204,Mitchell,CRY,DEF,4.5,6,0.969,0.969,0.911,82.9,1.0,,
-469,N.Williams,NFO,DEF,5.0,6,0.969,0.969,0.911,86.6,1.0,100% sjanse,
-426,B.Fernandes,MUN,MID,11.8,6,0.962,0.962,0.905,86.0,1.0,,
-13,Rice,ARS,MID,7.3,6,0.962,0.962,0.905,81.4,1.0,100% sjanse,
-529,Roefs,SUN,GK,4.9,6,0.962,0.962,0.905,86.6,1.0,,
-338,Ampadu,LEE,MID,5.4,6,0.962,0.962,0.905,86.4,1.0,,
-388,Guéhi,MCI,DEF,6.0,6,0.962,0.962,0.905,86.6,1.0,,
-412,Lammens,MUN,GK,4.9,6,0.959,0.959,0.902,86.3,1.0,,
-411,Haaland,MCI,FWD,15.7,6,0.956,0.956,0.899,83.8,1.0,,
-124,Groß,BHA,MID,6.1,6,0.955,0.955,0.897,85.9,1.0,,
-545,Sadiki,SUN,MID,4.8,6,0.949,0.949,0.893,80.1,1.0,,
-445,Thiaw,NEW,DEF,5.0,6,0.949,0.949,0.893,85.1,1.0,,
-542,E.Le Fée,SUN,MID,5.7,6,0.949,0.949,0.893,82.2,1.0,,
-43,Tielemans,MUN,MID,5.7,6,0.946,0.946,0.889,74.4,1.0,100% sjanse,
-330,Bogle,LEE,DEF,4.7,6,0.943,0.943,0.887,73.3,1.0,,
-94,Schade,BRE,MID,6.2,6,0.943,0.943,0.887,78.1,1.0,100% sjanse,
-79,Evanilson,BOU,FWD,6.1,6,0.943,0.943,0.887,79.7,1.0,,
-267,Lukić,IPS,MID,4.9,6,0.943,0.943,0.887,76.6,1.0,,
-544,Xhaka,SUN,MID,5.4,6,0.943,0.943,0.887,84.6,1.0,,
-202,Richards,CRY,DEF,4.9,6,0.937,0.937,0.881,84.2,1.0,,
-68,Tavernier,BOU,MID,6.2,6,0.937,0.937,0.881,78.2,1.0,,
-427,Mbeumo,MUN,MID,7.8,6,0.937,0.937,0.881,82.7,1.0,,
-346,Calvert-Lewin,LEE,FWD,6.0,6,0.935,0.935,0.879,79.8,1.0,,
-67,Rayan,BOU,MID,6.3,6,0.931,0.931,0.875,80.0,1.0,,
-4,Gabriel,ARS,DEF,7.9,6,0.93,0.93,0.875,83.6,1.0,,
-236,Dewsbury-Hall,EVE,MID,6.6,6,0.93,0.93,0.875,82.8,1.0,,
-467,Sels,NFO,GK,5.0,6,0.93,0.93,0.875,83.4,1.0,,
-428,Cunha,MUN,MID,7.9,6,0.924,0.924,0.868,76.5,1.0,,
-210,Wharton,CRY,MID,5.4,6,0.924,0.924,0.868,79.9,1.0,100% sjanse,
-261,Iwobi,FUL,MID,5.4,6,0.924,0.924,0.868,76.3,1.0,,
-45,McGinn,AVL,MID,5.4,6,0.917,0.917,0.862,77.2,1.0,,
-257,Bassey,FUL,DEF,4.5,6,0.917,0.917,0.862,82.6,1.0,,
-335,Stach,LEE,MID,6.0,6,0.917,0.917,0.862,80.7,1.0,,
-366,Wirtz,LIV,MID,7.2,6,0.911,0.911,0.856,71.9,1.0,,
-259,Diop,IPS,DEF,3.9,6,0.91,0.91,0.856,81.7,1.0,,
-239,Garner,EVE,MID,6.0,6,0.906,0.916,0.852,76.1,1.0,100% sjanse,
-350,A.Becker,LIV,GK,5.5,6,0.904,0.904,0.85,81.4,1.0,,
-127,Gomez,BHA,MID,5.0,6,0.904,0.904,0.85,75.8,1.0,,
-282,Giles,HUL,DEF,4.0,6,0.902,0.902,0.848,75.7,1.0,,
-110,Rushworth,COV,GK,4.5,6,0.902,0.902,0.848,79.4,1.0,,
-176,Dasilva,COV,DEF,4.0,6,0.902,0.902,0.848,78.7,1.0,,
-173,Thomas,COV,DEF,4.0,6,0.902,0.902,0.848,77.9,1.0,,
-184,Grimes,COV,MID,4.9,6,0.902,0.902,0.848,77.7,1.0,,
-569,Gonzalo,FUL,FWD,6.1,6,0.902,0.902,0.848,76.1,1.0,,
-504,Vuskovic,BHA,DEF,5.1,6,0.902,0.902,0.848,77.9,1.0,,
-280,Coyle,HUL,DEF,4.0,6,0.902,0.902,0.848,67.9,1.0,100% sjanse,
-334,Muharemović,LEE,DEF,5.0,6,0.902,0.902,0.848,79.4,1.0,,
-290,Slater,HUL,MID,4.5,6,0.902,0.902,0.848,76.1,1.0,,
-277,Egan,HUL,DEF,4.1,6,0.902,0.902,0.848,77.9,1.0,,
-305,Davis,IPS,DEF,4.0,6,0.902,0.902,0.848,79.4,1.0,,
-572,Tzolakis,HUL,GK,4.7,6,0.902,0.902,0.848,79.4,1.0,,
-362,Jacquet,LIV,DEF,5.0,6,0.902,0.902,0.848,75.1,1.0,100% sjanse,
-385,Trafford,LEE,GK,5.0,6,0.902,0.902,0.848,79.4,1.0,,
-566,Silva,BOU,DEF,5.0,6,0.902,0.902,0.848,79.4,1.0,,
-279,Ajayi,HUL,DEF,4.2,6,0.902,0.902,0.848,76.4,1.0,100% sjanse,
-591,Enciso,IPS,MID,5.5,6,0.902,0.902,0.848,73.0,1.0,100% sjanse,
-316,Emersonn,IPS,FWD,5.6,6,0.902,0.902,0.848,62.2,1.0,100% sjanse,
-295,McBurnie,HUL,FWD,5.5,6,0.902,0.902,0.848,78.4,1.0,,
-567,Horníček,NEW,GK,5.0,6,0.902,0.902,0.848,79.4,1.0,,
-551,N.Angulo,SUN,MID,5.0,6,0.902,0.902,0.848,61.9,1.0,,
-486,McAtee,NFO,MID,5.5,6,0.902,0.902,0.848,75.6,1.0,,
-304,O'Shea,IPS,DEF,4.0,6,0.902,0.902,0.848,79.4,1.0,,
-472,Murillo,NFO,DEF,5.5,6,0.898,0.898,0.844,79.6,1.0,100% sjanse,
-12,Saka,ARS,MID,9.6,6,0.898,0.898,0.844,75.3,1.0,,
-449,Hall,NEW,DEF,5.3,6,0.892,0.892,0.838,79.3,1.0,,
-154,Palmer,CHE,MID,9.7,6,0.892,0.892,0.838,76.5,1.0,100% sjanse,
-390,Rúben,MCI,DEF,5.5,6,0.892,0.892,0.838,79.7,1.0,,
-113,F.Kadıoğlu,BHA,DEF,4.4,6,0.88,0.88,0.828,75.4,1.0,100% sjanse,
-214,Kamada,CRY,MID,5.0,6,0.879,0.879,0.826,75.9,1.0,,
-86,Lewis-Potter,BRE,MID,5.5,6,0.879,0.879,0.826,69.6,1.0,,
-332,Justin,LEE,DEF,4.5,6,0.879,0.879,0.827,76.9,1.0,,
-8,Calafiori,ARS,DEF,6.0,6,0.879,0.879,0.826,71.0,1.0,,
-60,Hill,BOU,DEF,5.5,6,0.879,0.879,0.826,78.8,1.0,,
-644,Timber,CRY,MID,5.0,4,0.878,0.878,0.825,74.3,1.0,,
-533,Mukiele,SUN,DEF,5.4,6,0.873,0.873,0.82,77.8,1.0,100% sjanse,
-41,Buendía,AVL,MID,5.9,6,0.872,0.872,0.82,65.4,1.0,,
-249,Barry,EVE,FWD,5.7,6,0.872,0.872,0.82,71.3,1.0,,
-447,Botman,NEW,DEF,5.0,6,0.872,0.872,0.82,77.3,1.0,,
-87,Ajer,BRE,DEF,4.5,6,0.866,0.866,0.814,76.5,1.0,,
-453,Barnes,NEW,MID,6.1,6,0.86,0.86,0.808,75.0,1.0,,
-418,Maguire,MUN,DEF,4.8,6,0.86,0.86,0.808,76.2,1.0,,
-156,Neto,CHE,MID,6.5,6,0.855,0.87,0.803,69.0,1.0,,
-265,Berge,FUL,MID,4.9,6,0.849,0.871,0.798,70.7,1.0,,
-88,Kayode,BRE,DEF,4.6,6,0.848,0.874,0.797,66.0,1.0,,
-47,Kamara,AVL,MID,5.0,6,0.847,0.847,0.796,73.7,1.0,100% sjanse,
-115,De Cuyper,BHA,DEF,5.2,6,0.847,0.847,0.796,66.6,1.0,,
-15,Ødegaard,ARS,MID,6.8,6,0.84,0.84,0.79,64.2,1.0,,
-211,Yeremy,CRY,MID,5.5,6,0.838,0.854,0.787,60.1,1.0,,
-268,King,FUL,MID,5.6,6,0.834,0.834,0.784,65.7,1.0,,
-459,L.Miley,NEW,MID,5.5,6,0.834,0.834,0.784,65.7,1.0,100% sjanse,
-200,Lacroix,CHE,DEF,5.9,6,0.83,0.859,0.78,74.8,1.0,,
-483,Ndoye,NFO,MID,5.5,6,0.827,0.827,0.778,54.7,1.0,,
-64,Smith,BOU,DEF,4.5,6,0.827,0.827,0.778,67.4,1.0,,
-237,Ndiaye,MCI,MID,5.8,6,0.822,0.853,0.773,67.3,1.0,,
-37,Lindelöf,AVL,DEF,4.5,6,0.814,0.814,0.765,71.8,1.0,,
-558,Schlager,NFO,MID,5.0,6,0.813,0.833,0.765,68.8,1.0,,
-138,Kostoulas,BHA,FWD,5.7,6,0.813,0.833,0.765,64.3,1.0,,
-186,Mason-Clark,COV,MID,5.3,6,0.813,0.813,0.765,52.9,1.0,100% sjanse,
-183,Rudoni,COV,MID,4.9,6,0.813,0.833,0.765,61.2,1.0,100% sjanse,
-588,Khalaili,CRY,DEF,5.0,6,0.813,0.833,0.765,69.9,1.0,100% sjanse,
-166,N.Jackson,AVL,FWD,6.6,6,0.813,0.813,0.765,62.8,1.0,,
-597,Suzuki,AVL,GK,5.0,6,0.813,0.813,0.765,71.4,1.0,,
-264,Bobb,FUL,MID,5.5,6,0.808,0.808,0.76,56.5,1.0,,
-114,Boscagli,BHA,DEF,4.5,6,0.795,0.795,0.748,66.9,1.0,,
-336,Okafor,LEE,MID,5.8,6,0.787,0.809,0.74,55.3,1.0,,
-165,João Pedro,CHE,FWD,7.9,6,0.785,0.785,0.738,66.7,1.0,100% sjanse,
-358,Kerkez,LIV,DEF,5.3,6,0.784,0.821,0.737,66.6,1.0,,
-399,Cherki,MCI,MID,8.0,6,0.784,0.806,0.737,58.5,1.0,,
-496,Kinsky,TOT,GK,4.5,6,0.783,0.783,0.736,70.4,1.0,,
-26,Havertz,ARS,FWD,7.5,6,0.783,0.783,0.736,60.9,1.0,100% sjanse,
-230,Branthwaite,EVE,DEF,5.5,6,0.783,0.783,0.736,70.0,1.0,100% sjanse,
-155,Enzo,MCI,MID,6.9,6,0.783,0.806,0.736,65.8,1.0,,
-31,Konsa,ARS,DEF,4.6,6,0.781,0.808,0.734,70.5,1.0,100% sjanse,
-149,Colwill,CHE,DEF,4.8,6,0.777,0.777,0.73,66.1,1.0,,
-129,Ayari,BHA,MID,5.4,6,0.776,0.776,0.73,65.7,1.0,100% sjanse,
-244,Armstrong,EVE,MID,5.0,6,0.776,0.776,0.73,65.0,1.0,100% sjanse,
-331,Gudmundsson,LEE,DEF,4.5,6,0.771,0.771,0.725,65.6,1.0,100% sjanse,
-233,Mykolenko,EVE,DEF,4.6,6,0.77,0.77,0.724,69.2,1.0,100% sjanse,
-464,Wissa,NEW,FWD,6.1,6,0.763,0.763,0.718,62.8,1.0,,
-105,Anthony,BRE,MID,5.9,6,0.755,0.816,0.709,57.4,1.0,,
-209,Johnson,EVE,MID,5.9,6,0.74,0.799,0.696,53.1,1.0,,
-372,Mac Allister,LIV,MID,5.4,6,0.734,0.808,0.69,62.8,1.0,,
-536,Reinildo,SUN,DEF,4.4,6,0.734,0.734,0.69,62.8,1.0,100% sjanse,
-201,Muñoz,NFO,DEF,5.3,6,0.729,0.769,0.685,59.2,1.0,,
-175,van Ewijk,COV,DEF,3.9,6,0.725,0.725,0.682,63.7,1.0,100% sjanse,
-634,Fernandez-Pardo,NEW,FWD,6.0,4,0.723,0.776,0.68,56.6,1.0,,
-650,Affengruber,FUL,DEF,4.5,4,0.723,0.723,0.68,62.9,1.0,,
-649,Maitland-Niles,EVE,DEF,4.5,4,0.723,0.776,0.68,59.6,1.0,,
-627,Barcola,LIV,MID,8.0,4,0.723,0.776,0.68,57.9,1.0,,
-222,Strand Larsen,CRY,FWD,6.0,6,0.722,0.791,0.679,56.9,1.0,,
-480,Gibbs-White,NFO,MID,7.9,6,0.722,0.722,0.679,64.4,0.75,75% sjanse,Muscular injury - 75% chance of playing
-167,Delap,NFO,FWD,5.5,6,0.721,0.755,0.678,55.7,1.0,,
-579,Araujo,LIV,DEF,5.4,6,0.708,0.774,0.666,59.0,1.0,,
-203,Canvot,CRY,DEF,4.8,6,0.708,0.708,0.665,63.2,1.0,,
-598,Elvedi,LEE,DEF,4.5,6,0.708,0.744,0.666,62.0,1.0,,
-580,Charles,FUL,MID,5.0,6,0.708,0.774,0.666,59.3,1.0,,
-91,Pinnock,COV,DEF,4.5,6,0.708,0.744,0.666,62.6,1.0,,
-73,Adams,BOU,MID,5.0,6,0.707,0.773,0.665,59.0,1.0,100% sjanse,
-503,Van de Ven,TOT,DEF,5.0,6,0.707,0.779,0.665,64.2,1.0,100% sjanse,
-473,Aina,NFO,DEF,4.3,6,0.702,0.702,0.66,56.6,1.0,,
-286,Belloumi,HUL,MID,5.2,6,0.692,0.767,0.65,56.5,1.0,,
-315,Fatawu,IPS,MID,5.4,6,0.692,0.692,0.65,51.0,1.0,100% sjanse,
-258,Castagne,FUL,DEF,4.5,6,0.686,0.686,0.645,56.9,1.0,,
-32,Cash,AVL,DEF,4.4,6,0.678,0.744,0.637,59.4,1.0,100% sjanse,
-541,Meunier,SUN,DEF,4.5,6,0.676,0.676,0.636,50.2,0.75,75% sjanse,Groin injury - 75% chance of playing
-289,Crooks,HUL,MID,4.4,6,0.672,0.672,0.631,48.3,1.0,100% sjanse,
-389,Matheus N.,MCI,DEF,5.9,6,0.671,0.705,0.631,60.2,1.0,100% sjanse,
-417,Dalot,MUN,DEF,4.8,6,0.668,0.784,0.628,58.5,1.0,,
-254,Robinson,FUL,DEF,4.4,6,0.667,0.667,0.627,56.7,1.0,100% sjanse,
-345,Tanaka,LEE,MID,4.9,6,0.662,0.704,0.622,48.2,1.0,,
-391,Gvardiol,MCI,DEF,5.8,6,0.661,0.744,0.621,58.0,1.0,,
-405,N.Gonzalez,NEW,MID,5.5,6,0.66,0.66,0.621,45.7,1.0,100% sjanse,
-10,White,ARS,DEF,5.4,6,0.644,0.644,0.606,47.9,1.0,100% sjanse,
-423,Shaw,MUN,DEF,4.3,6,0.641,0.641,0.602,54.4,0.75,75% sjanse,Unspecified injury - 75% chance of playing
-377,Munoz,LIV,MID,6.5,6,0.637,0.749,0.599,51.5,1.0,,
-367,Gakpo,LIV,MID,7.1,6,0.636,0.699,0.598,54.6,1.0,100% sjanse,
-575,Yirenkyi,COV,MID,4.8,6,0.628,0.747,0.591,50.5,1.0,,
-7,Lewis-Skelly,ARS,MID,5.4,6,0.619,0.619,0.582,44.6,1.0,,
-145,Fofana,CHE,DEF,5.0,6,0.611,0.611,0.574,48.0,1.0,100% sjanse,
-379,Isak,LIV,FWD,9.0,6,0.609,0.609,0.573,48.9,1.0,100% sjanse,
-371,Gravenberch,LIV,MID,5.8,6,0.608,0.795,0.572,48.2,1.0,100% sjanse,
-116,Dunk,BHA,DEF,4.5,6,0.606,0.703,0.569,56.2,1.0,100% sjanse,
-429,Rashford,MUN,MID,6.9,6,0.603,0.742,0.567,49.8,1.0,100% sjanse,
-401,Marmoush,TOT,FWD,7.0,6,0.601,0.699,0.565,48.6,1.0,,
-460,Willock,NEW,MID,5.0,6,0.599,0.71,0.563,43.6,1.0,,
-522,Gray,TOT,MID,4.9,6,0.595,0.679,0.559,49.3,1.0,,
-457,J.Murphy,NEW,MID,5.9,6,0.587,0.741,0.552,43.0,1.0,,
-104,Onyeka,COV,MID,4.9,6,0.587,0.688,0.551,48.6,1.0,100% sjanse,
-199,Benitez,CRY,GK,4.5,6,0.583,0.583,0.549,50.7,1.0,,
-581,Diomande,NFO,DEF,5.4,6,0.583,0.644,0.549,49.7,1.0,,
-562,Maeda,IPS,MID,5.3,6,0.577,0.738,0.542,47.1,1.0,,
-432,Mainoo,MUN,MID,5.5,6,0.574,0.592,0.539,49.4,0.75,75% sjanse,Unspecified injury - 75% chance of playing
-502,Robertson,TOT,DEF,4.4,6,0.571,0.634,0.537,48.3,1.0,,
-534,Hume,SUN,DEF,4.3,6,0.571,0.722,0.537,52.0,1.0,,
-419,Martinez,MUN,DEF,4.9,6,0.559,0.559,0.526,49.9,0.75,75% sjanse,Thigh injury - 75% chance of playing
-519,Gallagher,TOT,MID,5.3,6,0.556,0.648,0.523,41.9,1.0,,
-619,Palacios,IPS,MID,5.0,5,0.547,0.733,0.514,48.3,1.0,,
-33,Mings,AVL,DEF,4.5,6,0.541,0.669,0.509,50.1,1.0,,
-642,Thomas,HUL,MID,5.5,4,0.539,0.73,0.507,45.4,1.0,,
-387,O'Reilly,MCI,DEF,6.3,6,0.539,0.714,0.506,44.9,1.0,100% sjanse,
-639,Andrés,BHA,MID,5.5,4,0.539,0.643,0.507,47.5,1.0,,
-526,Solanke,TOT,FWD,5.8,6,0.536,0.709,0.504,44.0,1.0,,
-552,Brobbey,SUN,FWD,5.7,6,0.533,0.533,0.501,42.3,0.75,75% sjanse,Hamstring injury - 75% chance of playing
-194,Thomas-Asante,COV,FWD,5.0,6,0.523,0.735,0.492,47.0,1.0,,
-54,Gomes,AVL,MID,5.5,6,0.523,0.523,0.492,39.6,1.0,100% sjanse,
-471,Milenković,NFO,DEF,5.4,6,0.517,0.517,0.486,46.5,1.0,100% sjanse,
-565,M.Sangaré,BRE,MID,5.5,6,0.515,0.735,0.484,43.7,1.0,,
-306,Greaves,IPS,DEF,3.9,6,0.515,0.515,0.484,44.8,1.0,,
-161,Lavia,CHE,MID,5.0,6,0.515,0.634,0.484,38.4,1.0,,
-593,Dedić,NEW,DEF,4.5,6,0.515,0.634,0.484,44.3,1.0,100% sjanse,
-576,Stroud,HUL,MID,5.0,6,0.515,0.634,0.484,37.6,1.0,,
-564,Scherpen,IPS,GK,4.5,6,0.515,0.515,0.484,45.0,1.0,,
-242,George,EVE,MID,5.5,6,0.515,0.735,0.484,43.6,1.0,,
-96,Damsgaard,BRE,MID,5.3,6,0.509,0.645,0.479,42.6,1.0,100% sjanse,
-84,Collins,BRE,DEF,5.4,6,0.485,0.485,0.456,36.5,1.0,100% sjanse,
-148,Hato,CHE,DEF,4.5,6,0.484,0.484,0.455,33.2,1.0,,
-525,Fernandes,TOT,MID,5.7,6,0.478,0.737,0.45,39.1,1.0,,
-70,Kluivert,BOU,MID,5.9,6,0.471,0.471,0.443,34.4,1.0,100% sjanse,
-474,Jair Cunha,NFO,DEF,4.4,6,0.469,0.469,0.441,39.3,1.0,100% sjanse,
-101,Henderson,CHE,MID,4.9,6,0.464,0.464,0.436,39.2,1.0,100% sjanse,
-238,Grealish,EVE,MID,6.5,6,0.454,0.685,0.427,42.6,1.0,100% sjanse,
-46,Barkley,AVL,MID,5.0,6,0.452,0.7,0.425,38.7,1.0,100% sjanse,
-398,Foden,MCI,MID,6.8,6,0.447,0.528,0.421,33.6,1.0,100% sjanse,
-93,Schuster,BRE,DEF,4.5,6,0.438,0.483,0.411,34.9,0.75,75% sjanse,Ankle injury - 75% chance of playing
-300,Walton,IPS,GK,4.4,6,0.435,0.435,0.409,37.5,1.0,,
-592,Ouattara,IPS,DEF,4.0,6,0.435,0.744,0.409,42.9,1.0,,
-605,Yalcouyé,BHA,MID,4.5,6,0.427,0.746,0.401,39.0,1.0,,
-151,Acheampong,CHE,DEF,4.5,6,0.421,0.612,0.396,38.0,1.0,,
-253,Andersen,FUL,DEF,5.0,6,0.416,0.537,0.391,39.0,1.0,100% sjanse,
-34,Pau,AVL,DEF,4.4,6,0.415,0.415,0.39,30.1,1.0,100% sjanse,
-498,Senesi,TOT,DEF,5.7,6,0.413,0.413,0.389,36.8,1.0,,
-492,Awoniyi,COV,FWD,5.4,6,0.404,0.466,0.38,29.4,1.0,100% sjanse,
-75,Christie,BOU,MID,5.0,6,0.396,0.664,0.372,32.1,1.0,100% sjanse,
-159,Caicedo,CHE,MID,5.3,6,0.392,0.467,0.369,33.1,1.0,100% sjanse,
-51,George Hemmings,AVL,MID,4.5,6,0.386,0.462,0.363,29.9,0.75,75% sjanse,Knee injury - 75% chance of playing
-506,Udogie,TOT,DEF,4.4,6,0.384,0.523,0.361,31.2,1.0,100% sjanse,
-153,Disasi,CRY,DEF,4.4,6,0.38,0.456,0.357,30.0,1.0,100% sjanse,
-393,Khusanov,MCI,DEF,5.3,6,0.376,0.376,0.353,32.9,1.0,,
-313,Clarke,IPS,MID,5.3,6,0.373,0.684,0.351,32.7,1.0,,
-231,Keane,EVE,DEF,4.7,6,0.373,0.373,0.351,33.3,1.0,,
-328,Struijk,BHA,DEF,4.9,6,0.371,0.492,0.348,31.6,0.75,75% sjanse,Hamstring injury - 75% chance of playing
-570,Palacios,FUL,MID,5.4,6,0.367,0.498,0.345,29.5,1.0,,
-224,Nketiah,CRY,FWD,5.4,6,0.367,0.654,0.345,29.3,1.0,100% sjanse,
-337,Aaronson,LEE,MID,5.3,6,0.365,0.856,0.343,34.2,1.0,,
-514,Tel,TOT,MID,5.6,6,0.363,0.474,0.341,30.0,1.0,,
-431,Amad,MUN,MID,5.7,6,0.36,0.36,0.339,26.7,1.0,100% sjanse,
-95,O.Dango,BRE,MID,6.2,6,0.35,0.838,0.329,33.0,1.0,,
-144,Gusto,CHE,DEF,4.9,6,0.35,0.507,0.329,30.8,0.75,75% sjanse,Illness - 75% chance of playing
-5,J.Timber,ARS,DEF,6.5,6,0.338,0.616,0.318,30.7,1.0,100% sjanse,
-620,Diouf,BRE,DEF,4.5,5,0.333,0.617,0.313,34.5,1.0,,
-611,Wan-Bissaka,AVL,DEF,4.5,5,0.333,0.573,0.313,30.0,0.75,75% sjanse,Hamstring injury - 75% chance of playing
-656,Mfuni,COV,DEF,4.0,3,0.33,0.593,0.31,32.6,1.0,,
-668,Tutierov,SUN,MID,5.0,0,0.33,0.33,0.31,27.2,1.0,,
-583,Chavarria,CHE,DEF,4.9,6,0.326,0.558,0.307,32.2,0.75,75% sjanse,Unspecified injury - 75% chance of playing
-53,Manzambi,AVL,MID,6.0,6,0.326,0.4,0.307,27.4,0.75,75% sjanse,Calf injury - 75% chance of playing
-256,Tete,FUL,DEF,4.4,6,0.322,0.44,0.303,29.9,1.0,100% sjanse,
-246,Röhl,EVE,MID,4.9,6,0.322,0.322,0.302,26.7,1.0,100% sjanse,
-462,Steur,NEW,MID,4.8,6,0.313,0.618,0.295,27.6,1.0,,
-512,Kudus,TOT,MID,6.5,6,0.309,0.758,0.29,31.2,1.0,100% sjanse,
-327,Bijol,LEE,DEF,5.0,6,0.307,0.579,0.289,28.2,1.0,,
-213,Lerma,CRY,MID,4.8,6,0.303,0.568,0.284,28.6,1.0,,
-420,Yoro,MUN,DEF,4.8,6,0.303,0.49,0.284,25.6,1.0,,
-571,Florentino,IPS,MID,4.8,6,0.295,0.563,0.277,26.4,1.0,100% sjanse,
-16,Madueke,ARS,MID,6.2,6,0.29,0.467,0.272,24.2,1.0,,
-74,Brooks,BOU,MID,5.0,6,0.27,0.745,0.254,24.5,1.0,100% sjanse,
-452,Bruno G.,ARS,MID,6.7,6,0.26,0.662,0.244,27.4,1.0,100% sjanse,
-198,Henderson,CRY,GK,4.9,6,0.259,0.259,0.243,23.3,0.5,50% sjanse,Foot injury - 50% chance of playing
-381,Koumas,LIV,MID,5.0,6,0.258,0.597,0.243,26.5,1.0,,
-340,Gelhardt,HUL,MID,5.0,6,0.258,0.412,0.243,22.4,1.0,100% sjanse,
-599,Cherif,COV,FWD,5.0,6,0.258,0.387,0.243,23.1,1.0,,
-318,Philogene,IPS,MID,5.4,6,0.258,0.541,0.243,24.5,1.0,100% sjanse,
-136,Welbeck,CHE,FWD,5.9,6,0.257,0.678,0.242,27.0,1.0,100% sjanse,
-97,Jensen,BRE,MID,5.4,6,0.25,0.434,0.235,22.3,1.0,100% sjanse,
-612,Methalie,SUN,DEF,4.5,5,0.247,0.454,0.232,24.6,1.0,100% sjanse,
-633,Ahanor,CRY,DEF,4.5,4,0.244,0.485,0.229,24.9,1.0,,
-488,I.Sangaré,NFO,MID,4.8,6,0.243,0.718,0.229,28.8,1.0,100% sjanse,
-223,Mateta,CRY,FWD,6.3,6,0.243,0.243,0.229,18.2,1.0,100% sjanse,
-190,Tchaouna,COV,MID,5.3,6,0.242,0.51,0.227,21.7,1.0,,
-309,Núñez,IPS,MID,4.8,6,0.242,0.242,0.227,18.4,1.0,,
-232,O'Brien,EVE,DEF,4.8,6,0.232,0.714,0.218,28.6,1.0,,
-11,Mosquera,ARS,DEF,5.2,6,0.23,0.23,0.217,18.3,1.0,100% sjanse,
-19,Zubimendi,ARS,MID,5.2,6,0.225,0.809,0.212,29.2,1.0,100% sjanse,
-585,Herrington,HUL,DEF,4.0,6,0.225,0.649,0.212,26.5,1.0,,
-568,Barco,CHE,MID,5.4,6,0.225,0.455,0.212,22.8,1.0,,
-71,Cook,BOU,MID,5.0,6,0.224,0.824,0.211,28.6,1.0,,
-535,Alderete,SUN,DEF,4.8,6,0.213,0.294,0.2,19.8,1.0,100% sjanse,
-125,Georginio,BHA,FWD,5.3,6,0.211,0.569,0.199,23.6,1.0,100% sjanse,
-123,Hinshelwood,BHA,MID,5.9,6,0.211,0.211,0.199,15.1,1.0,100% sjanse,
-85,Van den Berg,BRE,DEF,4.9,6,0.2,0.2,0.188,18.0,1.0,100% sjanse,
-364,Tsimikas,LIV,DEF,4.9,6,0.197,0.296,0.185,15.5,1.0,,
-90,Hickey,BRE,DEF,4.5,6,0.186,0.858,0.175,24.6,1.0,,
-260,Wilson,LEE,MID,6.2,6,0.182,0.746,0.171,23.6,1.0,100% sjanse,
-442,Pope,NEW,GK,4.9,6,0.181,0.181,0.17,16.2,1.0,,
-25,Gyökeres,ARS,FWD,7.1,6,0.174,0.669,0.164,21.9,1.0,,
-448,Burn,NEW,DEF,4.8,6,0.168,0.373,0.158,18.0,1.0,100% sjanse,
-208,Sarr,CRY,MID,6.2,6,0.161,0.541,0.152,20.4,1.0,100% sjanse,
-458,Joelinton,NEW,MID,5.4,6,0.155,0.363,0.146,16.2,1.0,100% sjanse,
-563,Morita,HUL,MID,4.9,6,0.153,0.362,0.144,14.4,1.0,100% sjanse,
-421,Heaven,MUN,DEF,4.3,6,0.153,0.362,0.144,16.4,1.0,,
-422,Mazraoui,MUN,DEF,4.3,6,0.153,0.381,0.144,15.4,1.0,100% sjanse,
-255,J.Cuenca,FUL,DEF,4.4,6,0.153,0.153,0.144,13.2,1.0,,
-262,Smith Rowe,FUL,MID,5.3,6,0.148,0.736,0.14,21.1,1.0,,
-14,Eze,ARS,MID,6.2,6,0.148,0.666,0.14,20.1,1.0,,
-482,Hudson-Odoi,NFO,MID,5.8,6,0.142,0.459,0.134,16.2,1.0,100% sjanse,
-395,Lewis,MCI,DEF,4.3,6,0.137,0.137,0.129,10.1,1.0,,
-195,Simms,COV,FWD,4.9,6,0.137,0.654,0.129,19.7,1.0,,
-247,Hackney,EVE,MID,5.4,6,0.137,0.911,0.129,24.6,1.0,100% sjanse,
-465,Osula,NEW,FWD,5.8,6,0.134,0.347,0.126,13.1,1.0,100% sjanse,
-241,McNeil,CRY,MID,5.3,6,0.133,0.453,0.125,15.1,1.0,,
-162,Andrey Santos,MUN,MID,4.7,6,0.13,0.364,0.122,13.1,1.0,,
-553,Isidor,SUN,FWD,5.5,6,0.129,0.409,0.121,14.9,0.5,50% sjanse,Knock - 50% chance of playing
-400,Doku,MCI,MID,7.4,6,0.129,0.524,0.121,17.2,1.0,100% sjanse,
-212,Hughes,CRY,MID,4.4,6,0.129,0.408,0.121,14.3,1.0,,
-29,M.Bizot,AVL,GK,4.5,6,0.121,0.121,0.114,10.9,1.0,100% sjanse,
-487,Dominguez,NFO,MID,4.8,6,0.116,0.225,0.109,8.9,1.0,,
-369,Ngumoha,LIV,MID,5.7,6,0.115,0.596,0.108,16.3,1.0,,
-539,O'Nien,SUN,DEF,3.9,6,0.115,0.115,0.108,9.4,1.0,,
-549,Talbi,SUN,MID,5.3,6,0.11,0.202,0.103,10.2,1.0,,
-62,Diakité,BOU,DEF,4.9,6,0.104,0.104,0.097,8.7,1.0,,
-543,Diarra,SUN,MID,5.3,6,0.104,0.307,0.097,12.3,1.0,100% sjanse,
-344,Gruev,LEE,MID,5.0,6,0.104,0.104,0.097,8.2,1.0,100% sjanse,
-497,Dubravka,TOT,GK,4.0,6,0.098,0.098,0.093,8.9,1.0,,
-89,Henry,BRE,DEF,4.4,6,0.097,0.208,0.091,9.7,1.0,,
-667,Wright,AVL,GK,4.0,2,0.091,0.091,0.085,7.5,1.0,,
-663,Pivas,NEW,DEF,4.0,2,0.091,0.091,0.085,7.5,1.0,,
-664,Salia,NEW,FWD,4.5,2,0.091,0.091,0.085,7.5,1.0,,
-665,Mills,NEW,MID,4.5,2,0.091,0.091,0.085,7.5,1.0,,
-416,De Ligt,MUN,DEF,4.9,6,0.091,0.091,0.085,8.2,1.0,100% sjanse,
-666,Thompson,NEW,MID,4.5,2,0.091,0.091,0.085,7.5,1.0,,
-662,Nicoll-Jazuli,CHE,MID,4.5,2,0.091,0.506,0.085,14.8,1.0,,
-661,Balcombe,BRE,GK,4.0,2,0.091,0.091,0.085,7.5,1.0,,
-660,Fredrick,BRE,DEF,4.0,2,0.091,0.091,0.085,7.5,1.0,,
-392,Aït-Nouri,MCI,DEF,5.2,6,0.084,0.084,0.079,6.5,1.0,,
-430,Mount,MUN,MID,5.4,6,0.084,0.274,0.079,9.2,1.0,100% sjanse,
-157,Estêvão,CHE,MID,6.3,6,0.084,0.887,0.079,18.7,1.0,,
-548,Rigg,SUN,MID,4.8,6,0.078,0.287,0.073,8.7,1.0,,
-35,Bogarde,AVL,MID,4.9,6,0.078,0.173,0.073,7.9,1.0,,
-446,Schär,NEW,DEF,4.9,6,0.078,0.364,0.073,11.8,1.0,100% sjanse,
-490,Wood,NFO,FWD,5.7,6,0.078,0.887,0.073,19.9,1.0,,
-640,Flemming,IPS,FWD,5.5,4,0.075,1.0,0.071,22.2,1.0,,
-77,Adli,BOU,MID,4.8,6,0.073,0.073,0.069,5.3,1.0,100% sjanse,
-271,Muniz,FUL,FWD,5.4,6,0.071,0.886,0.067,19.6,1.0,,
-659,Miley,NEW,MID,4.5,3,0.071,0.071,0.067,5.9,1.0,,
-347,Nmecha,LEE,FWD,5.4,6,0.071,0.904,0.067,19.7,1.0,,
-351,Mamardashvili,LIV,GK,4.8,6,0.071,0.071,0.067,6.2,1.0,,
-655,Gboho,COV,MID,5.5,3,0.071,0.071,0.067,5.9,1.0,,
-657,Nunes,BRE,MID,4.5,3,0.071,0.071,0.067,5.9,1.0,,
-658,Ibrahim,BHA,MID,4.5,3,0.071,0.071,0.067,5.9,1.0,,
-339,Longstaff,LEE,MID,4.8,6,0.071,0.329,0.067,10.5,1.0,,
-17,Merino,ARS,MID,5.7,6,0.071,1.0,0.067,21.8,1.0,,
-263,Kevin,FUL,MID,5.3,6,0.07,0.864,0.066,18.7,1.0,,
-131,Baleba,MUN,MID,4.9,6,0.066,0.296,0.062,8.4,1.0,100% sjanse,
-42,Guessand,CRY,MID,5.4,6,0.065,0.277,0.061,8.2,1.0,,
-325,Darlow,MUN,GK,4.5,6,0.063,0.063,0.059,5.7,1.0,100% sjanse,
-654,Graham,EVE,MID,4.5,4,0.06,0.06,0.056,4.9,1.0,,
-636,Ángel,FUL,MID,5.0,4,0.06,0.359,0.056,10.2,1.0,,
-651,J.Angulo,SUN,FWD,4.5,4,0.06,0.359,0.056,10.2,1.0,,
-629,Zetterer,LEE,GK,4.0,4,0.06,0.06,0.056,4.9,1.0,,
-646,Fofana,SUN,MID,5.5,4,0.06,1.0,0.056,21.4,1.0,,
-641,Bard,LEE,DEF,4.5,4,0.06,0.272,0.056,8.7,1.0,,
-653,Samba,MCI,MID,4.4,4,0.06,0.06,0.056,4.9,1.0,,
-631,Mbaye,AVL,MID,6.0,4,0.06,0.822,0.056,18.3,1.0,,
-638,Norton-Cuffy,HUL,DEF,3.9,4,0.06,0.449,0.056,11.8,1.0,100% sjanse,
-645,Mouzakitis,HUL,MID,5.0,4,0.06,0.06,0.056,4.9,1.0,,
-648,Bahoya,LEE,MID,4.9,4,0.06,0.611,0.056,14.6,1.0,100% sjanse,
-647,Osorio,CRY,MID,5.4,4,0.06,0.238,0.056,8.1,1.0,,
-630,Harwood-Bellis,AVL,DEF,4.5,4,0.06,0.06,0.056,4.9,1.0,,
-628,Allan,MCI,MID,6.0,4,0.06,0.359,0.056,10.2,1.0,,
-621,McAidoo,MCI,MID,4.4,5,0.053,0.338,0.05,9.4,1.0,,
-615,Di Gregorio,BOU,GK,4.5,5,0.053,0.053,0.05,4.4,1.0,,
-625,Cairns,LEE,GK,4.0,5,0.053,0.053,0.05,4.4,1.0,,
-613,Ahoka,SUN,MID,4.5,5,0.053,0.053,0.05,4.4,1.0,,
-614,Hadjam,BHA,DEF,4.5,5,0.053,0.313,0.05,8.9,1.0,,
-622,Braithwaite,MCI,DEF,3.9,5,0.053,0.183,0.05,6.7,1.0,,
-618,Goretzka,AVL,MID,5.9,5,0.053,0.053,0.05,4.4,1.0,100% sjanse,
-616,Bouaddi,MCI,MID,5.5,5,0.053,0.598,0.05,13.9,1.0,,
-623,Bentley,COV,GK,4.0,5,0.053,0.053,0.05,4.4,1.0,,
-626,Zepa,FUL,MID,4.4,5,0.053,0.053,0.05,4.4,1.0,,
-359,Gomez,LIV,DEF,4.9,6,0.052,0.285,0.049,7.4,1.0,100% sjanse,
-240,Iroegbunam,HUL,MID,5.0,6,0.049,0.763,0.046,16.4,1.0,100% sjanse,
-273,Phillips,HUL,GK,4.0,6,0.048,0.048,0.046,4.0,1.0,,
-594,David,BHA,FWD,5.9,6,0.048,0.305,0.046,8.5,1.0,,
-478,Netz,NFO,DEF,4.4,6,0.048,0.461,0.046,11.2,1.0,,
-476,O.Richards,NFO,DEF,3.9,6,0.048,0.048,0.046,4.0,1.0,,
-600,Osman,BHA,MID,4.9,6,0.048,0.43,0.046,10.7,1.0,,
-119,Costinha,BHA,DEF,4.5,6,0.048,1.0,0.046,20.7,1.0,,
-178,Bidwell,COV,DEF,4.0,6,0.048,0.048,0.046,4.0,1.0,,
-172,Wilson,COV,GK,4.4,6,0.048,0.048,0.046,4.0,1.0,,
-468,John,NFO,GK,4.4,6,0.048,0.048,0.046,4.0,1.0,,
-164,Quenda,CHE,MID,5.3,6,0.048,0.344,0.046,9.2,1.0,100% sjanse,
-524,Olusesi,TOT,MID,4.4,6,0.048,0.048,0.046,4.0,1.0,,
-169,Mheuka,CHE,FWD,4.5,6,0.048,0.048,0.046,4.0,1.0,,
-601,Williams-Barnett,TOT,MID,4.5,6,0.048,0.048,0.046,4.0,1.0,,
-221,Drakes-Thomas,CRY,MID,4.4,6,0.048,0.048,0.046,4.0,1.0,,
-508,Davies,TOT,DEF,3.9,6,0.048,0.048,0.046,4.0,1.0,,
-509,Byfield,TOT,DEF,4.0,6,0.048,0.048,0.046,4.0,1.0,,
-21,Nørgaard,EVE,MID,4.8,6,0.048,0.048,0.046,4.0,1.0,100% sjanse,
-227,Travers,EVE,GK,5.0,6,0.048,0.048,0.046,4.0,1.0,,
-218,Doucouré,CRY,MID,4.8,6,0.048,0.048,0.046,4.0,1.0,,
-20,Dowman,ARS,MID,5.3,6,0.048,0.245,0.046,7.4,1.0,100% sjanse,
-560,Penders,CHE,GK,4.4,6,0.048,0.048,0.046,4.0,1.0,,
-561,Anselmino,CHE,DEF,4.5,6,0.048,0.048,0.046,4.0,1.0,100% sjanse,
-531,Ellborg,SUN,GK,4.4,6,0.048,0.048,0.046,4.0,1.0,,
-515,Maddison,TOT,MID,6.2,6,0.048,0.744,0.046,16.2,1.0,100% sjanse,
-510,Rowswell,TOT,DEF,4.0,6,0.048,0.048,0.046,4.0,1.0,,
-495,Austin,TOT,GK,4.0,6,0.048,0.048,0.046,4.0,1.0,,
-590,Benda,NFO,GK,4.5,6,0.048,0.048,0.046,4.0,1.0,,
-595,Gozo,CRY,MID,4.9,6,0.048,0.331,0.046,8.9,1.0,,
-555,Matthews,CRY,GK,4.0,6,0.048,0.048,0.046,4.0,1.0,,
-493,Kalimuendo,NFO,FWD,5.4,6,0.048,0.381,0.046,9.8,1.0,,
-245,Dibling,EVE,MID,5.3,6,0.048,0.48,0.046,11.5,1.0,,
-228,King,EVE,GK,4.5,6,0.048,0.048,0.046,4.0,1.0,,
-251,Lecomte,FUL,GK,4.0,6,0.048,0.048,0.046,4.0,1.0,,
-50,Burrowes,AVL,MID,4.4,6,0.048,0.048,0.046,4.0,1.0,,
-52,Alysson,AVL,MID,4.9,6,0.048,0.803,0.046,17.2,1.0,100% sjanse,
-126,O'Riley,BHA,MID,5.4,6,0.048,0.411,0.046,10.3,1.0,,
-134,Oriola,BHA,MID,4.4,6,0.048,0.048,0.046,4.0,1.0,,
-120,Svoboda,BHA,DEF,5.0,6,0.048,0.245,0.046,7.4,1.0,,
-38,A.García,AVL,DEF,4.0,6,0.048,0.048,0.046,4.0,1.0,,
-559,Bamba,NEW,MID,4.8,6,0.048,0.509,0.046,12.1,1.0,,
-435,Lacey,MUN,MID,4.9,6,0.048,0.147,0.046,5.7,1.0,,
-437,Bendito Mantato,MUN,MID,4.4,6,0.048,0.048,0.046,4.0,1.0,,
-438,Fletcher,MUN,MID,4.4,6,0.048,0.048,0.046,4.0,1.0,,
-443,Gillespie,NEW,GK,4.5,6,0.048,0.048,0.046,4.0,1.0,,
-117,Coppola,BHA,DEF,4.5,6,0.048,0.048,0.046,4.0,1.0,,
-111,Steele,BHA,GK,4.0,6,0.048,0.048,0.046,4.0,1.0,,
-285,McNair,HUL,DEF,4.0,6,0.048,0.147,0.046,5.7,1.0,100% sjanse,
-284,McCarthy,HUL,DEF,4.0,6,0.048,0.048,0.046,4.0,1.0,,
-461,Touré,NEW,MID,5.7,6,0.048,0.762,0.046,16.5,1.0,100% sjanse,
-292,Ömür,HUL,MID,4.9,6,0.048,0.048,0.046,4.0,1.0,,
-288,Dowell,HUL,MID,4.4,6,0.048,0.048,0.046,4.0,1.0,,
-272,Kusi-Asare,FUL,FWD,4.4,6,0.048,0.048,0.046,4.0,1.0,,
-270,Reed,FUL,MID,4.4,6,0.048,0.048,0.046,4.0,1.0,,
-179,Latibeaudiere,COV,DEF,3.9,6,0.048,0.245,0.046,7.4,1.0,,
-308,Furlong,IPS,DEF,3.9,6,0.048,0.166,0.046,6.0,1.0,,
-320,Akpom,IPS,FWD,5.0,6,0.048,0.695,0.046,15.3,1.0,,
-302,Button,IPS,GK,4.0,6,0.048,0.048,0.046,4.0,1.0,,
-303,Kipré,IPS,DEF,3.9,6,0.048,0.048,0.046,4.0,1.0,,
-294,Zambrano,HUL,MID,4.5,6,0.048,0.048,0.046,4.0,1.0,100% sjanse,
-574,Hjertø-Dahl,HUL,MID,4.8,6,0.048,0.188,0.046,6.4,1.0,,
-584,Hamer,COV,MID,5.3,6,0.048,0.403,0.046,10.2,1.0,,
-434,J.Fletcher,MUN,MID,4.9,6,0.048,0.048,0.046,4.0,1.0,,
-424,Amass,MUN,DEF,4.0,6,0.048,0.048,0.046,4.0,1.0,,
-310,Matusiwa,IPS,MID,4.9,6,0.048,0.048,0.046,4.0,1.0,100% sjanse,
-321,Walle Egeli,IPS,FWD,4.5,6,0.048,0.381,0.046,9.8,1.0,,
-312,Taylor,IPS,MID,4.4,6,0.048,0.048,0.046,4.0,1.0,100% sjanse,
-323,McAteer,IPS,MID,4.4,6,0.048,0.403,0.046,10.2,1.0,,
-301,Palmer,IPS,GK,4.0,6,0.048,0.048,0.046,4.0,1.0,,
-207,Mingueza,CRY,DEF,4.3,6,0.048,0.305,0.046,8.5,1.0,,
-606,Rowe,AVL,DEF,4.0,6,0.048,0.048,0.046,4.0,1.0,,
-56,Abraham,AVL,FWD,5.5,6,0.048,0.667,0.046,14.8,1.0,100% sjanse,
-582,Madjo,AVL,FWD,5.4,6,0.048,0.048,0.046,4.0,1.0,100% sjanse,
-587,Rulli,MCI,GK,4.9,6,0.048,0.048,0.046,4.0,1.0,,
-406,Kovačić,MCI,MID,5.3,6,0.048,0.264,0.046,7.8,1.0,100% sjanse,
-100,Carvalho,BRE,MID,5.0,6,0.048,0.245,0.046,7.4,1.0,100% sjanse,
-92,Ji-soo,BRE,DEF,4.4,6,0.048,0.048,0.046,4.0,1.0,,
-324,Mehmeti,IPS,MID,4.8,6,0.048,0.048,0.046,4.0,1.0,,
-608,Jebbison,BOU,FWD,5.0,6,0.048,0.483,0.046,11.6,1.0,,
-573,Sanchez,BOU,DEF,4.4,6,0.048,0.283,0.046,8.1,1.0,,
-81,Rodríguez,BOU,FWD,6.0,6,0.048,0.565,0.046,13.0,1.0,100% sjanse,
-355,Davies,LIV,GK,4.0,6,0.048,0.048,0.046,4.0,1.0,,
-83,Valdimarsson,BRE,GK,4.4,6,0.048,0.048,0.046,4.0,1.0,,
-603,Lienou,LEE,DEF,4.0,6,0.048,0.048,0.046,4.0,1.0,,
-604,Cresswell,LEE,MID,4.5,6,0.048,0.048,0.046,4.0,1.0,,
-396,Vitor Reis,MCI,DEF,4.4,6,0.048,0.166,0.046,6.0,1.0,,
-386,Bettinelli,MCI,GK,4.4,6,0.048,0.048,0.046,4.0,1.0,,
-72,Gannon-Doak,BOU,MID,4.8,6,0.048,0.883,0.046,18.6,1.0,,
-66,Soler,BOU,DEF,4.0,6,0.048,0.283,0.046,8.1,1.0,100% sjanse,
-378,McConnell,LIV,MID,4.4,6,0.048,0.048,0.046,4.0,1.0,,
-382,Danns,LIV,FWD,4.5,6,0.048,0.048,0.046,4.0,1.0,100% sjanse,
-58,Forster,BOU,GK,4.0,6,0.048,0.048,0.046,4.0,1.0,,
-352,Woodman,LIV,GK,4.0,6,0.048,0.048,0.046,4.0,1.0,,
-76,Tóth.A,BOU,MID,4.9,6,0.048,0.344,0.046,9.2,1.0,,
-3,Meslier,ARS,GK,4.9,6,0.048,0.048,0.046,4.0,1.0,,
-185,Sakamoto,COV,MID,4.8,6,0.048,0.4,0.046,10.1,1.0,,
-152,Palestra,CHE,DEF,5.3,6,0.048,0.283,0.046,8.1,1.0,100% sjanse,
-374,Endo,LIV,MID,4.9,6,0.048,0.048,0.046,4.0,1.0,100% sjanse,
-361,Lucky,LIV,DEF,4.0,6,0.048,0.048,0.046,4.0,1.0,,
-370,Chiesa,LIV,MID,5.3,6,0.048,0.283,0.046,8.1,1.0,100% sjanse,
-375,Nyoni,LIV,MID,4.8,6,0.048,0.736,0.046,16.0,1.0,,
-189,Shepherd,COV,MID,4.4,6,0.048,0.048,0.046,4.0,1.0,,
-188,Torp,COV,MID,5.3,6,0.048,0.664,0.046,14.8,1.0,,
-550,Jocelin.T,SUN,MID,4.9,6,0.048,0.283,0.046,8.1,1.0,,
-2,Arrizabalaga,ARS,GK,4.9,6,0.048,0.048,0.046,4.0,1.0,,
-266,Cairney,FUL,MID,4.9,6,0.046,0.046,0.043,3.2,1.0,100% sjanse,
-243,Alcaraz,EVE,MID,4.9,6,0.046,0.497,0.043,11.3,1.0,,
-160,Garnacho,AVL,MID,5.7,6,0.041,0.399,0.039,9.1,1.0,,
-440,Zirkzee,MUN,FWD,5.3,6,0.039,0.642,0.037,13.4,1.0,,
-521,Kulusevski,TOT,MID,6.5,6,0.036,0.036,0.034,3.0,0.75,75% sjanse,Knee injury - 75% chance of playing
-177,Kesler-Hayden,COV,DEF,3.9,6,0.036,0.036,0.034,3.0,0.75,75% sjanse,Hamstring injury - 75% chance of playing
-108,Wilson,BRE,FWD,5.4,6,0.033,0.632,0.031,12.8,1.0,,
-637,Vaz,HUL,FWD,5.0,4,0.03,0.411,0.028,9.2,0.5,50% sjanse,Achilles injury - 50% chance of playing
-147,Tosin,TOT,DEF,4.4,6,0.025,0.195,0.023,5.0,1.0,,
-343,James,LEE,MID,4.9,6,0.023,0.263,0.021,5.6,0.5,50% sjanse,Back injury - 50% chance of playing
-489,Yates,NFO,MID,4.4,6,0.02,0.02,0.019,1.5,1.0,100% sjanse,
-635,Larsson,FUL,MID,5.0,4,0.015,0.25,0.014,5.4,0.25,25% sjanse,Groin injury - 25% chance of playing
-18,Martinelli,ARS,MID,6.3,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Al Hilal permanently
-360,Bradley,LIV,DEF,4.9,6,0.0,0.0,0.0,0.0,0.0,status=i,Knee injury - Unknown return date
-363,Leoni,LIV,DEF,4.0,6,0.0,0.0,0.0,0.0,0.0,status=i,Knee injury - Unknown return date
-365,Ramsay,LIV,DEF,4.0,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined St Mirren on loan for the rest of the season
-368,Szoboszlai,LIV,MID,6.8,6,0.0,0.0,0.0,0.0,0.0,status=i,Hamstring injury - Unknown return date
-150,M.Sarr,CHE,DEF,4.5,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Real Sociedad on loan for the rest of the season
-537,Seelt,SUN,DEF,4.5,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Swansea City on loan for the rest of the season
-538,Hjelde,SUN,DEF,4.0,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined KV Mechelen on loan for the rest of the season
-9,Hincapie,ARS,DEF,5.2,6,0.0,0.0,0.0,0.0,0.0,status=i,Ankle injury - Expected back 24 Oct
-546,Adingra,SUN,MID,4.9,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Ajax on loan for the rest of the season
-547,Mundle,SUN,MID,4.8,6,0.0,0.0,0.0,0.0,0.0,status=i,Knee injury - Unknown return date
-520,Bergvall,TOT,MID,5.3,6,0.0,0.0,0.0,0.0,0.0,status=i,Knee injury - Expected back 31 Oct
-27,G.Jesus,ARS,FWD,5.9,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined FC Barcelona permanently
-557,Tzolis,ARS,MID,6.2,6,0.0,0.0,0.0,0.0,0.0,status=i,Hamstring injury - Expected back 1 Nov
-30,Digne,AVL,DEF,4.5,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Paris Saint-Germain permanently
-532,Ballard,SUN,DEF,4.8,6,0.0,0.0,0.0,0.0,0.0,status=i,Hamstring injury - Unknown return date
-540,Masuaku,SUN,DEF,4.0,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Konyaspor permanently
-353,Pecsi,LIV,GK,4.0,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined TSV Hartberg on loan for the rest of the season
-78,Kroupi.Jr,BOU,MID,7.3,6,0.0,0.0,0.0,0.0,0.0,status=i,Foot injury - Expected back 7 Nov
-354,Jaros,LIV,GK,4.0,6,0.0,0.0,0.0,0.0,0.0,status=i,Knee injury - Unknown return date
-80,Enes Ünal,BOU,FWD,5.5,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Getafe permanently
-59,Dennis,BOU,GK,4.0,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined MK Dons permanently
-63,Milosavljević,BOU,DEF,4.9,6,0.0,0.0,0.0,0.0,0.0,status=i,Thigh injury - Unknown return date
-65,J.Araujo,BOU,DEF,4.4,6,0.0,0.0,0.0,0.0,0.0,status=i,Thigh injury - Unknown return date
-357,Frimpong,LIV,DEF,5.2,6,0.0,0.0,0.0,0.0,0.0,status=i,Hamstring injury - Unknown return date
-69,Scott,BOU,MID,6.0,6,0.0,0.0,0.0,0.0,0.0,status=i,Thigh injury - Unknown return date
-394,Alleyne,MCI,DEF,5.0,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Burnley on loan for the rest of the season
-402,Rodrigo,MCI,MID,6.5,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Barcelona permanently
-397,Semenyo,MCI,MID,8.3,6,0.0,0.0,0.0,0.0,0.0,status=i,Knee injury - Unknown return date
-333,Bornauw,LEE,DEF,4.5,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Hamburg SV on loan for the rest of the season
-341,Gnonto,LEE,MID,5.0,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined ACF Fiorentina on loan for the rest of the season
-342,Harrison,LEE,MID,5.0,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined New England Revolution permanently
-348,Piroe,LEE,FWD,5.0,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined West Ham United on loan for the rest of the season
-349,Mateo Joseph,LEE,FWD,4.5,6,0.0,0.0,0.0,0.0,0.0,status=i,Knee injury - Unknown return date
-602,Humphreys,IPS,MID,4.5,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Huddersfield Town on loan for the rest of the season
-326,Perri,LEE,GK,4.5,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Torino on loan for the rest of the season
-98,Janelt,BRE,MID,5.0,6,0.0,0.0,0.0,0.0,0.0,status=s,Suspended until 31 Oct
-99,Milambo,BRE,MID,5.0,6,0.0,0.0,0.0,0.0,0.0,status=i,Knee injury - Unknown return date
-187,Eccles,COV,MID,4.8,6,0.0,0.0,0.0,0.0,0.0,status=i,Ankle injury - Unknown return date
-191,Borges Rodrigues,COV,MID,4.5,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Burton Albion on loan for the rest of the season
-192,Andrews,COV,MID,4.5,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Oxford United on loan for the rest of the season
-193,Wright,COV,FWD,5.3,6,0.0,0.0,0.0,0.0,0.0,status=i,Thigh injury - Unknown return date
-196,Markelo,COV,FWD,5.0,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Shabab Al-Ahli Dubai permanently
-197,Bassette,COV,FWD,4.5,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined KVC Westerlo on loan for the rest of the season
-373,C.Jones,LIV,MID,5.5,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Internazionale permanently
-376,Bajcetic,LIV,MID,5.0,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Celta Vigo permanently
-380,Ekitiké,LIV,FWD,7.4,6,0.0,0.0,0.0,0.0,0.0,status=i,Achilles injury - Unknown return date
-383,Elliott,LIV,MID,5.4,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Valencia on loan for the rest of the season
-6,Saliba,ARS,DEF,5.9,6,0.0,0.0,0.0,0.0,0.0,status=i,Back injury - Unknown return date
-311,Burns,IPS,MID,5.0,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Leicester City permanently
-307,Johnson,IPS,DEF,4.0,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Stoke City on loan for the rest of the season
-413,Bayindir,MUN,GK,4.5,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Celta Vigo on loan for the rest of the season
-410,Monga,MCI,MID,4.9,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Swansea City on loan for the rest of the season
-409,Mukasa,MCI,MID,4.5,6,0.0,0.0,0.0,0.0,0.0,status=u,has joined West Ham on loan for the rest of the seaon.
-408,Phillips,MCI,MID,5.0,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Sheffield United on loan for the rest of the season
-407,Echeverri,MCI,MID,4.9,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Benfica on loan for the rest of the season
-404,Reijnders,MCI,MID,6.0,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Al Qadsiah permanently
-329,Rodon,LEE,DEF,4.3,6,0.0,0.0,0.0,0.0,0.0,status=i,Hamstring injury - Expected back 21 Nov
-103,Dasilva,BRE,MID,4.8,6,0.0,0.0,0.0,0.0,0.0,status=i,Hamstring injury - Unknown return date
-102,Yarmoliuk,BRE,MID,4.8,6,0.0,0.0,0.0,0.0,0.0,status=s,Suspended until 23 Nov
-205,Sosa,CRY,DEF,4.5,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined FC Cologne on loan for the rest of the season
-55,Watkins,AVL,FWD,7.8,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Al Hilal permanently
-596,Ruggeri,AVL,DEF,4.5,6,0.0,0.0,0.0,0.0,0.0,status=i,Hamstring injury - Unknown return date
-607,Lynch,AVL,MID,4.5,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Oxford United on loan until January
-314,Ogbene,IPS,MID,4.9,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Lincoln City on loan until January
-632,Ansah,HUL,FWD,4.9,4,0.0,0.0,0.0,0.0,0.0,status=i,Back injury - Unknown return date
-617,Cho,HUL,MID,5.0,5,0.0,0.0,0.0,0.0,0.0,status=i,Unspecified injury - Expected back 25 Oct
-297,Gyabi,HUL,MID,4.4,6,0.0,0.0,0.0,0.0,0.0,status=i,Thigh injury - Unknown return date
-296,Akintola,HUL,MID,5.0,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Omonoia FC permanently
-299,Burstow,HUL,FWD,4.5,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Sheffield Wednesday on loan for the rest of the season
-556,Targett,HUL,DEF,3.9,6,0.0,0.0,0.0,0.0,0.0,status=i,Ankle injury - Unknown return date
-586,Mendy,HUL,DEF,4.1,6,0.0,0.0,0.0,0.0,0.0,status=i,Groin injury - Expected back 31 Oct
-298,Destan,HUL,FWD,4.5,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Konyaspor permanently
-425,Fredricson,MUN,DEF,4.0,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Lausanne-Sport permanently
-433,Ugarte,MUN,MID,5.0,6,0.0,0.0,0.0,0.0,0.0,status=i,Knee injury - Unknown return date
-436,Collyer,MUN,MID,5.0,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined West Brom permanently
-439,Šeško,MUN,FWD,6.9,6,0.0,0.0,0.0,0.0,0.0,status=i,Shin injury - Expected back 18 Oct
-554,Van Oevelen,IPS,GK,4.5,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Valencia on loan for the rest of the season
-414,Heaton,MUN,GK,4.0,6,0.0,0.0,0.0,0.0,0.0,status=i,Hamstring injury - Unknown return date
-319,Szmodics,IPS,MID,5.0,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Derby County on loan for the rest of the season
-317,Hirst,IPS,FWD,5.0,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Stoke City permanently
-275,Cartwright,HUL,GK,4.0,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Grimsby Town on loan for the rest of the season
-274,Butland,HUL,GK,4.4,6,0.0,0.0,0.0,0.0,0.0,status=i,Arm injury - Unknown return date
-444,Jaouen,NEW,GK,4.4,6,0.0,0.0,0.0,0.0,0.0,status=i,Hamstring injury - Unknown return date
-441,Obi,MUN,FWD,4.5,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Willem II on loan for the rest of the season
-287,Millar,HUL,MID,5.0,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Birmingham on loan for the rest of the season
-276,Lo-Tutala,HUL,GK,4.0,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Colchester United on loan for the rest of the season
-281,Drameh,HUL,DEF,4.0,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Genoa permanently
-278,Hughes,HUL,DEF,3.9,6,0.0,0.0,0.0,0.0,0.0,status=i,Groin injury - Unknown return date
-450,Livramento,NEW,DEF,4.9,6,0.0,0.0,0.0,0.0,0.0,status=i,Unspecified injury - Expected back 2 Nov
-451,A.Murphy,NEW,DEF,4.0,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined FC Kaiserslautern on loan for the rest of the season
-456,J.Ramsey,NEW,MID,4.8,6,0.0,0.0,0.0,0.0,0.0,status=i,Thigh injury - Unknown return date
-454,Elanga,NEW,MID,6.0,6,0.0,0.0,0.0,0.0,0.0,status=i,Unspecified injury - Expected back 25 Oct
-174,Kitching,COV,DEF,4.0,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Sheffield United on loan for the rest of the season
-291,Matazo,HUL,MID,4.5,6,0.0,0.0,0.0,0.0,0.0,status=i,Knee injury - Unknown return date
-293,Kamara,HUL,MID,5.0,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Portsmouth permanently
-283,Jacob,HUL,DEF,4.0,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Newport County on loan until January
-182,Amenda,COV,DEF,3.9,6,0.0,0.0,0.0,0.0,0.0,status=i,Calf injury - Unknown return date
-181,Brau,COV,DEF,4.0,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Academico de Viseu on loan for the rest of the season
-180,Woolfenden,COV,DEF,3.9,6,0.0,0.0,0.0,0.0,0.0,status=i,Knee injury - Unknown return date
-269,Sessegnon,FUL,DEF,4.3,6,0.0,0.0,0.0,0.0,0.0,status=s,Suspended until 21 Nov
-610,De Fougerolles,FUL,DEF,4.0,6,0.0,0.0,0.0,0.0,0.0,status=u,has joined  Real Salt Lake on loan for the rest of the seaon.
-107,Furo,BRE,FWD,4.5,6,0.0,0.0,0.0,0.0,0.0,status=i,Unspecified injury - Unknown return date
-140,Sánchez,CHE,GK,4.9,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Como on loan for the rest of the season
-141,Jörgensen,CHE,GK,5.0,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined RC Strasbourg on loan for the rest of the season
-142,James,CHE,DEF,5.3,6,0.0,0.0,0.0,0.0,0.0,status=i,Knee injury - Unknown return date
-143,Chalobah,CHE,DEF,5.5,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Como permanently
-146,B.Badiashile,CHE,DEF,4.5,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Napoli on loan for the rest of the season
-463,Woltemade,NEW,FWD,5.9,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Juventus on loan for the rest of the season
-206,Chadi Riad,CRY,DEF,4.3,6,0.0,0.0,0.0,0.0,0.0,status=i,Knee injury - Unknown return date
-589,Gourna-Douath,HUL,MID,4.9,6,0.0,0.0,0.0,0.0,0.0,status=i,Calf injury - Expected back 25 Oct
-415,Dorgu,MUN,MID,5.7,6,0.0,0.0,0.0,0.0,0.0,status=i,Hamstring injury - Expected back 25 Oct
-322,Al-Hamadi,IPS,FWD,5.0,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Sheffield Wednesday on loan for the rest of the season
-39,Nedeljkovic,AVL,DEF,4.0,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Rangers on loan for the rest of the season
-36,Maatsen,AVL,DEF,4.4,6,0.0,0.0,0.0,0.0,0.0,status=i,Ankle injury - Unknown return date
-609,Shahar,NEW,DEF,4.0,6,0.0,0.0,0.0,0.0,0.0,status=u,has joined Arouca on loan for the rest of the seaon.
-466,Neave,NEW,FWD,4.5,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Wolves on loan for the rest of the season
-132,Howell,BHA,MID,4.5,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Leicester City on loan for the rest of the season
-122,Minteh,BHA,MID,5.8,6,0.0,0.0,0.0,0.0,0.0,status=i,Leg injury - Expected back 28 Nov
-128,Buonanotte,BHA,MID,5.0,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Elche on loan for the rest of the season
-121,Mitoma,BHA,MID,5.9,6,0.0,0.0,0.0,0.0,0.0,status=i,Hamstring injury - Expected back 31 Oct
-48,Onana,AVL,MID,4.9,6,0.0,0.0,0.0,0.0,0.0,status=i,Knee injury - Unknown return date
-49,Iling Jr,AVL,MID,5.0,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Bolton Wanderers on loan for the rest of the season
-470,Morato,NFO,DEF,5.0,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined West Ham on loan for the rest of the season
-475,Savona,NFO,DEF,4.5,6,0.0,0.0,0.0,0.0,0.0,status=i,Knee injury - Unknown return date
-477,Abbott,NFO,DEF,4.0,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Southampton on loan for the rest of the season
-133,Watson,BHA,MID,5.0,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Leicester City on loan for the rest of the season
-252,McNally,FUL,GK,4.0,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined York City on loan for the rest of the season
-130,Wieffer,BHA,DEF,4.9,6,0.0,0.0,0.0,0.0,0.0,status=i,Knee injury - Unknown return date
-137,Tzimas,BHA,FWD,5.4,6,0.0,0.0,0.0,0.0,0.0,status=i,Knee injury - Unknown return date
-135,Yohanna,BHA,MID,4.8,6,0.0,0.0,0.0,0.0,0.0,status=i,Unspecified injury - Expected back 31 Oct
-225,Uche,CRY,FWD,5.0,6,0.0,0.0,0.0,0.0,0.0,status=u,has returned to Getafe CF
-139,Ferguson,BHA,FWD,5.0,6,0.0,0.0,0.0,0.0,0.0,status=i,Ankle injury - Unknown return date
-248,Beto,EVE,FWD,5.4,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Fiorentina permanently
-118,Igor,BHA,DEF,4.5,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Burnley permanently
-234,Patterson,EVE,DEF,4.5,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Torino permanently
-235,Aznou,EVE,DEF,4.0,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Malaga on loan for the rest of the season
-484,Hutchinson,NFO,MID,5.4,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined AC Milan on loan for the rest of the season
-479,Bindon,NFO,DEF,4.0,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Charlton Athletic on loan for the rest of the season
-485,Bakwa,NFO,MID,5.5,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Lille on loan for the rest of the season
-491,Igor Jesus,NFO,FWD,5.7,6,0.0,0.0,0.0,0.0,0.0,status=i,Calf injury - Unknown return date
-403,Sávio,TOT,MID,6.5,6,0.0,0.0,0.0,0.0,0.0,status=i,Muscular injury - Expected back 7 Nov
-494,Vicario,TOT,GK,4.5,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Juventus on loan for the rest of the season
-577,Tomiyasu,CRY,DEF,4.4,6,0.0,0.0,0.0,0.0,0.0,status=i,Calf injury - Expected back 18 Oct
-44,Bailey,AVL,MID,5.4,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Olympiakos permanently
-643,Chilwell,CRY,DEF,4.4,4,0.0,0.0,0.0,0.0,0.0,status=i,Unspecified injury - Unknown return date
-215,Devenny,CRY,MID,5.0,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Stoke City permanently
-217,M.França,CRY,MID,4.9,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Alverca on loan for the rest of the season
-216,Esse,CRY,MID,5.0,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Millwall on loan for the rest of the season
-220,Cardines,CRY,DEF,4.5,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Bristol City on loan for the rest of the season
-499,Pedro Porro,TOT,DEF,5.3,6,0.0,0.0,0.0,0.0,0.0,status=i,Hamstring injury - Expected back 24 Oct
-500,Romero,TOT,DEF,5.0,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Atletico Madrid permanently
-219,J.Rak-Sakyi,CRY,MID,4.9,6,0.0,0.0,0.0,0.0,0.0,status=u,has joined  Kasimpasa on loan for the rest of the seaon.
-505,Spence,TOT,DEF,4.5,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Internazionale permanently
-507,Phillips,TOT,DEF,4.5,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Middlesbrough permanently
-513,Xavi,TOT,MID,5.9,6,0.0,0.0,0.0,0.0,0.0,status=i,Knee injury - Unknown return date
-511,Souza,TOT,DEF,4.0,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined FC Porto on loan for the rest of the season
-158,Gittens,CHE,MID,5.8,6,0.0,0.0,0.0,0.0,0.0,status=i,Ankle injury - Unknown return date
-163,D.Essugo,CHE,MID,4.5,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined RC Strasbourg on loan for the rest of the season
-168,Marc Guiu,CHE,FWD,5.0,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined RB Leipzig permanently
-523,Moore,TOT,MID,5.0,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined FC Köln on loan for the rest of the season
-527,Richarlison,TOT,FWD,5.9,6,0.0,0.0,0.0,0.0,0.0,status=u,not included in squad.
-528,Scarlett,TOT,FWD,4.5,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Leyton Orient permanently
-578,Mudryk,TOT,MID,5.3,6,0.0,0.0,0.0,0.0,0.0,status=i,Ankle injury - Unknown return date
-501,Danso,SUN,DEF,5.0,6,0.0,0.0,0.0,0.0,0.0,status=s,Suspended until 31 Oct
-530,Patterson,SUN,GK,4.0,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Wrexham permanently
-624,Cozier-Duberry,BHA,MID,5.0,5,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Middlesbrough on loan for the rest of the season
-652,Azeez,BHA,MID,5.5,4,0.0,0.0,0.0,0.0,0.0,status=i,Hamstring injury - Expected back 31 Oct
-28,Martinez,CHE,GK,5.0,6,0.0,0.0,0.0,0.0,0.0,status=i,Head injury - Unknown return date
-170,Emegha,CHE,FWD,4.9,6,0.0,0.0,0.0,0.0,0.0,status=i,Hamstring injury - Expected back 17 Oct
-171,Dovin,COV,GK,4.0,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Leyton Orient on loan for the rest of the season
-516,Bentancur,TOT,MID,5.4,6,0.0,0.0,0.0,0.0,0.0,status=s,Suspended until 7 Nov
-517,Odobert,TOT,MID,5.5,6,0.0,0.0,0.0,0.0,0.0,status=i,Knee injury - Unknown return date
-518,P.M.Sarr,TOT,MID,4.9,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Juventus on loan for the rest of the season
-22,Nwaneri,ARS,MID,5.4,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Borussia Dortmund on loan for the rest of the season
-23,Fábio Vieira,ARS,MID,5.5,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Hamburger SV permanently
-24,Nelson,ARS,MID,5.5,6,0.0,0.0,0.0,0.0,0.0,status=u,has departed the club as a free agent.
+40,Rogers,CHE,MID,8.0,7,0.99,0.99,0.927,86.6,1.0,,
+112,Van Hecke,TOT,DEF,4.9,7,0.988,0.988,0.924,88.7,1.0,100% sjanse,
+61,Truffert,BOU,DEF,5.4,7,0.983,0.983,0.919,87.4,1.0,,
+57,Petrović,BOU,GK,4.5,7,0.983,0.983,0.919,88.4,1.0,,
+250,Leno,FUL,GK,4.5,7,0.983,0.983,0.919,88.4,1.0,,
+109,Verbruggen,BHA,GK,4.6,7,0.983,0.983,0.919,88.4,1.0,,
+356,Virgil,LIV,DEF,6.4,7,0.983,0.983,0.919,88.4,1.0,,
+226,Pickford,EVE,GK,5.5,7,0.983,0.983,0.919,88.4,1.0,,
+82,Kelleher,BRE,GK,5.0,7,0.977,0.977,0.914,87.9,1.0,,
+106,Thiago,BRE,FWD,7.8,7,0.977,0.977,0.914,86.6,1.0,,
+229,Tarkowski,EVE,DEF,6.2,7,0.977,0.977,0.914,87.9,1.0,,
+1,Raya,ARS,GK,6.1,7,0.977,0.977,0.914,87.9,1.0,,
+384,Donnarumma,MCI,GK,5.5,7,0.975,0.975,0.912,87.7,1.0,,
+455,Tonali,TOT,MID,5.3,7,0.975,0.975,0.912,83.1,1.0,100% sjanse,
+204,Mitchell,CRY,DEF,4.5,7,0.971,0.971,0.908,83.5,1.0,,
+469,N.Williams,NFO,DEF,5.0,7,0.971,0.971,0.908,86.9,1.0,100% sjanse,
+388,Guéhi,MCI,DEF,6.0,7,0.965,0.965,0.903,86.8,1.0,,
+426,B.Fernandes,MUN,MID,11.8,7,0.965,0.965,0.903,86.3,1.0,,
+529,Roefs,SUN,GK,4.9,7,0.965,0.965,0.903,86.8,1.0,,
+338,Ampadu,LEE,MID,5.4,7,0.965,0.965,0.903,86.6,1.0,,
+13,Rice,ARS,MID,7.3,7,0.965,0.965,0.903,82.1,1.0,100% sjanse,
+412,Lammens,MUN,GK,4.9,7,0.962,0.962,0.9,86.6,1.0,,
+411,Haaland,MCI,FWD,15.7,7,0.958,0.958,0.897,84.3,1.0,100% sjanse,
+124,Groß,BHA,MID,6.2,7,0.957,0.957,0.896,84.0,1.0,,
+542,E.Le Fée,SUN,MID,5.7,7,0.952,0.952,0.891,82.8,1.0,,
+445,Thiaw,NEW,DEF,5.0,7,0.952,0.952,0.891,85.4,1.0,,
+545,Sadiki,SUN,MID,4.8,7,0.952,0.952,0.891,81.0,1.0,,
+43,Tielemans,MUN,MID,5.7,7,0.95,0.95,0.889,75.2,1.0,100% sjanse,
+79,Evanilson,BOU,FWD,6.1,7,0.946,0.946,0.886,79.3,1.0,,
+330,Bogle,LEE,DEF,4.7,7,0.946,0.946,0.886,74.8,1.0,,
+544,Xhaka,SUN,MID,5.4,7,0.946,0.946,0.886,85.0,1.0,,
+68,Tavernier,BOU,MID,6.2,7,0.94,0.94,0.88,77.9,1.0,,
+427,Mbeumo,MUN,MID,7.8,7,0.94,0.94,0.88,83.2,1.0,,
+202,Richards,CRY,DEF,4.9,7,0.94,0.94,0.88,84.6,1.0,,
+346,Calvert-Lewin,LEE,FWD,6.1,7,0.939,0.939,0.879,80.6,1.0,,
+67,Rayan,BOU,MID,6.3,7,0.935,0.935,0.875,80.6,1.0,,
+236,Dewsbury-Hall,EVE,MID,6.6,7,0.934,0.934,0.874,83.3,1.0,,
+4,Gabriel,ARS,DEF,7.9,7,0.934,0.934,0.874,84.0,1.0,,
+467,Sels,NFO,GK,5.0,7,0.934,0.934,0.874,83.8,1.0,,
+210,Wharton,CRY,MID,5.4,7,0.928,0.928,0.869,80.6,1.0,100% sjanse,
+261,Iwobi,FUL,MID,5.4,7,0.928,0.928,0.869,77.5,1.0,,
+239,Garner,EVE,MID,6.0,7,0.923,0.929,0.864,78.2,1.0,100% sjanse,
+257,Bassey,FUL,DEF,4.5,7,0.922,0.922,0.863,83.0,1.0,,
+335,Stach,LEE,MID,6.0,7,0.922,0.922,0.863,81.4,1.0,,
+259,Diop,IPS,DEF,3.9,7,0.917,0.917,0.858,82.3,1.0,,
+366,Wirtz,LIV,MID,7.2,7,0.916,0.916,0.857,73.4,1.0,,
+127,Gomez,BHA,MID,5.0,7,0.91,0.91,0.852,76.9,1.0,,
+350,A.Becker,LIV,GK,5.5,7,0.91,0.91,0.852,81.9,1.0,,
+385,Trafford,LEE,GK,5.0,7,0.908,0.908,0.85,80.2,1.0,,
+362,Jacquet,LIV,DEF,5.1,7,0.908,0.908,0.85,76.4,1.0,100% sjanse,
+280,Coyle,HUL,DEF,4.0,7,0.908,0.908,0.85,69.9,1.0,100% sjanse,
+567,Horníček,NEW,GK,5.0,7,0.908,0.908,0.85,80.2,1.0,,
+486,McAtee,NFO,MID,5.5,7,0.908,0.908,0.85,76.2,1.0,,
+304,O'Shea,IPS,DEF,4.0,7,0.908,0.908,0.85,80.2,1.0,,
+316,Emersonn,IPS,FWD,5.6,7,0.908,0.908,0.85,63.4,1.0,100% sjanse,
+566,Silva,BOU,DEF,5.0,7,0.908,0.908,0.85,80.2,1.0,,
+569,Gonzalo,FUL,FWD,6.1,7,0.908,0.908,0.85,76.7,1.0,,
+173,Thomas,COV,DEF,4.0,7,0.908,0.908,0.85,78.9,1.0,,
+110,Rushworth,COV,GK,4.5,7,0.908,0.908,0.85,80.2,1.0,,
+184,Grimes,COV,MID,4.8,7,0.908,0.908,0.85,78.7,1.0,,
+176,Dasilva,COV,DEF,4.0,7,0.908,0.908,0.85,79.6,1.0,,
+334,Muharemović,LEE,DEF,5.0,7,0.908,0.908,0.85,80.2,1.0,,
+305,Davis,IPS,DEF,4.0,7,0.908,0.908,0.85,80.2,1.0,,
+591,Enciso,IPS,MID,5.5,7,0.908,0.908,0.85,73.1,1.0,100% sjanse,
+572,Tzolakis,HUL,GK,4.7,7,0.908,0.908,0.85,80.2,1.0,,
+279,Ajayi,HUL,DEF,4.2,7,0.908,0.908,0.85,77.5,1.0,100% sjanse,
+277,Egan,HUL,DEF,4.1,7,0.908,0.908,0.85,78.9,1.0,,
+290,Slater,HUL,MID,4.5,7,0.908,0.908,0.85,75.6,1.0,,
+295,McBurnie,HUL,FWD,5.5,7,0.908,0.908,0.85,79.3,1.0,,
+504,Vuskovic,BHA,DEF,5.1,7,0.908,0.908,0.85,78.9,1.0,,
+472,Murillo,NFO,DEF,5.5,7,0.904,0.904,0.846,80.3,1.0,100% sjanse,
+113,F.Kadıoğlu,BHA,DEF,4.4,7,0.899,0.899,0.841,77.5,1.0,100% sjanse,
+449,Hall,NEW,DEF,5.3,7,0.898,0.898,0.84,80.0,1.0,,
+390,Rúben,MCI,DEF,5.5,7,0.898,0.898,0.84,80.4,1.0,,
+154,Palmer,CHE,MID,9.7,7,0.898,0.898,0.84,77.5,1.0,100% sjanse,
+533,Mukiele,SUN,DEF,5.4,7,0.892,0.892,0.834,79.6,1.0,100% sjanse,
+332,Justin,LEE,DEF,4.5,7,0.887,0.887,0.83,77.8,1.0,,
+8,Calafiori,ARS,DEF,6.0,7,0.886,0.886,0.829,72.5,1.0,,
+86,Lewis-Potter,BRE,MID,5.5,7,0.886,0.886,0.829,69.8,1.0,,
+214,Kamada,CRY,MID,5.0,7,0.886,0.886,0.829,75.9,1.0,,
+60,Hill,BOU,DEF,5.5,7,0.886,0.886,0.829,79.4,1.0,,
+41,Buendía,AVL,MID,5.9,7,0.88,0.88,0.823,65.6,1.0,,
+249,Barry,EVE,FWD,5.7,7,0.88,0.88,0.823,72.7,1.0,,
+447,Botman,NEW,DEF,5.0,7,0.88,0.88,0.823,78.1,1.0,,
+88,Kayode,BRE,DEF,4.6,7,0.876,0.893,0.82,69.4,1.0,,
+156,Neto,CHE,MID,6.5,7,0.875,0.885,0.818,71.6,1.0,,
+87,Ajer,BRE,DEF,4.5,7,0.874,0.874,0.818,77.4,1.0,,
+265,Berge,FUL,MID,4.9,7,0.874,0.888,0.818,73.4,1.0,,
+418,Maguire,MUN,DEF,4.8,7,0.868,0.868,0.812,77.0,1.0,,
+453,Barnes,NEW,MID,6.1,7,0.868,0.868,0.812,76.0,1.0,,
+200,Lacroix,CHE,DEF,5.9,7,0.865,0.883,0.809,77.8,1.0,,
+211,Yeremy,CRY,MID,5.5,7,0.859,0.87,0.803,60.3,1.0,,
+237,Ndiaye,MCI,MID,5.8,7,0.857,0.876,0.802,70.9,1.0,,
+115,De Cuyper,BHA,DEF,5.3,7,0.856,0.856,0.801,68.4,1.0,,
+47,Kamara,AVL,MID,5.0,7,0.856,0.856,0.801,74.8,1.0,100% sjanse,
+15,Ødegaard,ARS,MID,6.8,7,0.85,0.85,0.795,66.2,1.0,,
+459,L.Miley,NEW,MID,5.5,7,0.844,0.844,0.79,67.5,1.0,100% sjanse,
+268,King,FUL,MID,5.6,7,0.844,0.844,0.79,66.3,1.0,,
+138,Kostoulas,BHA,FWD,5.7,7,0.839,0.852,0.785,65.3,1.0,,
+183,Rudoni,COV,MID,4.9,7,0.839,0.852,0.785,64.2,1.0,100% sjanse,
+597,Suzuki,AVL,GK,5.0,7,0.839,0.839,0.785,73.9,1.0,,
+166,N.Jackson,AVL,FWD,6.6,7,0.839,0.839,0.785,66.1,1.0,,
+588,Khalaili,CRY,DEF,5.0,7,0.839,0.852,0.785,72.5,1.0,100% sjanse,
+558,Schlager,NFO,MID,5.0,7,0.839,0.852,0.785,71.5,1.0,,
+483,Ndoye,NFO,MID,5.5,7,0.838,0.838,0.784,56.0,1.0,,
+64,Smith,BOU,DEF,4.5,7,0.838,0.838,0.784,69.0,1.0,,
+31,Konsa,ARS,DEF,4.6,7,0.826,0.843,0.773,74.5,1.0,100% sjanse,
+37,Lindelöf,AVL,DEF,4.5,7,0.825,0.825,0.772,72.9,1.0,,
+165,João Pedro,CHE,FWD,7.9,7,0.821,0.821,0.768,70.3,1.0,100% sjanse,
+264,Bobb,FUL,MID,5.5,7,0.82,0.82,0.767,58.0,1.0,,
+358,Kerkez,LIV,DEF,5.3,7,0.816,0.841,0.763,69.7,1.0,,
+149,Colwill,CHE,DEF,4.8,7,0.811,0.811,0.758,69.5,1.0,,
+336,Okafor,LEE,MID,5.8,7,0.811,0.826,0.759,57.2,1.0,,
+331,Gudmundsson,LEE,DEF,4.5,7,0.81,0.81,0.758,69.5,1.0,100% sjanse,
+233,Mykolenko,EVE,DEF,4.6,7,0.81,0.81,0.758,72.9,1.0,100% sjanse,
+114,Boscagli,BHA,DEF,4.5,7,0.808,0.808,0.756,67.6,1.0,,
+105,Anthony,BRE,MID,5.9,7,0.805,0.843,0.753,60.9,1.0,,
+129,Ayari,BHA,MID,5.4,7,0.803,0.803,0.751,67.5,1.0,100% sjanse,
+496,Kinsky,TOT,GK,4.5,7,0.796,0.796,0.744,71.6,1.0,,
+230,Branthwaite,EVE,DEF,5.5,7,0.796,0.796,0.744,71.2,1.0,100% sjanse,
+26,Havertz,ARS,FWD,7.5,7,0.796,0.796,0.744,60.8,1.0,100% sjanse,
+480,Gibbs-White,NFO,MID,7.9,7,0.796,0.796,0.744,70.9,1.0,100% sjanse,
+244,Armstrong,EVE,MID,5.0,7,0.789,0.789,0.739,66.1,1.0,100% sjanse,
+481,Anderson,MCI,MID,6.3,7,0.788,0.836,0.737,67.9,1.0,100% sjanse,
+201,Muñoz,NFO,DEF,5.3,7,0.784,0.808,0.733,64.4,1.0,,
+372,Mac Allister,LIV,MID,5.4,7,0.78,0.827,0.73,66.9,1.0,,
+650,Affengruber,FUL,DEF,4.5,5,0.777,0.777,0.727,67.9,1.0,,
+649,Maitland-Niles,EVE,DEF,4.5,5,0.777,0.807,0.727,60.0,1.0,,
+634,Fernandez-Pardo,NEW,FWD,6.0,5,0.777,0.807,0.727,57.5,1.0,,
+464,Wissa,NEW,FWD,6.1,7,0.777,0.777,0.727,64.7,1.0,,
+94,Schade,BRE,MID,6.2,7,0.777,0.828,0.727,65.2,1.0,100% sjanse,
+627,Barcola,LIV,MID,8.0,5,0.777,0.807,0.727,63.1,1.0,,
+536,Reinildo,SUN,DEF,4.4,7,0.773,0.773,0.723,66.5,1.0,100% sjanse,
+175,van Ewijk,COV,DEF,3.9,7,0.77,0.77,0.721,67.8,1.0,100% sjanse,
+167,Delap,NFO,FWD,5.5,7,0.77,0.792,0.721,60.8,1.0,,
+222,Strand Larsen,CRY,FWD,6.0,7,0.766,0.811,0.717,58.0,1.0,,
+503,Van de Ven,TOT,DEF,5.0,7,0.763,0.808,0.714,68.8,1.0,100% sjanse,
+428,Cunha,MUN,MID,7.9,7,0.759,0.814,0.71,63.9,1.0,,
+598,Elvedi,LEE,DEF,4.5,7,0.757,0.78,0.708,66.3,1.0,,
+579,Araujo,LIV,DEF,5.4,7,0.757,0.8,0.708,58.6,1.0,,
+91,Pinnock,COV,DEF,4.5,7,0.757,0.78,0.708,66.9,1.0,,
+580,Charles,FUL,MID,5.0,7,0.757,0.8,0.708,63.8,1.0,,
+45,McGinn,AVL,MID,5.4,7,0.753,0.809,0.705,64.4,1.0,,
+73,Adams,BOU,MID,5.0,7,0.749,0.793,0.701,62.8,1.0,100% sjanse,
+203,Canvot,CRY,DEF,4.8,7,0.744,0.744,0.696,66.5,1.0,,
+286,Belloumi,HUL,MID,5.2,7,0.744,0.793,0.696,61.2,1.0,,
+32,Cash,AVL,DEF,4.4,7,0.738,0.78,0.691,64.6,1.0,100% sjanse,
+258,Castagne,FUL,DEF,4.5,7,0.732,0.732,0.685,61.3,1.0,,
+289,Crooks,HUL,MID,4.4,7,0.728,0.728,0.682,51.9,1.0,100% sjanse,
+417,Dalot,MUN,DEF,4.8,7,0.726,0.8,0.68,63.3,1.0,,
+405,N.Gonzalez,NEW,MID,5.5,7,0.725,0.725,0.678,52.3,1.0,100% sjanse,
+668,Tutierov,SUN,MID,5.0,1,0.724,0.724,0.677,53.7,1.0,,
+254,Robinson,FUL,DEF,4.4,7,0.714,0.714,0.668,61.1,1.0,100% sjanse,
+282,Giles,HUL,DEF,4.0,7,0.713,0.778,0.667,61.0,1.0,,
+551,N.Angulo,SUN,MID,5.0,7,0.713,0.713,0.667,49.0,1.0,,
+345,Tanaka,LEE,MID,4.9,7,0.707,0.735,0.662,52.1,1.0,,
+575,Yirenkyi,COV,MID,4.8,7,0.694,0.77,0.65,53.1,1.0,,
+10,White,ARS,DEF,5.4,7,0.688,0.688,0.644,50.3,1.0,100% sjanse,
+116,Dunk,BHA,DEF,4.5,7,0.679,0.74,0.635,62.1,1.0,100% sjanse,
+644,Timber,CRY,MID,5.0,5,0.669,0.669,0.626,52.8,0.75,75% sjanse,Hamstring injury - 75% chance of playing
+379,Isak,LIV,FWD,9.0,7,0.659,0.659,0.617,52.7,1.0,100% sjanse,
+581,Diomande,NFO,DEF,5.4,7,0.659,0.698,0.617,56.3,1.0,,
+199,Benitez,CRY,GK,4.5,7,0.659,0.659,0.617,57.6,1.0,,
+522,Gray,TOT,MID,4.9,7,0.658,0.713,0.616,54.8,1.0,,
+534,Hume,SUN,DEF,4.3,7,0.654,0.749,0.612,58.6,1.0,,
+562,Maeda,IPS,MID,5.3,7,0.654,0.756,0.612,51.4,1.0,,
+460,Willock,NEW,MID,5.0,7,0.653,0.728,0.611,45.4,1.0,,
+186,Mason-Clark,COV,MID,5.3,7,0.644,0.724,0.602,43.3,1.0,100% sjanse,
+639,Andrés,BHA,MID,5.5,5,0.64,0.699,0.599,55.9,1.0,,
+642,Thomas,HUL,MID,5.5,5,0.64,0.748,0.599,50.4,1.0,,
+399,Cherki,MCI,MID,8.0,7,0.639,0.668,0.598,47.9,1.0,,
+619,Palacios,IPS,MID,5.0,6,0.637,0.749,0.596,55.2,1.0,,
+155,Enzo,MCI,MID,6.9,7,0.626,0.741,0.586,54.3,1.0,,
+54,Gomes,AVL,MID,5.5,7,0.612,0.612,0.573,45.9,1.0,100% sjanse,
+33,Mings,AVL,DEF,4.5,7,0.612,0.696,0.573,55.8,1.0,,
+194,Thomas-Asante,COV,FWD,5.0,7,0.612,0.745,0.573,52.4,1.0,,
+306,Greaves,IPS,DEF,3.9,7,0.606,0.606,0.567,52.9,1.0,,
+526,Solanke,TOT,FWD,5.8,7,0.604,0.718,0.565,49.6,1.0,,
+209,Johnson,EVE,MID,5.9,7,0.586,0.752,0.548,44.2,1.0,,
+419,Martinez,MUN,DEF,4.9,7,0.579,0.579,0.542,48.4,0.75,75% sjanse,Thigh injury - 75% chance of playing
+101,Henderson,CHE,MID,4.9,7,0.574,0.574,0.537,49.1,1.0,100% sjanse,
+473,Aina,NFO,DEF,4.3,7,0.573,0.573,0.537,46.2,1.0,,
+148,Hato,CHE,DEF,4.5,7,0.564,0.564,0.528,40.4,1.0,,
+267,Lukić,IPS,MID,4.9,7,0.559,0.559,0.523,45.3,0.75,75% sjanse,Groin injury - 75% chance of playing
+389,Matheus N.,MCI,DEF,5.9,7,0.548,0.564,0.513,47.8,0.75,75% sjanse,Unspecified injury - 75% chance of playing
+315,Fatawu,IPS,MID,5.4,7,0.548,0.651,0.513,42.3,1.0,100% sjanse,
+474,Jair Cunha,NFO,DEF,4.4,7,0.547,0.547,0.512,45.8,1.0,100% sjanse,
+398,Foden,MCI,MID,6.8,7,0.546,0.597,0.511,40.5,1.0,100% sjanse,
+238,Grealish,EVE,MID,6.5,7,0.546,0.695,0.511,48.9,1.0,100% sjanse,
+300,Walton,IPS,GK,4.4,7,0.543,0.543,0.508,47.2,1.0,,
+592,Ouattara,IPS,DEF,4.0,7,0.543,0.736,0.508,50.6,1.0,,
+391,Gvardiol,MCI,DEF,5.8,7,0.539,0.731,0.504,49.5,1.0,,
+367,Gakpo,LIV,MID,7.1,7,0.535,0.597,0.5,46.1,1.0,100% sjanse,
+541,Meunier,SUN,DEF,4.5,7,0.535,0.535,0.5,39.7,0.75,75% sjanse,Groin injury - 75% chance of playing
+377,Munoz,LIV,MID,6.5,7,0.526,0.58,0.492,41.9,0.75,75% sjanse,Knee injury - 75% chance of playing
+371,Gravenberch,LIV,MID,5.8,7,0.514,0.693,0.481,41.2,1.0,100% sjanse,
+159,Caicedo,CHE,MID,5.3,7,0.511,0.558,0.478,43.4,1.0,100% sjanse,
+151,Acheampong,CHE,DEF,4.5,7,0.51,0.635,0.478,44.9,1.0,,
+401,Marmoush,TOT,FWD,7.0,7,0.506,0.553,0.474,40.9,0.75,75% sjanse,Calf injury - 75% chance of playing
+145,Fofana,CHE,DEF,5.0,7,0.503,0.503,0.471,39.5,1.0,100% sjanse,
+7,Lewis-Skelly,ARS,MID,5.4,7,0.495,0.495,0.463,35.7,1.0,,
+75,Christie,BOU,MID,5.0,7,0.492,0.666,0.46,39.2,1.0,100% sjanse,
+502,Robertson,TOT,DEF,4.4,7,0.49,0.519,0.458,40.0,0.75,75% sjanse,Foot injury - 75% chance of playing
+457,J.Murphy,NEW,MID,5.9,7,0.484,0.633,0.453,35.8,1.0,,
+431,Amad,MUN,MID,5.7,7,0.481,0.481,0.45,37.6,1.0,100% sjanse,
+95,O.Dango,BRE,MID,6.2,7,0.471,0.778,0.441,36.0,1.0,,
+519,Gallagher,TOT,MID,5.3,7,0.469,0.674,0.439,37.6,1.0,,
+387,O'Reilly,MCI,DEF,6.3,7,0.468,0.551,0.438,36.4,0.75,75% sjanse,Back injury - 75% chance of playing
+104,Onyeka,COV,MID,4.8,7,0.466,0.689,0.436,41.1,1.0,100% sjanse,
+12,Saka,ARS,MID,9.6,7,0.452,0.452,0.423,38.2,0.5,50% sjanse,Thigh injury - 50% chance of playing
+471,Milenković,NFO,DEF,5.4,7,0.445,0.445,0.417,40.1,1.0,100% sjanse,
+571,Florentino,IPS,MID,4.8,7,0.444,0.608,0.415,35.2,1.0,100% sjanse,
+552,Brobbey,SUN,FWD,5.7,7,0.439,0.439,0.411,34.9,0.75,75% sjanse,Hamstring injury - 75% chance of playing
+512,Kudus,TOT,MID,6.5,7,0.433,0.718,0.405,38.9,1.0,100% sjanse,
+246,Röhl,EVE,MID,4.9,7,0.431,0.431,0.403,36.2,1.0,100% sjanse,
+96,Damsgaard,BRE,MID,5.3,7,0.427,0.68,0.399,38.2,1.0,100% sjanse,
+420,Yoro,MUN,DEF,4.8,7,0.427,0.546,0.399,35.3,1.0,,
+36,Maatsen,AVL,DEF,4.4,7,0.425,0.425,0.398,35.3,1.0,100% sjanse,
+633,Ahanor,CRY,DEF,4.5,5,0.42,0.554,0.393,34.6,1.0,,
+452,Bruno G.,ARS,MID,6.7,7,0.417,0.662,0.39,35.6,1.0,100% sjanse,
+84,Collins,BRE,DEF,5.4,7,0.415,0.415,0.389,31.2,1.0,100% sjanse,
+161,Lavia,CHE,MID,5.0,7,0.41,0.656,0.384,33.2,1.0,,
+564,Scherpen,IPS,GK,4.5,7,0.41,0.41,0.384,35.9,1.0,,
+242,George,EVE,MID,5.5,7,0.41,0.75,0.384,37.6,1.0,,
+576,Stroud,HUL,MID,4.9,7,0.41,0.523,0.384,30.3,1.0,,
+565,M.Sangaré,BRE,MID,5.5,7,0.41,0.75,0.384,37.8,1.0,,
+593,Dedić,NEW,DEF,4.5,7,0.41,0.523,0.384,35.6,1.0,100% sjanse,
+51,George Hemmings,AVL,MID,4.5,7,0.41,0.505,0.384,32.0,1.0,100% sjanse,
+53,Manzambi,AVL,MID,6.0,7,0.407,0.453,0.381,32.7,0.75,75% sjanse,Calf injury - 75% chance of playing
+599,Cherif,COV,FWD,5.0,7,0.405,0.485,0.379,31.8,1.0,,
+97,Jensen,BRE,MID,5.4,7,0.393,0.508,0.367,28.9,1.0,100% sjanse,
+70,Kluivert,BOU,MID,5.9,7,0.383,0.523,0.358,30.5,1.0,100% sjanse,
+525,Fernandes,TOT,MID,5.7,7,0.382,0.759,0.357,34.3,1.0,,
+585,Herrington,HUL,DEF,4.0,7,0.379,0.642,0.354,33.0,1.0,,
+535,Alderete,SUN,DEF,4.8,7,0.369,0.419,0.345,29.2,1.0,100% sjanse,
+46,Barkley,AVL,MID,5.0,7,0.365,0.731,0.341,34.2,1.0,100% sjanse,
+253,Andersen,FUL,DEF,5.0,7,0.362,0.464,0.338,33.9,1.0,100% sjanse,
+429,Rashford,MUN,MID,6.9,7,0.36,0.465,0.336,30.1,0.75,75% sjanse,Hip injury - 75% chance of playing
+85,Van den Berg,BRE,DEF,4.9,7,0.357,0.357,0.334,29.7,1.0,100% sjanse,
+71,Cook,BOU,MID,5.0,7,0.355,0.741,0.332,34.1,1.0,,
+93,Schuster,BRE,DEF,4.5,7,0.348,0.393,0.325,27.9,0.75,75% sjanse,Ankle injury - 75% chance of playing
+34,Pau,AVL,DEF,4.4,7,0.347,0.495,0.324,27.8,1.0,100% sjanse,
+605,Yalcouyé,BHA,MID,4.5,7,0.341,0.774,0.319,34.4,1.0,,
+498,Senesi,TOT,DEF,5.7,7,0.338,0.338,0.316,30.1,1.0,,
+231,Keane,EVE,DEF,4.7,7,0.324,0.324,0.303,28.9,1.0,,
+337,Aaronson,LEE,MID,5.3,7,0.319,0.726,0.298,29.5,1.0,,
+492,Awoniyi,COV,FWD,5.4,7,0.317,0.526,0.297,25.9,1.0,100% sjanse,
+458,Joelinton,NEW,MID,5.4,7,0.315,0.445,0.294,28.6,1.0,100% sjanse,
+393,Khusanov,MCI,DEF,5.3,7,0.313,0.468,0.293,30.1,1.0,,
+153,Disasi,CRY,DEF,4.4,7,0.311,0.376,0.291,24.6,1.0,100% sjanse,
+162,Andrey Santos,MUN,MID,4.7,7,0.31,0.454,0.29,25.6,1.0,,
+14,Eze,ARS,MID,6.2,7,0.309,0.634,0.289,25.6,1.0,,
+514,Tel,TOT,MID,5.6,7,0.301,0.553,0.281,27.7,1.0,,
+328,Struijk,BHA,DEF,4.9,7,0.3,0.411,0.28,25.8,0.75,75% sjanse,Hamstring injury - 75% chance of playing
+313,Clarke,IPS,MID,5.3,7,0.299,0.727,0.28,29.4,1.0,,
+144,Gusto,CHE,DEF,4.9,7,0.296,0.434,0.277,26.2,0.75,75% sjanse,Illness - 75% chance of playing
+5,J.Timber,ARS,DEF,6.5,7,0.295,0.684,0.276,29.5,1.0,100% sjanse,
+224,Nketiah,CRY,FWD,5.4,7,0.294,0.701,0.275,26.7,1.0,100% sjanse,
+570,Palacios,FUL,MID,5.3,7,0.294,0.567,0.275,26.7,1.0,,
+400,Doku,MCI,MID,7.5,7,0.29,0.539,0.272,27.2,1.0,100% sjanse,
+638,Norton-Cuffy,HUL,DEF,3.9,5,0.283,0.499,0.265,25.7,1.0,100% sjanse,
+487,Dominguez,NFO,MID,4.8,7,0.278,0.347,0.261,19.2,1.0,,
+256,Tete,FUL,DEF,4.4,7,0.276,0.373,0.258,25.6,1.0,100% sjanse,
+620,Diouf,BRE,DEF,4.5,6,0.268,0.683,0.251,31.1,1.0,,
+327,Bijol,LEE,DEF,5.0,7,0.264,0.488,0.247,24.1,1.0,,
+131,Baleba,MUN,MID,4.9,7,0.263,0.404,0.246,20.5,1.0,100% sjanse,
+583,Chavarria,CHE,DEF,4.9,7,0.261,0.468,0.244,26.1,0.75,75% sjanse,Unspecified injury - 75% chance of playing
+213,Lerma,CRY,MID,4.8,7,0.258,0.644,0.241,27.2,1.0,,
+616,Bouaddi,MCI,MID,5.5,6,0.258,0.58,0.242,27.6,1.0,,
+462,Steur,NEW,MID,4.8,7,0.252,0.509,0.236,22.5,1.0,,
+16,Madueke,ARS,MID,6.2,7,0.245,0.562,0.23,23.5,1.0,,
+656,Mfuni,COV,DEF,4.0,4,0.244,0.446,0.228,24.3,1.0,,
+548,Rigg,SUN,MID,4.8,7,0.242,0.375,0.227,18.1,1.0,,
+515,Maddison,TOT,MID,6.2,7,0.24,0.67,0.225,26.2,1.0,100% sjanse,
+52,Alysson,AVL,MID,4.9,7,0.24,0.706,0.225,25.0,1.0,100% sjanse,
+185,Sakamoto,COV,MID,4.8,7,0.24,0.457,0.225,23.2,1.0,,
+506,Udogie,TOT,DEF,4.4,7,0.238,0.328,0.223,19.5,0.75,75% sjanse,Knee injury - 75% chance of playing
+74,Brooks,BOU,MID,5.0,7,0.227,0.616,0.213,20.4,1.0,100% sjanse,
+198,Henderson,CRY,GK,4.9,7,0.223,0.223,0.208,20.0,0.5,50% sjanse,Foot injury - 50% chance of playing
+232,O'Brien,EVE,DEF,4.8,7,0.218,0.597,0.204,25.6,1.0,,
+223,Mateta,CRY,FWD,6.3,7,0.217,0.395,0.203,19.4,1.0,100% sjanse,
+488,I.Sangaré,NFO,MID,4.8,7,0.217,0.774,0.203,28.2,1.0,100% sjanse,
+19,Zubimendi,ARS,MID,5.2,7,0.212,0.672,0.198,26.0,1.0,100% sjanse,
+136,Welbeck,CHE,FWD,5.8,7,0.212,0.736,0.198,25.4,1.0,100% sjanse,
+340,Gelhardt,HUL,MID,5.0,7,0.209,0.515,0.196,21.4,1.0,100% sjanse,
+381,Koumas,LIV,MID,5.0,7,0.209,0.668,0.196,24.8,1.0,,
+318,Philogene,IPS,MID,5.4,7,0.209,0.442,0.196,19.9,1.0,100% sjanse,
+612,Methalie,SUN,DEF,4.5,6,0.197,0.363,0.184,19.6,1.0,100% sjanse,
+309,Núñez,IPS,MID,4.8,7,0.196,0.196,0.184,15.0,1.0,,
+190,Tchaouna,COV,MID,5.3,7,0.195,0.415,0.182,17.6,1.0,,
+11,Mosquera,ARS,DEF,5.2,7,0.192,0.192,0.18,15.2,1.0,100% sjanse,
+123,Hinshelwood,BHA,MID,5.9,7,0.187,0.371,0.175,16.6,1.0,100% sjanse,
+125,Georginio,BHA,FWD,5.3,7,0.187,0.656,0.175,23.6,1.0,100% sjanse,
+568,Barco,CHE,MID,5.4,7,0.183,0.371,0.171,18.6,1.0,,
+406,Kovačić,MCI,MID,5.3,7,0.18,0.28,0.169,14.6,0.75,75% sjanse,Unspecified injury - 75% chance of playing
+442,Pope,NEW,GK,4.9,7,0.17,0.17,0.159,15.2,1.0,,
+147,Tosin,TOT,DEF,4.4,7,0.169,0.247,0.158,14.4,0.75,75% sjanse,Calf injury - 75% chance of playing
+25,Gyökeres,ARS,FWD,7.0,7,0.164,0.741,0.153,22.6,1.0,,
+364,Tsimikas,LIV,DEF,4.9,7,0.161,0.241,0.151,12.7,1.0,,
+448,Burn,NEW,DEF,4.8,7,0.158,0.509,0.148,19.8,1.0,100% sjanse,
+90,Hickey,BRE,DEF,4.5,7,0.156,0.886,0.146,23.6,1.0,,
+260,Wilson,LEE,MID,6.2,7,0.155,0.606,0.145,19.7,1.0,100% sjanse,
+208,Sarr,CRY,MID,6.2,7,0.152,0.449,0.142,18.2,1.0,100% sjanse,
+262,Smith Rowe,FUL,MID,5.3,7,0.14,0.599,0.131,18.3,1.0,,
+482,Hudson-Odoi,NFO,MID,5.7,7,0.134,0.577,0.125,17.8,1.0,100% sjanse,
+422,Mazraoui,MUN,DEF,4.3,7,0.133,0.51,0.124,16.5,1.0,100% sjanse,
+255,J.Cuenca,FUL,DEF,4.4,7,0.133,0.133,0.124,11.4,1.0,,
+563,Morita,HUL,MID,4.9,7,0.127,0.491,0.119,15.3,1.0,100% sjanse,
+212,Hughes,CRY,MID,4.3,7,0.121,0.538,0.114,16.2,1.0,,
+465,Osula,NEW,FWD,5.8,7,0.115,0.484,0.107,14.5,1.0,100% sjanse,
+195,Simms,COV,FWD,4.9,7,0.114,0.525,0.107,16.1,1.0,,
+395,Lewis,MCI,DEF,4.3,7,0.114,0.114,0.107,8.4,1.0,,
+247,Hackney,EVE,MID,5.4,7,0.114,0.729,0.107,20.1,1.0,100% sjanse,
+241,McNeil,CRY,MID,5.3,7,0.11,0.566,0.103,15.9,1.0,,
+553,Isidor,SUN,FWD,5.5,7,0.108,0.336,0.101,12.4,0.5,50% sjanse,Knock - 50% chance of playing
+9,Hincapie,ARS,DEF,5.2,7,0.103,0.351,0.096,13.2,0.75,75% sjanse,Ankle injury - 75% chance of playing
+29,M.Bizot,AVL,GK,4.5,7,0.103,0.103,0.096,9.2,1.0,100% sjanse,
+549,Talbi,SUN,MID,5.3,7,0.103,0.175,0.097,9.4,1.0,,
+421,Heaven,MUN,DEF,4.3,7,0.1,0.224,0.093,10.5,0.75,75% sjanse,Illness - 75% chance of playing
+344,Gruev,LEE,MID,5.0,7,0.097,0.097,0.091,7.7,1.0,100% sjanse,
+369,Ngumoha,LIV,MID,5.7,7,0.097,0.681,0.091,17.0,1.0,,
+539,O'Nien,SUN,DEF,3.9,7,0.097,0.301,0.091,11.5,1.0,,
+543,Diarra,SUN,MID,5.3,7,0.097,0.46,0.091,14.7,1.0,100% sjanse,
+62,Diakité,BOU,DEF,4.9,7,0.097,0.302,0.091,11.8,1.0,,
+497,Dubravka,TOT,GK,4.0,7,0.091,0.091,0.086,8.2,1.0,,
+89,Henry,BRE,DEF,4.4,7,0.091,0.178,0.085,8.8,1.0,,
+416,De Ligt,MUN,DEF,4.9,7,0.085,0.085,0.08,7.7,1.0,100% sjanse,
+392,Aït-Nouri,MCI,DEF,5.2,7,0.079,0.079,0.074,6.1,1.0,,
+430,Mount,MUN,MID,5.4,7,0.079,0.435,0.074,11.8,1.0,100% sjanse,
+157,Estêvão,CHE,MID,6.3,7,0.079,0.704,0.074,15.4,1.0,,
+35,Bogarde,AVL,MID,4.9,7,0.073,0.147,0.068,7.1,1.0,,
+446,Schär,NEW,DEF,4.9,7,0.073,0.296,0.068,10.4,1.0,100% sjanse,
+490,Wood,NFO,FWD,5.7,7,0.073,0.912,0.068,20.2,1.0,,
+663,Pivas,NEW,DEF,4.0,3,0.071,0.071,0.066,5.8,1.0,,
+589,Gourna-Douath,HUL,MID,4.9,7,0.071,0.181,0.067,7.8,0.5,50% sjanse,Calf injury - 50% chance of playing
+660,Fredrick,BRE,DEF,4.0,3,0.071,0.071,0.066,5.8,1.0,,
+666,Thompson,NEW,MID,4.5,3,0.071,0.071,0.066,5.8,1.0,,
+664,Salia,NEW,FWD,4.5,3,0.071,0.071,0.066,5.8,1.0,,
+665,Mills,NEW,MID,4.5,3,0.071,0.071,0.066,5.8,1.0,,
+667,Wright,AVL,GK,4.0,3,0.071,0.071,0.066,5.8,1.0,,
+662,Nicoll-Jazuli,CHE,MID,4.5,3,0.071,0.329,0.066,10.4,1.0,,
+661,Balcombe,BRE,GK,4.0,3,0.071,0.071,0.066,5.8,1.0,,
+77,Adli,BOU,MID,4.8,7,0.069,0.28,0.064,8.7,1.0,100% sjanse,
+17,Merino,ARS,MID,5.7,7,0.067,1.0,0.063,21.6,1.0,,
+339,Longstaff,LEE,MID,4.8,7,0.067,0.479,0.063,12.9,1.0,,
+347,Nmecha,LEE,FWD,5.3,7,0.067,0.925,0.063,19.9,1.0,,
+351,Mamardashvili,LIV,GK,4.8,7,0.067,0.067,0.063,5.8,1.0,,
+271,Muniz,FUL,FWD,5.3,7,0.067,0.7,0.063,16.2,1.0,,
+263,Kevin,FUL,MID,5.3,7,0.066,0.683,0.062,15.4,1.0,,
+640,Flemming,IPS,FWD,5.5,5,0.066,1.0,0.062,21.8,1.0,,
+42,Guessand,CRY,MID,5.4,7,0.061,0.226,0.057,7.1,1.0,,
+657,Nunes,BRE,MID,4.5,4,0.06,0.06,0.056,4.9,1.0,,
+655,Gboho,COV,MID,5.5,4,0.06,0.06,0.056,4.9,1.0,,
+78,Kroupi.Jr,BOU,MID,7.3,7,0.06,0.06,0.056,4.2,0.5,50% sjanse,Foot injury - 50% chance of playing
+659,Miley,NEW,MID,4.5,4,0.06,0.06,0.056,4.9,1.0,,
+658,Ibrahim,BHA,MID,4.5,4,0.06,0.06,0.056,4.9,1.0,,
+325,Darlow,MUN,GK,4.5,7,0.058,0.058,0.055,5.3,1.0,100% sjanse,
+651,J.Angulo,SUN,FWD,4.5,5,0.053,0.272,0.05,8.2,1.0,,
+653,Samba,MCI,MID,4.4,5,0.053,0.053,0.05,4.4,1.0,,
+647,Osorio,CRY,MID,5.4,5,0.053,0.183,0.05,6.7,1.0,,
+643,Chilwell,CRY,DEF,4.4,5,0.053,0.338,0.05,9.4,1.0,100% sjanse,
+631,Mbaye,AVL,MID,6.0,5,0.053,0.87,0.05,18.8,1.0,,
+630,Harwood-Bellis,AVL,DEF,4.5,5,0.053,0.053,0.05,4.4,1.0,,
+636,Ángel,FUL,MID,5.0,5,0.053,0.272,0.05,8.2,1.0,,
+654,Graham,EVE,MID,4.5,5,0.053,0.053,0.05,4.4,1.0,,
+628,Allan,MCI,MID,6.0,5,0.053,0.272,0.05,8.2,1.0,,
+641,Bard,LEE,DEF,4.5,5,0.053,0.208,0.05,7.1,1.0,,
+629,Zetterer,LEE,GK,4.0,5,0.053,0.053,0.05,4.4,1.0,,
+648,Bahoya,LEE,MID,4.9,5,0.053,0.455,0.05,11.5,1.0,100% sjanse,
+645,Mouzakitis,HUL,MID,5.0,5,0.053,0.053,0.05,4.4,1.0,,
+646,Fofana,SUN,MID,5.5,5,0.053,0.74,0.05,16.5,1.0,,
+359,Gomez,LIV,DEF,4.9,7,0.049,0.445,0.046,10.1,1.0,100% sjanse,
+623,Bentley,COV,GK,4.0,6,0.048,0.048,0.045,4.0,1.0,,
+615,Di Gregorio,BOU,GK,4.5,6,0.048,0.048,0.045,4.0,1.0,,
+625,Cairns,LEE,GK,4.0,6,0.048,0.048,0.045,4.0,1.0,,
+626,Zepa,FUL,MID,4.4,6,0.048,0.048,0.045,4.0,1.0,,
+622,Braithwaite,MCI,DEF,3.9,6,0.048,0.147,0.045,5.7,1.0,,
+618,Goretzka,AVL,MID,5.9,6,0.048,0.283,0.045,8.1,1.0,100% sjanse,
+621,McAidoo,MCI,MID,4.4,6,0.048,0.264,0.045,7.8,1.0,,
+613,Ahoka,SUN,MID,4.5,6,0.048,0.283,0.045,8.1,1.0,,
+614,Hadjam,BHA,DEF,4.5,6,0.048,0.48,0.045,11.6,1.0,,
+240,Iroegbunam,HUL,MID,5.0,7,0.046,0.816,0.043,17.2,1.0,100% sjanse,
+375,Nyoni,LIV,MID,4.8,7,0.045,0.795,0.042,17.0,1.0,,
+207,Mingueza,CRY,DEF,4.3,7,0.045,0.244,0.042,7.2,1.0,,
+378,McConnell,LIV,MID,4.4,7,0.045,0.045,0.042,3.7,1.0,,
+382,Danns,LIV,FWD,4.5,7,0.045,0.045,0.042,3.7,1.0,100% sjanse,
+76,Tóth.A,BOU,MID,4.9,7,0.045,0.274,0.042,7.8,1.0,,
+476,O.Richards,NFO,DEF,3.9,7,0.045,0.045,0.042,3.7,1.0,,
+81,Rodríguez,BOU,FWD,6.0,7,0.045,0.663,0.042,14.6,1.0,100% sjanse,
+573,Sanchez,BOU,DEF,4.4,7,0.045,0.227,0.042,6.9,1.0,,
+608,Jebbison,BOU,FWD,5.0,7,0.045,0.382,0.042,9.7,1.0,,
+83,Valdimarsson,BRE,GK,4.4,7,0.045,0.045,0.042,3.7,1.0,,
+374,Endo,LIV,MID,4.8,7,0.045,0.045,0.042,3.7,1.0,100% sjanse,
+495,Austin,TOT,GK,4.0,7,0.045,0.045,0.042,3.7,1.0,,
+604,Cresswell,LEE,MID,4.5,7,0.045,0.045,0.042,3.7,1.0,,
+352,Woodman,LIV,GK,4.0,7,0.045,0.045,0.042,3.7,1.0,,
+590,Benda,NFO,GK,4.5,7,0.045,0.045,0.042,3.7,1.0,,
+493,Kalimuendo,NFO,FWD,5.4,7,0.045,0.52,0.042,12.1,1.0,,
+92,Ji-soo,BRE,DEF,4.4,7,0.045,0.045,0.042,3.7,1.0,,
+100,Carvalho,BRE,MID,5.0,7,0.045,0.198,0.042,6.4,1.0,100% sjanse,
+218,Doucouré,CRY,MID,4.8,7,0.045,0.045,0.042,3.7,1.0,,
+478,Netz,NFO,DEF,4.4,7,0.045,0.365,0.042,9.4,1.0,,
+50,Burrowes,AVL,MID,4.4,7,0.045,0.045,0.042,3.7,1.0,,
+594,David,BHA,FWD,5.9,7,0.045,0.244,0.042,7.2,1.0,,
+600,Osman,BHA,MID,4.9,7,0.045,0.341,0.042,8.9,1.0,,
+221,Drakes-Thomas,CRY,MID,4.4,7,0.045,0.045,0.042,3.7,1.0,,
+361,Lucky,LIV,DEF,4.0,7,0.045,0.045,0.042,3.7,1.0,,
+386,Bettinelli,MCI,GK,4.4,7,0.045,0.045,0.042,3.7,1.0,,
+370,Chiesa,LIV,MID,5.3,7,0.045,0.227,0.042,6.9,1.0,100% sjanse,
+355,Davies,LIV,GK,4.0,7,0.045,0.045,0.042,3.7,1.0,,
+438,Fletcher,MUN,MID,4.4,7,0.045,0.045,0.042,3.7,1.0,,
+437,Bendito Mantato,MUN,MID,4.4,7,0.045,0.045,0.042,3.7,1.0,,
+435,Lacey,MUN,MID,4.9,7,0.045,0.122,0.042,5.1,1.0,,
+434,J.Fletcher,MUN,MID,4.9,7,0.045,0.045,0.042,3.7,1.0,,
+424,Amass,MUN,DEF,4.0,7,0.045,0.045,0.042,3.7,1.0,,
+56,Abraham,AVL,FWD,5.5,7,0.045,0.526,0.042,12.2,1.0,100% sjanse,
+414,Heaton,MUN,GK,4.0,7,0.045,0.045,0.042,3.7,1.0,100% sjanse,
+245,Dibling,EVE,MID,5.3,7,0.045,0.38,0.042,9.6,1.0,,
+582,Madjo,AVL,FWD,5.4,7,0.045,0.045,0.042,3.7,1.0,100% sjanse,
+228,King,EVE,GK,4.5,7,0.045,0.045,0.042,3.7,1.0,,
+227,Travers,EVE,GK,5.0,7,0.045,0.045,0.042,3.7,1.0,,
+21,Nørgaard,EVE,MID,4.8,7,0.045,0.261,0.042,7.5,1.0,100% sjanse,
+595,Gozo,CRY,MID,4.9,7,0.045,0.265,0.042,7.6,1.0,,
+606,Rowe,AVL,DEF,4.0,7,0.045,0.045,0.042,3.7,1.0,,
+72,Gannon-Doak,BOU,MID,4.8,7,0.045,0.909,0.042,19.0,1.0,,
+603,Lienou,LEE,DEF,4.0,7,0.045,0.045,0.042,3.7,1.0,,
+270,Reed,FUL,MID,4.4,7,0.045,0.045,0.042,3.7,1.0,,
+272,Kusi-Asare,FUL,FWD,4.4,7,0.045,0.045,0.042,3.7,1.0,,
+273,Phillips,HUL,GK,4.0,7,0.045,0.045,0.042,3.7,1.0,,
+468,John,NFO,GK,4.4,7,0.045,0.045,0.042,3.7,1.0,,
+396,Vitor Reis,MCI,DEF,4.4,7,0.045,0.136,0.042,5.3,1.0,,
+559,Bamba,NEW,MID,4.8,7,0.045,0.403,0.042,10.0,1.0,,
+555,Matthews,CRY,GK,4.0,7,0.045,0.045,0.042,3.7,1.0,,
+66,Soler,BOU,DEF,4.0,7,0.045,0.227,0.042,6.9,1.0,100% sjanse,
+560,Penders,CHE,GK,4.4,7,0.045,0.261,0.042,7.5,1.0,,
+587,Rulli,MCI,GK,4.9,7,0.045,0.045,0.042,3.7,1.0,,
+169,Mheuka,CHE,FWD,4.5,7,0.045,0.045,0.042,3.7,1.0,,
+164,Quenda,CHE,MID,5.3,7,0.045,0.491,0.042,11.6,1.0,100% sjanse,
+152,Palestra,CHE,DEF,5.3,7,0.045,0.443,0.042,10.7,1.0,100% sjanse,
+251,Lecomte,FUL,GK,4.0,7,0.045,0.045,0.042,3.7,1.0,,
+461,Touré,NEW,MID,5.7,7,0.045,0.815,0.042,17.3,1.0,100% sjanse,
+58,Forster,BOU,GK,4.0,7,0.045,0.045,0.042,3.7,1.0,,
+561,Anselmino,CHE,DEF,4.5,7,0.045,0.045,0.042,3.7,1.0,100% sjanse,
+119,Costinha,BHA,DEF,4.5,7,0.045,0.784,0.042,16.8,1.0,,
+508,Davies,TOT,DEF,3.9,7,0.045,0.261,0.042,7.5,1.0,,
+509,Byfield,TOT,DEF,4.0,7,0.045,0.045,0.042,3.7,1.0,,
+117,Coppola,BHA,DEF,4.5,7,0.045,0.045,0.042,3.7,1.0,,
+111,Steele,BHA,GK,4.0,7,0.045,0.045,0.042,3.7,1.0,,
+510,Rowswell,TOT,DEF,4.0,7,0.045,0.045,0.042,3.7,1.0,,
+3,Meslier,ARS,GK,4.9,7,0.045,0.045,0.042,3.7,1.0,,
+550,Jocelin.T,SUN,MID,4.9,7,0.045,0.227,0.042,6.9,1.0,,
+601,Williams-Barnett,TOT,MID,4.5,7,0.045,0.045,0.042,3.7,1.0,,
+584,Hamer,COV,MID,5.3,7,0.045,0.537,0.042,12.4,1.0,,
+531,Ellborg,SUN,GK,4.4,7,0.045,0.045,0.042,3.7,1.0,,
+324,Mehmeti,IPS,MID,4.8,7,0.045,0.045,0.042,3.7,1.0,,
+120,Svoboda,BHA,DEF,5.0,7,0.045,0.414,0.042,10.2,1.0,,
+321,Walle Egeli,IPS,FWD,4.5,7,0.045,0.303,0.042,8.3,1.0,,
+320,Akpom,IPS,FWD,5.0,7,0.045,0.763,0.042,16.4,1.0,,
+20,Dowman,ARS,MID,5.3,7,0.045,0.198,0.042,6.4,1.0,100% sjanse,
+312,Taylor,IPS,MID,4.4,7,0.045,0.045,0.042,3.7,1.0,100% sjanse,
+188,Torp,COV,MID,5.3,7,0.045,0.523,0.042,12.2,1.0,,
+189,Shepherd,COV,MID,4.4,7,0.045,0.045,0.042,3.7,1.0,,
+310,Matusiwa,IPS,MID,4.9,7,0.045,0.261,0.042,7.5,1.0,100% sjanse,
+308,Furlong,IPS,DEF,3.9,7,0.045,0.136,0.042,5.3,1.0,,
+303,Kipré,IPS,DEF,3.9,7,0.045,0.045,0.042,3.7,1.0,,
+302,Button,IPS,GK,4.0,7,0.045,0.045,0.042,3.7,1.0,,
+301,Palmer,IPS,GK,4.0,7,0.045,0.045,0.042,3.7,1.0,,
+524,Olusesi,TOT,MID,4.4,7,0.045,0.045,0.042,3.7,1.0,,
+521,Kulusevski,TOT,MID,6.5,7,0.045,0.261,0.042,7.5,1.0,100% sjanse,
+323,McAteer,IPS,MID,4.4,7,0.045,0.321,0.042,8.6,1.0,,
+134,Oriola,BHA,MID,4.4,7,0.045,0.045,0.042,3.7,1.0,,
+2,Arrizabalaga,ARS,GK,4.9,7,0.045,0.045,0.042,3.7,1.0,,
+443,Gillespie,NEW,GK,4.5,7,0.045,0.045,0.042,3.7,1.0,,
+172,Wilson,COV,GK,4.4,7,0.045,0.045,0.042,3.7,1.0,,
+294,Zambrano,HUL,MID,4.5,7,0.045,0.045,0.042,3.7,1.0,100% sjanse,
+574,Hjertø-Dahl,HUL,MID,4.8,7,0.045,0.153,0.042,5.6,1.0,,
+292,Ömür,HUL,MID,4.9,7,0.045,0.045,0.042,3.7,1.0,,
+178,Bidwell,COV,DEF,4.0,7,0.045,0.045,0.042,3.7,1.0,,
+288,Dowell,HUL,MID,4.4,7,0.045,0.045,0.042,3.7,1.0,,
+179,Latibeaudiere,COV,DEF,3.9,7,0.045,0.198,0.042,6.4,1.0,,
+177,Kesler-Hayden,COV,DEF,3.9,7,0.045,0.261,0.042,7.5,1.0,100% sjanse,
+126,O'Riley,BHA,MID,5.4,7,0.045,0.327,0.042,8.7,1.0,,
+285,McNair,HUL,DEF,4.0,7,0.045,0.122,0.042,5.1,1.0,100% sjanse,
+284,McCarthy,HUL,DEF,4.0,7,0.045,0.045,0.042,3.7,1.0,,
+266,Cairney,FUL,MID,4.9,7,0.043,0.26,0.04,6.9,1.0,100% sjanse,
+243,Alcaraz,EVE,MID,4.8,7,0.043,0.393,0.04,9.4,1.0,,
+637,Vaz,HUL,FWD,5.0,5,0.04,0.653,0.037,14.1,0.75,75% sjanse,Achilles injury - 75% chance of playing
+160,Garnacho,AVL,MID,5.7,7,0.038,0.316,0.036,7.5,1.0,,
+440,Zirkzee,MUN,FWD,5.3,7,0.037,0.504,0.035,11.0,1.0,,
+108,Wilson,BRE,FWD,5.4,7,0.031,0.495,0.029,10.3,1.0,,
+617,Cho,HUL,MID,5.0,6,0.024,0.284,0.023,6.6,0.5,50% sjanse,Unspecified injury - 50% chance of playing
+343,James,LEE,MID,4.9,7,0.022,0.208,0.02,4.6,0.5,50% sjanse,Back injury - 50% chance of playing
+489,Yates,NFO,MID,4.4,7,0.019,0.019,0.018,1.4,1.0,100% sjanse,
+635,Larsson,FUL,MID,5.0,5,0.013,0.185,0.012,4.1,0.25,25% sjanse,Groin injury - 25% chance of playing
+168,Marc Guiu,CHE,FWD,5.0,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined RB Leipzig permanently
+6,Saliba,ARS,DEF,5.9,7,0.0,0.0,0.0,0.0,0.0,status=i,Back injury - Unknown return date
+170,Emegha,CHE,FWD,4.9,7,0.0,0.0,0.0,0.0,0.0,status=i,Hamstring injury - Unknown return date
+523,Moore,TOT,MID,5.0,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined FC Köln on loan for the rest of the season
+163,D.Essugo,CHE,MID,4.5,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined RC Strasbourg on loan for the rest of the season
+450,Livramento,NEW,DEF,4.9,7,0.0,0.0,0.0,0.0,0.0,status=i,Knee injury - Expected back 7 Nov
+158,Gittens,CHE,MID,5.8,7,0.0,0.0,0.0,0.0,0.0,status=i,Ankle injury - Unknown return date
+225,Uche,CRY,FWD,5.0,7,0.0,0.0,0.0,0.0,0.0,status=u,has returned to Getafe CF
+501,Danso,SUN,DEF,5.0,7,0.0,0.0,0.0,0.0,0.0,status=s,Suspended until 31 Oct
+596,Ruggeri,AVL,DEF,4.4,7,0.0,0.0,0.0,0.0,0.0,status=i,Hamstring injury - Expected back 2 Jan
+451,A.Murphy,NEW,DEF,4.0,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined FC Kaiserslautern on loan for the rest of the season
+122,Minteh,BHA,MID,5.8,7,0.0,0.0,0.0,0.0,0.0,status=i,Leg injury - Expected back 28 Nov
+196,Markelo,COV,FWD,5.0,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Shabab Al-Ahli Dubai permanently
+133,Watson,BHA,MID,5.0,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Leicester City on loan for the rest of the season
+130,Wieffer,BHA,DEF,4.8,7,0.0,0.0,0.0,0.0,0.0,status=i,Knee injury - Unknown return date
+530,Patterson,SUN,GK,4.0,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Wrexham permanently
+611,Wan-Bissaka,AVL,DEF,4.5,6,0.0,0.0,0.0,0.0,0.0,status=i,Hamstring injury - Expected back 21 Nov
+128,Buonanotte,BHA,MID,5.0,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Elche on loan for the rest of the season
+454,Elanga,NEW,MID,6.0,7,0.0,0.0,0.0,0.0,0.0,status=i,Unspecified injury - Expected back 25 Oct
+607,Lynch,AVL,MID,4.5,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Oxford United on loan until January
+456,J.Ramsey,NEW,MID,4.8,7,0.0,0.0,0.0,0.0,0.0,status=i,Thigh injury - Unknown return date
+532,Ballard,SUN,DEF,4.8,7,0.0,0.0,0.0,0.0,0.0,status=i,Hamstring injury - Unknown return date
+55,Watkins,AVL,FWD,7.8,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Al Hilal permanently
+121,Mitoma,BHA,MID,5.9,7,0.0,0.0,0.0,0.0,0.0,status=i,Hamstring injury - Expected back 31 Oct
+220,Cardines,CRY,DEF,4.5,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Bristol City on loan for the rest of the season
+182,Amenda,COV,DEF,3.9,7,0.0,0.0,0.0,0.0,0.0,status=i,Calf injury - Unknown return date
+38,A.García,AVL,DEF,4.0,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Getafe on loan for the rest of the season
+39,Nedeljkovic,AVL,DEF,4.0,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Rangers on loan for the rest of the season
+44,Bailey,AVL,MID,5.4,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Olympiakos permanently
+48,Onana,AVL,MID,4.9,7,0.0,0.0,0.0,0.0,0.0,status=i,Knee injury - Unknown return date
+49,Iling Jr,AVL,MID,5.0,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Bolton Wanderers on loan for the rest of the season
+181,Brau,COV,DEF,4.0,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Academico de Viseu on loan for the rest of the season
+180,Woolfenden,COV,DEF,3.9,7,0.0,0.0,0.0,0.0,0.0,status=i,Knee injury - Unknown return date
+444,Jaouen,NEW,GK,4.4,7,0.0,0.0,0.0,0.0,0.0,status=i,Hamstring injury - Unknown return date
+479,Bindon,NFO,DEF,4.0,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Charlton Athletic on loan for the rest of the season
+484,Hutchinson,NFO,MID,5.4,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined AC Milan on loan for the rest of the season
+485,Bakwa,NFO,MID,5.5,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Lille on loan for the rest of the season
+491,Igor Jesus,NFO,FWD,5.7,7,0.0,0.0,0.0,0.0,0.0,status=i,Calf injury - Unknown return date
+174,Kitching,COV,DEF,4.0,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Sheffield United on loan for the rest of the season
+171,Dovin,COV,GK,4.0,7,0.0,0.0,0.0,0.0,0.0,status=u,not included in squad.
+500,Romero,TOT,DEF,5.0,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Atletico Madrid permanently
+499,Pedro Porro,TOT,DEF,5.3,7,0.0,0.0,0.0,0.0,0.0,status=i,Hamstring injury - Expected back 24 Oct
+403,Sávio,TOT,MID,6.5,7,0.0,0.0,0.0,0.0,0.0,status=i,Muscular injury - Expected back 7 Nov
+494,Vicario,TOT,GK,4.5,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Juventus on loan for the rest of the season
+477,Abbott,NFO,DEF,4.0,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Southampton on loan for the rest of the season
+30,Digne,AVL,DEF,4.5,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Paris Saint-Germain permanently
+557,Tzolis,ARS,MID,6.2,7,0.0,0.0,0.0,0.0,0.0,status=i,Hamstring injury - Expected back 1 Nov
+577,Tomiyasu,CRY,DEF,4.4,7,0.0,0.0,0.0,0.0,0.0,status=i,Calf injury - Expected back 8 Nov
+463,Woltemade,NEW,FWD,5.9,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Juventus on loan for the rest of the season
+466,Neave,NEW,FWD,4.5,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Wolves on loan for the rest of the season
+609,Shahar,NEW,DEF,4.0,7,0.0,0.0,0.0,0.0,0.0,status=u,has joined Arouca on loan for the rest of the seaon.
+27,G.Jesus,ARS,FWD,5.9,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined FC Barcelona permanently
+470,Morato,NFO,DEF,5.0,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined West Ham on loan for the rest of the season
+24,Nelson,ARS,MID,5.5,7,0.0,0.0,0.0,0.0,0.0,status=u,has departed the club as a free agent.
+219,J.Rak-Sakyi,CRY,MID,4.9,7,0.0,0.0,0.0,0.0,0.0,status=u,has joined  Kasimpasa on loan for the rest of the seaon.
+23,Fábio Vieira,ARS,MID,5.5,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Hamburger SV permanently
+22,Nwaneri,ARS,MID,5.4,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Borussia Dortmund on loan for the rest of the season
+520,Bergvall,TOT,MID,5.3,7,0.0,0.0,0.0,0.0,0.0,status=i,Knee injury - Expected back 31 Oct
+205,Sosa,CRY,DEF,4.5,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined FC Cologne on loan for the rest of the season
+206,Chadi Riad,CRY,DEF,4.3,7,0.0,0.0,0.0,0.0,0.0,status=i,Knee injury - Unknown return date
+197,Bassette,COV,FWD,4.5,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined KVC Westerlo on loan for the rest of the season
+505,Spence,TOT,DEF,4.5,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Internazionale permanently
+215,Devenny,CRY,MID,5.0,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Stoke City permanently
+216,Esse,CRY,MID,5.0,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Millwall on loan for the rest of the season
+217,M.França,CRY,MID,4.9,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Alverca on loan for the rest of the season
+475,Savona,NFO,DEF,4.5,7,0.0,0.0,0.0,0.0,0.0,status=i,Knee injury - Unknown return date
+322,Al-Hamadi,IPS,FWD,5.0,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Sheffield Wednesday on loan for the rest of the season
+554,Van Oevelen,IPS,GK,4.5,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Valencia on loan for the rest of the season
+602,Humphreys,IPS,MID,4.5,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Huddersfield Town on loan for the rest of the season
+326,Perri,LEE,GK,4.5,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Torino on loan for the rest of the season
+329,Rodon,LEE,DEF,4.3,7,0.0,0.0,0.0,0.0,0.0,status=i,Hamstring injury - Expected back 21 Nov
+107,Furo,BRE,FWD,4.5,7,0.0,0.0,0.0,0.0,0.0,status=i,Unspecified injury - Unknown return date
+118,Igor,BHA,DEF,4.5,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Burnley permanently
+333,Bornauw,LEE,DEF,4.5,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Hamburg SV on loan for the rest of the season
+341,Gnonto,LEE,MID,5.0,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined ACF Fiorentina on loan for the rest of the season
+287,Millar,HUL,MID,5.0,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Birmingham on loan for the rest of the season
+291,Matazo,HUL,MID,4.5,7,0.0,0.0,0.0,0.0,0.0,status=i,Knee injury - Unknown return date
+293,Kamara,HUL,MID,5.0,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Portsmouth permanently
+132,Howell,BHA,MID,4.5,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Leicester City on loan for the rest of the season
+297,Gyabi,HUL,MID,4.4,7,0.0,0.0,0.0,0.0,0.0,status=i,Thigh injury - Unknown return date
+298,Destan,HUL,FWD,4.5,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Konyaspor permanently
+299,Burstow,HUL,FWD,4.5,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Sheffield Wednesday on loan for the rest of the season
+556,Targett,HUL,DEF,3.9,7,0.0,0.0,0.0,0.0,0.0,status=i,Ankle injury - Unknown return date
+342,Harrison,LEE,MID,5.0,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined New England Revolution permanently
+348,Piroe,LEE,FWD,5.0,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined West Ham United on loan for the rest of the season
+349,Mateo Joseph,LEE,FWD,4.5,7,0.0,0.0,0.0,0.0,0.0,status=i,Knee injury - Unknown return date
+353,Pecsi,LIV,GK,4.0,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined TSV Hartberg on loan for the rest of the season
+354,Jaros,LIV,GK,4.0,7,0.0,0.0,0.0,0.0,0.0,status=i,Knee injury - Unknown return date
+98,Janelt,BRE,MID,5.0,7,0.0,0.0,0.0,0.0,0.0,status=s,Suspended until 31 Oct
+99,Milambo,BRE,MID,5.0,7,0.0,0.0,0.0,0.0,0.0,status=i,Knee injury - Unknown return date
+102,Yarmoliuk,BRE,MID,4.8,7,0.0,0.0,0.0,0.0,0.0,status=s,Suspended until 8 Nov
+103,Dasilva,BRE,MID,4.8,7,0.0,0.0,0.0,0.0,0.0,status=i,Hamstring injury - Unknown return date
+296,Akintola,HUL,MID,5.0,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Omonoia FC permanently
+18,Martinelli,ARS,MID,6.3,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Al Hilal permanently
+537,Seelt,SUN,DEF,4.5,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Swansea City on loan for the rest of the season
+538,Hjelde,SUN,DEF,4.0,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined KV Mechelen on loan for the rest of the season
+540,Masuaku,SUN,DEF,4.0,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Konyaspor permanently
+546,Adingra,SUN,MID,4.9,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Ajax on loan for the rest of the season
+527,Richarlison,TOT,FWD,5.9,7,0.0,0.0,0.0,0.0,0.0,status=u,not included in squad.
+528,Scarlett,TOT,FWD,4.5,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Leyton Orient permanently
+578,Mudryk,TOT,MID,5.3,7,0.0,0.0,0.0,0.0,0.0,status=i,Ankle injury - Unknown return date
+193,Wright,COV,FWD,5.3,7,0.0,0.0,0.0,0.0,0.0,status=i,Thigh injury - Unknown return date
+511,Souza,TOT,DEF,4.0,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined FC Porto on loan for the rest of the season
+513,Xavi,TOT,MID,5.9,7,0.0,0.0,0.0,0.0,0.0,status=i,Knee injury - Unknown return date
+516,Bentancur,TOT,MID,5.4,7,0.0,0.0,0.0,0.0,0.0,status=s,Suspended until 7 Nov
+319,Szmodics,IPS,MID,5.0,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Derby County on loan for the rest of the season
+518,P.M.Sarr,TOT,MID,4.9,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Juventus on loan for the rest of the season
+547,Mundle,SUN,MID,4.8,7,0.0,0.0,0.0,0.0,0.0,status=i,Knee injury - Unknown return date
+187,Eccles,COV,MID,4.8,7,0.0,0.0,0.0,0.0,0.0,status=i,Ankle injury - Unknown return date
+191,Borges Rodrigues,COV,MID,4.5,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Burton Albion on loan for the rest of the season
+192,Andrews,COV,MID,4.5,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Oxford United on loan for the rest of the season
+507,Phillips,TOT,DEF,4.5,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Middlesbrough permanently
+135,Yohanna,BHA,MID,4.8,7,0.0,0.0,0.0,0.0,0.0,status=i,Unspecified injury - Expected back 31 Oct
+586,Mendy,HUL,DEF,4.1,7,0.0,0.0,0.0,0.0,0.0,status=i,Groin injury - Expected back 31 Oct
+632,Ansah,HUL,FWD,4.9,5,0.0,0.0,0.0,0.0,0.0,status=i,Back injury - Unknown return date
+307,Johnson,IPS,DEF,4.0,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Stoke City on loan for the rest of the season
+311,Burns,IPS,MID,5.0,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Leicester City permanently
+314,Ogbene,IPS,MID,4.9,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Lincoln City on loan until January
+317,Hirst,IPS,FWD,5.0,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Stoke City permanently
+517,Odobert,TOT,MID,5.5,7,0.0,0.0,0.0,0.0,0.0,status=i,Knee injury - Unknown return date
+408,Phillips,MCI,MID,5.0,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Sheffield United on loan for the rest of the season
+409,Mukasa,MCI,MID,4.5,7,0.0,0.0,0.0,0.0,0.0,status=u,has joined West Ham on loan for the rest of the seaon.
+410,Monga,MCI,MID,4.9,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Swansea City on loan for the rest of the season
+248,Beto,EVE,FWD,5.4,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Fiorentina permanently
+140,Sánchez,CHE,GK,4.9,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Como on loan for the rest of the season
+141,Jörgensen,CHE,GK,5.0,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined RC Strasbourg on loan for the rest of the season
+142,James,CHE,DEF,5.3,7,0.0,0.0,0.0,0.0,0.0,status=i,Knee injury - Unknown return date
+143,Chalobah,CHE,DEF,5.5,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Como permanently
+146,B.Badiashile,CHE,DEF,4.5,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Napoli on loan for the rest of the season
+150,M.Sarr,CHE,DEF,4.5,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Real Sociedad on loan for the rest of the season
+252,McNally,FUL,GK,4.0,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined York City on loan for the rest of the season
+59,Dennis,BOU,GK,4.0,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined MK Dons permanently
+357,Frimpong,LIV,DEF,5.2,7,0.0,0.0,0.0,0.0,0.0,status=i,Hamstring injury - Unknown return date
+65,J.Araujo,BOU,DEF,4.4,7,0.0,0.0,0.0,0.0,0.0,status=i,Thigh injury - Unknown return date
+69,Scott,BOU,MID,6.0,7,0.0,0.0,0.0,0.0,0.0,status=i,Thigh injury - Expected back 8 Nov
+413,Bayindir,MUN,GK,4.5,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Celta Vigo on loan for the rest of the season
+234,Patterson,EVE,DEF,4.5,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Torino permanently
+235,Aznou,EVE,DEF,4.0,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Malaga on loan for the rest of the season
+415,Dorgu,MUN,MID,5.7,7,0.0,0.0,0.0,0.0,0.0,status=i,Hamstring injury - Expected back 25 Oct
+423,Shaw,MUN,DEF,4.3,7,0.0,0.0,0.0,0.0,0.0,status=i,Unspecified injury - Unknown return date
+425,Fredricson,MUN,DEF,4.0,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Lausanne-Sport permanently
+432,Mainoo,MUN,MID,5.5,7,0.0,0.0,0.0,0.0,0.0,status=i,Unspecified injury - Expected back 8 Nov
+433,Ugarte,MUN,MID,5.0,7,0.0,0.0,0.0,0.0,0.0,status=i,Knee injury - Unknown return date
+436,Collyer,MUN,MID,5.0,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined West Brom permanently
+439,Šeško,MUN,FWD,6.9,7,0.0,0.0,0.0,0.0,0.0,status=i,Shin injury - Unknown return date
+441,Obi,MUN,FWD,4.5,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Willem II on loan for the rest of the season
+63,Milosavljević,BOU,DEF,4.9,7,0.0,0.0,0.0,0.0,0.0,status=i,Thigh injury - Expected back 8 Nov
+360,Bradley,LIV,DEF,4.9,7,0.0,0.0,0.0,0.0,0.0,status=i,Knee injury - Unknown return date
+137,Tzimas,BHA,FWD,5.4,7,0.0,0.0,0.0,0.0,0.0,status=i,Knee injury - Unknown return date
+139,Ferguson,BHA,FWD,5.0,7,0.0,0.0,0.0,0.0,0.0,status=i,Ankle injury - Unknown return date
+624,Cozier-Duberry,BHA,MID,5.0,6,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Middlesbrough on loan for the rest of the season
+652,Azeez,BHA,MID,5.5,5,0.0,0.0,0.0,0.0,0.0,status=i,Hamstring injury - Expected back 31 Oct
+28,Martinez,CHE,GK,5.0,7,0.0,0.0,0.0,0.0,0.0,status=i,Head injury - Unknown return date
+275,Cartwright,HUL,GK,4.0,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Grimsby Town on loan for the rest of the season
+276,Lo-Tutala,HUL,GK,4.0,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Colchester United on loan for the rest of the season
+278,Hughes,HUL,DEF,3.9,7,0.0,0.0,0.0,0.0,0.0,status=i,Groin injury - Unknown return date
+281,Drameh,HUL,DEF,4.0,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Genoa permanently
+283,Jacob,HUL,DEF,4.0,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Newport County on loan until January
+363,Leoni,LIV,DEF,4.0,7,0.0,0.0,0.0,0.0,0.0,status=i,Knee injury - Unknown return date
+407,Echeverri,MCI,MID,4.9,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Benfica on loan for the rest of the season
+368,Szoboszlai,LIV,MID,6.8,7,0.0,0.0,0.0,0.0,0.0,status=i,Hamstring injury - Unknown return date
+373,C.Jones,LIV,MID,5.5,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Internazionale permanently
+376,Bajcetic,LIV,MID,5.0,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Celta Vigo permanently
+380,Ekitiké,LIV,FWD,7.4,7,0.0,0.0,0.0,0.0,0.0,status=i,Achilles injury - Unknown return date
+383,Elliott,LIV,MID,5.4,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Valencia on loan for the rest of the season
+80,Enes Ünal,BOU,FWD,5.5,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Getafe permanently
+269,Sessegnon,FUL,DEF,4.3,7,0.0,0.0,0.0,0.0,0.0,status=s,Suspended until 7 Nov
+610,De Fougerolles,FUL,DEF,4.0,7,0.0,0.0,0.0,0.0,0.0,status=u,has joined  Real Salt Lake on loan for the rest of the seaon.
+274,Butland,HUL,GK,4.4,7,0.0,0.0,0.0,0.0,0.0,status=i,Arm injury - Unknown return date
+394,Alleyne,MCI,DEF,5.0,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Burnley on loan for the rest of the season
+397,Semenyo,MCI,MID,8.3,7,0.0,0.0,0.0,0.0,0.0,status=i,Knee injury - Unknown return date
+402,Rodrigo,MCI,MID,6.5,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Barcelona permanently
+404,Reijnders,MCI,MID,6.0,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined Al Qadsiah permanently
+365,Ramsay,LIV,DEF,4.0,7,0.0,0.0,0.0,0.0,0.0,status=u,Has joined St Mirren on loan for the rest of the season
