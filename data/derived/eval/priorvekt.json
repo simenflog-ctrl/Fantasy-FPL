@@ -1,0 +1,50 @@
+[
+ {
+  "season": "2024-25",
+  "seed": 11,
+  "config": "k 1.5 (n\u00e5)",
+  "total": 2078
+ },
+ {
+  "season": "2025-26",
+  "seed": 11,
+  "config": "k 1.5 (n\u00e5)",
+  "total": 2061
+ },
+ {
+  "season": "2024-25",
+  "seed": 11,
+  "config": "k 0.7",
+  "total": 2114
+ },
+ {
+  "season": "2025-26",
+  "seed": 11,
+  "config": "k 0.7",
+  "total": 2034
+ },
+ {
+  "season": "2024-25",
+  "seed": 12,
+  "config": "k 1.5 (n\u00e5)",
+  "total": 1993
+ },
+ {
+  "season": "2025-26",
+  "seed": 12,
+  "config": "k 1.5 (n\u00e5)",
+  "total": 2059
+ },
+ {
+  "season": "2024-25",
+  "seed": 12,
+  "config": "k 0.7",
+  "total": 2099
+ },
+ {
+  "season": "2025-26",
+  "seed": 12,
+  "config": "k 0.7",
+  "total": 2033
+ }
+]
