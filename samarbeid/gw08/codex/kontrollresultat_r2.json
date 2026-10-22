@@ -1,0 +1,30 @@
+{
+  "history_files": 222,
+  "player_matches_rows": 4551,
+  "bootstrap_minutes_xg_match": true,
+  "purchase_universe": 197,
+  "repo_cells_R8_R13": 4008,
+  "native_E_margin": {
+    "codex": 8.32,
+    "repo_hybrid": 3.97,
+    "repo_repeat": 9.9
+  },
+  "common_E_margin": {
+    "codex": 1.07,
+    "repo_hybrid": 3.97
+  },
+  "return_E_margin": {
+    "codex": 8.32,
+    "repo_hybrid": 3.97
+  },
+  "FT_E_margin": {
+    "('codex', 'preserve')": 8.3,
+    "('codex', 'plus')": 8.1,
+    "('codex', 'reset')": 12.0,
+    "('repo_hybrid', 'preserve')": 4.0,
+    "('repo_hybrid', 'plus')": 4.3,
+    "('repo_hybrid', 'reset')": 4.7
+  },
+  "recommend_WC": true,
+  "all_paths_have_WC_BB_FH": true
+}

@@ -1,0 +1,165 @@
+{
+ "frosset_utc": "2026-10-22T16:01:42+00:00",
+ "frist_utc": "2026-10-23T17:30:00Z",
+ "data_hentet_utc": "2026-10-22T15:01:52Z",
+ "lag_id": 7089878,
+ "merknad": "Faste ellever og kaptein. Ingen autobytter. R9-R11 forutsetter samme ellever (nedre grense for anbefalt plan, som kan gjøre bytter i R9-R10). To poengsett: 'codex' (Codex runde 2) og 'repo_hybrid' (repoets xP R8-13). Faktisk resultat sammenlignes med begge.",
+ "planer": {
+  "anbefalt": {
+   "beskrivelse": "Szoboszlai -> Tavernier (1 gratisbytte), ingen trekk, wildcard holdes",
+   "bytter_inn": [
+    "Tavernier"
+   ],
+   "bytter_ut": [
+    "Szoboszlai"
+   ],
+   "trekk": 0,
+   "bank": 1.6,
+   "ft_til_R9": 2,
+   "elleve": [
+    "Verbruggen",
+    "Calafiori",
+    "Konsa",
+    "N.Williams",
+    "B.Fernandes",
+    "Mbeumo",
+    "Tavernier",
+    "E.Le Fée",
+    "Groß",
+    "Haaland",
+    "Thiago"
+   ],
+   "benk": [
+    "Steele",
+    "Maguire",
+    "van Ewijk",
+    "Kusi-Asare"
+   ],
+   "kaptein": "Haaland",
+   "visekaptein": "B.Fernandes",
+   "forventet_codex": {
+    "R8": 52.3,
+    "R8_R11": 211.0
+   },
+   "spiller_xp_R8_codex": {
+    "Verbruggen": 2.62,
+    "Calafiori": 4.49,
+    "Konsa": 3.53,
+    "N.Williams": 3.51,
+    "B.Fernandes": 4.83,
+    "Mbeumo": 5.23,
+    "Tavernier": 4.39,
+    "E.Le Fée": 4.05,
+    "Groß": 3.99,
+    "Haaland": 6.09,
+    "Thiago": 3.52,
+    "Steele": 0.18,
+    "Maguire": 2.99,
+    "van Ewijk": 2.46,
+    "Kusi-Asare": 0.13
+   },
+   "forventet_repo_hybrid": {
+    "R8": 64.0,
+    "R8_R11": 257.1
+   },
+   "spiller_xp_R8_repo_hybrid": {
+    "Verbruggen": 3.08,
+    "Calafiori": 4.83,
+    "Konsa": 4.04,
+    "N.Williams": 3.96,
+    "B.Fernandes": 7.23,
+    "Mbeumo": 5.48,
+    "Tavernier": 4.66,
+    "E.Le Fée": 4.92,
+    "Groß": 4.84,
+    "Haaland": 8.41,
+    "Thiago": 4.09,
+    "Steele": 0.1,
+    "Maguire": 2.95,
+    "van Ewijk": 2.85,
+    "Kusi-Asare": 0.18
+   }
+  },
+  "referanse_ingen_bytter": {
+   "beskrivelse": "Ingen bytter; Szoboszlai (skadet) på benken, Maguire starter",
+   "bytter_inn": [],
+   "bytter_ut": [],
+   "trekk": 0,
+   "bank": 1.0,
+   "ft_til_R9": 3,
+   "elleve": [
+    "Verbruggen",
+    "Calafiori",
+    "Konsa",
+    "N.Williams",
+    "Maguire",
+    "B.Fernandes",
+    "Mbeumo",
+    "E.Le Fée",
+    "Groß",
+    "Haaland",
+    "Thiago"
+   ],
+   "benk": [
+    "Steele",
+    "van Ewijk",
+    "Kusi-Asare",
+    "Szoboszlai"
+   ],
+   "kaptein": "Haaland",
+   "visekaptein": "B.Fernandes",
+   "forventet_codex": {
+    "R8": 50.9,
+    "R8_R11": 204.1
+   },
+   "spiller_xp_R8_codex": {
+    "Verbruggen": 2.62,
+    "Calafiori": 4.49,
+    "Konsa": 3.53,
+    "N.Williams": 3.51,
+    "Maguire": 2.99,
+    "B.Fernandes": 4.83,
+    "Mbeumo": 5.23,
+    "E.Le Fée": 4.05,
+    "Groß": 3.99,
+    "Haaland": 6.09,
+    "Thiago": 3.52,
+    "Steele": 0.18,
+    "van Ewijk": 2.46,
+    "Kusi-Asare": 0.13,
+    "Szoboszlai": 0.0
+   },
+   "forventet_repo_hybrid": {
+    "R8": 62.3,
+    "R8_R11": 247.2
+   },
+   "spiller_xp_R8_repo_hybrid": {
+    "Verbruggen": 3.08,
+    "Calafiori": 4.83,
+    "Konsa": 4.04,
+    "N.Williams": 3.96,
+    "Maguire": 2.95,
+    "B.Fernandes": 7.23,
+    "Mbeumo": 5.48,
+    "E.Le Fée": 4.92,
+    "Groß": 4.84,
+    "Haaland": 8.41,
+    "Thiago": 4.09,
+    "Steele": 0.1,
+    "van Ewijk": 2.85,
+    "Kusi-Asare": 0.18,
+    "Szoboszlai": 0.0
+   }
+  }
+ },
+ "forventet_gevinst_anbefalt_minus_referanse": {
+  "codex": {
+   "R8": 1.4,
+   "R8_R11": 6.9
+  },
+  "repo_hybrid": {
+   "R8": 1.7,
+   "R8_R11": 9.9
+  }
+ }
+}

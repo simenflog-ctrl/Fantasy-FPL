@@ -1,0 +1,371 @@
+[
+  {
+    "gws": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "nchange": 1,
+    "status": "heuristisk, ikke globalt optimalitetsbevis",
+    "objective": 424.302,
+    "evaluated": 2097
+  },
+  {
+    "gws": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "nchange": 2,
+    "status": "heuristisk, ikke globalt optimalitetsbevis",
+    "objective": 434.269,
+    "evaluated": 5057
+  },
+  {
+    "gws": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "nchange": 3,
+    "status": "heuristisk, ikke globalt optimalitetsbevis",
+    "objective": 445.194,
+    "evaluated": 9561
+  },
+  {
+    "gws": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "nchange": 4,
+    "status": "heuristisk, ikke globalt optimalitetsbevis",
+    "objective": 453.959,
+    "evaluated": 13388
+  },
+  {
+    "gws": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "nchange": 5,
+    "status": "heuristisk, ikke globalt optimalitetsbevis",
+    "objective": 460.522,
+    "evaluated": 16773
+  },
+  {
+    "gws": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "nchange": null,
+    "status": "heuristisk, ikke globalt optimalitetsbevis",
+    "objective": 469.643,
+    "evaluated": 5337
+  },
+  {
+    "gws": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "nchange": null,
+    "status": "heuristisk, ikke globalt optimalitetsbevis",
+    "objective": 713.519,
+    "evaluated": 5894
+  },
+  {
+    "gws": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "nchange": null,
+    "status": "heuristisk, ikke globalt optimalitetsbevis",
+    "objective": 655.336,
+    "evaluated": 6153
+  },
+  {
+    "gws": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "nchange": null,
+    "status": "heuristisk, ikke globalt optimalitetsbevis",
+    "objective": 600.481,
+    "evaluated": 6662
+  },
+  {
+    "gws": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "nchange": null,
+    "status": "heuristisk, ikke globalt optimalitetsbevis",
+    "objective": 539.682,
+    "evaluated": 7147
+  },
+  {
+    "gws": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "nchange": null,
+    "status": "heuristisk, ikke globalt optimalitetsbevis",
+    "objective": 482.016,
+    "evaluated": 6806
+  },
+  {
+    "gws": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "nchange": null,
+    "status": "heuristisk, ikke globalt optimalitetsbevis",
+    "objective": 422.271,
+    "evaluated": 6060
+  },
+  {
+    "gws": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "nchange": null,
+    "status": "heuristisk, ikke globalt optimalitetsbevis",
+    "objective": 364.455,
+    "evaluated": 6232
+  },
+  {
+    "gws": [
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "nchange": null,
+    "status": "heuristisk, ikke globalt optimalitetsbevis",
+    "objective": 304.609,
+    "evaluated": 6890
+  },
+  {
+    "gws": [
+      16,
+      17,
+      18,
+      19
+    ],
+    "nchange": null,
+    "status": "heuristisk, ikke globalt optimalitetsbevis",
+    "objective": 243.21,
+    "evaluated": 6677
+  },
+  {
+    "gws": [
+      17,
+      18,
+      19
+    ],
+    "nchange": null,
+    "status": "heuristisk, ikke globalt optimalitetsbevis",
+    "objective": 182.074,
+    "evaluated": 6396
+  },
+  {
+    "gws": [
+      18,
+      19
+    ],
+    "nchange": null,
+    "status": "heuristisk, ikke globalt optimalitetsbevis",
+    "objective": 121.555,
+    "evaluated": 5920
+  },
+  {
+    "gws": [
+      19
+    ],
+    "nchange": null,
+    "status": "heuristisk, ikke globalt optimalitetsbevis",
+    "objective": 62.32,
+    "evaluated": 5349
+  },
+  {
+    "gws": [
+      8
+    ],
+    "nchange": null,
+    "status": "heuristisk, ikke globalt optimalitetsbevis",
+    "objective": 59.519,
+    "evaluated": 5050
+  },
+  {
+    "gws": [
+      9
+    ],
+    "nchange": null,
+    "status": "heuristisk, ikke globalt optimalitetsbevis",
+    "objective": 56.659,
+    "evaluated": 5840
+  },
+  {
+    "gws": [
+      10
+    ],
+    "nchange": null,
+    "status": "heuristisk, ikke globalt optimalitetsbevis",
+    "objective": 61.544,
+    "evaluated": 5434
+  },
+  {
+    "gws": [
+      11
+    ],
+    "nchange": null,
+    "status": "heuristisk, ikke globalt optimalitetsbevis",
+    "objective": 58.677,
+    "evaluated": 5534
+  },
+  {
+    "gws": [
+      12
+    ],
+    "nchange": null,
+    "status": "heuristisk, ikke globalt optimalitetsbevis",
+    "objective": 60.66,
+    "evaluated": 5626
+  },
+  {
+    "gws": [
+      13
+    ],
+    "nchange": null,
+    "status": "heuristisk, ikke globalt optimalitetsbevis",
+    "objective": 59.701,
+    "evaluated": 5232
+  },
+  {
+    "gws": [
+      14
+    ],
+    "nchange": null,
+    "status": "heuristisk, ikke globalt optimalitetsbevis",
+    "objective": 61.377,
+    "evaluated": 5102
+  },
+  {
+    "gws": [
+      15
+    ],
+    "nchange": null,
+    "status": "heuristisk, ikke globalt optimalitetsbevis",
+    "objective": 62.118,
+    "evaluated": 4693
+  },
+  {
+    "gws": [
+      16
+    ],
+    "nchange": null,
+    "status": "heuristisk, ikke globalt optimalitetsbevis",
+    "objective": 62.004,
+    "evaluated": 5287
+  },
+  {
+    "gws": [
+      17
+    ],
+    "nchange": null,
+    "status": "heuristisk, ikke globalt optimalitetsbevis",
+    "objective": 61.342,
+    "evaluated": 5518
+  },
+  {
+    "gws": [
+      18
+    ],
+    "nchange": null,
+    "status": "heuristisk, ikke globalt optimalitetsbevis",
+    "objective": 60.088,
+    "evaluated": 4995
+  }
+]

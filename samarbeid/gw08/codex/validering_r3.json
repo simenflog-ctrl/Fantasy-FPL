@@ -1,0 +1,32 @@
+{
+  "seed": 7089878,
+  "trekk_per_p": 300,
+  "chippar": [
+    [
+      15,
+      9
+    ],
+    [
+      17,
+      13
+    ],
+    [
+      19,
+      13
+    ],
+    [
+      19,
+      9
+    ]
+  ],
+  "MC_BB": 17,
+  "MC_FH": 13,
+  "anbefal_WC": false,
+  "klassifisering": "modellavhengig",
+  "main_delta": {
+    "codex": 7.061,
+    "repo_hybrid": 3.764
+  },
+  "legalitet_og_budsjett": "assertions passerte",
+  "tidligere_filer": "kun lest"
+}

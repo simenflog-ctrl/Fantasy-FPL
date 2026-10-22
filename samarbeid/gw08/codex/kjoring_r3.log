@@ -1,0 +1,30 @@
+Chips codex 15 9
+Chips codex 17 13
+Chips codex 19 13
+Chips codex 19 9
+Chips repo_hybrid 15 9
+Chips repo_hybrid 17 13
+Chips repo_hybrid 19 13
+Chips repo_hybrid 19 9
+Warm chips codex 15 9
+Warm chips codex 17 13
+Warm chips codex 19 13
+Warm chips codex 19 9
+Warm chips repo_hybrid 15 9
+Warm chips repo_hybrid 17 13
+Warm chips repo_hybrid 19 13
+Warm chips repo_hybrid 19 9
+Deterministic finished
+MC codex 0.01 n 300
+MC result codex 0.01 6.9 SE 0.06
+MC repo_hybrid 0.01 n 300
+MC result repo_hybrid 0.01 3.2 SE 0.09
+MC codex 0.02 n 300
+MC result codex 0.02 7.1 SE 0.1
+MC repo_hybrid 0.02 n 300
+MC result repo_hybrid 0.02 3.8 SE 0.13
+MC codex 0.03 n 300
+MC result codex 0.03 7.4 SE 0.14
+MC repo_hybrid 0.03 n 300
+MC result repo_hybrid 0.03 4.4 SE 0.15
+DONE modellavhengig WC now? False

@@ -1,0 +1,37 @@
+Run codex WC 8
+Result 703.6 BB 19 FH 13 cached squads 65113
+Run codex WC 11
+Result 695.3 BB 19 FH 9 cached squads 131137
+Run codex WC 13
+Result 692.2 BB 15 FH 16 cached squads 166467
+Run codex WC 15
+Result 693.2 BB 17 FH 9 cached squads 201211
+Run codex WC 17
+Result 693.2 BB 19 FH 9 cached squads 213089
+Run repo_hybrid WC 8
+Result 767.9 BB 17 FH 13 cached squads 275401
+Run repo_hybrid WC 11
+Result 763.9 BB 15 FH 9 cached squads 344223
+Run repo_hybrid WC 13
+Result 761.5 BB 17 FH 9 cached squads 369963
+Run repo_hybrid WC 15
+Result 760.1 BB 17 FH 9 cached squads 387555
+Run repo_hybrid WC 17
+Result 762.4 BB 19 FH 9 cached squads 416998
+Run repo_repeat WC 8
+Result 823.7 BB 11 FH 12 cached squads 450644
+Run repo_repeat WC 11
+Result 810.9 BB 13 FH 12 cached squads 475357
+Run repo_repeat WC 13
+Result 806.6 BB 19 FH 9 cached squads 508865
+Run repo_repeat WC 15
+Result 808.4 BB 19 FH 9 cached squads 518278
+Run repo_repeat WC 17
+Result 813.8 BB 19 FH 9 cached squads 530869
+Comeback codex 8
+Comeback codex 11
+Comeback repo_hybrid 8
+Comeback repo_hybrid 11
+Common E blend
+Main runs finished
+REPORT OK {"history_files": 222, "player_matches_rows": 4551, "bootstrap_minutes_xg_match": true, "purchase_universe": 197, "repo_cells_R8_R13": 4008, "native_E_margin": {"codex": 8.32, "repo_hybrid": 3.97, "repo_repeat": 9.9}, "common_E_margin": {"codex": 1.07, "repo_hybrid": 3.97}, "return_E_margin": {"codex": 8.32, "repo_hybrid": 3.97}, "FT_E_margin": {"('codex', 'preserve')": 8.3, "('codex', 'plus')": 8.1, "('codex', 'reset')": 12.0, "('repo_hybrid', 'preserve')": 4.0, "('repo_hybrid', 'plus')": 4.3, "('repo_hybrid', 'reset')": 4.7}, "recommend_WC": true, "all_paths_have_WC_BB_FH": true}

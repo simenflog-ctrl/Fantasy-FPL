@@ -1,0 +1,11 @@
+poengsett,test,E_BB,E_FH,B_BB,B_FH,E,B_WC11,E_minus_B,E_R8_R15,B_R8_R15
+codex,samme_datoer,15,9,15,9,702.0,697.1,5.0,470.8,465.8
+codex,samme_datoer,17,13,17,13,703.2,696.4,6.8,456.8,450.0
+codex,samme_datoer,19,13,19,13,703.6,696.8,6.8,456.8,450.0
+codex,samme_datoer,19,9,19,9,703.0,698.1,5.0,456.2,451.3
+codex,eget_beste_av_fire_par,19,13,19,9,703.6,698.1,5.6,456.8,451.3
+repo_hybrid,samme_datoer,15,9,15,9,767.1,765.0,2.1,535.5,533.7
+repo_hybrid,samme_datoer,17,13,17,13,767.9,765.4,2.4,521.8,519.3
+repo_hybrid,samme_datoer,19,13,19,13,768.0,765.6,2.5,521.7,519.3
+repo_hybrid,samme_datoer,19,9,19,9,767.9,766.1,1.8,521.5,519.7
+repo_hybrid,eget_beste_av_fire_par,19,13,19,9,768.0,766.1,2.0,521.7,519.7

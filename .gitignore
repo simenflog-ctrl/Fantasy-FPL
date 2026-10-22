@@ -4,3 +4,7 @@ data/raw/element_summary/
 __pycache__/
 *.pyc
 .venv/
+
+# Samarbeidsmappene: samme regel for rå element-summary.
+samarbeid/*/data/element_summary/
+.DS_Store
