@@ -59,6 +59,14 @@ HALF_LIFE = 4.0
 PRIOR_MATCHES_GENERIC = 0.7
 PRIOR_MATCHES_PERSONAL = 1.5
 
+# Innhopp gitt at spilleren IKKE starter. Med flagget av (dagens oppførsel)
+# deles innhoppene på ALLE kampene og ganges så med (1 − p_start) en gang til,
+# slik at innhopp dempes to ganger: en spiller som starter halvparten og kommer
+# inn i resten, får 0,25 i stedet for 0,5. Funnet av Codex 22. okt 2026.
+# Med flagget på deles det på kampene uten start, krympet mot ligaraten.
+# AV til målt i eval-motoren etter forhåndsregistrerte krav (samarbeid/modell/plan.md).
+SUB_GIVEN_NO_START = False
+
 LAST_SEASON_GWS = ("https://raw.githubusercontent.com/vaastav/"
                    "Fantasy-Premier-League/master/data/2025-26/gws/merged_gw.csv")
 
@@ -156,6 +164,8 @@ def league_rates(pm: pd.DataFrame) -> dict:
         "min_given_start": float(started.minutes.mean()) if len(started) else 80.0,
         "p60_given_start": float((started.minutes >= 60).mean()) if len(started) else 0.85,
         "min_given_sub": float(subbed.minutes.mean()) if len(subbed) else 20.0,
+        "p_sub_given_no_start": (float(len(subbed) / max((pm.starts == 0).sum(), 1))
+                                 if len(pm) else 0.1),
     }
 
 
@@ -229,10 +239,16 @@ def build(pm: pd.DataFrame, bs: dict, rates: dict) -> pd.DataFrame:
             # NB: w er bare definert i grenen over. Uten denne innrykkingen leste
             # koden w fra forrige spiller i løkka — en feil som ikke krasjer,
             # men gir gale tall for alle uten historikk.
-            p_sub_given_no_start = float(
-                np.sum(w * ((hist.starts == 0) & (hist.minutes > 0))) / max(weight, 1e-9)
-            )
+            subs = float(np.sum(w * ((hist.starts == 0) & (hist.minutes > 0))))
+            if SUB_GIVEN_NO_START:
+                no_start = float(np.sum(w * (hist.starts == 0)))
+                k_sub = PRIOR_MATCHES_GENERIC
+                p_sub_given_no_start = ((subs + k_sub * rates.get("p_sub_given_no_start", 0.1))
+                                        / (no_start + k_sub))
+            else:
+                p_sub_given_no_start = subs / max(weight, 1e-9)
         else:
+            # Uendret også med flagget på: én endring om gangen.
             p_sub_given_no_start = 0.0
         p_sub = (1 - p_raw) * p_sub_given_no_start * mult
 
