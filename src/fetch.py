@@ -90,6 +90,9 @@ def fetch_core() -> dict:
     print(f"→ entry {ENTRY_ID}")
     write(RAW / "entry.json", get_json(f"/entry/{ENTRY_ID}/"))
     write(RAW / "entry_history.json", get_json(f"/entry/{ENTRY_ID}/history/"))
+    # Kjøpsprisene. Uten dem kan optimizeren ikke regne salgspris, og budsjettet
+    # blir feil så snart en spiller har steget (salgsgebyret er halve økningen).
+    write(RAW / "transfers.json", get_json(f"/entry/{ENTRY_ID}/transfers/"))
 
     current = next((e for e in bootstrap["events"] if e["is_current"]), None)
     if current:

@@ -31,8 +31,9 @@ HVA DEN IKKE MODELLERER ENNÅ
 
 Free Hit. Chipen bytter laget for én runde og tilbakestiller det etterpå, noe
 som krever et parallelt troppspor gjennom hele horisonten. Wildcard og Bench
-Boost er med. Prisendringer er heller ikke modellert — salgspris antas lik
-kjøpspris, som stemmer så lenge spilleren ikke har steget.
+Boost er med. Framtidige prisendringer er ikke modellert: spillere i dagens
+tropp selges til faktisk salgspris (kjøpspris + halve økningen), alle andre
+kjøpes og selges til dagens pris.
 
 BRUK RESULTATET MED SKJØNN
 
@@ -54,7 +55,10 @@ ROOT = Path(__file__).resolve().parents[1]
 RAW = ROOT / "data" / "raw"
 DERIVED = ROOT / "data" / "derived"
 
-HORIZON = 5              # antall runder framover
+# Antall runder framover. Settes høyere enn xP-filen dekker, slik at alle
+# rundene expected_points.py leverer blir brukt (i gw08 dekket den seks, men
+# optimizeren så bare fem).
+HORIZON = 8
 # Liten straff per bytte. Uten den bytter løseren spillere fram og tilbake
 # mellom runder når det er gratis — matematisk likegyldig, men urealistisk:
 # i praksis koster hvert bytte salgsgebyr, prisrisiko og en låst beslutning.
@@ -74,6 +78,11 @@ HIT_COST = 4
 # bort av seg selv, uten at hits forbys.
 HIT_UNCERTAINTY_MARGIN = 4
 MAX_BANKED_FT = 5
+# Fra 2024/25 beholdes lagrede frie transfers når Wildcard eller Free Hit
+# brukes, men chiprunden gir ingen ny. Før 2024/25 ble de nullstilt til én.
+# Kilde: Premier Leagues regelendring 2024/25; ikke eksplisitt bekreftet for
+# 2026/27 i API-et. Sett til False for den gamle regelen.
+CHIP_PRESERVES_FT = True
 SOLVER_SECONDS = 90
 
 # Chips låses opp først når modellen har nok data til å velge klokt.
@@ -96,17 +105,75 @@ FORMATION = {"GK": (1, 1), "DEF": (3, 5), "MID": (2, 5), "FWD": (1, 3)}
 SQUAD_SIZE = {"GK": 2, "DEF": 5, "MID": 5, "FWD": 3}
 
 
+def purchase_prices(bootstrap: dict, transfers: list[dict] | None, squad: list[int]) -> dict[int, float]:
+    """
+    Kjøpsprisen for hver spiller i troppen, i millioner.
+
+    Spillere kjøpt etter sesongstart står i transfers.json; siste kjøp gjelder.
+    Resten ble valgt før første frist, da prisene ennå var startprisene:
+    now_cost − cost_change_start. Kontrollert mot rekonstruksjon fra
+    element-summary for laget i gw08 (alle 15 like).
+    """
+    el = {e["id"]: e for e in bootstrap["elements"]}
+    bought = {}
+    for t in sorted(transfers or [], key=lambda t: t["time"]):
+        bought[t["element_in"]] = t["element_in_cost"]
+    return {p: (bought[p] if p in bought else el[p]["now_cost"] - el[p]["cost_change_start"]) / 10.0
+            for p in squad}
+
+
+def selling_price(bought: float, now: float) -> float:
+    """FPL beholder halve prisøkningen, rundet ned til 0,1. Fall tas fullt."""
+    b, n = round(bought * 10), round(now * 10)
+    return (n if n <= b else b + (n - b) // 2) / 10.0
+
+
+def free_transfers(history: dict, next_gw: int) -> int:
+    """
+    Frie transfers til neste runde, regnet fra lagets historikk.
+
+    Én ny etter hver runde fra og med runde 1, tak på MAX_BANKED_FT. Brukte
+    transfers trekkes fra (aldri under null; resten ble betalt med hits).
+    I en runde med Wildcard eller Free Hit brukes ingen, og ingen ny opptjenes
+    (CHIP_PRESERVES_FT). Ekstraordinære påfyll, som AFCON-runden i 2025/26,
+    er ikke med.
+    """
+    chip_gws = {c["event"] for c in history.get("chips", []) if c["name"] in ("wildcard", "freehit")}
+    ft = 0
+    for r in sorted(history["current"], key=lambda r: r["event"]):
+        if r["event"] >= next_gw:
+            break
+        if r["event"] == 1:
+            ft = 1                       # førsterundens tropp er gratis
+            continue
+        if r["event"] in chip_gws:
+            ft = ft if CHIP_PRESERVES_FT else 1
+            continue
+        ft = min(MAX_BANKED_FT, max(0, ft - r["event_transfers"]) + 1)
+    return ft
+
+
 def load_state():
     bs = json.loads((RAW / "bootstrap.json").read_text())
     entry = json.loads((RAW / "entry.json").read_text())
+    history = json.loads((RAW / "entry_history.json").read_text())
     cur = next((e for e in bs["events"] if e["is_current"]), None)
     gw = cur["id"] if cur else 1
     picks_file = RAW / f"picks_gw{gw}.json"
     picks = json.loads(picks_file.read_text()) if picks_file.exists() else None
     squad = [p["element"] for p in picks["picks"]] if picks else []
     bank = entry["last_deadline_bank"] / 10.0
-    chips_used = {c["name"] for c in json.loads((RAW / "entry_history.json").read_text())["chips"]}
-    return squad, bank, chips_used, gw
+    chips_used = {c["name"] for c in history["chips"]}
+
+    transfers_file = RAW / "transfers.json"
+    if not transfers_file.exists():
+        print("  ADVARSEL: transfers.json mangler — kjøpspris antas lik startpris for alle")
+    transfers = json.loads(transfers_file.read_text()) if transfers_file.exists() else None
+    now = {e["id"]: e["now_cost"] / 10.0 for e in bs["elements"]}
+    bought = purchase_prices(bs, transfers, squad)
+    sell = {p: selling_price(bought[p], now[p]) for p in squad}
+    ft = free_transfers(history, gw + 1)
+    return squad, bank, chips_used, gw, sell, ft
 
 
 def build_pool(xp: pd.DataFrame, squad: list[int], first_gw: int):
@@ -133,9 +200,12 @@ def build_pool(xp: pd.DataFrame, squad: list[int], first_gw: int):
 
 
 def solve(pool: pd.DataFrame, grid: pd.DataFrame, gws: list[int],
-          squad: list[int], bank: float, chips_available: set[str]):
+          squad: list[int], bank: float, chips_available: set[str],
+          sell_price: dict[int, float] | None = None, ft_start: int = 1):
     P = pool.element.tolist()
     price = dict(zip(pool.element, pool.price))
+    # Det laget eier i dag selges til salgspris; alt annet til dagens pris.
+    sellp = {p: (sell_price or {}).get(p, price[p]) for p in P}
     pos = dict(zip(pool.element, pool.pos))
     club = dict(zip(pool.element, pool.team))
     xp = {(p, t): float(grid.loc[p, t]) for p in P for t in gws}
@@ -204,27 +274,33 @@ def solve(pool: pd.DataFrame, grid: pd.DataFrame, gws: list[int],
         free_now = ft[t] + hits[t] + (15 * wc[t] if wc else 0)
         m += n_transfers <= free_now
 
-        # Penger. Salgspris antas lik kjøpspris. Budsjettet håndheves ved at
-        # banken aldri kan bli negativ.
+        # Penger. Budsjettet håndheves ved at banken aldri kan bli negativ.
+        # Salgsprisen for dagens tropp er lavere enn nåprisen når en spiller
+        # har steget; i gw08 manglet planen 0,9 m fordi dette ble ignorert.
+        # (Gjenkjøp av en solgt spiller og salg igjen innen horisonten gis
+        # salgspris — en liten, konservativ forenkling.)
         spend = pulp.lpSum(price[p] * buy[p][t] for p in P)
-        income = pulp.lpSum(price[p] * sell[p][t] for p in P)
+        income = pulp.lpSum(sellp[p] * sell[p][t] for p in P)
         m += bankv[t] == (bank if i == 0 else bankv[gws[i - 1]]) + income - spend
 
         # Frie transfers: én ny per runde, tak på 5. Ulikhet er trygt fordi
         # flere frie transfers aldri er en ulempe — løseren presser den opp av
         # seg selv, men kan ikke overskride det reglene tillater.
         if i == 0:
-            m += ft[t] == 1
+            m += ft[t] == min(ft_start, MAX_BANKED_FT)
         else:
             prev_t = gws[i - 1]
+            big = 20
+            # Vanlig runde: ubrukte frie transfers + én ny. I en wildcardrunde
+            # oppheves denne grensen og erstattes av de to linjene under.
             m += ft[t] <= ft[prev_t] - pulp.lpSum(buy[p][prev_t] for p in P) \
-                 + hits[prev_t] + (15 * wc[prev_t] if wc else 0) + 1
-            # Etter Wildcard får man ÉN fri transfer neste runde, ikke fem.
-            # Uten denne linjen krediterer regnestykket over wildcardets bytter
-            # som opptjente frie transfers, og løseren fikk et helt gratis
-            # byttebudsjett i rundene etter.
+                 + hits[prev_t] + 1 + (big * wc[prev_t] if wc else 0)
             if wc:
-                m += ft[t] <= 1 + MAX_BANKED_FT * (1 - wc[prev_t])
+                if CHIP_PRESERVES_FT:
+                    # Fra 2024/25: lagrede beholdes, men chiprunden gir ingen ny.
+                    m += ft[t] <= ft[prev_t] + big * (1 - wc[prev_t])
+                else:
+                    m += ft[t] <= 1 + MAX_BANKED_FT * (1 - wc[prev_t])
 
     if wc:
         m += pulp.lpSum(wc.values()) <= 1
@@ -241,7 +317,7 @@ def solve(pool: pd.DataFrame, grid: pd.DataFrame, gws: list[int],
     return m, dict(x=x, y=y, c=c, buy=buy, sell=sell, hits=hits, wc=wc, bb=bb), pulp.LpStatus[status]
 
 
-def report(pool, gws, v, status):
+def report(pool, gws, v, status, grid=None):
     name = dict(zip(pool.element, pool.web_name))
     price = dict(zip(pool.element, pool.price))
     pos = dict(zip(pool.element, pool.pos))
@@ -269,8 +345,18 @@ def report(pool, gws, v, status):
         order = {"GK": 0, "DEF": 1, "MID": 2, "FWD": 3}
         xi_sorted = sorted(xi, key=lambda p: (order[pos[p]], -price[p]))
         print("   lag: " + ", ".join(name[p] for p in xi_sorted))
+        squad_t = [p for p in pool.element if val(v["x"][p][t])]
+        if grid is not None:
+            pts = sum(grid.loc[p, t] for p in xi) + (grid.loc[cap, t] if cap else 0)
+            if chip == "BENCH BOOST":
+                pts += sum(grid.loc[p, t] for p in squad_t if p not in xi)
+            pts -= h * HIT_COST
+        else:
+            pts = float("nan")
+        print(f"   forventet: {pts:.1f} poeng")
         plan.append({"gw": int(t), "chip": chip, "in": [name[p] for p in ins],
                      "out": [name[p] for p in outs], "hits": h,
+                     "expected_points": round(float(pts), 2),
                      "captain": name[cap] if cap else None,
                      "xi": [name[p] for p in xi_sorted]})
     return plan
@@ -278,7 +364,7 @@ def report(pool, gws, v, status):
 
 def main() -> None:
     xp = pd.read_csv(DERIVED / "expected_points.csv")
-    squad, bank, chips_used, gw = load_state()
+    squad, bank, chips_used, gw, sell, ft_start = load_state()
     if not squad:
         print("Fant ingen tropp — hopper over optimering.")
         return
@@ -291,7 +377,8 @@ def main() -> None:
         chip_note = (f"chips holdt tilbake: bare {finished} ferdigspilte runder, "
                      f"krever {MIN_FINISHED_GW_FOR_CHIPS}")
         available = set()
-    print(f"Utgangspunkt: GW{gw} · bank £{bank:.1f}m · chips tilgjengelig: "
+    print(f"Utgangspunkt: GW{gw} · bank £{bank:.1f}m · frie transfers {ft_start} · "
+          f"salgsverdi £{sum(sell.values()):.1f}m · chips tilgjengelig: "
           f"{', '.join(sorted(available)) or 'ingen'}")
     if chip_note:
         print(f"  {chip_note}")
@@ -301,12 +388,16 @@ def main() -> None:
     first_gw = nxt["id"] if nxt else gw + 1
     pool, grid, gws = build_pool(xp, squad, first_gw)
     print(f"  kandidater: {len(pool)} spillere · horisont GW{gws[0]}-{gws[-1]}")
-    m, v, status = solve(pool, grid, gws, squad, bank, available)
-    plan = report(pool, gws, v, status)
+    m, v, status = solve(pool, grid, gws, squad, bank, available, sell, ft_start)
+    plan = report(pool, gws, v, status, grid)
 
     (DERIVED / "plan.json").write_text(json.dumps(
         {"generated_for_gw": int(gws[0]), "status": status,
+         # objective inneholder benkvekt, hit-margin og byttefriksjon og er
+         # derfor IKKE forventede FPL-poeng. Det er expected_points.
          "objective": round(pulp.value(m.objective), 2),
+         "expected_points": round(sum(r["expected_points"] for r in plan), 1),
+         "free_transfers_start": ft_start,
          "chip_note": chip_note, "plan": plan},
         ensure_ascii=False, indent=1))
     print(f"\n✓ målfunksjon: {pulp.value(m.objective):.1f} forventede poeng over {len(gws)} runder")
