@@ -12,7 +12,8 @@ Første gjennomføring: `gw08/` (22. okt 2026). Bruk den som mal. Les `gw08/besl
 - Claude er hovedagent og tar sluttbeslutningen. Codex gjør reelle beregninger via pluginen; svarene simuleres aldri.
 - Skill alltid mellom verifiserte data, opplysninger fra Simen, modellresultater og antakelser.
 - Hver uke er en ny mappe `samarbeid/gwNN/` med samme struktur som `gw08/`.
-- Filansvar: Claude skriver i `claude/`, `grunnlag.md`, `oppgaver.md`, `beslutning.md`, `prognose/`. Codex skriver bare i `codex/`.
+- Filansvar: Claude skriver i `claude/`, `grunnlag.md`, `oppgaver.md`, `beslutning.md`, `prognose/` og `samarbeid/kalibrering/`.
+  Codex skriver bare i `codex/`.
   Ingen endrer `src/`, `config/`, `tests/` eller `data/` i repoets rot. `gwNN/data/` fryses etter henting.
 
 ## Steg 0: Klargjøring
@@ -45,6 +46,17 @@ Verifiser og skriv `grunnlag.md`:
 2. Hent faktiske poeng (`event/<runde>/live/`) og regn ut hva anbefalt plan og referansen uten bytter faktisk ga.
 3. Skriv `gwNN/claude/evaluering-forrige.md`: anbefalt mot referanse, mot begge poengsettene, og hva Simen faktisk gjorde.
    Ett utfall beviser lite; før en løpende tabell over ukene.
+4. **Prognoseevaluering** (endrer ikke modellen, bare måler den). Legg til forrige runde i `samarbeid/kalibrering/logg.csv`:
+   én rad per spiller med forventet poeng ≥ 1 i ett av poengsettene, med kolonnene `runde, id, navn, posisjon, pris, minutter,
+   xp_codex, xp_repo, faktisk, i_tropp, kaptein`. Forventet poeng hentes fra den frosne spillerfilen som står i forrige ukes
+   `prognose/SHA256SUMS` (i gw08: `codex/spillerpoeng_r2.csv`), aldri fra en fil som er laget eller endret etter fristen.
+   Faktisk fra `event/<runde>/live/`, pris fra forrige ukes `data/bootstrap.json`. Ta med spillere med 0 minutter
+   (prognosen skal også fange minuttrisiko). Skriptet er `samarbeid/kalibrering/oppdater.py`: lag det første gang, gjenbruk det etterpå,
+   og la det nekte å legge inn en runde som allerede finnes.
+   Oppdater `samarbeid/kalibrering/oversikt.md` med skjevhet (snitt av faktisk − forventet) og standardfeil per poengsett, fordelt på
+   posisjon × prisklasse (< 5,0 / 5,0–7,4 / 7,5–9,9 / ≥ 10,0) og for de ti med høyest forventet poeng hver runde (kapteinskandidatene).
+   En skjevhet regnes som tydelig først når den er over 2 standardfeil, har samme fortegn i minst fire runder og bygger på minst
+   fire runder. Svakere mønstre noteres, men brukes ikke.
 
 ## Steg 3: Selvstendige analyser (parallelt)
 
@@ -77,13 +89,17 @@ Ikke vis Codex Claudes forslag i første oppdrag.
 - `beslutning.md`: handling nå, inn/ut, trekk, bank, ellever, kaptein, visekaptein, benk, plan for neste åtte runder (foreløpig merket),
   hvorfor fremfor å spare og fremfor beste WC-alternativ, forventet gevinst med periode, usikkerheter, hva som bør sjekkes før fristen,
   uenighet og hva kritikken endret.
+- Tydelige skjevheter fra `samarbeid/kalibrering/oversikt.md` kan brukes som uttalt antakelse (særlig ved kapteinsvalg),
+  og står da i `beslutning.md` med størrelse og antall runder. Modellen endres ikke av dette; en modellendring går via
+  forhåndsregistrering i `samarbeid/modell/`.
 - Kopier `gw08/claude/frys_prognose.py`, oppdater planene og runde-tallene, og kjør. Den nekter å overskrive en frosset prognose.
+  Spillerfilen med forventet poeng for alle spillere (begge poengsettene) skal stå i `SHA256SUMS`, siden prognoseevalueringen bygger på den.
 - Oppdater `oppgaver.md` (status og logg med UTC-tider fra filenes endringstid).
 
 ## Steg 6: Lagre
 
 ```bash
-git add samarbeid/gwNN && git commit -m "samarbeid: Claude + Codex, beslutning runde NN" && git push origin main
+git add samarbeid/gwNN samarbeid/kalibrering && git commit -m "samarbeid: Claude + Codex, beslutning runde NN" && git push origin main
 ```
 
 Rå `element-summary` committes ikke (`.gitignore`). Push virker uten Simen etter engangsoppsettet med token i nøkkelringen.
@@ -93,7 +109,8 @@ Hvis push likevel ber om innlogging: commit lokalt, si fra i svaret, og ikke be 
 
 Ett samlet svar på norsk: anbefalt handling (inkludert wildcard), nøyaktige bytter, poengkostnad og bank, ellever, kaptein,
 visekaptein, benk, åttesrundersplan, begrunnelse mot alternativene, forventet gevinst og usikkerheter, når byttet bør gjøres
-(før prisjustering eller etter bestemte lagnyheter), evaluering av forrige uke, og kort hvem som gjorde hva.
+(før prisjustering eller etter bestemte lagnyheter), evaluering av forrige uke, én linje om prognoseevalueringen
+(tydelige skjevheter, eller «ingen ennå» og antall runder), og kort hvem som gjorde hva.
 
 ## Gjeldende sesongplan (oppdateres hver uke)
 
