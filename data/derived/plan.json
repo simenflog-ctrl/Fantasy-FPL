@@ -1,23 +1,22 @@
 {
- "generated_for_gw": 8,
+ "generated_for_gw": 9,
  "status": "Optimal",
- "objective": 362.55,
+ "objective": 366.16,
  "chip_note": "",
  "plan": [
   {
-   "gw": 8,
+   "gw": 9,
    "chip": "WILDCARD",
    "in": [
-    "Raya",
     "Gabriel",
-    "Rogers",
-    "Tavernier",
     "Van Hecke",
     "João Pedro",
     "Thomas",
+    "Dewsbury-Hall",
     "Diop",
     "Emersonn",
-    "Bogle"
+    "Justin",
+    "Tzolakis"
    ],
    "out": [
     "Calafiori",
@@ -26,48 +25,22 @@
     "Steele",
     "van Ewijk",
     "Kusi-Asare",
-    "Szoboszlai",
     "Maguire",
-    "B.Fernandes",
+    "Mbeumo",
     "N.Williams"
    ],
    "hits": 0,
    "captain": "Haaland",
    "xi": [
-    "Raya",
+    "Tzolakis",
     "Gabriel",
     "Van Hecke",
     "Thomas",
-    "Rogers",
-    "Mbeumo",
-    "Tavernier",
-    "Groß",
-    "E.Le Fée",
-    "Haaland",
-    "João Pedro"
-   ]
-  },
-  {
-   "gw": 9,
-   "chip": "",
-   "in": [
-    "Dewsbury-Hall"
-   ],
-   "out": [
-    "E.Le Fée"
-   ],
-   "hits": 0,
-   "captain": "Haaland",
-   "xi": [
-    "Raya",
-    "Gabriel",
-    "Van Hecke",
-    "Thomas",
-    "Rogers",
-    "Mbeumo",
+    "B.Fernandes",
     "Dewsbury-Hall",
     "Tavernier",
     "Groß",
+    "E.Le Fée",
     "Haaland",
     "João Pedro"
    ]
@@ -80,15 +53,15 @@
    "hits": 0,
    "captain": "Haaland",
    "xi": [
-    "Raya",
+    "Verbruggen",
     "Gabriel",
     "Van Hecke",
-    "Bogle",
-    "Rogers",
-    "Mbeumo",
+    "Justin",
+    "B.Fernandes",
     "Dewsbury-Hall",
     "Tavernier",
     "Groß",
+    "E.Le Fée",
     "Haaland",
     "João Pedro"
    ]
@@ -101,15 +74,15 @@
    "hits": 0,
    "captain": "Haaland",
    "xi": [
-    "Raya",
+    "Verbruggen",
     "Gabriel",
     "Van Hecke",
     "Thomas",
-    "Rogers",
-    "Mbeumo",
+    "B.Fernandes",
     "Dewsbury-Hall",
     "Tavernier",
     "Groß",
+    "E.Le Fée",
     "Haaland",
     "João Pedro"
    ]
@@ -119,28 +92,53 @@
    "chip": "BENCH BOOST",
    "in": [
     "De Cuyper",
-    "B.Fernandes",
-    "Tzolakis"
+    "Mbeumo"
    ],
    "out": [
-    "Raya",
     "Gabriel",
-    "Rogers"
+    "Tavernier"
    ],
    "hits": 0,
    "captain": "B.Fernandes",
    "xi": [
     "Tzolakis",
-    "Bogle",
+    "De Cuyper",
+    "Van Hecke",
     "Thomas",
     "Diop",
     "B.Fernandes",
     "Mbeumo",
     "Dewsbury-Hall",
-    "Tavernier",
+    "E.Le Fée",
     "Haaland",
-    "João Pedro",
     "Emersonn"
+   ]
+  },
+  {
+   "gw": 13,
+   "chip": "",
+   "in": [
+    "Rogers",
+    "Dasilva"
+   ],
+   "out": [
+    "De Cuyper",
+    "E.Le Fée"
+   ],
+   "hits": 0,
+   "captain": "Haaland",
+   "xi": [
+    "Tzolakis",
+    "Van Hecke",
+    "Thomas",
+    "Dasilva",
+    "B.Fernandes",
+    "Rogers",
+    "Mbeumo",
+    "Dewsbury-Hall",
+    "Groß",
+    "Haaland",
+    "João Pedro"
    ]
   }
  ]
