@@ -1,7 +1,7 @@
 {
  "generated_for_gw": 9,
  "status": "Optimal",
- "objective": 363.3,
+ "objective": 364.29,
  "chip_note": "",
  "plan": [
   {
@@ -11,11 +11,12 @@
     "Raya",
     "Gabriel",
     "Rogers",
+    "Rayan",
     "Van Hecke",
     "Dewsbury-Hall",
     "Barry",
     "Leno",
-    "Bogle",
+    "Justin",
     "Silva",
     "Gonzalo"
    ],
@@ -24,6 +25,7 @@
     "Thiago",
     "Verbruggen",
     "Steele",
+    "Groß",
     "van Ewijk",
     "Kusi-Asare",
     "Maguire",
@@ -42,7 +44,7 @@
     "Mbeumo",
     "Dewsbury-Hall",
     "Tavernier",
-    "Groß",
+    "Rayan",
     "Haaland",
     "Barry"
    ]
@@ -50,18 +52,22 @@
   {
    "gw": 10,
    "chip": "BENCH BOOST",
-   "in": [],
-   "out": [],
+   "in": [
+    "Groß"
+   ],
+   "out": [
+    "Rayan"
+   ],
    "hits": 0,
    "captain": "Haaland",
    "xi": [
     "Leno",
-    "Gabriel",
     "Silva",
+    "Van Hecke",
     "Konsa",
-    "Bogle",
     "Rogers",
     "Mbeumo",
+    "Dewsbury-Hall",
     "Groß",
     "Haaland",
     "Gonzalo",
@@ -71,22 +77,16 @@
   {
    "gw": 11,
    "chip": "",
-   "in": [
-    "De Cuyper",
-    "Thomas-Asante"
-   ],
-   "out": [
-    "Konsa",
-    "Gonzalo"
-   ],
+   "in": [],
+   "out": [],
    "hits": 0,
    "captain": "Haaland",
    "xi": [
     "Raya",
     "Gabriel",
-    "De Cuyper",
     "Silva",
     "Van Hecke",
+    "Konsa",
     "Rogers",
     "Mbeumo",
     "Dewsbury-Hall",
@@ -98,16 +98,22 @@
   {
    "gw": 12,
    "chip": "",
-   "in": [],
-   "out": [],
+   "in": [
+    "Verbruggen",
+    "De Cuyper"
+   ],
+   "out": [
+    "Raya",
+    "Konsa"
+   ],
    "hits": 0,
    "captain": "Haaland",
    "xi": [
-    "Raya",
+    "Verbruggen",
     "Gabriel",
     "De Cuyper",
     "Van Hecke",
-    "Bogle",
+    "Justin",
     "Rogers",
     "Mbeumo",
     "Dewsbury-Hall",
@@ -120,17 +126,15 @@
    "gw": 13,
    "chip": "",
    "in": [
-    "Dasilva",
     "Virgil"
    ],
    "out": [
-    "De Cuyper",
-    "Bogle"
+    "De Cuyper"
    ],
    "hits": 0,
    "captain": "Haaland",
    "xi": [
-    "Raya",
+    "Leno",
     "Gabriel",
     "Virgil",
     "Silva",
