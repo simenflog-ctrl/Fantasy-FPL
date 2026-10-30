@@ -124,7 +124,7 @@ visekaptein, benk, åttesrundersplan, begrunnelse mot alternativene, forventet g
 | Chip | Status | Foreløpig plan |
 |---|---|---|
 | Triple Captain 1 | Brukt R3 | – |
-| Wildcard 1 | Tilgjengelig, utløper etter R19 | R11 |
-| Bench Boost 1 | Tilgjengelig, utløper etter R19 | R15 |
-| Free Hit 1 | Tilgjengelig, utløper etter R19 | Reserve til juleperioden (R17–R19) eller blank runde |
+| Wildcard 1 | Anbefalt brukt R9 (Simen gjennomfører) | – |
+| Bench Boost 1 | Tilgjengelig, utløper etter R19 | R19 |
+| Free Hit 1 | Tilgjengelig, utløper etter R19 | R16, eller blank runde i juleperioden |
 | Andre halvdel | Nytt sett WC/FH/BB/TC fra R20 | – |

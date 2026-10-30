@@ -1,0 +1,12 @@
+{
+  "status": "OK",
+  "planer": 19,
+  "spillerpoeng_rader": 5352,
+  "kontroller": [
+    "Gjenberegnet alle planpoeng fra spillerpoeng-CSV",
+    "Tropp/klubb/kaptein",
+    "Alle SHA256-verifisert",
+    "Alle heltallsdelproblemer optimale innen toleranse",
+    "A–G inkludert"
+  ]
+}

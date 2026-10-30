@@ -1,0 +1,187 @@
+{
+ "frosset_utc": "2026-10-30T06:40:44+00:00",
+ "frist_utc": "2026-10-31T11:00:00Z",
+ "data_hentet_utc": "2026-10-29T06:37:29Z",
+ "lag_id": 7089878,
+ "merknad": "Faste ellever og kaptein. Ingen autobytter. R10-R12 forutsetter samme ellever (nedre grense for begge planer, som kan gjøre bytter senere). To poengsett: 'codex' (Codex runde 2) og 'repo_hybrid' (repoets xP R9-14, Codex R15-16). Faktisk resultat sammenlignes med begge.",
+ "planer": {
+  "anbefalt": {
+   "beskrivelse": "Wildcard i R9 (Codex' tropp E, med Dasilva for Thomas); BB19, FH16",
+   "bytter_inn": [
+    "Gabriel",
+    "Ødegaard",
+    "De Cuyper",
+    "Dasilva",
+    "Rudoni",
+    "Barry",
+    "Muharemović",
+    "Isak",
+    "Trafford",
+    "Silva",
+    "Tzolakis"
+   ],
+   "bytter_ut": [
+    "Calafiori",
+    "Konsa",
+    "Thiago",
+    "Verbruggen",
+    "Steele",
+    "van Ewijk",
+    "Kusi-Asare",
+    "Maguire",
+    "B.Fernandes",
+    "N.Williams",
+    "E.Le Fée"
+   ],
+   "trekk": 0,
+   "bank": 0.4,
+   "ft_til_R10": 2,
+   "chip": "wildcard",
+   "elleve": [
+    "Tzolakis",
+    "Gabriel",
+    "Silva",
+    "Dasilva",
+    "Ødegaard",
+    "Tavernier",
+    "Rudoni",
+    "Mbeumo",
+    "Barry",
+    "Isak",
+    "Haaland"
+   ],
+   "benk": [
+    "Trafford",
+    "Groß",
+    "De Cuyper",
+    "Muharemović"
+   ],
+   "kaptein": "Haaland",
+   "visekaptein": "Mbeumo",
+   "forventet_codex": {
+    "R9": 56.0,
+    "R9_R12": 219.4
+   },
+   "spiller_xp_R9_codex": {
+    "Tzolakis": 4.13,
+    "Gabriel": 4.54,
+    "Silva": 4.57,
+    "Dasilva": 3.43,
+    "Ødegaard": 3.91,
+    "Tavernier": 4.67,
+    "Rudoni": 4.07,
+    "Mbeumo": 4.91,
+    "Barry": 4.04,
+    "Isak": 4.24,
+    "Haaland": 6.76,
+    "Trafford": 3.34,
+    "Groß": 2.98,
+    "De Cuyper": 3.67,
+    "Muharemović": 3.27
+   },
+   "forventet_repo_hybrid": {
+    "R9": 62.8,
+    "R9_R12": 246.5
+   },
+   "spiller_xp_R9_repo_hybrid": {
+    "Tzolakis": 4.26,
+    "Gabriel": 5.5,
+    "Silva": 4.87,
+    "Dasilva": 3.77,
+    "Ødegaard": 4.23,
+    "Tavernier": 5.29,
+    "Rudoni": 4.41,
+    "Mbeumo": 5.16,
+    "Barry": 4.43,
+    "Isak": 3.09,
+    "Haaland": 8.88,
+    "Trafford": 3.11,
+    "Groß": 2.8,
+    "De Cuyper": 3.14,
+    "Muharemović": 3.48
+   }
+  },
+  "referanse_ingen_bytter": {
+   "beskrivelse": "Ingen bytter, rull til 3 gratisbytter (Claudes forslag), WC i R11",
+   "bytter_inn": [],
+   "bytter_ut": [],
+   "trekk": 0,
+   "bank": 1.6,
+   "ft_til_R10": 3,
+   "chip": null,
+   "elleve": [
+    "Verbruggen",
+    "Konsa",
+    "Calafiori",
+    "N.Williams",
+    "B.Fernandes",
+    "Mbeumo",
+    "Tavernier",
+    "E.Le Fée",
+    "Groß",
+    "Haaland",
+    "Thiago"
+   ],
+   "benk": [
+    "Steele",
+    "van Ewijk",
+    "Maguire",
+    "Kusi-Asare"
+   ],
+   "kaptein": "Haaland",
+   "visekaptein": "Tavernier",
+   "forventet_codex": {
+    "R9": 48.0,
+    "R9_R12": 201.5
+   },
+   "spiller_xp_R9_codex": {
+    "Verbruggen": 2.42,
+    "Konsa": 3.88,
+    "Calafiori": 2.32,
+    "N.Williams": 2.56,
+    "B.Fernandes": 3.73,
+    "Mbeumo": 4.91,
+    "Tavernier": 4.67,
+    "E.Le Fée": 3.58,
+    "Groß": 2.98,
+    "Haaland": 6.76,
+    "Thiago": 3.38,
+    "Steele": 0.0,
+    "van Ewijk": 2.71,
+    "Maguire": 2.72,
+    "Kusi-Asare": 0.0
+   },
+   "forventet_repo_hybrid": {
+    "R9": 55.4,
+    "R9_R12": 238.8
+   },
+   "spiller_xp_R9_repo_hybrid": {
+    "Verbruggen": 2.42,
+    "Konsa": 4.12,
+    "Calafiori": 2.4,
+    "N.Williams": 2.67,
+    "B.Fernandes": 4.77,
+    "Mbeumo": 5.16,
+    "Tavernier": 5.29,
+    "E.Le Fée": 4.14,
+    "Groß": 2.8,
+    "Haaland": 8.88,
+    "Thiago": 3.88,
+    "Steele": 0.0,
+    "van Ewijk": 3.29,
+    "Maguire": 2.9,
+    "Kusi-Asare": 0.0
+   }
+  }
+ },
+ "forventet_gevinst_anbefalt_minus_referanse": {
+  "codex": {
+   "R9": 8.0,
+   "R9_R12": 17.9
+  },
+  "repo_hybrid": {
+   "R9": 7.4,
+   "R9_R12": 7.7
+  }
+ }
+}

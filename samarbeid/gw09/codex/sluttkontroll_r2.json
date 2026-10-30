@@ -1,0 +1,24 @@
+{
+  "status": "OK",
+  "anbefaling": "E",
+  "Thomas_id": 173,
+  "Thomas_p_start": 0.7015,
+  "Thomas_forventede_min": 59.28,
+  "spillerpoengrader_R9_R16": 5352,
+  "alle_prognoser_gjenberegnet": 7359,
+  "max_spiller_avvik": 4.99984706081591e-07,
+  "max_lag_avvik_per_runde": 3.7724325352428423e-06,
+  "planer": 8,
+  "Gross_planer": 4,
+  "MC_nivaaer": [
+    0.01,
+    0.02,
+    0.03
+  ],
+  "MC_trekk_per_nivaa": 200,
+  "MC_sammendrag_kontrollert": 18,
+  "E_identisk_Gross_behold_BB19": true,
+  "R1_hashkontroll": true,
+  "R2_opprinnelig_hashkontroll": true,
+  "skjulte_90_min_for_Thomas": false
+}

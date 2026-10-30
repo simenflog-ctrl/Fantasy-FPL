@@ -1,0 +1,37 @@
+R2 starts; forecast rows 5352
+Nominal {'A': [672.89, 726.3], 'C': [676.78, 731.3], 'C_behold_flagg': [676.64, 730.88], 'E': [685.39, 733.81], 'F_WC10': [680.15, 732.58], 'F_WC11': [676.78, 731.3], 'F_WC10_samme_C': [678.82, 731.66], 'F_WC11_samme_C': [676.78, 731.3]}
+Deterministic complete at 32.0 seconds
+MC 0.01 20 / 200 elapsed 644
+MC 0.01 40 / 200 elapsed 669
+MC 0.01 60 / 200 elapsed 693
+MC 0.01 80 / 200 elapsed 718
+MC 0.01 100 / 200 elapsed 742
+MC 0.01 120 / 200 elapsed 766
+MC 0.01 140 / 200 elapsed 790
+MC 0.01 160 / 200 elapsed 813
+MC 0.01 180 / 200 elapsed 839
+MC 0.01 200 / 200 elapsed 865
+MC RESULT 0.01 [('codex', 'F_WC10', 5.33), ('codex', 'F_WC11', 9.08), ('codex', 'A', 12.54), ('repo_hybrid', 'F_WC10', 1.89), ('repo_hybrid', 'F_WC11', 3.81), ('repo_hybrid', 'A', 8.38)]
+MC 0.02 20 / 200 elapsed 890
+MC 0.02 40 / 200 elapsed 915
+MC 0.02 60 / 200 elapsed 939
+MC 0.02 80 / 200 elapsed 963
+MC 0.02 100 / 200 elapsed 988
+MC 0.02 120 / 200 elapsed 1012
+MC 0.02 140 / 200 elapsed 1036
+MC 0.02 160 / 200 elapsed 1060
+MC 0.02 180 / 200 elapsed 1084
+MC 0.02 200 / 200 elapsed 1108
+MC RESULT 0.02 [('codex', 'F_WC10', 5.62), ('codex', 'F_WC11', 9.59), ('codex', 'A', 12.89), ('repo_hybrid', 'F_WC10', 2.5), ('repo_hybrid', 'F_WC11', 4.83), ('repo_hybrid', 'A', 9.28)]
+MC 0.03 20 / 200 elapsed 1133
+MC 0.03 40 / 200 elapsed 1159
+MC 0.03 60 / 200 elapsed 1183
+MC 0.03 80 / 200 elapsed 1208
+MC 0.03 100 / 200 elapsed 1233
+MC 0.03 120 / 200 elapsed 1257
+MC 0.03 140 / 200 elapsed 1282
+MC 0.03 160 / 200 elapsed 1306
+MC 0.03 180 / 200 elapsed 1330
+MC 0.03 200 / 200 elapsed 1355
+MC RESULT 0.03 [('codex', 'F_WC10', 5.87), ('codex', 'F_WC11', 9.84), ('codex', 'A', 13.41), ('repo_hybrid', 'F_WC10', 3.11), ('repo_hybrid', 'F_WC11', 5.47), ('repo_hybrid', 'A', 10.08)]
+DONE E seconds 1355.1

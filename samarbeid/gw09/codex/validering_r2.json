@@ -1,0 +1,32 @@
+{
+  "anbefaling": "E",
+  "spillere": 669,
+  "spillerpoengrader": 5352,
+  "trekk_per_p": 200,
+  "p": [
+    0.01,
+    0.02,
+    0.03
+  ],
+  "BB": 19,
+  "FH": 16,
+  "seed": 7089878,
+  "R1_uendret": true,
+  "sekunder": 1355.1,
+  "sha256": {
+    "modell_r2.py": "a39b4ba7709d63fbf92abe446da2b0602ebbeac7bce668aab1d5803c94764e3c",
+    "minutter_antatt_r2.csv": "e4782f40bd524ac4279b7242193bdd3a6e33b49bdd014c98158071df32d9a880",
+    "spillerpoeng_r2.csv": "4feb770605bcaa5fa429f0e35ac58d2a2ba2003ea124b8534ebd384a880089a2",
+    "alternativer_r2.csv": "96dd2b9eca14c57585c4d013c5cbbcb7c26849945fc45c78ed3e8604319f0338",
+    "skadesim_r2.csv": "e3e16cb662afd37019c1ab1bcfadef674dcbcf3d168d4bfe5a2295b80769c336",
+    "planer_r2.json": "c6adc3abbad02b64c7ed070f73bc2c8a6728e3309b6b2feffe096cd0b27b2ca4",
+    "kontroll.md": "cd51600b4bf6a01eacda6212d910d52bb89fc8c449b8630bfb08f29c715767df",
+    "sluttkontroll_r2.py": "1a712be00a137c8333c1adabdbec954855abb3e2d9368dbd6214d0d26b4016e2",
+    "sluttkontroll_r2.json": "27659503b58caeb427e466461583d3fa219c30e9438d7ac83e91337d65c94870",
+    "anbefalt_tropp_r2.csv": "4f5db0f18cc95d03ff7b717a45005f08fe7ef7941822afe5107c1e147b7b6919",
+    "budsjett_ut_r2.csv": "3af597c1621fb9020109c164f09f35a7d27f61700a531dc517ee5678e2ae3f4f"
+  },
+  "kontroller": "Regeltester, 100000 spillutfall, budsjett/klubbgrenser, prognosedekning og rapport/CSV-konsistens passerte",
+  "rapport_for_idkontroll_sha256": "8ba1dfeed3677536d90d07bdb08430332e6904056932570e98c2f933ff560f95",
+  "etterkontroll": "ID-er, alle spillerprognoser, alle hoved-/Gross-planpoeng og alle MC-sammendrag kontrollert fra filer."
+}

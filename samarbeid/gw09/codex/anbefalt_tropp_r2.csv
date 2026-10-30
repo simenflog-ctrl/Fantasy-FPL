@@ -1,0 +1,16 @@
+id,navn,lag,pos,status,p_start_R9,forventede_min_R9,handling,salgspris,kjopspris,budsjettverdi,rolle_R9,kaptein,visekaptein
+385,Trafford,LEE,1,a,0.9354,84.18,kjøp,,5.0,5.0,Benk GK,False,False
+572,Tzolakis,HUL,1,a,0.9354,84.18,kjøp,,4.7,4.7,XI,False,False
+4,Gabriel,ARS,2,a,0.9354,84.18,kjøp,,7.9,7.9,XI,False,False
+115,De Cuyper,BHA,2,a,0.9354,78.34,kjøp,,5.3,5.3,Benk 2,False,False
+173,Thomas,COV,2,d,0.7015,59.28,kjøp,,4.0,4.0,XI,False,False
+334,Muharemović,LEE,2,a,0.9354,84.18,kjøp,,5.1,5.1,Benk 3,False,False
+566,Silva,BOU,2,a,0.9354,84.18,kjøp,,5.0,5.0,XI,False,False
+15,Ødegaard,ARS,3,a,0.9354,75.53,kjøp,,6.7,6.7,XI,False,False
+68,Tavernier,BOU,3,a,0.88,69.52,behold,6.3,,6.3,XI,False,False
+124,Groß,BHA,3,a,0.76,60.04,behold,5.9,,5.9,Benk 1,False,False
+183,Rudoni,COV,3,a,0.8804,69.68,kjøp,,4.9,4.9,XI,False,False
+427,Mbeumo,MUN,3,a,0.9354,84.18,behold,7.9,,7.9,XI,False,True
+249,Barry,EVE,4,a,0.9354,79.74,kjøp,,5.6,5.6,XI,False,False
+379,Isak,LIV,4,a,0.8047,65.18,kjøp,,9.1,9.1,XI,False,False
+411,Haaland,MCI,4,a,0.97,85.36,behold,15.6,,15.6,XI,True,False

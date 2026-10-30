@@ -1,0 +1,1339 @@
+id,navn,lag,gw_fra,gw_til,p_start,forventede_min,kilde
+1,Raya,ARS,9,9,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+1,Raya,ARS,10,19,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+2,Arrizabalaga,ARS,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+2,Arrizabalaga,ARS,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+3,Meslier,ARS,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+3,Meslier,ARS,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+4,Gabriel,ARS,9,9,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+4,Gabriel,ARS,10,19,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+5,J.Timber,ARS,9,9,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+5,J.Timber,ARS,10,19,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+6,Saliba,ARS,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+6,Saliba,ARS,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+7,Lewis-Skelly,ARS,9,9,0.6702,44.68,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+7,Lewis-Skelly,ARS,10,19,0.6702,44.68,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+8,Calafiori,ARS,9,9,0.563,51.32,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; API d-prosent videreført R9–19, ingen antatt friskdato"
+8,Calafiori,ARS,10,19,0.563,51.32,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; API d-prosent videreført R9–19, ingen antatt friskdato"
+9,Hincapie,ARS,9,9,0.0402,1.61,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+9,Hincapie,ARS,10,19,0.0402,1.61,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+10,White,ARS,9,9,0.8255,62.74,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+10,White,ARS,10,19,0.8255,62.74,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+11,Mosquera,ARS,9,9,0.2701,22.69,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+11,Mosquera,ARS,10,19,0.2701,22.69,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+12,Saka,ARS,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+12,Saka,ARS,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+13,Rice,ARS,9,9,0.7015,58.75,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; API d-prosent videreført R9–19, ingen antatt friskdato"
+13,Rice,ARS,10,19,0.7015,58.75,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; API d-prosent videreført R9–19, ingen antatt friskdato"
+14,Eze,ARS,9,9,0.2701,24.31,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+14,Eze,ARS,10,19,0.2701,24.31,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+15,Ødegaard,ARS,9,9,0.9354,75.53,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+15,Ødegaard,ARS,10,19,0.9354,75.53,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+16,Madueke,ARS,9,9,0.2026,18.23,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; API d-prosent videreført R9–19, ingen antatt friskdato"
+16,Madueke,ARS,10,19,0.2026,18.23,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; API d-prosent videreført R9–19, ingen antatt friskdato"
+17,Merino,ARS,9,9,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+17,Merino,ARS,10,19,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+18,Martinelli,ARS,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+18,Martinelli,ARS,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+19,Zubimendi,ARS,9,9,0.0402,3.62,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+19,Zubimendi,ARS,10,19,0.0402,3.62,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+20,Dowman,ARS,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+20,Dowman,ARS,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+22,Nwaneri,ARS,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+22,Nwaneri,ARS,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+23,Fábio Vieira,ARS,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+23,Fábio Vieira,ARS,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+24,Nelson,ARS,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+24,Nelson,ARS,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+25,Gyökeres,ARS,9,9,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+25,Gyökeres,ARS,10,19,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+26,Havertz,ARS,9,9,0.7506,65.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+26,Havertz,ARS,10,19,0.7506,65.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+27,G.Jesus,ARS,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+27,G.Jesus,ARS,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+31,Konsa,ARS,9,9,0.94,83.99,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; bruker: ligacup 27.–29. okt (hvile/belastning); numerisk justering er Codex-antakelse
+31,Konsa,ARS,10,19,0.8151,74.38,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+452,Bruno G.,ARS,9,9,0.2701,24.31,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+452,Bruno G.,ARS,10,19,0.2701,24.31,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+557,Tzolis,ARS,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+557,Tzolis,ARS,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+29,M.Bizot,AVL,9,9,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+29,M.Bizot,AVL,10,19,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+30,Digne,AVL,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+30,Digne,AVL,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+32,Cash,AVL,9,9,0.7332,69.67,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+32,Cash,AVL,10,19,0.7332,69.67,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+33,Mings,AVL,9,9,0.5381,57.78,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+33,Mings,AVL,10,19,0.5381,57.78,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+34,Pau,AVL,9,9,0.5,36.25,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+34,Pau,AVL,10,19,0.5,36.25,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+35,Bogarde,AVL,9,9,0.0402,0.64,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+35,Bogarde,AVL,10,19,0.0402,0.64,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+36,Maatsen,AVL,9,9,0.5396,45.87,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+36,Maatsen,AVL,10,19,0.5396,45.87,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+37,Lindelöf,AVL,9,9,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+37,Lindelöf,AVL,10,19,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+38,A.García,AVL,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+38,A.García,AVL,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+39,Nedeljkovic,AVL,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+39,Nedeljkovic,AVL,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+41,Buendía,AVL,9,9,0.7506,63.36,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+41,Buendía,AVL,10,19,0.7506,63.36,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+44,Bailey,AVL,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+44,Bailey,AVL,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+45,McGinn,AVL,9,9,0.78,75.53,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+45,McGinn,AVL,10,19,0.78,75.53,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+46,Barkley,AVL,9,9,0.3549,35.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+46,Barkley,AVL,10,19,0.3549,35.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+47,Kamara,AVL,9,9,0.9354,83.36,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+47,Kamara,AVL,10,19,0.9354,83.36,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+48,Onana,AVL,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+48,Onana,AVL,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+49,Iling Jr,AVL,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+49,Iling Jr,AVL,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+50,Burrowes,AVL,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+50,Burrowes,AVL,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+51,George Hemmings,AVL,9,9,0.5,37.12,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+51,George Hemmings,AVL,10,19,0.5,37.12,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+52,Alysson,AVL,9,9,0.2701,24.31,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+52,Alysson,AVL,10,19,0.2701,24.31,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+53,Manzambi,AVL,9,9,0.6451,49.49,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+53,Manzambi,AVL,10,19,0.6451,49.49,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+54,Gomes,AVL,9,9,0.7,51.24,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+54,Gomes,AVL,10,19,0.7,51.24,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+55,Watkins,AVL,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+55,Watkins,AVL,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+56,Abraham,AVL,9,9,0.0402,2.86,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+56,Abraham,AVL,10,19,0.0402,2.86,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+160,Garnacho,AVL,9,9,0.0402,1.25,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+160,Garnacho,AVL,10,19,0.0402,1.25,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+166,N.Jackson,AVL,9,9,0.8804,68.8,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+166,N.Jackson,AVL,10,19,0.8804,68.8,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+582,Madjo,AVL,9,9,0.0402,0.32,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+582,Madjo,AVL,10,19,0.0402,0.32,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+596,Ruggeri,AVL,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+596,Ruggeri,AVL,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+597,Suzuki,AVL,9,9,0.8804,79.24,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+597,Suzuki,AVL,10,19,0.8804,79.24,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+606,Rowe,AVL,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+606,Rowe,AVL,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+607,Lynch,AVL,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+607,Lynch,AVL,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+611,Wan-Bissaka,AVL,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+611,Wan-Bissaka,AVL,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+618,Goretzka,AVL,9,9,0.0402,1.05,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+618,Goretzka,AVL,10,19,0.0402,1.05,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+630,Harwood-Bellis,AVL,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+630,Harwood-Bellis,AVL,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+631,Mbaye,AVL,9,9,0.0402,3.62,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+631,Mbaye,AVL,10,19,0.0402,3.62,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+667,Wright,AVL,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+667,Wright,AVL,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+57,Petrović,BOU,9,9,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+57,Petrović,BOU,10,19,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+58,Forster,BOU,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+58,Forster,BOU,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+59,Dennis,BOU,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+59,Dennis,BOU,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+60,Hill,BOU,9,9,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+60,Hill,BOU,10,19,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+61,Truffert,BOU,9,9,0.9354,83.36,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+61,Truffert,BOU,10,19,0.9354,83.36,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+62,Diakité,BOU,9,9,0.0402,0.16,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+62,Diakité,BOU,10,19,0.0402,0.16,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+63,Milosavljević,BOU,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+63,Milosavljević,BOU,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+64,Smith,BOU,9,9,0.9354,79.74,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+64,Smith,BOU,10,19,0.9354,79.74,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+65,J.Araujo,BOU,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+65,J.Araujo,BOU,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+66,Soler,BOU,9,9,0.0402,0.24,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+66,Soler,BOU,10,19,0.0402,0.24,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+67,Rayan,BOU,9,9,0.9354,82.08,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+67,Rayan,BOU,10,19,0.9354,82.08,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+68,Tavernier,BOU,9,9,0.88,69.52,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; bruker: ligacup 27.–29. okt (hvile/belastning); numerisk justering er Codex-antakelse
+68,Tavernier,BOU,10,19,0.9354,77.17,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+69,Scott,BOU,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+69,Scott,BOU,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+70,Kluivert,BOU,9,9,0.5396,42.72,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+70,Kluivert,BOU,10,19,0.5396,42.72,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+71,Cook,BOU,9,9,0.5249,42.89,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+71,Cook,BOU,10,19,0.5249,42.89,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+72,Gannon-Doak,BOU,9,9,0.0402,3.42,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+72,Gannon-Doak,BOU,10,19,0.0402,3.42,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+73,Adams,BOU,9,9,0.8151,72.75,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+73,Adams,BOU,10,19,0.8151,72.75,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+74,Brooks,BOU,9,9,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+74,Brooks,BOU,10,19,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+75,Christie,BOU,9,9,0.3851,34.66,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+75,Christie,BOU,10,19,0.3851,34.66,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+76,Tóth.A,BOU,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+76,Tóth.A,BOU,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+77,Adli,BOU,9,9,0.0402,0.56,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+77,Adli,BOU,10,19,0.0402,0.56,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+78,Kroupi.Jr,BOU,9,9,0.0402,0.12,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+78,Kroupi.Jr,BOU,10,19,0.0402,0.12,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+79,Evanilson,BOU,9,9,0.9354,79.27,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+79,Evanilson,BOU,10,19,0.9354,79.27,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+80,Enes Ünal,BOU,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+80,Enes Ünal,BOU,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+81,Rodríguez,BOU,9,9,0.0402,1.57,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+81,Rodríguez,BOU,10,19,0.0402,1.57,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+566,Silva,BOU,9,9,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+566,Silva,BOU,10,19,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+573,Sanchez,BOU,9,9,0.0402,0.72,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+573,Sanchez,BOU,10,19,0.0402,0.72,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+608,Jebbison,BOU,9,9,0.0402,1.25,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+608,Jebbison,BOU,10,19,0.0402,1.25,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+615,Di Gregorio,BOU,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+615,Di Gregorio,BOU,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+82,Kelleher,BRE,9,9,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+82,Kelleher,BRE,10,19,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+83,Valdimarsson,BRE,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+83,Valdimarsson,BRE,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+84,Collins,BRE,9,9,0.3851,25.16,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+84,Collins,BRE,10,19,0.3851,25.16,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+85,Van den Berg,BRE,9,9,0.2701,21.61,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+85,Van den Berg,BRE,10,19,0.2701,21.61,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+86,Lewis-Potter,BRE,9,9,0.9354,73.07,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+86,Lewis-Potter,BRE,10,19,0.9354,73.07,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+87,Ajer,BRE,9,9,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+87,Ajer,BRE,10,19,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+88,Kayode,BRE,9,9,0.843,68.62,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+88,Kayode,BRE,10,19,0.843,68.62,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+89,Henry,BRE,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+89,Henry,BRE,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+90,Hickey,BRE,9,9,0.2701,24.31,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+90,Hickey,BRE,10,19,0.2701,24.31,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+92,Ji-soo,BRE,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+92,Ji-soo,BRE,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+93,Schuster,BRE,9,9,0.3851,34.66,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+93,Schuster,BRE,10,19,0.3851,34.66,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+94,Schade,BRE,9,9,0.78,72.19,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+94,Schade,BRE,10,19,0.78,72.19,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+95,O.Dango,BRE,9,9,0.5373,41.82,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+95,O.Dango,BRE,10,19,0.5373,41.82,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+96,Damsgaard,BRE,9,9,0.3174,36.89,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+96,Damsgaard,BRE,10,19,0.3174,36.89,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+97,Jensen,BRE,9,9,0.3851,28.75,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+97,Jensen,BRE,10,19,0.3851,28.75,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+98,Janelt,BRE,9,9,0.7506,67.56,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+98,Janelt,BRE,10,19,0.7506,67.56,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+99,Milambo,BRE,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+99,Milambo,BRE,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+100,Carvalho,BRE,9,9,0.0402,0.12,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+100,Carvalho,BRE,10,19,0.0402,0.12,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+102,Yarmoliuk,BRE,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+102,Yarmoliuk,BRE,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+103,Dasilva,BRE,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+103,Dasilva,BRE,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+105,Anthony,BRE,9,9,0.6181,56.6,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+105,Anthony,BRE,10,19,0.6181,56.6,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+106,Thiago,BRE,9,9,0.88,73.04,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; bruker: ligacup 27.–29. okt (hvile/belastning); numerisk justering er Codex-antakelse
+106,Thiago,BRE,10,19,0.9354,83.25,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+107,Furo,BRE,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+107,Furo,BRE,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+108,Wilson,BRE,9,9,0.0402,1.21,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+108,Wilson,BRE,10,19,0.0402,1.21,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+565,M.Sangaré,BRE,9,9,0.5396,58.05,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+565,M.Sangaré,BRE,10,19,0.5396,58.05,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+620,Diouf,BRE,9,9,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+620,Diouf,BRE,10,19,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+657,Nunes,BRE,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+657,Nunes,BRE,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+660,Fredrick,BRE,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+660,Fredrick,BRE,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+661,Balcombe,BRE,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+661,Balcombe,BRE,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+109,Verbruggen,BHA,9,9,0.97,87.3,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; bruker: ligacup 27.–29. okt (hvile/belastning); numerisk justering er Codex-antakelse
+109,Verbruggen,BHA,10,19,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+111,Steele,BHA,9,9,0.0646,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+111,Steele,BHA,10,19,0.0646,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+113,F.Kadıoğlu,BHA,9,9,0.6603,48.77,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; API d-prosent videreført R9–19, ingen antatt friskdato"
+113,F.Kadıoğlu,BHA,10,19,0.6603,48.77,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; API d-prosent videreført R9–19, ingen antatt friskdato"
+114,Boscagli,BHA,9,9,0.9354,73.54,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+114,Boscagli,BHA,10,19,0.9354,73.54,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+115,De Cuyper,BHA,9,9,0.9354,78.34,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+115,De Cuyper,BHA,10,19,0.9354,78.34,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+116,Dunk,BHA,9,9,0.6949,67.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+116,Dunk,BHA,10,19,0.6949,67.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+117,Coppola,BHA,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+117,Coppola,BHA,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+118,Igor,BHA,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+118,Igor,BHA,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+119,Costinha,BHA,9,9,0.0402,3.62,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+119,Costinha,BHA,10,19,0.0402,3.62,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+120,Svoboda,BHA,9,9,0.0402,0.2,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+120,Svoboda,BHA,10,19,0.0402,0.2,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+121,Mitoma,BHA,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+121,Mitoma,BHA,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+122,Minteh,BHA,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+122,Minteh,BHA,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+123,Hinshelwood,BHA,9,9,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+123,Hinshelwood,BHA,10,19,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+124,Groß,BHA,9,9,0.76,60.04,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; bruker: ligacup 27.–29. okt (hvile/belastning); numerisk justering er Codex-antakelse
+124,Groß,BHA,10,19,0.9354,81.84,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+125,Georginio,BHA,9,9,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+125,Georginio,BHA,10,19,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+126,O'Riley,BHA,9,9,0.0402,0.4,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+126,O'Riley,BHA,10,19,0.0402,0.4,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+127,Gomez,BHA,9,9,0.9354,81.84,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+127,Gomez,BHA,10,19,0.9354,81.84,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+128,Buonanotte,BHA,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+128,Buonanotte,BHA,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+129,Ayari,BHA,9,9,0.87,71.34,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+129,Ayari,BHA,10,19,0.87,71.34,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+130,Wieffer,BHA,9,9,0.2701,21.07,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+130,Wieffer,BHA,10,19,0.2701,21.07,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+132,Howell,BHA,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+132,Howell,BHA,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+133,Watson,BHA,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+133,Watson,BHA,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+134,Oriola,BHA,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+134,Oriola,BHA,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+135,Yohanna,BHA,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+135,Yohanna,BHA,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+137,Tzimas,BHA,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+137,Tzimas,BHA,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+138,Kostoulas,BHA,9,9,0.8804,71.78,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+138,Kostoulas,BHA,10,19,0.8804,71.78,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+139,Ferguson,BHA,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+139,Ferguson,BHA,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+328,Struijk,BHA,9,9,0.1351,10.4,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; API d-prosent videreført R9–19, ingen antatt friskdato"
+328,Struijk,BHA,10,19,0.1351,10.4,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; API d-prosent videreført R9–19, ingen antatt friskdato"
+504,Vuskovic,BHA,9,9,0.9354,82.66,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+504,Vuskovic,BHA,10,19,0.9354,82.66,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+594,David,BHA,9,9,0.0402,0.93,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+594,David,BHA,10,19,0.0402,0.93,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+600,Osman,BHA,9,9,0.0402,1.61,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+600,Osman,BHA,10,19,0.0402,1.61,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+605,Yalcouyé,BHA,9,9,0.3,33.34,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+605,Yalcouyé,BHA,10,19,0.3,33.34,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+614,Hadjam,BHA,9,9,0.0402,0.44,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+614,Hadjam,BHA,10,19,0.0402,0.44,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+624,Cozier-Duberry,BHA,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+624,Cozier-Duberry,BHA,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+639,Andrés,BHA,9,9,0.55,46.08,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; API d-prosent videreført R9–19, ingen antatt friskdato"
+639,Andrés,BHA,10,19,0.55,46.08,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; API d-prosent videreført R9–19, ingen antatt friskdato"
+652,Azeez,BHA,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+652,Azeez,BHA,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+658,Ibrahim,BHA,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+658,Ibrahim,BHA,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+28,Martinez,CHE,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+28,Martinez,CHE,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+40,Rogers,CHE,9,9,0.9354,81.84,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+40,Rogers,CHE,10,19,0.9354,81.84,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+101,Henderson,CHE,9,9,0.6451,58.06,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+101,Henderson,CHE,10,19,0.6451,58.06,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+136,Welbeck,CHE,9,9,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+136,Welbeck,CHE,10,19,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+140,Sánchez,CHE,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+140,Sánchez,CHE,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+141,Jörgensen,CHE,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+141,Jörgensen,CHE,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+142,James,CHE,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+142,James,CHE,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+143,Chalobah,CHE,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+143,Chalobah,CHE,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+144,Gusto,CHE,9,9,0.3851,34.66,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+144,Gusto,CHE,10,19,0.3851,34.66,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+145,Fofana,CHE,9,9,0.4098,31.96,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+145,Fofana,CHE,10,19,0.4098,31.96,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+146,B.Badiashile,CHE,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+146,B.Badiashile,CHE,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+148,Hato,CHE,9,9,0.6949,47.72,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+148,Hato,CHE,10,19,0.6949,47.72,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+149,Colwill,CHE,9,9,0.8577,74.86,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+149,Colwill,CHE,10,19,0.8577,74.86,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+150,M.Sarr,CHE,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+150,M.Sarr,CHE,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+151,Acheampong,CHE,9,9,0.6679,64.65,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+151,Acheampong,CHE,10,19,0.6679,64.65,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+152,Palestra,CHE,9,9,0.0402,1.77,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+152,Palestra,CHE,10,19,0.0402,1.77,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+154,Palmer,CHE,9,9,0.9354,81.61,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+154,Palmer,CHE,10,19,0.9354,81.61,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+156,Neto,CHE,9,9,0.8804,74.25,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+156,Neto,CHE,10,19,0.8804,74.25,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+157,Estêvão,CHE,9,9,0.0402,1.89,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+157,Estêvão,CHE,10,19,0.0402,1.89,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+158,Gittens,CHE,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+158,Gittens,CHE,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+159,Caicedo,CHE,9,9,0.3851,33.89,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+159,Caicedo,CHE,10,19,0.3851,33.89,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+161,Lavia,CHE,9,9,0.5,34.62,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+161,Lavia,CHE,10,19,0.5,34.62,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+163,D.Essugo,CHE,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+163,D.Essugo,CHE,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+164,Quenda,CHE,9,9,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+164,Quenda,CHE,10,19,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+165,João Pedro,CHE,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+165,João Pedro,CHE,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+168,Marc Guiu,CHE,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+168,Marc Guiu,CHE,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+169,Mheuka,CHE,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+169,Mheuka,CHE,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+170,Emegha,CHE,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+170,Emegha,CHE,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+200,Lacroix,CHE,9,9,0.6322,57.37,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; API d-prosent videreført R9–19, ingen antatt friskdato"
+200,Lacroix,CHE,10,19,0.6322,57.37,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; API d-prosent videreført R9–19, ingen antatt friskdato"
+560,Penders,CHE,9,9,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+560,Penders,CHE,10,19,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+561,Anselmino,CHE,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+561,Anselmino,CHE,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+568,Barco,CHE,9,9,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+568,Barco,CHE,10,19,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+583,Chavarria,CHE,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+583,Chavarria,CHE,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+662,Nicoll-Jazuli,CHE,9,9,0.0402,0.12,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+662,Nicoll-Jazuli,CHE,10,19,0.0402,0.12,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+669,Sharman-Lowe,CHE,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+669,Sharman-Lowe,CHE,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+91,Pinnock,COV,9,9,0.8151,74.47,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+91,Pinnock,COV,10,19,0.8151,74.47,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+104,Onyeka,COV,9,9,0.3994,41.11,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+104,Onyeka,COV,10,19,0.3994,41.11,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+110,Rushworth,COV,9,9,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+110,Rushworth,COV,10,19,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+171,Dovin,COV,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+171,Dovin,COV,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+172,Wilson,COV,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+172,Wilson,COV,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+173,Thomas,COV,9,9,0.7015,59.28,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; API d-prosent videreført R9–19, ingen antatt friskdato"
+173,Thomas,COV,10,19,0.7015,59.28,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; API d-prosent videreført R9–19, ingen antatt friskdato"
+174,Kitching,COV,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+174,Kitching,COV,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+175,van Ewijk,COV,9,9,0.8255,74.3,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+175,van Ewijk,COV,10,19,0.8255,74.3,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+176,Dasilva,COV,9,9,0.9354,83.48,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+176,Dasilva,COV,10,19,0.9354,83.48,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+177,Kesler-Hayden,COV,9,9,0.0402,0.12,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+177,Kesler-Hayden,COV,10,19,0.0402,0.12,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+178,Bidwell,COV,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+178,Bidwell,COV,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+179,Latibeaudiere,COV,9,9,0.0402,0.04,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+179,Latibeaudiere,COV,10,19,0.0402,0.04,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+180,Woolfenden,COV,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+180,Woolfenden,COV,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+181,Brau,COV,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+181,Brau,COV,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+182,Amenda,COV,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+182,Amenda,COV,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+183,Rudoni,COV,9,9,0.8804,69.68,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+183,Rudoni,COV,10,19,0.8804,69.68,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+184,Grimes,COV,9,9,0.9354,82.43,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+184,Grimes,COV,10,19,0.9354,82.43,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+185,Sakamoto,COV,9,9,0.2701,24.31,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+185,Sakamoto,COV,10,19,0.2701,24.31,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+186,Mason-Clark,COV,9,9,0.5404,36.81,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+186,Mason-Clark,COV,10,19,0.5404,36.81,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+187,Eccles,COV,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+187,Eccles,COV,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+188,Torp,COV,9,9,0.0402,2.41,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+188,Torp,COV,10,19,0.0402,2.41,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+189,Shepherd,COV,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+189,Shepherd,COV,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+190,Tchaouna,COV,9,9,0.2701,24.31,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+190,Tchaouna,COV,10,19,0.2701,24.31,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+191,Borges Rodrigues,COV,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+191,Borges Rodrigues,COV,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+192,Andrews,COV,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+192,Andrews,COV,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+193,Wright,COV,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+193,Wright,COV,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+194,Thomas-Asante,COV,9,9,0.7,61.68,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+194,Thomas-Asante,COV,10,19,0.7,61.68,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+195,Simms,COV,9,9,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+195,Simms,COV,10,19,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+196,Markelo,COV,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+196,Markelo,COV,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+197,Bassette,COV,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+197,Bassette,COV,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+492,Awoniyi,COV,9,9,0.3851,34.66,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+492,Awoniyi,COV,10,19,0.3851,34.66,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+575,Yirenkyi,COV,9,9,0.7653,59.12,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+575,Yirenkyi,COV,10,19,0.7653,59.12,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+584,Hamer,COV,9,9,0.0402,1.93,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+584,Hamer,COV,10,19,0.0402,1.93,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+599,Cherif,COV,9,9,0.3851,29.78,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+599,Cherif,COV,10,19,0.3851,29.78,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+623,Bentley,COV,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+623,Bentley,COV,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+655,Gboho,COV,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+655,Gboho,COV,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+656,Mfuni,COV,9,9,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+656,Mfuni,COV,10,19,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+42,Guessand,CRY,9,9,0.0402,2.17,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+42,Guessand,CRY,10,19,0.0402,2.17,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+153,Disasi,CRY,9,9,0.3851,29.39,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+153,Disasi,CRY,10,19,0.3851,29.39,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+198,Henderson,CRY,9,9,0.3851,34.66,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+198,Henderson,CRY,10,19,0.3851,34.66,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+199,Benitez,CRY,9,9,0.7375,66.37,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+199,Benitez,CRY,10,19,0.7375,66.37,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+202,Richards,CRY,9,9,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+202,Richards,CRY,10,19,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+203,Canvot,CRY,9,9,0.843,75.87,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+203,Canvot,CRY,10,19,0.843,75.87,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+204,Mitchell,CRY,9,9,0.9354,80.56,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+204,Mitchell,CRY,10,19,0.9354,80.56,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+205,Sosa,CRY,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+205,Sosa,CRY,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+206,Chadi Riad,CRY,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+206,Chadi Riad,CRY,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+207,Mingueza,CRY,9,9,0.0402,0.64,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+207,Mingueza,CRY,10,19,0.0402,0.64,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+208,Sarr,CRY,9,9,0.0302,0.45,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; API d-prosent videreført R9–19, ingen antatt friskdato"
+208,Sarr,CRY,10,19,0.0302,0.45,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; API d-prosent videreført R9–19, ingen antatt friskdato"
+210,Wharton,CRY,9,9,0.9354,82.54,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+210,Wharton,CRY,10,19,0.9354,82.54,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+211,Yeremy,CRY,9,9,0.8804,67.58,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+211,Yeremy,CRY,10,19,0.8804,67.58,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+212,Hughes,CRY,9,9,0.0402,1.53,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+212,Hughes,CRY,10,19,0.0402,1.53,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+213,Lerma,CRY,9,9,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+213,Lerma,CRY,10,19,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+214,Kamada,CRY,9,9,0.9354,81.84,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+214,Kamada,CRY,10,19,0.9354,81.84,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+215,Devenny,CRY,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+215,Devenny,CRY,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+216,Esse,CRY,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+216,Esse,CRY,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+217,M.França,CRY,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+217,M.França,CRY,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+218,Doucouré,CRY,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+218,Doucouré,CRY,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+219,J.Rak-Sakyi,CRY,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+219,J.Rak-Sakyi,CRY,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+220,Cardines,CRY,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+220,Cardines,CRY,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+221,Drakes-Thomas,CRY,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+221,Drakes-Thomas,CRY,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+222,Strand Larsen,CRY,9,9,0.4636,40.99,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; API d-prosent videreført R9–19, ingen antatt friskdato"
+222,Strand Larsen,CRY,10,19,0.4636,40.99,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; API d-prosent videreført R9–19, ingen antatt friskdato"
+223,Mateta,CRY,9,9,0.2701,20.53,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+223,Mateta,CRY,10,19,0.2701,20.53,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+224,Nketiah,CRY,9,9,0.3851,30.68,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+224,Nketiah,CRY,10,19,0.3851,30.68,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+225,Uche,CRY,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+225,Uche,CRY,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+241,McNeil,CRY,9,9,0.2701,24.31,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+241,McNeil,CRY,10,19,0.2701,24.31,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+555,Matthews,CRY,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+555,Matthews,CRY,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+577,Tomiyasu,CRY,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+577,Tomiyasu,CRY,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+588,Khalaili,CRY,9,9,0.8804,81.41,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+588,Khalaili,CRY,10,19,0.8804,81.41,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+595,Gozo,CRY,9,9,0.0402,1.13,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+595,Gozo,CRY,10,19,0.0402,1.13,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+633,Ahanor,CRY,9,9,0.2701,21.61,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+633,Ahanor,CRY,10,19,0.2701,21.61,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+643,Chilwell,CRY,9,9,0.0402,1.17,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+643,Chilwell,CRY,10,19,0.0402,1.17,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+644,Timber,CRY,9,9,0.5374,41.7,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; API d-prosent videreført R9–19, ingen antatt friskdato"
+644,Timber,CRY,10,19,0.5374,41.7,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; API d-prosent videreført R9–19, ingen antatt friskdato"
+647,Osorio,CRY,9,9,0.0402,1.13,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+647,Osorio,CRY,10,19,0.0402,1.13,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+21,Nørgaard,EVE,9,9,0.0402,0.2,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+21,Nørgaard,EVE,10,19,0.0402,0.2,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+209,Johnson,EVE,9,9,0.6598,49.29,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+209,Johnson,EVE,10,19,0.6598,49.29,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+226,Pickford,EVE,9,9,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+226,Pickford,EVE,10,19,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+227,Travers,EVE,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+227,Travers,EVE,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+228,King,EVE,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+228,King,EVE,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+229,Tarkowski,EVE,9,9,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+229,Tarkowski,EVE,10,19,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+230,Branthwaite,EVE,9,9,0.7506,67.56,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+230,Branthwaite,EVE,10,19,0.7506,67.56,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+231,Keane,EVE,9,9,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+231,Keane,EVE,10,19,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+232,O'Brien,EVE,9,9,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+232,O'Brien,EVE,10,19,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+233,Mykolenko,EVE,9,9,0.6036,52.85,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; API d-prosent videreført R9–19, ingen antatt friskdato"
+233,Mykolenko,EVE,10,19,0.6036,52.85,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; API d-prosent videreført R9–19, ingen antatt friskdato"
+234,Patterson,EVE,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+234,Patterson,EVE,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+235,Aznou,EVE,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+235,Aznou,EVE,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+236,Dewsbury-Hall,EVE,9,9,0.9354,83.6,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+236,Dewsbury-Hall,EVE,10,19,0.9354,83.6,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+238,Grealish,EVE,9,9,0.3453,33.04,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; API d-prosent videreført R9–19, ingen antatt friskdato"
+238,Grealish,EVE,10,19,0.3453,33.04,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; API d-prosent videreført R9–19, ingen antatt friskdato"
+239,Garner,EVE,9,9,0.8804,75.15,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+239,Garner,EVE,10,19,0.8804,75.15,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+242,George,EVE,9,9,0.5396,52.62,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+242,George,EVE,10,19,0.5396,52.62,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+243,Alcaraz,EVE,9,9,0.0402,0.52,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+243,Alcaraz,EVE,10,19,0.0402,0.52,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+244,Armstrong,EVE,9,9,0.9354,81.49,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+244,Armstrong,EVE,10,19,0.9354,81.49,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+245,Dibling,EVE,9,9,0.0402,1.85,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+245,Dibling,EVE,10,19,0.0402,1.85,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+246,Röhl,EVE,9,9,0.6026,51.7,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+246,Röhl,EVE,10,19,0.6026,51.7,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+247,Hackney,EVE,9,9,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+247,Hackney,EVE,10,19,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+248,Beto,EVE,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+248,Beto,EVE,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+249,Barry,EVE,9,9,0.9354,79.74,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+249,Barry,EVE,10,19,0.9354,79.74,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+649,Maitland-Niles,EVE,9,9,0.6283,48.75,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+649,Maitland-Niles,EVE,10,19,0.6283,48.75,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+654,Graham,EVE,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+654,Graham,EVE,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+250,Leno,FUL,9,9,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+250,Leno,FUL,10,19,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+251,Lecomte,FUL,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+251,Lecomte,FUL,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+252,McNally,FUL,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+252,McNally,FUL,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+253,Andersen,FUL,9,9,0.2701,24.31,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+253,Andersen,FUL,10,19,0.2701,24.31,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+254,Robinson,FUL,9,9,0.8047,70.01,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+254,Robinson,FUL,10,19,0.8047,70.01,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+255,J.Cuenca,FUL,9,9,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+255,J.Cuenca,FUL,10,19,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+256,Tete,FUL,9,9,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+256,Tete,FUL,10,19,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+257,Bassey,FUL,9,9,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+257,Bassey,FUL,10,19,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+258,Castagne,FUL,9,9,0.8047,67.6,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+258,Castagne,FUL,10,19,0.8047,67.6,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+261,Iwobi,FUL,9,9,0.9354,76.82,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+261,Iwobi,FUL,10,19,0.9354,76.82,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+262,Smith Rowe,FUL,9,9,0.0302,1.24,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; API d-prosent videreført R9–19, ingen antatt friskdato"
+262,Smith Rowe,FUL,10,19,0.0302,1.24,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; API d-prosent videreført R9–19, ingen antatt friskdato"
+263,Kevin,FUL,9,9,0.0402,3.02,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+263,Kevin,FUL,10,19,0.0402,3.02,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+264,Bobb,FUL,9,9,0.9354,67.23,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+264,Bobb,FUL,10,19,0.9354,67.23,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+265,Berge,FUL,9,9,0.673,65.24,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+265,Berge,FUL,10,19,0.673,65.24,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+266,Cairney,FUL,9,9,0.0402,0.84,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+266,Cairney,FUL,10,19,0.0402,0.84,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+268,King,FUL,9,9,0.9354,76.82,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+268,King,FUL,10,19,0.9354,76.82,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+269,Sessegnon,FUL,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+269,Sessegnon,FUL,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+270,Reed,FUL,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+270,Reed,FUL,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+271,Muniz,FUL,9,9,0.0402,2.74,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+271,Muniz,FUL,10,19,0.0402,2.74,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+272,Kusi-Asare,FUL,9,9,0.0646,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+272,Kusi-Asare,FUL,10,19,0.0646,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+569,Gonzalo,FUL,9,9,0.9354,78.1,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+569,Gonzalo,FUL,10,19,0.9354,78.1,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+570,Palacios,FUL,9,9,0.3851,31.7,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+570,Palacios,FUL,10,19,0.3851,31.7,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+580,Charles,FUL,9,9,0.8151,73.17,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+580,Charles,FUL,10,19,0.8151,73.17,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+610,De Fougerolles,FUL,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+610,De Fougerolles,FUL,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+626,Zepa,FUL,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+626,Zepa,FUL,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+635,Larsson,FUL,9,9,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+635,Larsson,FUL,10,19,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+636,Ángel,FUL,9,9,0.0402,0.76,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+636,Ángel,FUL,10,19,0.0402,0.76,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+650,Affengruber,FUL,9,9,0.8382,75.44,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+650,Affengruber,FUL,10,19,0.8382,75.44,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+240,Iroegbunam,HUL,9,9,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+240,Iroegbunam,HUL,10,19,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+273,Phillips,HUL,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+273,Phillips,HUL,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+274,Butland,HUL,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+274,Butland,HUL,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+275,Cartwright,HUL,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+275,Cartwright,HUL,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+276,Lo-Tutala,HUL,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+276,Lo-Tutala,HUL,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+277,Egan,HUL,9,9,0.9354,82.66,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+277,Egan,HUL,10,19,0.9354,82.66,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+278,Hughes,HUL,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+278,Hughes,HUL,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+279,Ajayi,HUL,9,9,0.9354,81.02,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+279,Ajayi,HUL,10,19,0.9354,81.02,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+280,Coyle,HUL,9,9,0.9354,69.22,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+280,Coyle,HUL,10,19,0.9354,69.22,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+281,Drameh,HUL,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+281,Drameh,HUL,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+282,Giles,HUL,9,9,0.78,68.47,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+282,Giles,HUL,10,19,0.78,68.47,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+283,Jacob,HUL,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+283,Jacob,HUL,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+284,McCarthy,HUL,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+284,McCarthy,HUL,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+285,McNair,HUL,9,9,0.0402,1.05,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+285,McNair,HUL,10,19,0.0402,1.05,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+286,Belloumi,HUL,9,9,0.8047,70.49,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+286,Belloumi,HUL,10,19,0.8047,70.49,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+287,Millar,HUL,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+287,Millar,HUL,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+288,Dowell,HUL,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+288,Dowell,HUL,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+289,Crooks,HUL,9,9,0.6077,40.59,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+289,Crooks,HUL,10,19,0.6077,40.59,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+290,Slater,HUL,9,9,0.9354,78.92,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+290,Slater,HUL,10,19,0.9354,78.92,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+291,Matazo,HUL,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+291,Matazo,HUL,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+292,Ömür,HUL,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+292,Ömür,HUL,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+293,Kamara,HUL,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+293,Kamara,HUL,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+294,Zambrano,HUL,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+294,Zambrano,HUL,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+295,McBurnie,HUL,9,9,0.9354,82.54,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+295,McBurnie,HUL,10,19,0.9354,82.54,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+296,Akintola,HUL,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+296,Akintola,HUL,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+297,Gyabi,HUL,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+297,Gyabi,HUL,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+298,Destan,HUL,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+298,Destan,HUL,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+299,Burstow,HUL,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+299,Burstow,HUL,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+340,Gelhardt,HUL,9,9,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+340,Gelhardt,HUL,10,19,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+556,Targett,HUL,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+556,Targett,HUL,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+563,Morita,HUL,9,9,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+563,Morita,HUL,10,19,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+572,Tzolakis,HUL,9,9,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+572,Tzolakis,HUL,10,19,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+574,Hjertø-Dahl,HUL,9,9,0.0402,0.32,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+574,Hjertø-Dahl,HUL,10,19,0.0402,0.32,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+576,Stroud,HUL,9,9,0.5396,40.57,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+576,Stroud,HUL,10,19,0.5396,40.57,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+585,Herrington,HUL,9,9,0.5145,48.98,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+585,Herrington,HUL,10,19,0.5145,48.98,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+586,Mendy,HUL,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+586,Mendy,HUL,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+589,Gourna-Douath,HUL,9,9,0.1164,10.47,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; API d-prosent videreført R9–19, ingen antatt friskdato"
+589,Gourna-Douath,HUL,10,19,0.1164,10.47,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; API d-prosent videreført R9–19, ingen antatt friskdato"
+617,Cho,HUL,9,9,0.0402,3.62,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+617,Cho,HUL,10,19,0.0402,3.62,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+632,Ansah,HUL,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+632,Ansah,HUL,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+637,Vaz,HUL,9,9,0.0402,2.01,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+637,Vaz,HUL,10,19,0.0402,2.01,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+638,Norton-Cuffy,HUL,9,9,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+638,Norton-Cuffy,HUL,10,19,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+642,Thomas,HUL,9,9,0.3851,34.66,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+642,Thomas,HUL,10,19,0.3851,34.66,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+645,Mouzakitis,HUL,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+645,Mouzakitis,HUL,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+259,Diop,IPS,9,9,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+259,Diop,IPS,10,19,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+267,Lukić,IPS,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+267,Lukić,IPS,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+300,Walton,IPS,9,9,0.6451,58.06,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+300,Walton,IPS,10,19,0.6451,58.06,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+301,Palmer,IPS,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+301,Palmer,IPS,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+302,Button,IPS,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+302,Button,IPS,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+303,Kipré,IPS,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+303,Kipré,IPS,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+304,O'Shea,IPS,9,9,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+304,O'Shea,IPS,10,19,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+305,Davis,IPS,9,9,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+305,Davis,IPS,10,19,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+306,Greaves,IPS,9,9,0.5102,45.61,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+306,Greaves,IPS,10,19,0.5102,45.61,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+307,Johnson,IPS,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+307,Johnson,IPS,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+308,Furlong,IPS,9,9,0.0402,0.68,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+308,Furlong,IPS,10,19,0.0402,0.68,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+309,Núñez,IPS,9,9,0.2701,18.91,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+309,Núñez,IPS,10,19,0.2701,18.91,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+310,Matusiwa,IPS,9,9,0.0402,0.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+310,Matusiwa,IPS,10,19,0.0402,0.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+311,Burns,IPS,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+311,Burns,IPS,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+312,Taylor,IPS,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+312,Taylor,IPS,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+313,Clarke,IPS,9,9,0.2701,24.31,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+313,Clarke,IPS,10,19,0.2701,24.31,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+314,Ogbene,IPS,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+314,Ogbene,IPS,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+315,Fatawu,IPS,9,9,0.6494,49.22,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+315,Fatawu,IPS,10,19,0.6494,49.22,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+316,Emersonn,IPS,9,9,0.9354,61.15,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+316,Emersonn,IPS,10,19,0.9354,61.15,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+317,Hirst,IPS,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+317,Hirst,IPS,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+318,Philogene,IPS,9,9,0.2701,23.5,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+318,Philogene,IPS,10,19,0.2701,23.5,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+319,Szmodics,IPS,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+319,Szmodics,IPS,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+320,Akpom,IPS,9,9,0.0402,3.62,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+320,Akpom,IPS,10,19,0.0402,3.62,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+321,Walle Egeli,IPS,9,9,0.0402,0.76,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+321,Walle Egeli,IPS,10,19,0.0402,0.76,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+322,Al-Hamadi,IPS,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+322,Al-Hamadi,IPS,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+323,McAteer,IPS,9,9,0.0402,1.69,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+323,McAteer,IPS,10,19,0.0402,1.69,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+324,Mehmeti,IPS,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+324,Mehmeti,IPS,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+554,Van Oevelen,IPS,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+554,Van Oevelen,IPS,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+562,Maeda,IPS,9,9,0.5485,49.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+562,Maeda,IPS,10,19,0.5485,49.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+564,Scherpen,IPS,9,9,0.3549,31.94,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+564,Scherpen,IPS,10,19,0.3549,31.94,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+571,Florentino,IPS,9,9,0.3851,31.57,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+571,Florentino,IPS,10,19,0.3851,31.57,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+591,Enciso,IPS,9,9,0.9354,75.41,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+591,Enciso,IPS,10,19,0.9354,75.41,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+592,Ouattara,IPS,9,9,0.6451,61.7,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+592,Ouattara,IPS,10,19,0.6451,61.7,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+602,Humphreys,IPS,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+602,Humphreys,IPS,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+619,Palacios,IPS,9,9,0.7243,69.44,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+619,Palacios,IPS,10,19,0.7243,69.44,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+640,Flemming,IPS,9,9,0.0402,3.62,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+640,Flemming,IPS,10,19,0.0402,3.62,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+260,Wilson,LEE,9,9,0.2701,24.31,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+260,Wilson,LEE,10,19,0.2701,24.31,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+326,Perri,LEE,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+326,Perri,LEE,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+327,Bijol,LEE,9,9,0.3851,33.11,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+327,Bijol,LEE,10,19,0.3851,33.11,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+329,Rodon,LEE,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+329,Rodon,LEE,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+330,Bogle,LEE,9,9,0.9354,73.66,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+330,Bogle,LEE,10,19,0.9354,73.66,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+331,Gudmundsson,LEE,9,9,0.8151,70.92,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+331,Gudmundsson,LEE,10,19,0.8151,70.92,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+332,Justin,LEE,9,9,0.9354,82.78,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+332,Justin,LEE,10,19,0.9354,82.78,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+333,Bornauw,LEE,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+333,Bornauw,LEE,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+334,Muharemović,LEE,9,9,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+334,Muharemović,LEE,10,19,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+335,Stach,LEE,9,9,0.7506,73.22,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+335,Stach,LEE,10,19,0.7506,73.22,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+336,Okafor,LEE,9,9,0.6957,55.92,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+336,Okafor,LEE,10,19,0.6957,55.92,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+337,Aaronson,LEE,9,9,0.3851,34.66,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+337,Aaronson,LEE,10,19,0.3851,34.66,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+338,Ampadu,LEE,9,9,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+338,Ampadu,LEE,10,19,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+339,Longstaff,LEE,9,9,0.0402,0.8,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+339,Longstaff,LEE,10,19,0.0402,0.8,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+341,Gnonto,LEE,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+341,Gnonto,LEE,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+342,Harrison,LEE,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+342,Harrison,LEE,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+343,James,LEE,9,9,0.0402,2.09,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+343,James,LEE,10,19,0.0402,2.09,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+344,Gruev,LEE,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+344,Gruev,LEE,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+345,Tanaka,LEE,9,9,0.8151,65.02,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+345,Tanaka,LEE,10,19,0.8151,65.02,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+346,Calvert-Lewin,LEE,9,9,0.9354,79.86,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+346,Calvert-Lewin,LEE,10,19,0.9354,79.86,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+347,Nmecha,LEE,9,9,0.0402,3.62,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+347,Nmecha,LEE,10,19,0.0402,3.62,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+348,Piroe,LEE,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+348,Piroe,LEE,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+349,Mateo Joseph,LEE,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+349,Mateo Joseph,LEE,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+385,Trafford,LEE,9,9,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+385,Trafford,LEE,10,19,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+598,Elvedi,LEE,9,9,0.4728,47.25,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; API d-prosent videreført R9–19, ingen antatt friskdato"
+598,Elvedi,LEE,10,19,0.4728,47.25,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; API d-prosent videreført R9–19, ingen antatt friskdato"
+603,Lienou,LEE,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+603,Lienou,LEE,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+604,Cresswell,LEE,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+604,Cresswell,LEE,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+625,Cairns,LEE,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+625,Cairns,LEE,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+629,Zetterer,LEE,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+629,Zetterer,LEE,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+641,Bard,LEE,9,9,0.0402,0.72,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+641,Bard,LEE,10,19,0.0402,0.72,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+648,Bahoya,LEE,9,9,0.0402,0.2,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+648,Bahoya,LEE,10,19,0.0402,0.2,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+350,A.Becker,LIV,9,9,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+350,A.Becker,LIV,10,19,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+351,Mamardashvili,LIV,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+351,Mamardashvili,LIV,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+352,Woodman,LIV,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+352,Woodman,LIV,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+353,Pecsi,LIV,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+353,Pecsi,LIV,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+354,Jaros,LIV,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+354,Jaros,LIV,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+355,Davies,LIV,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+355,Davies,LIV,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+356,Virgil,LIV,9,9,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+356,Virgil,LIV,10,19,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+357,Frimpong,LIV,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+357,Frimpong,LIV,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+358,Kerkez,LIV,9,9,0.843,80.17,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+358,Kerkez,LIV,10,19,0.843,80.17,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+359,Gomez,LIV,9,9,0.0402,0.52,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+359,Gomez,LIV,10,19,0.0402,0.52,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+360,Bradley,LIV,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+360,Bradley,LIV,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+361,Lucky,LIV,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+361,Lucky,LIV,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+362,Jacquet,LIV,9,9,0.9354,79.74,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+362,Jacquet,LIV,10,19,0.9354,79.74,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+363,Leoni,LIV,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+363,Leoni,LIV,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+364,Tsimikas,LIV,9,9,0.1552,10.24,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+364,Tsimikas,LIV,10,19,0.1552,10.24,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+365,Ramsay,LIV,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+365,Ramsay,LIV,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+366,Wirtz,LIV,9,9,0.9354,72.61,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+366,Wirtz,LIV,10,19,0.9354,72.61,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+367,Gakpo,LIV,9,9,0.5571,52.34,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+367,Gakpo,LIV,10,19,0.5571,52.34,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+368,Szoboszlai,LIV,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+368,Szoboszlai,LIV,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+369,Ngumoha,LIV,9,9,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+369,Ngumoha,LIV,10,19,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+370,Chiesa,LIV,9,9,0.0402,0.08,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+370,Chiesa,LIV,10,19,0.0402,0.08,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+371,Gravenberch,LIV,9,9,0.5272,44.21,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+371,Gravenberch,LIV,10,19,0.5272,44.21,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+372,Mac Allister,LIV,9,9,0.7881,74.21,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+372,Mac Allister,LIV,10,19,0.7881,74.21,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+373,C.Jones,LIV,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+373,C.Jones,LIV,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+374,Endo,LIV,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+374,Endo,LIV,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+375,Nyoni,LIV,9,9,0.0402,3.62,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+375,Nyoni,LIV,10,19,0.0402,3.62,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+376,Bajcetic,LIV,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+376,Bajcetic,LIV,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+377,Munoz,LIV,9,9,0.1465,12.68,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; API d-prosent videreført R9–19, ingen antatt friskdato"
+377,Munoz,LIV,10,19,0.1465,12.68,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; API d-prosent videreført R9–19, ingen antatt friskdato"
+378,McConnell,LIV,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+378,McConnell,LIV,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+379,Isak,LIV,9,9,0.8047,65.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+379,Isak,LIV,10,19,0.8047,65.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+380,Ekitiké,LIV,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+380,Ekitiké,LIV,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+381,Koumas,LIV,9,9,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+381,Koumas,LIV,10,19,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+382,Danns,LIV,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+382,Danns,LIV,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+383,Elliott,LIV,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+383,Elliott,LIV,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+579,Araujo,LIV,9,9,0.8151,65.54,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+579,Araujo,LIV,10,19,0.8151,65.54,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+627,Barcola,LIV,9,9,0.8382,70.43,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+627,Barcola,LIV,10,19,0.8382,70.43,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+155,Enzo,MCI,9,9,0.6598,62.14,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+155,Enzo,MCI,10,19,0.6598,62.14,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+237,Ndiaye,MCI,9,9,0.843,73.66,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+237,Ndiaye,MCI,10,19,0.843,73.66,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+384,Donnarumma,MCI,9,9,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+384,Donnarumma,MCI,10,19,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+386,Bettinelli,MCI,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+386,Bettinelli,MCI,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+387,O'Reilly,MCI,9,9,0.5,36.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+387,O'Reilly,MCI,10,19,0.5,36.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+388,Guéhi,MCI,9,9,0.9354,78.92,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+388,Guéhi,MCI,10,19,0.9354,78.92,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+389,Matheus N.,MCI,9,9,0.4146,38.52,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; API d-prosent videreført R9–19, ingen antatt friskdato"
+389,Matheus N.,MCI,10,19,0.4146,38.52,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; API d-prosent videreført R9–19, ingen antatt friskdato"
+390,Rúben,MCI,9,9,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+390,Rúben,MCI,10,19,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+391,Gvardiol,MCI,9,9,0.6494,66.01,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+391,Gvardiol,MCI,10,19,0.6494,66.01,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+392,Aït-Nouri,MCI,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+392,Aït-Nouri,MCI,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+393,Khusanov,MCI,9,9,0.4472,41.96,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+393,Khusanov,MCI,10,19,0.4472,41.96,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+394,Alleyne,MCI,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+394,Alleyne,MCI,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+395,Lewis,MCI,9,9,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+395,Lewis,MCI,10,19,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+396,Vitor Reis,MCI,9,9,0.0402,0.04,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+396,Vitor Reis,MCI,10,19,0.0402,0.04,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+397,Semenyo,MCI,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+397,Semenyo,MCI,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+398,Foden,MCI,9,9,0.4325,38.88,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+398,Foden,MCI,10,19,0.4325,38.88,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+399,Cherki,MCI,9,9,0.7251,53.26,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+399,Cherki,MCI,10,19,0.7251,53.26,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+400,Doku,MCI,9,9,0.2701,24.31,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+400,Doku,MCI,10,19,0.2701,24.31,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+402,Rodrigo,MCI,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+402,Rodrigo,MCI,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+404,Reijnders,MCI,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+404,Reijnders,MCI,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+406,Kovačić,MCI,9,9,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+406,Kovačić,MCI,10,19,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+407,Echeverri,MCI,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+407,Echeverri,MCI,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+408,Phillips,MCI,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+408,Phillips,MCI,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+409,Mukasa,MCI,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+409,Mukasa,MCI,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+410,Monga,MCI,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+410,Monga,MCI,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+411,Haaland,MCI,9,9,0.97,85.36,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; bruker: ligacup 27.–29. okt (hvile/belastning); numerisk justering er Codex-antakelse
+411,Haaland,MCI,10,19,0.9354,82.9,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+481,Anderson,MCI,9,9,0.78,68.94,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+481,Anderson,MCI,10,19,0.78,68.94,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+587,Rulli,MCI,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+587,Rulli,MCI,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+616,Bouaddi,MCI,9,9,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+616,Bouaddi,MCI,10,19,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+621,McAidoo,MCI,9,9,0.0402,1.29,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+621,McAidoo,MCI,10,19,0.0402,1.29,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+622,Braithwaite,MCI,9,9,0.0402,0.04,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+622,Braithwaite,MCI,10,19,0.0402,0.04,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+628,Allan,MCI,9,9,0.0402,0.4,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+628,Allan,MCI,10,19,0.0402,0.4,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+653,Samba,MCI,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+653,Samba,MCI,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+43,Tielemans,MUN,9,9,0.9354,68.75,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+43,Tielemans,MUN,10,19,0.9354,68.75,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+131,Baleba,MUN,9,9,0.2701,23.64,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+131,Baleba,MUN,10,19,0.2701,23.64,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+162,Andrey Santos,MUN,9,9,0.3851,33.63,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+162,Andrey Santos,MUN,10,19,0.3851,33.63,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+325,Darlow,MUN,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+325,Darlow,MUN,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+412,Lammens,MUN,9,9,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+412,Lammens,MUN,10,19,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+413,Bayindir,MUN,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+413,Bayindir,MUN,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+414,Heaton,MUN,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+414,Heaton,MUN,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+415,Dorgu,MUN,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+415,Dorgu,MUN,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+416,De Ligt,MUN,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+416,De Ligt,MUN,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+417,Dalot,MUN,9,9,0.7498,69.61,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+417,Dalot,MUN,10,19,0.7498,69.61,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+418,Maguire,MUN,9,9,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+418,Maguire,MUN,10,19,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+419,Martinez,MUN,9,9,0.6957,61.2,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+419,Martinez,MUN,10,19,0.6957,61.2,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+420,Yoro,MUN,9,9,0.3851,33.37,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+420,Yoro,MUN,10,19,0.3851,33.37,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+421,Heaven,MUN,9,9,0.2701,20.93,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+421,Heaven,MUN,10,19,0.2701,20.93,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+422,Mazraoui,MUN,9,9,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+422,Mazraoui,MUN,10,19,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+423,Shaw,MUN,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+423,Shaw,MUN,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+424,Amass,MUN,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+424,Amass,MUN,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+425,Fredricson,MUN,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+425,Fredricson,MUN,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+426,B.Fernandes,MUN,9,9,0.85,76.5,"Bruker: Sky Sports 28. okt, ventet tilbake etter benk R8. Modell: p_start 0.85 R9 / 0.92 senere, 90 min gitt start"
+426,B.Fernandes,MUN,10,19,0.92,82.8,"Bruker: Sky Sports 28. okt, ventet tilbake etter benk R8. Modell: p_start 0.85 R9 / 0.92 senere, 90 min gitt start"
+427,Mbeumo,MUN,9,9,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+427,Mbeumo,MUN,10,19,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+428,Cunha,MUN,9,9,0.5953,59.63,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+428,Cunha,MUN,10,19,0.5953,59.63,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+429,Rashford,MUN,9,9,0.3073,28.6,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; API d-prosent videreført R9–19, ingen antatt friskdato"
+429,Rashford,MUN,10,19,0.3073,28.6,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; API d-prosent videreført R9–19, ingen antatt friskdato"
+430,Mount,MUN,9,9,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+430,Mount,MUN,10,19,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+431,Amad,MUN,9,9,0.3851,28.88,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+431,Amad,MUN,10,19,0.3851,28.88,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+432,Mainoo,MUN,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+432,Mainoo,MUN,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+433,Ugarte,MUN,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+433,Ugarte,MUN,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+434,J.Fletcher,MUN,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+434,J.Fletcher,MUN,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+435,Lacey,MUN,9,9,0.0402,0.89,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+435,Lacey,MUN,10,19,0.0402,0.89,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+436,Collyer,MUN,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+436,Collyer,MUN,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+437,Bendito Mantato,MUN,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+437,Bendito Mantato,MUN,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+438,Fletcher,MUN,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+438,Fletcher,MUN,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+439,Šeško,MUN,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+439,Šeško,MUN,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+440,Zirkzee,MUN,9,9,0.0402,2.78,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+440,Zirkzee,MUN,10,19,0.0402,2.78,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+441,Obi,MUN,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+441,Obi,MUN,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+405,N.Gonzalez,NEW,9,9,0.7706,55.74,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+405,N.Gonzalez,NEW,10,19,0.7706,55.74,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+442,Pope,NEW,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+442,Pope,NEW,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+443,Gillespie,NEW,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+443,Gillespie,NEW,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+444,Jaouen,NEW,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+444,Jaouen,NEW,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+445,Thiaw,NEW,9,9,0.7506,67.81,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+445,Thiaw,NEW,10,19,0.7506,67.81,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+446,Schär,NEW,9,9,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+446,Schär,NEW,10,19,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+447,Botman,NEW,9,9,0.7506,67.56,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+447,Botman,NEW,10,19,0.7506,67.56,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+448,Burn,NEW,9,9,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+448,Burn,NEW,10,19,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+449,Hall,NEW,9,9,0.9354,84.06,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+449,Hall,NEW,10,19,0.9354,84.06,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+450,Livramento,NEW,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+450,Livramento,NEW,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+451,A.Murphy,NEW,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+451,A.Murphy,NEW,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+453,Barnes,NEW,9,9,0.9354,82.54,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+453,Barnes,NEW,10,19,0.9354,82.54,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+454,Elanga,NEW,9,9,0.3851,31.45,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+454,Elanga,NEW,10,19,0.3851,31.45,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+456,J.Ramsey,NEW,9,9,0.0402,3.3,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+456,J.Ramsey,NEW,10,19,0.0402,3.3,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+457,J.Murphy,NEW,9,9,0.5822,46.44,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+457,J.Murphy,NEW,10,19,0.5822,46.44,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+458,Joelinton,NEW,9,9,0.2701,24.31,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+458,Joelinton,NEW,10,19,0.2701,24.31,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+459,L.Miley,NEW,9,9,0.563,43.75,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; API d-prosent videreført R9–19, ingen antatt friskdato"
+459,L.Miley,NEW,10,19,0.563,43.75,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; API d-prosent videreført R9–19, ingen antatt friskdato"
+460,Willock,NEW,9,9,0.7881,60.45,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+460,Willock,NEW,10,19,0.7881,60.45,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+461,Touré,NEW,9,9,0.0402,3.62,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+461,Touré,NEW,10,19,0.0402,3.62,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+462,Steur,NEW,9,9,0.2701,24.31,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+462,Steur,NEW,10,19,0.2701,24.31,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+463,Woltemade,NEW,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+463,Woltemade,NEW,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+464,Wissa,NEW,9,9,0.7506,68.44,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+464,Wissa,NEW,10,19,0.7506,68.44,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+465,Osula,NEW,9,9,0.2701,23.91,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+465,Osula,NEW,10,19,0.2701,23.91,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+466,Neave,NEW,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+466,Neave,NEW,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+559,Bamba,NEW,9,9,0.0402,1.09,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+559,Bamba,NEW,10,19,0.0402,1.09,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+567,Horníček,NEW,9,9,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+567,Horníček,NEW,10,19,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+593,Dedić,NEW,9,9,0.5396,49.76,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+593,Dedić,NEW,10,19,0.5396,49.76,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+609,Shahar,NEW,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+609,Shahar,NEW,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+634,Fernandez-Pardo,NEW,9,9,0.4712,36.16,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; API d-prosent videreført R9–19, ingen antatt friskdato"
+634,Fernandez-Pardo,NEW,10,19,0.4712,36.16,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; API d-prosent videreført R9–19, ingen antatt friskdato"
+659,Miley,NEW,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+659,Miley,NEW,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+663,Pivas,NEW,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+663,Pivas,NEW,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+664,Salia,NEW,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+664,Salia,NEW,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+665,Mills,NEW,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+665,Mills,NEW,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+666,Thompson,NEW,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+666,Thompson,NEW,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+167,Delap,NFO,9,9,0.8151,70.69,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+167,Delap,NFO,10,19,0.8151,70.69,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+201,Muñoz,NFO,9,9,0.7924,68.72,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+201,Muñoz,NFO,10,19,0.7924,68.72,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+467,Sels,NFO,9,9,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+467,Sels,NFO,10,19,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+468,John,NFO,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+468,John,NFO,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+469,N.Williams,NFO,9,9,0.7015,62.52,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; API d-prosent videreført R9–19, ingen antatt friskdato"
+469,N.Williams,NFO,10,19,0.7015,62.52,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; API d-prosent videreført R9–19, ingen antatt friskdato"
+470,Morato,NFO,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+470,Morato,NFO,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+471,Milenković,NFO,9,9,0.4472,40.25,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+471,Milenković,NFO,10,19,0.4472,40.25,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+472,Murillo,NFO,9,9,0.9354,84.06,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+472,Murillo,NFO,10,19,0.9354,84.06,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+473,Aina,NFO,9,9,0.4855,37.67,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+473,Aina,NFO,10,19,0.4855,37.67,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+474,Jair Cunha,NFO,9,9,0.7124,63.4,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+474,Jair Cunha,NFO,10,19,0.7124,63.4,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+475,Savona,NFO,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+475,Savona,NFO,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+476,O.Richards,NFO,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+476,O.Richards,NFO,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+477,Abbott,NFO,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+477,Abbott,NFO,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+478,Netz,NFO,9,9,0.0402,1.33,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+478,Netz,NFO,10,19,0.0402,1.33,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+479,Bindon,NFO,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+479,Bindon,NFO,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+480,Gibbs-White,NFO,9,9,0.78,70.2,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+480,Gibbs-White,NFO,10,19,0.78,70.2,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+482,Hudson-Odoi,NFO,9,9,0.0402,1.81,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+482,Hudson-Odoi,NFO,10,19,0.0402,1.81,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+483,Ndoye,NFO,9,9,0.9354,61.62,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+483,Ndoye,NFO,10,19,0.9354,61.62,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+484,Hutchinson,NFO,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+484,Hutchinson,NFO,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+485,Bakwa,NFO,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+485,Bakwa,NFO,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+486,McAtee,NFO,9,9,0.9354,79.5,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+486,McAtee,NFO,10,19,0.9354,79.5,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+487,Dominguez,NFO,9,9,0.1164,8.61,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; API d-prosent videreført R9–19, ingen antatt friskdato"
+487,Dominguez,NFO,10,19,0.1164,8.61,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; API d-prosent videreført R9–19, ingen antatt friskdato"
+488,I.Sangaré,NFO,9,9,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+488,I.Sangaré,NFO,10,19,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+489,Yates,NFO,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+489,Yates,NFO,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+490,Wood,NFO,9,9,0.0402,3.46,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+490,Wood,NFO,10,19,0.0402,3.46,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+491,Igor Jesus,NFO,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+491,Igor Jesus,NFO,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+493,Kalimuendo,NFO,9,9,0.0402,1.01,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+493,Kalimuendo,NFO,10,19,0.0402,1.01,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+558,Schlager,NFO,9,9,0.8804,78.01,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+558,Schlager,NFO,10,19,0.8804,78.01,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+581,Diomande,NFO,9,9,0.5528,47.37,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+581,Diomande,NFO,10,19,0.5528,47.37,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+590,Benda,NFO,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+590,Benda,NFO,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+112,Van Hecke,TOT,9,9,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+112,Van Hecke,TOT,10,19,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+147,Tosin,TOT,9,9,0.1552,11.64,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+147,Tosin,TOT,10,19,0.1552,11.64,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+401,Marmoush,TOT,9,9,0.7498,64.11,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+401,Marmoush,TOT,10,19,0.7498,64.11,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+403,Sávio,TOT,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+403,Sávio,TOT,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+455,Tonali,TOT,9,9,0.9354,81.49,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+455,Tonali,TOT,10,19,0.9354,81.49,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+494,Vicario,TOT,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+494,Vicario,TOT,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+495,Austin,TOT,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+495,Austin,TOT,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+496,Kinsky,TOT,9,9,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+496,Kinsky,TOT,10,19,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+497,Dubravka,TOT,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+497,Dubravka,TOT,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+498,Senesi,TOT,9,9,0.2701,24.04,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+498,Senesi,TOT,10,19,0.2701,24.04,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+499,Pedro Porro,TOT,9,9,0.3851,28.62,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+499,Pedro Porro,TOT,10,19,0.3851,28.62,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+500,Romero,TOT,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+500,Romero,TOT,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+502,Robertson,TOT,9,9,0.7271,60.79,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+502,Robertson,TOT,10,19,0.7271,60.79,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+503,Van de Ven,TOT,9,9,0.7498,69.49,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+503,Van de Ven,TOT,10,19,0.7498,69.49,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+505,Spence,TOT,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+505,Spence,TOT,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+506,Udogie,TOT,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+506,Udogie,TOT,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+507,Phillips,TOT,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+507,Phillips,TOT,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+508,Davies,TOT,9,9,0.0402,0.89,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+508,Davies,TOT,10,19,0.0402,0.89,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+509,Byfield,TOT,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+509,Byfield,TOT,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+510,Rowswell,TOT,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+510,Rowswell,TOT,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+511,Souza,TOT,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+511,Souza,TOT,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+512,Kudus,TOT,9,9,0.5353,54.08,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+512,Kudus,TOT,10,19,0.5353,54.08,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+513,Xavi,TOT,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+513,Xavi,TOT,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+514,Tel,TOT,9,9,0.4472,39.7,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+514,Tel,TOT,10,19,0.4472,39.7,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+515,Maddison,TOT,9,9,0.2026,18.23,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; API d-prosent videreført R9–19, ingen antatt friskdato"
+515,Maddison,TOT,10,19,0.2026,18.23,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; API d-prosent videreført R9–19, ingen antatt friskdato"
+516,Bentancur,TOT,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+516,Bentancur,TOT,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+517,Odobert,TOT,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+517,Odobert,TOT,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+518,P.M.Sarr,TOT,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+518,P.M.Sarr,TOT,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+519,Gallagher,TOT,9,9,0.3851,34.27,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+519,Gallagher,TOT,10,19,0.3851,34.27,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+520,Bergvall,TOT,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+520,Bergvall,TOT,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+521,Kulusevski,TOT,9,9,0.0402,0.16,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+521,Kulusevski,TOT,10,19,0.0402,0.16,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+522,Gray,TOT,9,9,0.7479,72.02,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+522,Gray,TOT,10,19,0.7479,72.02,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+523,Moore,TOT,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+523,Moore,TOT,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+524,Olusesi,TOT,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+524,Olusesi,TOT,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+525,Fernandes,TOT,9,9,0.5168,45.78,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+525,Fernandes,TOT,10,19,0.5168,45.78,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+526,Solanke,TOT,9,9,0.5528,50.03,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+526,Solanke,TOT,10,19,0.5528,50.03,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+527,Richarlison,TOT,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+527,Richarlison,TOT,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+528,Scarlett,TOT,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+528,Scarlett,TOT,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+578,Mudryk,TOT,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+578,Mudryk,TOT,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+601,Williams-Barnett,TOT,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+601,Williams-Barnett,TOT,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+501,Danso,SUN,9,9,0.6304,47.41,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+501,Danso,SUN,10,19,0.6304,47.41,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+529,Roefs,SUN,9,9,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+529,Roefs,SUN,10,19,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+530,Patterson,SUN,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+530,Patterson,SUN,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+531,Ellborg,SUN,9,9,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+531,Ellborg,SUN,10,19,0.0402,0.0,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+532,Ballard,SUN,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+532,Ballard,SUN,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+533,Mukiele,SUN,9,9,0.8804,74.33,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+533,Mukiele,SUN,10,19,0.8804,74.33,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+534,Hume,SUN,9,9,0.6555,61.8,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+534,Hume,SUN,10,19,0.6555,61.8,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+535,Alderete,SUN,9,9,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+535,Alderete,SUN,10,19,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+536,Reinildo,SUN,9,9,0.8255,72.17,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+536,Reinildo,SUN,10,19,0.8255,72.17,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+537,Seelt,SUN,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+537,Seelt,SUN,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+538,Hjelde,SUN,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+538,Hjelde,SUN,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+539,O'Nien,SUN,9,9,0.2701,24.31,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+539,O'Nien,SUN,10,19,0.2701,24.31,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+540,Masuaku,SUN,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+540,Masuaku,SUN,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+541,Meunier,SUN,9,9,0.5953,42.57,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+541,Meunier,SUN,10,19,0.5953,42.57,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+542,E.Le Fée,SUN,9,9,0.9,75.6,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; bruker: ligacup 27.–29. okt (hvile/belastning); numerisk justering er Codex-antakelse
+542,E.Le Fée,SUN,10,19,0.9354,80.21,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+543,Diarra,SUN,9,9,0.0402,2.82,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+543,Diarra,SUN,10,19,0.0402,2.82,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+544,Xhaka,SUN,9,9,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+544,Xhaka,SUN,10,19,0.9354,84.18,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+545,Sadiki,SUN,9,9,0.9354,79.5,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+545,Sadiki,SUN,10,19,0.9354,79.5,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+546,Adingra,SUN,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+546,Adingra,SUN,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+547,Mundle,SUN,9,9,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+547,Mundle,SUN,10,19,0.0,0.0,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; ute/kjøpsforbud fra API eller brukerens kildebelagte nyheter; retur ukjent, null gjennom R19"
+548,Rigg,SUN,9,9,0.2701,23.09,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+548,Rigg,SUN,10,19,0.2701,23.09,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+549,Talbi,SUN,9,9,0.0402,1.69,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+549,Talbi,SUN,10,19,0.0402,1.69,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+550,Jocelin.T,SUN,9,9,0.0402,0.68,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+550,Jocelin.T,SUN,10,19,0.0402,0.68,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+551,N.Angulo,SUN,9,9,0.78,51.59,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+551,N.Angulo,SUN,10,19,0.78,51.59,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+552,Brobbey,SUN,9,9,0.6494,50.11,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+552,Brobbey,SUN,10,19,0.6494,50.11,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+553,Isidor,SUN,9,9,0.0776,6.98,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; API d-prosent videreført R9–19, ingen antatt friskdato"
+553,Isidor,SUN,10,19,0.0776,6.98,"Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt; API d-prosent videreført R9–19, ingen antatt friskdato"
+612,Methalie,SUN,9,9,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+612,Methalie,SUN,10,19,0.1552,13.97,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+613,Ahoka,SUN,9,9,0.0402,1.01,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+613,Ahoka,SUN,10,19,0.0402,1.01,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+646,Fofana,SUN,9,9,0.0402,3.62,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+646,Fofana,SUN,10,19,0.0402,3.62,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+651,J.Angulo,SUN,9,9,0.0402,0.36,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+651,J.Angulo,SUN,10,19,0.0402,0.36,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+668,Tutierov,SUN,9,9,0.1552,12.88,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt
+668,Tutierov,SUN,10,19,0.1552,12.88,Modell: vektede starter R1–8 + prior; egen min/start; API 29. okt

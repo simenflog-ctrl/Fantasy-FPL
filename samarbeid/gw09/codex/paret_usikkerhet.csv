@@ -1,0 +1,13 @@
+anbefalt,mot,poengsett,delta,p10,p90
+E,A,codex,10.19,2.48,17.47
+E,A,repo_hybrid,10.56,2.15,18.61
+E,B,codex,6.81,0.16,12.54
+E,B,repo_hybrid,7.09,-0.26,13.46
+E,C,codex,5.46,-0.31,10.89
+E,C,repo_hybrid,4.78,-1.36,10.72
+E,F_WC10,codex,4.27,1.0,7.51
+E,F_WC10,repo_hybrid,4.13,0.67,7.53
+E,F_WC11,codex,5.46,-0.31,10.89
+E,F_WC11,repo_hybrid,4.78,-1.36,10.72
+E,D3,codex,6.98,1.58,11.9
+E,D3,repo_hybrid,5.7,-0.23,11.02
