@@ -1,132 +1,89 @@
 {
- "generated_for_gw": 9,
+ "generated_for_gw": 10,
  "status": "Optimal",
- "objective": 364.29,
+ "objective": 357.93,
  "chip_note": "",
  "plan": [
   {
-   "gw": 9,
-   "chip": "WILDCARD",
-   "in": [
-    "Raya",
-    "Gabriel",
-    "Rogers",
-    "Rayan",
-    "Van Hecke",
-    "Dewsbury-Hall",
-    "Barry",
-    "Leno",
-    "Justin",
-    "Silva",
-    "Gonzalo"
-   ],
-   "out": [
-    "Calafiori",
-    "Thiago",
-    "Verbruggen",
-    "Steele",
-    "Groß",
-    "van Ewijk",
-    "Kusi-Asare",
-    "Maguire",
-    "B.Fernandes",
-    "N.Williams",
-    "E.Le Fée"
-   ],
-   "hits": 0,
-   "captain": "Haaland",
-   "xi": [
-    "Raya",
-    "Gabriel",
-    "Silva",
-    "Van Hecke",
-    "Rogers",
-    "Mbeumo",
-    "Dewsbury-Hall",
-    "Tavernier",
-    "Rayan",
-    "Haaland",
-    "Barry"
-   ]
-  },
-  {
    "gw": 10,
-   "chip": "BENCH BOOST",
+   "chip": "",
    "in": [
-    "Groß"
+    "Evanilson"
    ],
    "out": [
-    "Rayan"
+    "Isak"
    ],
    "hits": 0,
    "captain": "Haaland",
    "xi": [
-    "Leno",
+    "Trafford",
+    "Gabriel",
+    "De Cuyper",
+    "Muharemović",
     "Silva",
-    "Van Hecke",
-    "Konsa",
-    "Rogers",
     "Mbeumo",
-    "Dewsbury-Hall",
+    "Ødegaard",
+    "Tavernier",
     "Groß",
     "Haaland",
-    "Gonzalo",
-    "Barry"
+    "Evanilson"
    ]
   },
   {
    "gw": 11,
    "chip": "",
-   "in": [],
-   "out": [],
+   "in": [
+    "Raya"
+   ],
+   "out": [
+    "Tzolakis"
+   ],
    "hits": 0,
    "captain": "Haaland",
    "xi": [
     "Raya",
     "Gabriel",
+    "De Cuyper",
     "Silva",
-    "Van Hecke",
-    "Konsa",
-    "Rogers",
     "Mbeumo",
-    "Dewsbury-Hall",
+    "Ødegaard",
     "Tavernier",
     "Groß",
-    "Haaland"
+    "Rudoni",
+    "Haaland",
+    "Evanilson"
    ]
   },
   {
    "gw": 12,
    "chip": "",
    "in": [
-    "Verbruggen",
-    "De Cuyper"
+    "Rogers"
    ],
    "out": [
-    "Raya",
-    "Konsa"
+    "Ødegaard"
    ],
    "hits": 0,
    "captain": "Haaland",
    "xi": [
-    "Verbruggen",
+    "Trafford",
     "Gabriel",
     "De Cuyper",
-    "Van Hecke",
-    "Justin",
+    "Muharemović",
+    "Silva",
     "Rogers",
     "Mbeumo",
-    "Dewsbury-Hall",
     "Tavernier",
     "Groß",
-    "Haaland"
+    "Haaland",
+    "Evanilson"
    ]
   },
   {
    "gw": 13,
    "chip": "",
    "in": [
-    "Virgil"
+    "Konsa"
    ],
    "out": [
     "De Cuyper"
@@ -134,17 +91,42 @@
    "hits": 0,
    "captain": "Haaland",
    "xi": [
-    "Leno",
+    "Raya",
     "Gabriel",
-    "Virgil",
     "Silva",
-    "Van Hecke",
+    "Konsa",
     "Rogers",
     "Mbeumo",
-    "Dewsbury-Hall",
     "Tavernier",
     "Groß",
-    "Haaland"
+    "Rudoni",
+    "Haaland",
+    "Evanilson"
+   ]
+  },
+  {
+   "gw": 14,
+   "chip": "BENCH BOOST",
+   "in": [
+    "Bogle"
+   ],
+   "out": [
+    "Dasilva"
+   ],
+   "hits": 0,
+   "captain": "Haaland",
+   "xi": [
+    "Trafford",
+    "Gabriel",
+    "Muharemović",
+    "Silva",
+    "Rogers",
+    "Mbeumo",
+    "Tavernier",
+    "Groß",
+    "Rudoni",
+    "Haaland",
+    "Evanilson"
    ]
   }
  ]

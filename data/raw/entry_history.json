@@ -4,6 +4,11 @@
    "event": 3,
    "name": "3xc",
    "time": "2026-09-01T11:04:27.835472Z"
+  },
+  {
+   "event": 9,
+   "name": "wildcard",
+   "time": "2026-10-30T06:53:39.839625Z"
   }
  ],
  "current": [
@@ -126,6 +131,21 @@
    "rank_sort": 1121754,
    "total_points": 505,
    "value": 1001
+  },
+  {
+   "bank": 4,
+   "event": 9,
+   "event_transfers": 0,
+   "event_transfers_cost": 0,
+   "overall_rank": 2009162,
+   "overall_rank_percentage": null,
+   "percentile_rank": null,
+   "points": 0,
+   "points_on_bench": 0,
+   "rank": null,
+   "rank_sort": null,
+   "total_points": 505,
+   "value": 1002
   }
  ],
  "past": [
