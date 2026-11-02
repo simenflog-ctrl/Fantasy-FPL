@@ -1,7 +1,7 @@
 {
  "generated_for_gw": 10,
  "status": "Optimal",
- "objective": 357.93,
+ "objective": 357.98,
  "chip_note": "",
  "plan": [
   {
@@ -83,7 +83,7 @@
    "gw": 13,
    "chip": "",
    "in": [
-    "Konsa"
+    "N.Williams"
    ],
    "out": [
     "De Cuyper"
@@ -94,7 +94,7 @@
     "Raya",
     "Gabriel",
     "Silva",
-    "Konsa",
+    "N.Williams",
     "Rogers",
     "Mbeumo",
     "Tavernier",
@@ -116,17 +116,17 @@
    "hits": 0,
    "captain": "Haaland",
    "xi": [
-    "Trafford",
+    "Raya",
     "Gabriel",
     "Muharemović",
-    "Silva",
+    "N.Williams",
+    "Bogle",
     "Rogers",
-    "Mbeumo",
-    "Tavernier",
     "Groß",
     "Rudoni",
     "Haaland",
-    "Evanilson"
+    "Evanilson",
+    "Barry"
    ]
   }
  ]
