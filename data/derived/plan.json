@@ -1,64 +1,14 @@
 {
  "generated_for_gw": 10,
  "status": "Optimal",
- "objective": 357.98,
+ "objective": 355.6,
  "chip_note": "",
  "plan": [
   {
    "gw": 10,
    "chip": "",
    "in": [
-    "Evanilson"
-   ],
-   "out": [
-    "Isak"
-   ],
-   "hits": 0,
-   "captain": "Haaland",
-   "xi": [
-    "Trafford",
-    "Gabriel",
-    "De Cuyper",
-    "Muharemović",
-    "Silva",
-    "Mbeumo",
-    "Ødegaard",
-    "Tavernier",
-    "Groß",
-    "Haaland",
-    "Evanilson"
-   ]
-  },
-  {
-   "gw": 11,
-   "chip": "",
-   "in": [
-    "Raya"
-   ],
-   "out": [
-    "Tzolakis"
-   ],
-   "hits": 0,
-   "captain": "Haaland",
-   "xi": [
-    "Raya",
-    "Gabriel",
-    "De Cuyper",
-    "Silva",
-    "Mbeumo",
-    "Ødegaard",
-    "Tavernier",
-    "Groß",
-    "Rudoni",
-    "Haaland",
-    "Evanilson"
-   ]
-  },
-  {
-   "gw": 12,
-   "chip": "",
-   "in": [
-    "Rogers"
+    "E.Le Fée"
    ],
    "out": [
     "Ødegaard"
@@ -71,44 +21,19 @@
     "De Cuyper",
     "Muharemović",
     "Silva",
-    "Rogers",
     "Mbeumo",
     "Tavernier",
     "Groß",
+    "E.Le Fée",
     "Haaland",
-    "Evanilson"
+    "Barry"
    ]
   },
   {
-   "gw": 13,
+   "gw": 11,
    "chip": "",
    "in": [
-    "N.Williams"
-   ],
-   "out": [
-    "De Cuyper"
-   ],
-   "hits": 0,
-   "captain": "Haaland",
-   "xi": [
-    "Raya",
-    "Gabriel",
-    "Silva",
-    "N.Williams",
-    "Rogers",
-    "Mbeumo",
-    "Tavernier",
-    "Groß",
-    "Rudoni",
-    "Haaland",
-    "Evanilson"
-   ]
-  },
-  {
-   "gw": 14,
-   "chip": "BENCH BOOST",
-   "in": [
-    "Bogle"
+    "Van Hecke"
    ],
    "out": [
     "Dasilva"
@@ -116,17 +41,92 @@
    "hits": 0,
    "captain": "Haaland",
    "xi": [
-    "Raya",
+    "Trafford",
     "Gabriel",
-    "Muharemović",
-    "N.Williams",
-    "Bogle",
-    "Rogers",
+    "De Cuyper",
+    "Silva",
+    "Van Hecke",
+    "Mbeumo",
+    "Tavernier",
     "Groß",
+    "E.Le Fée",
+    "Rudoni",
+    "Haaland"
+   ]
+  },
+  {
+   "gw": 12,
+   "chip": "BENCH BOOST",
+   "in": [
+    "N.Jackson"
+   ],
+   "out": [
+    "Isak"
+   ],
+   "hits": 0,
+   "captain": "Haaland",
+   "xi": [
+    "Trafford",
+    "Gabriel",
+    "De Cuyper",
+    "Muharemović",
+    "Silva",
+    "Van Hecke",
+    "Groß",
+    "E.Le Fée",
     "Rudoni",
     "Haaland",
-    "Evanilson",
+    "N.Jackson"
+   ]
+  },
+  {
+   "gw": 13,
+   "chip": "",
+   "in": [
+    "Rogers"
+   ],
+   "out": [
+    "Groß"
+   ],
+   "hits": 0,
+   "captain": "Haaland",
+   "xi": [
+    "Tzolakis",
+    "Gabriel",
+    "Silva",
+    "Van Hecke",
+    "Rogers",
+    "Mbeumo",
+    "Tavernier",
+    "E.Le Fée",
+    "Rudoni",
+    "Haaland",
     "Barry"
+   ]
+  },
+  {
+   "gw": 14,
+   "chip": "",
+   "in": [
+    "Truffert"
+   ],
+   "out": [
+    "De Cuyper"
+   ],
+   "hits": 0,
+   "captain": "Haaland",
+   "xi": [
+    "Trafford",
+    "Gabriel",
+    "Truffert",
+    "Muharemović",
+    "Silva",
+    "Rogers",
+    "Mbeumo",
+    "Tavernier",
+    "E.Le Fée",
+    "Haaland",
+    "N.Jackson"
    ]
   }
  ]
