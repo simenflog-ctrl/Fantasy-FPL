@@ -1,0 +1,12 @@
+{
+  "status": "OK",
+  "spillerpoeng_uendret": true,
+  "maks_spilleravvik": 4.99932357289623e-07,
+  "maks_planavvik_fra_CSV": 5.202705324336421e-06,
+  "maks_replay_avvik": 0.0,
+  "R1_filer_uendret": 27,
+  "verdener_per_rate": 200,
+  "BB": 12,
+  "FH": 13,
+  "valgt": "Claude_Iwobi"
+}

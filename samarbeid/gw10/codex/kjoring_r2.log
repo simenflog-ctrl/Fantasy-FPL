@@ -1,0 +1,22 @@
+R2 nominal complete 13.8 [('A', [619.475, 675.396]), ('B', [618.617, 677.131]), ('C', [619.821, 675.73]), ('Claude_Iwobi', [619.345, 675.717]), ('Claude_Evanilson', [616.231, 676.998])]
+MC 0.01 20 / 200 elapsed 37
+MC 0.01 40 / 200 elapsed 60
+MC 0.01 60 / 200 elapsed 82
+MC 0.01 80 / 200 elapsed 106
+MC 0.01 100 / 200 elapsed 130
+MC 0.01 120 / 200 elapsed 152
+MC 0.01 140 / 200 elapsed 175
+MC 0.01 160 / 200 elapsed 198
+MC 0.01 180 / 200 elapsed 220
+MC 0.01 200 / 200 elapsed 243
+MC 0.02 20 / 200 elapsed 266
+MC 0.02 40 / 200 elapsed 289
+MC 0.02 60 / 200 elapsed 312
+MC 0.02 80 / 200 elapsed 336
+MC 0.02 100 / 200 elapsed 359
+MC 0.02 120 / 200 elapsed 382
+MC 0.02 140 / 200 elapsed 406
+MC 0.02 160 / 200 elapsed 429
+MC 0.02 180 / 200 elapsed 453
+MC 0.02 200 / 200 elapsed 476
+DONE R2 Claude_Iwobi elapsed 481.1

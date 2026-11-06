@@ -1,0 +1,167 @@
+{
+ "frosset_utc": "2026-11-06T13:33:41+00:00",
+ "frist_utc": "2026-11-06T18:30:00Z",
+ "data_hentet_utc": "2026-11-06T06:38:53Z",
+ "lag_id": 7089878,
+ "merknad": "Faste ellever og kaptein. Ingen autobytter. R11-R13 forutsetter samme ellever. To poengsett: 'codex' (Codex runde 2) og 'repo_hybrid' (repoets xP R10-15, Codex R16-17). Faktisk resultat sammenlignes med begge.",
+ "planer": {
+  "anbefalt": {
+   "beskrivelse": "Ingen bytter, rull gratisbyttene; ikke Bench Boost (foreløpig BB12, FH13)",
+   "bytter_inn": [],
+   "bytter_ut": [],
+   "trekk": 0,
+   "bank": 0.4,
+   "chip": null,
+   "elleve": [
+    "Trafford",
+    "Gabriel",
+    "De Cuyper",
+    "Muharemović",
+    "Ødegaard",
+    "Tavernier",
+    "Groß",
+    "Mbeumo",
+    "Barry",
+    "Isak",
+    "Haaland"
+   ],
+   "benk": [
+    "Tzolakis",
+    "Silva",
+    "Rudoni",
+    "Dasilva"
+   ],
+   "kaptein": "Haaland",
+   "visekaptein": "Gabriel",
+   "forventet_codex": {
+    "R10": 56.3,
+    "R10_R13": 221.8
+   },
+   "spiller_xp_R10_codex": {
+    "Trafford": 4.03,
+    "Gabriel": 5.39,
+    "De Cuyper": 4.36,
+    "Muharemović": 4.13,
+    "Ødegaard": 4.42,
+    "Tavernier": 4.72,
+    "Groß": 3.32,
+    "Mbeumo": 5.53,
+    "Barry": 4.75,
+    "Isak": 4.86,
+    "Haaland": 5.39,
+    "Tzolakis": 3.48,
+    "Silva": 4.07,
+    "Rudoni": 3.64,
+    "Dasilva": 2.79
+   },
+   "forventet_repo_hybrid": {
+    "R10": 64.7,
+    "R10_R13": 251.8
+   },
+   "spiller_xp_R10_repo_hybrid": {
+    "Trafford": 4.17,
+    "Gabriel": 6.72,
+    "De Cuyper": 4.92,
+    "Muharemović": 4.72,
+    "Ødegaard": 4.92,
+    "Tavernier": 5.26,
+    "Groß": 3.98,
+    "Mbeumo": 5.99,
+    "Barry": 4.75,
+    "Isak": 4.45,
+    "Haaland": 7.44,
+    "Tzolakis": 2.86,
+    "Silva": 4.26,
+    "Rudoni": 3.86,
+    "Dasilva": 3.06
+   }
+  },
+  "alternativ_codex": {
+   "beskrivelse": "Codex' knappe førstevalg: Ødegaard, Dasilva -> Iwobi, Van Hecke (2 gratisbytter)",
+   "bytter_inn": [
+    "Iwobi",
+    "Van Hecke"
+   ],
+   "bytter_ut": [
+    "Ødegaard",
+    "Dasilva"
+   ],
+   "trekk": 0,
+   "bank": 0.7,
+   "chip": null,
+   "elleve": [
+    "Trafford",
+    "Gabriel",
+    "De Cuyper",
+    "Muharemović",
+    "Tavernier",
+    "Groß",
+    "Iwobi",
+    "Mbeumo",
+    "Barry",
+    "Isak",
+    "Haaland"
+   ],
+   "benk": [
+    "Tzolakis",
+    "Silva",
+    "Van Hecke",
+    "Rudoni"
+   ],
+   "kaptein": "Haaland",
+   "visekaptein": "Gabriel",
+   "forventet_codex": {
+    "R10": 56.2,
+    "R10_R13": 220.6
+   },
+   "spiller_xp_R10_codex": {
+    "Trafford": 4.03,
+    "Gabriel": 5.39,
+    "De Cuyper": 4.36,
+    "Muharemović": 4.13,
+    "Tavernier": 4.72,
+    "Groß": 3.32,
+    "Iwobi": 4.35,
+    "Mbeumo": 5.53,
+    "Barry": 4.75,
+    "Isak": 4.86,
+    "Haaland": 5.39,
+    "Tzolakis": 3.48,
+    "Silva": 4.07,
+    "Van Hecke": 4.07,
+    "Rudoni": 3.64
+   },
+   "forventet_repo_hybrid": {
+    "R10": 65.0,
+    "R10_R13": 250.2
+   },
+   "spiller_xp_R10_repo_hybrid": {
+    "Trafford": 4.17,
+    "Gabriel": 6.72,
+    "De Cuyper": 4.92,
+    "Muharemović": 4.72,
+    "Tavernier": 5.26,
+    "Groß": 3.98,
+    "Iwobi": 5.19,
+    "Mbeumo": 5.99,
+    "Barry": 4.75,
+    "Isak": 4.45,
+    "Haaland": 7.44,
+    "Tzolakis": 2.86,
+    "Silva": 4.26,
+    "Van Hecke": 4.62,
+    "Rudoni": 3.86
+   }
+  }
+ },
+ "forventet_gevinst_anbefalt_minus_alternativ_codex": {
+  "codex": {
+   "R10": 0.1,
+   "R10_R13": 1.2
+  },
+  "repo_hybrid": {
+   "R10": -0.3,
+   "R10_R13": 1.6
+  }
+ }
+}
