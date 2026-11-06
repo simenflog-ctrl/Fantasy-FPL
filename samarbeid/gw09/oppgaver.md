@@ -33,7 +33,7 @@ Maks tre runder kritikk og revisjon.
   +1–2 og +5 (repo_hybrid), R9–R19 inkl. skadesimulering med 1 % rate. Claude skriver `codex/oppdrag-2-fortsettelse.md` med fem kontrollpunkter (bl.a. flagget Thomas, COV, i WC-troppen).
 - 18:02: Oppdrag 2 (fortsettelse, `codex/oppdrag-2-fortsettelse.md`) sendt til Codex med `--resume-last`.
 - 12:33: Codex-kjøringen fra 11:54 fullførte likevel etter bruksgrensen: `codex/kontroll.md` (WC9 leder i alle tester, også med autobytter og 1–3 % nye skader).
-  Fortsettelsen sendt 16:56 kom aldri videre (nettverk); stoppet av Claude 30. okt 06:38.
+  Fortsettelsen sendt 18:02 kom aldri videre (nettverk); stoppet av Claude 30. okt 06:38.
 
 30. okt:
 - 06:38: Claude henter offentlige priser og status (`claude/bootstrap_30okt_kontroll.json`, bare kontroll): Thomas (COV) 75 % → 50 % leggskade; Calafiori £6,0m → £5,9m (salgspris uendret £5,8m); N.Williams 100 %.
