@@ -1,17 +1,17 @@
 {
- "generated_for_gw": 10,
+ "generated_for_gw": 11,
  "status": "Optimal",
- "objective": 355.6,
+ "objective": 352.47,
  "chip_note": "",
  "plan": [
   {
-   "gw": 10,
+   "gw": 11,
    "chip": "",
    "in": [
-    "E.Le Fée"
+    "N.Jackson"
    ],
    "out": [
-    "Ødegaard"
+    "Isak"
    ],
    "hits": 0,
    "captain": "Haaland",
@@ -19,19 +19,19 @@
     "Trafford",
     "Gabriel",
     "De Cuyper",
-    "Muharemović",
     "Silva",
     "Mbeumo",
+    "Ødegaard",
     "Tavernier",
     "Groß",
-    "E.Le Fée",
+    "Rudoni",
     "Haaland",
-    "Barry"
+    "N.Jackson"
    ]
   },
   {
-   "gw": 11,
-   "chip": "",
+   "gw": 12,
+   "chip": "BENCH BOOST",
    "in": [
     "Van Hecke"
    ],
@@ -46,34 +46,9 @@
     "De Cuyper",
     "Silva",
     "Van Hecke",
-    "Mbeumo",
+    "Ødegaard",
     "Tavernier",
     "Groß",
-    "E.Le Fée",
-    "Rudoni",
-    "Haaland"
-   ]
-  },
-  {
-   "gw": 12,
-   "chip": "BENCH BOOST",
-   "in": [
-    "N.Jackson"
-   ],
-   "out": [
-    "Isak"
-   ],
-   "hits": 0,
-   "captain": "Haaland",
-   "xi": [
-    "Trafford",
-    "Gabriel",
-    "De Cuyper",
-    "Muharemović",
-    "Silva",
-    "Van Hecke",
-    "Groß",
-    "E.Le Fée",
     "Rudoni",
     "Haaland",
     "N.Jackson"
@@ -86,7 +61,7 @@
     "Rogers"
    ],
    "out": [
-    "Groß"
+    "Ødegaard"
    ],
    "hits": 0,
    "captain": "Haaland",
@@ -98,7 +73,7 @@
     "Rogers",
     "Mbeumo",
     "Tavernier",
-    "E.Le Fée",
+    "Groß",
     "Rudoni",
     "Haaland",
     "Barry"
@@ -108,23 +83,48 @@
    "gw": 14,
    "chip": "",
    "in": [
-    "Truffert"
+    "E.Le Fée"
    ],
    "out": [
-    "De Cuyper"
+    "Groß"
    ],
    "hits": 0,
    "captain": "Haaland",
    "xi": [
     "Trafford",
     "Gabriel",
-    "Truffert",
     "Muharemović",
     "Silva",
     "Rogers",
     "Mbeumo",
     "Tavernier",
     "E.Le Fée",
+    "Haaland",
+    "N.Jackson",
+    "Barry"
+   ]
+  },
+  {
+   "gw": 15,
+   "chip": "",
+   "in": [
+    "Enciso"
+   ],
+   "out": [
+    "Tavernier"
+   ],
+   "hits": 0,
+   "captain": "Haaland",
+   "xi": [
+    "Tzolakis",
+    "Gabriel",
+    "De Cuyper",
+    "Van Hecke",
+    "Rogers",
+    "Mbeumo",
+    "E.Le Fée",
+    "Enciso",
+    "Rudoni",
     "Haaland",
     "N.Jackson"
    ]
