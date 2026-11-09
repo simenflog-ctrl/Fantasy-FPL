@@ -1,7 +1,7 @@
 {
  "generated_for_gw": 11,
  "status": "Optimal",
- "objective": 352.47,
+ "objective": 356.6,
  "chip_note": "",
  "plan": [
   {
@@ -39,19 +39,19 @@
     "Dasilva"
    ],
    "hits": 0,
-   "captain": "Haaland",
+   "captain": "Groß",
    "xi": [
-    "Trafford",
+    "Tzolakis",
     "Gabriel",
     "De Cuyper",
-    "Silva",
     "Van Hecke",
-    "Ødegaard",
-    "Tavernier",
+    "Muharemović",
+    "Silva",
+    "Mbeumo",
     "Groß",
     "Rudoni",
     "Haaland",
-    "N.Jackson"
+    "Barry"
    ]
   },
   {
@@ -68,15 +68,15 @@
    "xi": [
     "Tzolakis",
     "Gabriel",
-    "Silva",
     "Van Hecke",
+    "Silva",
     "Rogers",
     "Mbeumo",
     "Tavernier",
     "Groß",
     "Rudoni",
     "Haaland",
-    "Barry"
+    "N.Jackson"
    ]
   },
   {
@@ -108,7 +108,7 @@
    "gw": 15,
    "chip": "",
    "in": [
-    "Enciso"
+    "Groß"
    ],
    "out": [
     "Tavernier"
@@ -122,8 +122,8 @@
     "Van Hecke",
     "Rogers",
     "Mbeumo",
+    "Groß",
     "E.Le Fée",
-    "Enciso",
     "Rudoni",
     "Haaland",
     "N.Jackson"
