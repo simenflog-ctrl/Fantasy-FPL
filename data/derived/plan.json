@@ -1,7 +1,7 @@
 {
  "generated_for_gw": 11,
  "status": "Optimal",
- "objective": 357.08,
+ "objective": 357.09,
  "chip_note": "",
  "plan": [
   {
@@ -41,17 +41,17 @@
    "hits": 0,
    "captain": "Groß",
    "xi": [
-    "Trafford",
-    "Gabriel",
+    "Tzolakis",
     "De Cuyper",
     "Van Hecke",
     "Muharemović",
-    "Silva",
+    "Mbeumo",
     "Ødegaard",
     "Tavernier",
     "Groß",
     "Rudoni",
-    "N.Jackson"
+    "N.Jackson",
+    "Barry"
    ]
   },
   {
