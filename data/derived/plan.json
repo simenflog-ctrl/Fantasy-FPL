@@ -1,7 +1,7 @@
 {
  "generated_for_gw": 11,
  "status": "Optimal",
- "objective": 357.32,
+ "objective": 357.59,
  "chip_note": "",
  "plan": [
   {
@@ -16,7 +16,7 @@
    "hits": 0,
    "captain": "Haaland",
    "xi": [
-    "Trafford",
+    "Tzolakis",
     "Gabriel",
     "De Cuyper",
     "Silva",
@@ -43,13 +43,13 @@
    "xi": [
     "Tzolakis",
     "Gabriel",
-    "De Cuyper",
     "Van Hecke",
     "Muharemović",
     "Silva",
+    "Mbeumo",
     "Tavernier",
     "Groß",
-    "Rudoni",
+    "Haaland",
     "N.Jackson",
     "Barry"
    ]
@@ -82,8 +82,12 @@
   {
    "gw": 14,
    "chip": "",
-   "in": [],
-   "out": [],
+   "in": [
+    "E.Le Fée"
+   ],
+   "out": [
+    "Rogers"
+   ],
    "hits": 0,
    "captain": "Haaland",
    "xi": [
@@ -91,10 +95,10 @@
     "Gabriel",
     "Muharemović",
     "Silva",
-    "Rogers",
     "Mbeumo",
     "Tavernier",
     "Groß",
+    "E.Le Fée",
     "Haaland",
     "N.Jackson",
     "Barry"
@@ -104,11 +108,9 @@
    "gw": 15,
    "chip": "",
    "in": [
-    "Gibbs-White",
-    "E.Le Fée"
+    "Gibbs-White"
    ],
    "out": [
-    "Rogers",
     "Tavernier"
    ],
    "hits": 0,
