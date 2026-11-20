@@ -1,0 +1,90 @@
+{
+  "runde": 11,
+  "horisont_til": 19,
+  "gratisbytter": 3,
+  "bank": 0.4,
+  "vekt_codex": 0.5,
+  "chips": {
+    "BB": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "FH": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  "fh_start": 13,
+  "maks_bytter": 4,
+  "alternativer": [
+    {
+      "navn": "Claude_P2",
+      "ut": [
+        15,
+        176
+      ],
+      "inn": [
+        542,
+        112
+      ]
+    },
+    {
+      "navn": "Claude_P2b",
+      "ut": [
+        379,
+        176
+      ],
+      "inn": [
+        166,
+        112
+      ]
+    },
+    {
+      "navn": "Claude_P3",
+      "ut": [
+        15,
+        176,
+        379
+      ],
+      "inn": [
+        542,
+        112,
+        166
+      ]
+    },
+    {
+      "navn": "Claude_Muh_VH",
+      "ut": [
+        334
+      ],
+      "inn": [
+        112
+      ]
+    }
+  ],
+  "ft_folsomhet": [
+    2,
+    4
+  ],
+  "skadesim": {
+    "trekk": 200,
+    "rater": [
+      0.01,
+      0.02
+    ],
+    "fro": 7089878
+  }
+}

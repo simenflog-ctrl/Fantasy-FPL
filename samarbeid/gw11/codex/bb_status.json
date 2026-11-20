@@ -1,0 +1,18 @@
+{
+  "status": "fullført",
+  "FH": [
+    12,
+    15
+  ],
+  "planer": [
+    "A",
+    "B"
+  ],
+  "rater": [
+    0.01,
+    0.02
+  ],
+  "verdener": 100,
+  "rader": 72,
+  "modellendringer": false
+}

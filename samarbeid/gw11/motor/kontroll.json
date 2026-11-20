@@ -1,0 +1,55 @@
+{
+  "runde": 11,
+  "horisont_til": 19,
+  "spillere": 672,
+  "bank": 0.4,
+  "budsjett": 99.9,
+  "gratisbytter": 3,
+  "vekt_codex": 0.5,
+  "repo_runder": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "repo_rader_uten_bruk": 1020,
+  "kjopsunivers": 213,
+  "ute": 171,
+  "overstyringsfil": "/Users/simenflogstad/Documents/GitHub/Fantasy-FPL/samarbeid/gw11/claude/minutter_overstyring.csv",
+  "minuttabell": null,
+  "retur_fra_fravaer": 6,
+  "dobbeltrunder": [],
+  "blanke_runder": [],
+  "inndata_sha256": {
+    "player_matches.csv": "c953d4a1e4a79a553882a213ea6cf9ea19fdb9f34fe6738b842cc068becc4842",
+    "expected_points.csv": "5e94dc6f6547db98174230d3f40aa15ad837087c2afc7abb2ada8ce33a6ead19"
+  },
+  "valg": "D3",
+  "BB": 11,
+  "FH": 13,
+  "felles_BB": 11,
+  "felles_FH": 13,
+  "alternativer": [
+    "A",
+    "B",
+    "C",
+    "D3",
+    "D4",
+    "Claude_P2",
+    "Claude_P2b",
+    "Claude_P3",
+    "Claude_Muh_VH"
+  ],
+  "maks_avvik_gjenregning": 0.0,
+  "skadesim": {
+    "trekk": 200,
+    "rater": [
+      0.01,
+      0.02
+    ]
+  },
+  "status": "OK",
+  "sekunder": 893.9
+}

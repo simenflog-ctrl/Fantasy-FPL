@@ -1,0 +1,53 @@
+bytter,kandidat,ut,inn,BB,FH,score
+0,0,,,18,16,593.927224330749
+1,0,Tzolakis,Verbruggen,18,16,593.8371912431146
+1,1,Trafford,Verbruggen,18,16,593.8379483009085
+1,2,Muharemović,Konsa,11,16,593.2145420367791
+1,3,Silva,Van Hecke,18,16,594.4026520902081
+1,4,Muharemović,Van Hecke,11,16,594.7255249158054
+1,5,De Cuyper,Van Hecke,18,16,593.9684360611682
+1,6,Mbeumo,Rogers,18,16,593.7849621700018
+1,7,Isak,N.Jackson,19,16,593.1065040145188
+1,8,Mbeumo,E.Le Fée,18,16,593.9589448926926
+1,9,Groß,E.Le Fée,18,16,594.7957672648445
+1,10,Ødegaard,Dewsbury-Hall,18,16,593.3959074837217
+1,11,Ødegaard,E.Le Fée,19,16,594.598612192322
+1,12,Dasilva,Egan,18,16,593.6666659031071
+1,13,Dasilva,Robertson,18,16,593.6895696642882
+2,0,"Silva, Tzolakis","Verbruggen, Van Hecke",18,16,594.5581588367477
+2,1,"Muharemović, Tzolakis","Verbruggen, Van Hecke",11,16,594.9312917073462
+2,2,"Trafford, Silva","Verbruggen, Van Hecke",18,16,593.0247318286572
+2,3,"Muharemović, Trafford","Verbruggen, Van Hecke",11,16,593.3595499084383
+2,4,"Dasilva, Muharemović","Konsa, Justin",11,16,593.2923495816317
+2,5,"Ødegaard, Dasilva","Konsa, E.Le Fée",11,16,594.042302394241
+2,6,"Mbeumo, Silva","Van Hecke, E.Le Fée",18,16,594.6615165442404
+2,7,"Groß, Silva","Van Hecke, E.Le Fée",18,16,594.8336104164206
+2,8,"Muharemović, Mbeumo","Rogers, Van Hecke",11,16,592.958069230101
+2,9,"Muharemović, Mbeumo","Van Hecke, E.Le Fée",11,16,594.9843893698378
+2,10,"Groß, Muharemović","Van Hecke, E.Le Fée",11,16,595.4071224456006
+2,11,"Dasilva, Isak","Van Hecke, N.Jackson",11,16,595.3591734520544
+2,12,"Dasilva, Mbeumo","Van Hecke, E.Le Fée",11,16,595.6691160219639
+2,13,"Ødegaard, Dasilva","Van Hecke, E.Le Fée",11,16,595.2867907516966
+2,14,"Dasilva, Muharemović","Van Hecke, Robertson",11,16,594.8211035420694
+2,15,"De Cuyper, Dasilva","Van Hecke, Justin",18,16,593.9528813161088
+2,16,"Rudoni, Isak","N.Jackson, Dewsbury-Hall",19,16,592.8046707985607
+2,17,"Rudoni, Isak","N.Jackson, E.Le Fée",19,16,593.1356682537353
+2,18,"Ødegaard, Isak","Rogers, N.Jackson",19,16,593.6420226746081
+2,19,"Groß, Dasilva","Justin, E.Le Fée",18,16,594.366123223396
+2,20,"Ødegaard, Dasilva","Justin, E.Le Fée",18,16,593.6006050741107
+2,21,"Ødegaard, Dasilva","Vuskovic, E.Le Fée",11,16,593.8078674343999
+3,0,"Muharemović, Trafford, Mbeumo","Raya, Van Hecke, E.Le Fée",11,16,592.8727628124087
+3,1,"Groß, Muharemović, Trafford","Raya, Van Hecke, Slater",11,16,588.6434707983749
+3,2,"Dasilva, Rudoni, Isak","Van Hecke, N.Jackson, E.Le Fée",11,16,593.9800083078242
+3,3,"Groß, Dasilva, Rudoni","Van Hecke, Slater, E.Le Fée",18,16,592.1907213178404
+3,4,"Ødegaard, Dasilva, Isak","Van Hecke, N.Jackson, E.Le Fée",11,16,595.3588193146891
+3,5,"Ødegaard, Isak, Mbeumo","McGinn, N.Jackson, B.Fernandes",19,16,593.8530723662022
+4,0,"Groß, Muharemović, Trafford, Silva","Raya, Van Hecke, F.Kadıoğlu, E.Le Fée",18,16,587.6961396435286
+4,1,"Groß, Muharemović, Trafford, Silva","Raya, Van Hecke, Giles, E.Le Fée",18,16,587.7043359534964
+4,2,"Muharemović, Isak, Trafford, Mbeumo","Raya, Rogers, Van Hecke, N.Jackson",11,16,586.9847541334987
+4,3,"Dasilva, Rudoni, Muharemović, Isak","Hill, Van Hecke, N.Jackson, E.Le Fée",11,16,589.3948388225494
+4,4,"Ødegaard, Dasilva, Rudoni, Muharemović","Hill, Van Hecke, Slater, E.Le Fée",18,16,587.6628703386116
+4,5,"Ødegaard, Groß, Dasilva, Isak","Rogers, Van Hecke, N.Jackson, E.Le Fée",11,16,591.4840358372275
+4,6,"Ødegaard, Dasilva, Rudoni, Isak","Van Hecke, N.Jackson, Dewsbury-Hall, E.Le Fée",18,16,589.924559799164
+4,7,"Ødegaard, Groß, Dasilva, Rudoni","Van Hecke, Slater, Barnes, E.Le Fée",18,16,587.9758914683715
+4,8,"Ødegaard, De Cuyper, Isak, Mbeumo","Van Hecke, N.Jackson, B.Fernandes, E.Le Fée",19,16,590.7965771974804

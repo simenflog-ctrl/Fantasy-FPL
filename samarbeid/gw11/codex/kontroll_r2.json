@@ -1,0 +1,17 @@
+{
+  "status": "OK",
+  "spillerpoeng_uendret": true,
+  "spillere": 672,
+  "rader": 6048,
+  "maks_planavvik_fra_CSV": 4.893570576314232e-06,
+  "maks_full_mot_sim_elleversok": 0.0,
+  "verdener_per_rate": 100,
+  "rater": [
+    0.01,
+    0.02
+  ],
+  "planer": 5,
+  "BB": 11,
+  "FH": 15,
+  "valgt": "C"
+}

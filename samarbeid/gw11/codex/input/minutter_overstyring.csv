@@ -1,0 +1,7 @@
+id,lag,gw_fra,gw_til,faktor,p_start,forventede_min,kilde
+,BHA,12,12,0.95,,,Europa torsdag 26. nov / liga søndag 29. nov: 5 % reduksjon (antakelse som i R10)
+,BOU,12,12,0.95,,,Europa torsdag 26. nov / liga søndag 29. nov: 5 % reduksjon (antakelse som i R10)
+,SUN,12,12,0.95,,,Europa torsdag 26. nov / liga søndag 29. nov: 5 % reduksjon (antakelse som i R10)
+,CRY,12,12,0.95,,,Europa torsdag 26. nov / liga søndag 29. nov: 5 % reduksjon (antakelse som i R10)
+106,,14,19,,0.9,74,utestengt til 5. des (API); tilbake R14 med vanlig spilletid (antakelse)
+15,,11,12,,0.95,82,frisk etter landslagspausen og spilte for Norge (Simen 19. nov; ESPN 14. nov); 87-90 min i hver av de fire siste rundene (antakelse)
