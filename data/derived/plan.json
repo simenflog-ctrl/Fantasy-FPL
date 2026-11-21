@@ -1,11 +1,11 @@
 {
- "generated_for_gw": 11,
+ "generated_for_gw": 12,
  "status": "Optimal",
- "objective": 357.59,
+ "objective": 347.73,
  "chip_note": "",
  "plan": [
   {
-   "gw": 11,
+   "gw": 12,
    "chip": "",
    "in": [
     "N.Jackson"
@@ -14,37 +14,12 @@
     "Isak"
    ],
    "hits": 0,
-   "captain": "Haaland",
-   "xi": [
-    "Tzolakis",
-    "Gabriel",
-    "De Cuyper",
-    "Silva",
-    "Mbeumo",
-    "Ødegaard",
-    "Tavernier",
-    "Groß",
-    "Rudoni",
-    "Haaland",
-    "N.Jackson"
-   ]
-  },
-  {
-   "gw": 12,
-   "chip": "BENCH BOOST",
-   "in": [
-    "Van Hecke"
-   ],
-   "out": [
-    "Dasilva"
-   ],
-   "hits": 0,
    "captain": "Groß",
    "xi": [
-    "Tzolakis",
+    "Trafford",
     "Gabriel",
+    "De Cuyper",
     "Van Hecke",
-    "Muharemović",
     "Silva",
     "Mbeumo",
     "Tavernier",
@@ -86,22 +61,22 @@
     "E.Le Fée"
    ],
    "out": [
-    "Rogers"
+    "Rudoni"
    ],
    "hits": 0,
    "captain": "Haaland",
    "xi": [
     "Trafford",
     "Gabriel",
-    "Muharemović",
+    "Van Hecke",
     "Silva",
+    "Rogers",
     "Mbeumo",
     "Tavernier",
     "Groß",
     "E.Le Fée",
     "Haaland",
-    "N.Jackson",
-    "Barry"
+    "N.Jackson"
    ]
   },
   {
@@ -111,7 +86,7 @@
     "Gibbs-White"
    ],
    "out": [
-    "Tavernier"
+    "Rogers"
    ],
    "hits": 0,
    "captain": "Haaland",
@@ -124,7 +99,32 @@
     "Gibbs-White",
     "Groß",
     "E.Le Fée",
-    "Rudoni",
+    "Haaland",
+    "N.Jackson",
+    "Barry"
+   ]
+  },
+  {
+   "gw": 16,
+   "chip": "",
+   "in": [
+    "Rogers"
+   ],
+   "out": [
+    "Mbeumo"
+   ],
+   "hits": 0,
+   "captain": "Haaland",
+   "xi": [
+    "Trafford",
+    "Gabriel",
+    "De Cuyper",
+    "Silva",
+    "Rogers",
+    "Gibbs-White",
+    "Tavernier",
+    "Groß",
+    "E.Le Fée",
     "Haaland",
     "N.Jackson"
    ]
