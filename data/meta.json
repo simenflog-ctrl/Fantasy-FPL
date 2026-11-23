@@ -1,10 +1,10 @@
 {
  "current_event": 11,
  "current_event_finished": false,
- "duration_seconds": 3.7,
+ "duration_seconds": 2.2,
  "entry_id": "7089878",
- "fetched_at": "2026-11-21T14:18:22.501931+00:00",
- "n_players": 672,
+ "fetched_at": "2026-11-23T17:54:19.916598+00:00",
+ "n_players": 674,
  "n_teams": 20,
  "next_deadline": "2026-11-27T18:30:00Z",
  "next_event": 12

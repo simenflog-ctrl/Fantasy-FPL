@@ -1,7 +1,7 @@
 {
  "generated_for_gw": 12,
  "status": "Optimal",
- "objective": 347.73,
+ "objective": 348.54,
  "chip_note": "",
  "plan": [
   {
@@ -97,11 +97,11 @@
     "Van Hecke",
     "Mbeumo",
     "Gibbs-White",
+    "Tavernier",
     "Groß",
     "E.Le Fée",
     "Haaland",
-    "N.Jackson",
-    "Barry"
+    "N.Jackson"
    ]
   },
   {
