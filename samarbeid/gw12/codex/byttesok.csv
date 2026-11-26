@@ -1,0 +1,49 @@
+bytter,kandidat,ut,inn,BB,FH,score
+0,0,,,0,15,512.6206461114035
+1,0,Dasilva,Thomas,0,15,512.7846576241419
+1,1,Silva,Justin,0,15,512.1772202214947
+1,2,Silva,Muharemović,0,15,513.678956585561
+1,3,Isak,N.Jackson,0,15,511.80275758010055
+1,4,Mbeumo,E.Le Fée,0,15,512.9332352344491
+1,5,Groß,E.Le Fée,0,15,512.3632638939607
+1,6,Ødegaard,Dewsbury-Hall,0,15,513.0642827551527
+1,7,Ødegaard,E.Le Fée,0,15,513.533573040629
+1,8,Dasilva,Mitchell,0,15,512.8309664756143
+1,9,Dasilva,Diop,0,15,512.7840465197706
+1,10,Dasilva,Ajayi,0,15,512.7851677372169
+1,11,Dasilva,Giles,0,15,512.6855463950058
+1,12,Dasilva,O'Shea,0,15,512.7915912243758
+1,13,Dasilva,Jair Cunha,0,15,512.7699369887741
+1,14,Dasilva,Robertson,0,15,512.7378700000312
+1,15,Dasilva,Mendy,0,15,512.7880594825344
+1,16,Van Hecke,Muharemović,0,15,513.2994302016871
+2,0,"Dasilva, Silva","Konsa, Justin",0,15,514.1105584328709
+2,1,"Ødegaard, Dasilva","Konsa, E.Le Fée",0,15,513.0227248905219
+2,2,"Dasilva, Mbeumo","Hill, E.Le Fée",0,15,512.8142710042431
+2,3,"Isak, Mbeumo","Delap, B.Fernandes",0,15,512.7893038831338
+2,4,"Dasilva, Silva","Bogle, Justin",0,15,514.3513889797299
+2,5,"Ødegaard, Dasilva","Bogle, E.Le Fée",0,15,514.199574595833
+2,6,"Dasilva, Silva","Justin, N.Williams",0,15,514.1060702051853
+2,7,"Groß, Dasilva","Justin, E.Le Fée",0,15,513.157004023233
+2,8,"Ødegaard, Dasilva","Justin, E.Le Fée",0,15,514.7621066789244
+2,9,"Dasilva, Isak","N.Jackson, Muharemović",0,15,514.3452258059347
+2,10,"Dasilva, Mbeumo","Muharemović, E.Le Fée",0,15,514.3256620663423
+2,11,"Ødegaard, Dasilva","Muharemović, Barnes",0,15,513.2953056922985
+2,12,"Ødegaard, Dasilva","Muharemović, E.Le Fée",0,15,514.5429446098641
+2,13,"Dasilva, Isak","N.Jackson, Vuskovic",0,15,513.4630101665153
+2,14,"Ødegaard, Dasilva","Vuskovic, E.Le Fée",0,15,513.5799678790088
+2,15,"Van Hecke, Silva","Justin, Muharemović",0,15,512.7037670993276
+2,16,"Gabriel, Mbeumo","Justin, B.Fernandes",0,15,512.8629646124987
+3,0,"Ødegaard, Van Hecke, Dasilva","Hill, Justin, Barnes",0,15,512.9431648463532
+3,1,"Ødegaard, Van Hecke, Dasilva","Hill, Justin, E.Le Fée",0,15,514.110279787434
+3,2,"Isak, Mbeumo, Silva","Delap, Muharemović, B.Fernandes",0,15,512.4003277299407
+3,3,"Ødegaard, Isak, Mbeumo","Evanilson, B.Fernandes, E.Le Fée",0,15,513.8121424711716
+3,4,"Ødegaard, Tavernier, Isak","McBurnie, B.Fernandes, E.Le Fée",0,15,511.8747106770523
+3,5,"Gabriel, Ødegaard, Isak","N.Jackson, Muharemović, B.Fernandes",0,15,512.0983089787654
+3,6,"Gabriel, Van Hecke, Mbeumo","Justin, Muharemović, B.Fernandes",0,15,512.4323621646406
+4,0,"Ødegaard, Van Hecke, Dasilva, Rudoni","Hill, Crooks, Muharemović, E.Le Fée",0,15,509.19422224875893
+4,1,"Ødegaard, Isak, Mbeumo, Silva","N.Jackson, Justin, B.Fernandes, E.Le Fée",0,15,511.55910215766056
+4,2,"Ødegaard, Dasilva, Isak, Mbeumo","Evanilson, Ajayi, B.Fernandes, E.Le Fée",0,15,510.0965519699489
+4,3,"Ødegaard, Van Hecke, Isak, Mbeumo","N.Jackson, Justin, B.Fernandes, E.Le Fée",0,15,511.47746036264294
+4,4,"Ødegaard, Van Hecke, Isak, Mbeumo","Evanilson, Muharemović, B.Fernandes, E.Le Fée",0,15,510.57008539862744
+4,5,"Gabriel, Van Hecke, Mbeumo, Silva","Justin, Muharemović, B.Fernandes, Mfuni",0,15,507.5257346129795

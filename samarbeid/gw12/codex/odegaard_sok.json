@@ -1,0 +1,35 @@
+{
+  "best_behold": {
+    "bytter": 2,
+    "kandidat": 4,
+    "ut": [
+      176,
+      566
+    ],
+    "inn": [
+      330,
+      332
+    ],
+    "codex": 492.534051326098,
+    "repo_hybrid": 536.1687266333619
+  },
+  "best_salg": {
+    "bytter": 2,
+    "kandidat": 8,
+    "ut": [
+      15,
+      176
+    ],
+    "inn": [
+      332,
+      542
+    ],
+    "codex": 491.969129122211,
+    "repo_hybrid": 537.5550842356379
+  },
+  "salg_minus_behold": [
+    -0.5649222038870221,
+    1.3863576022760071
+  ],
+  "terskel_bestatt": false
+}

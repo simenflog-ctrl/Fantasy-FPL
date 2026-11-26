@@ -125,6 +125,6 @@ visekaptein, benk, åttesrundersplan, begrunnelse mot alternativene, forventet g
 |---|---|---|
 | Triple Captain 1 | Brukt R3 | – |
 | Wildcard 1 | Brukt R9 | – |
-| Bench Boost 1 | Anbefalt i R11 (bekreftes fra `entry_history` neste uke) | R11 (slo BB18/BB19 i skadetesten; BB10 forkastet) |
-| Free Hit 1 | Tilgjengelig, utløper etter R19 | R15 (planleggingsdato; poengsettene peker på R12–R15), eller blank runde |
+| Bench Boost 1 | Brukt R11 (bekreftet i `entry_history`) | – |
+| Free Hit 1 | Tilgjengelig, utløper etter R19 | R15 (planleggingsdato fra gw12; R13 like god i repo-settet), eller blank runde |
 | Andre halvdel | Nytt sett WC/FH/BB/TC fra R20 | – |

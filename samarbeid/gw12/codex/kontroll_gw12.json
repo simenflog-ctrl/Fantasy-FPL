@@ -1,0 +1,19 @@
+{
+  "status": "OK",
+  "recommended": "G_Odegaard_behold",
+  "bytter": 2,
+  "R12": [
+    60.08197718103619,
+    65.92120278935846
+  ],
+  "totals": [
+    492.534051326098,
+    536.1687266333619
+  ],
+  "sale_minus_keep": [
+    -0.5649222038870221,
+    1.3863576022760071
+  ],
+  "forecast_rows": 5392,
+  "forecast_sha256": "6ee57aef6db029493d8f69bb327c1436e1a67658219fe02d82f3802bc4a74d19"
+}

@@ -1,0 +1,9 @@
+id,lag,gw_fra,gw_til,faktor,p_start,forventede_min,kilde
+,BHA,12,12,0.95,,,Europa torsdag 26. nov / liga søndag 29. nov: 5 % reduksjon (antakelse som i R10-R11)
+,BOU,12,12,0.95,,,Europa torsdag 26. nov / liga søndag 29. nov: 5 % reduksjon (antakelse som i R10-R11)
+,SUN,12,12,0.95,,,Europa torsdag 26. nov / liga søndag 29. nov: 5 % reduksjon (antakelse som i R10-R11)
+,CRY,12,12,0.95,,,Europa torsdag 26. nov / liga søndag 29. nov: 5 % reduksjon (antakelse som i R10-R11)
+106,,14,19,,0.9,74,utestengt til 5. des (API); tilbake R14 med vanlig spilletid (antakelse)
+427,,12,12,,0.8,68,startet R11 men bare 21 min uten forklaring; status a uten nyhet (API); usikkerhet til Carrick fredag (antakelse)
+176,,12,12,,0.4,34,0 min og utenfor laget R11 (API); Mfuni tok venstreback; forhåndsomtale (The Stats Zone) melder ham skadet (antakelse)
+176,,13,14,,0.6,52,gradvis tilbake (antakelse)
