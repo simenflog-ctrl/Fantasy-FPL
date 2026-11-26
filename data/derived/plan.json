@@ -1,17 +1,17 @@
 {
  "generated_for_gw": 12,
  "status": "Optimal",
- "objective": 348.54,
+ "objective": 345.97,
  "chip_note": "",
  "plan": [
   {
    "gw": 12,
    "chip": "",
    "in": [
-    "N.Jackson"
+    "E.Le Fée"
    ],
    "out": [
-    "Isak"
+    "Ødegaard"
    ],
    "hits": 0,
    "captain": "Groß",
@@ -24,8 +24,8 @@
     "Mbeumo",
     "Tavernier",
     "Groß",
+    "E.Le Fée",
     "Haaland",
-    "N.Jackson",
     "Barry"
    ]
   },
@@ -33,10 +33,10 @@
    "gw": 13,
    "chip": "",
    "in": [
-    "Rogers"
+    "Evanilson"
    ],
    "out": [
-    "Ødegaard"
+    "Isak"
    ],
    "hits": 0,
    "captain": "Haaland",
@@ -45,70 +45,20 @@
     "Gabriel",
     "Van Hecke",
     "Silva",
-    "Rogers",
     "Mbeumo",
     "Tavernier",
     "Groß",
+    "E.Le Fée",
     "Rudoni",
     "Haaland",
-    "N.Jackson"
+    "Evanilson"
    ]
   },
   {
    "gw": 14,
    "chip": "",
    "in": [
-    "E.Le Fée"
-   ],
-   "out": [
-    "Rudoni"
-   ],
-   "hits": 0,
-   "captain": "Haaland",
-   "xi": [
-    "Trafford",
-    "Gabriel",
-    "Van Hecke",
-    "Silva",
-    "Rogers",
-    "Mbeumo",
-    "Tavernier",
-    "Groß",
-    "E.Le Fée",
-    "Haaland",
-    "N.Jackson"
-   ]
-  },
-  {
-   "gw": 15,
-   "chip": "",
-   "in": [
-    "Gibbs-White"
-   ],
-   "out": [
-    "Rogers"
-   ],
-   "hits": 0,
-   "captain": "Haaland",
-   "xi": [
-    "Tzolakis",
-    "Gabriel",
-    "De Cuyper",
-    "Van Hecke",
-    "Mbeumo",
-    "Gibbs-White",
-    "Tavernier",
-    "Groß",
-    "E.Le Fée",
-    "Haaland",
-    "N.Jackson"
-   ]
-  },
-  {
-   "gw": 16,
-   "chip": "",
-   "in": [
-    "Rogers"
+    "B.Fernandes"
    ],
    "out": [
     "Mbeumo"
@@ -118,6 +68,54 @@
    "xi": [
     "Trafford",
     "Gabriel",
+    "Van Hecke",
+    "Silva",
+    "B.Fernandes",
+    "Tavernier",
+    "Groß",
+    "E.Le Fée",
+    "Haaland",
+    "Evanilson",
+    "Barry"
+   ]
+  },
+  {
+   "gw": 15,
+   "chip": "",
+   "in": [],
+   "out": [],
+   "hits": 0,
+   "captain": "Haaland",
+   "xi": [
+    "Tzolakis",
+    "Gabriel",
+    "De Cuyper",
+    "Van Hecke",
+    "B.Fernandes",
+    "Tavernier",
+    "Groß",
+    "E.Le Fée",
+    "Rudoni",
+    "Haaland",
+    "Barry"
+   ]
+  },
+  {
+   "gw": 16,
+   "chip": "",
+   "in": [
+    "Rogers",
+    "Gibbs-White"
+   ],
+   "out": [
+    "Rudoni",
+    "B.Fernandes"
+   ],
+   "hits": 0,
+   "captain": "Haaland",
+   "xi": [
+    "Trafford",
+    "Gabriel",
     "De Cuyper",
     "Silva",
     "Rogers",
@@ -126,7 +124,7 @@
     "Groß",
     "E.Le Fée",
     "Haaland",
-    "N.Jackson"
+    "Evanilson"
    ]
   }
  ]
