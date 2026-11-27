@@ -1,0 +1,33 @@
+{
+  "locked_utc": "2026-10-22T20:56:35.540256+00:00",
+  "tau": 7,
+  "grid": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    10,
+    12
+  ],
+  "development": [
+    "2023-24",
+    "2024-25"
+  ],
+  "objective": "pooled player-fixture bonus-MSE, GW8-38",
+  "control_not_loaded": true,
+  "load_history": [
+    "2023-24",
+    "2022-23",
+    "2024-25",
+    "2023-24"
+  ],
+  "source_sha256": {
+    "src/eval_engine.py": "64f4f17aa654db805ad5521b35bec7d90d0d96486adaaa40eee947c48cdea42c",
+    "src/evaluate_pred.py": "b46b2a4614e0615f9736f6e6755e05517c26801a81c5e72422f0044ad87e33fb",
+    "src/minutes.py": "c1209d06bbe2d4f10c451f9f40e497001b0323692767020ad90e4761a4878ff9",
+    "src/expected_points.py": "12bdc0bbf7cb625bcfac1c74ab5f58de6697b398d3c3c83490bdbac641282b14",
+    "src/team_strength.py": "523c5c4852178384e8f36c4b12a0bb36f9e60873c8aedfafaf78e48e7c678798"
+  },
+  "development_table_sha256": "10a186201d085ec67f2e801b539834bac1ac099567bc5c25b1aa9bfe4b11a4e7"
+}

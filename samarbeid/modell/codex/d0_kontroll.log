@@ -1,0 +1,6 @@
+{
+  "sale_price_binding": "PASS: 5.8 sale blocks unaffordable purchase; 6.0 permits it",
+  "two_ft_in_solver": "PASS: two upgrades, zero hits",
+  "wc_preserves_three_ft": "PASS: upper bound and achievable next FT = 3, not 1 or 4",
+  "ft_edge_cases": "PASS: hits, cap=5, FH preservation, legacy reset"
+}

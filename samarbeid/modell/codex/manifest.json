@@ -1,0 +1,17 @@
+{
+  "seconds": 184.77578687667847,
+  "python": "3.8.8 (default, Apr 13 2021, 12:59:45) \n[Clang 10.0.0 ]",
+  "pandas": "1.2.4",
+  "numpy": "1.20.1",
+  "sha256": {
+    "src/backtest.py": "0695da3d8c95df8bc56c4f12e921b1a7f0d771b0a527fb7e34bf4c6d0e60be4a",
+    "src/evaluate_pred.py": "56390638062458ea0882a513bc93fd2d39376c8e90517d58df8125249502a4e5",
+    "src/minutes.py": "942f6fa109ba3fd73c5a18e23bb41580534d953c537271e84e0743b9203f6c20",
+    "src/expected_points.py": "e88dc63c5ea6b62b2d0e6b8b9bc0a4e27637dd7da1eb052d98b16909648d6cd2",
+    "src/team_strength.py": "ea564c460ef4fa1bbb7bb5b43d65765b3edcca5839ac48b5e49f94293a80003b",
+    "data/cache/vaastav/2022-23/gws/merged_gw.csv": "b78a6d0456141f9033c32fc4122931baae780ac4a4938683451b1fce7a4fdd15",
+    "data/cache/vaastav/2023-24/gws/merged_gw.csv": "e9c09c8856f1c86b4f920f46ddd5033af83409439dfda53be925df2a3e7c8a9e",
+    "data/cache/vaastav/2024-25/gws/merged_gw.csv": "5bbbcba6353b4c72ad273adcc8e3aa451946a826564679788f45b1cb3325b84e",
+    "data/cache/vaastav/2025-26/gws/merged_gw.csv": "0d09f1f1cb1b5520ec8e2f25238aa652efe2a263d8ca7cb2b6538b27bf86727d"
+  }
+}

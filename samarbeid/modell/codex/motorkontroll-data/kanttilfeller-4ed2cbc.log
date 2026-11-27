@@ -1,0 +1,16 @@
+{"test": "F8: feil modellspredning i kapteinsalternativer (arvet)", "dom": "RETTET", "avvik": []}
+{"test": "F9: inkonsistente minutter", "dom": "RETTET", "melding": "Minuttabellen gir L1S12 (id 13) 30.0 minutter i runde 6, men P(spiller) = 0: p_start er 0.000 og spilleren har ingen innhopp i historikken. Sett p_start > 0 eller minutter 0."}
+{"test": "F3: omvendt overstyringsintervall", "dom": "RETTET", "melding": "ValueError: overstyring linje 2: gw_fra og gw_til må være hele runder med gw_fra <= gw_til (fikk '8'-'7')"}
+{"test": "F2: vekt=2 i Motor", "dom": "RETTET", "melding": "AssertionError: Vekten på codex må ligge i [0, 1], ikke 2"}
+{"test": "F2: FT-følsomhet -1", "dom": "RETTET", "melding": "AssertionError: Gratisbytter må være et heltall 0-5, ikke -1"}
+{"test": "F4: felles_chip WC/TC", "dom": "RETTET", "melding": "ValueError: Feil i oppsett.json: felles_chip kan bare ha BB og FH"}
+{"test": "F7: full kjøring over vindu/etter sesongslutt", "dom": "RETTET", "melding": "ValueError: Feil i oppsett.json: horisont_til 20 må ligge i 19-19 (chipvinduet slutter i runde 19); chips BB: 20 er ikke en runde i 19-19", "runde": 19, "horisont_til": 20}
+{"test": "F7: full kjøring over vindu/etter sesongslutt", "dom": "RETTET", "melding": "ValueError: Feil i oppsett.json: horisont_til 39 må ligge i 38-38 (chipvinduet slutter i runde 38); chips BB: 39 er ikke en runde i 38-38", "runde": 38, "horisont_til": 39}
+{"test": "F10: --frys etterlater delvis frosset par ved feil", "dom": "RETTET", "melding": "Finnes allerede, overskriver ikke: /Users/simenflogstad/Documents/GitHub/Fantasy-FPL/.claude/worktrees/compassionate-wozniak-6e22cd/samarbeid/modell/codex/motorkontroll-data/frys-repo/samarbeid/gw-kontroll/motor/input/expected_points.csv"}
+{"test": "Kjøpsunivers: u/n/i/s/0 prosent og can_select", "dom": "OK"}
+{"test": "Frossen minuttabell har prioritet over overstyringer", "dom": "OK"}
+{"test": "Repo dobbeltrunde fallback", "dom": "OK", "variant": "mangler_en"}
+{"test": "Repo dobbeltrunde fallback", "dom": "OK", "variant": "null_minutter"}
+{"test": "F11: eget alternativ får chiprutenett", "dom": "RETTET", "felles": ["A", "Claude_test"], "eget_rutenett_celler": 4, "chippar": [["6", "7"], ["8", "7"], ["6", "9"], ["8", "9"]]}
+{"test": "Skadesim: avvik fra R2 ved 150 trekk, korrekt stabil blokkregel", "dom": "OK", "første_100_identiske": true, "varigheter_101_150_identiske": false}
+{"test": "Kanttilfeller ferdig", "dom": "OK", "sekunder": 6.12}

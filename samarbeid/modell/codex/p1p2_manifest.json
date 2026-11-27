@@ -1,0 +1,23 @@
+{
+  "seconds": 533.2652719020844,
+  "finished_utc": "2026-10-22T20:59:22.455229+00:00",
+  "rows_per_model": 72583,
+  "seasons": [
+    "2023-24",
+    "2024-25",
+    "2025-26"
+  ],
+  "gws": "8-38",
+  "source_sha256": {
+    "src/eval_engine.py": "64f4f17aa654db805ad5521b35bec7d90d0d96486adaaa40eee947c48cdea42c",
+    "src/evaluate_pred.py": "b46b2a4614e0615f9736f6e6755e05517c26801a81c5e72422f0044ad87e33fb",
+    "src/minutes.py": "c1209d06bbe2d4f10c451f9f40e497001b0323692767020ad90e4761a4878ff9",
+    "src/expected_points.py": "12bdc0bbf7cb625bcfac1c74ab5f58de6697b398d3c3c83490bdbac641282b14",
+    "src/team_strength.py": "523c5c4852178384e8f36c4b12a0bb36f9e60873c8aedfafaf78e48e7c678798"
+  },
+  "python": "3.8.8 (default, Apr 13 2021, 12:59:45) \n[Clang 10.0.0 ]",
+  "flags_restored": {
+    "SUB_GIVEN_NO_START": false,
+    "BONUS_TAU_FIXED": null
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "runde": 10,
+  "horisont_til": 19,
+  "gratisbytter": 2,
+  "bank": 0.4,
+  "vekt_codex": 0.5,
+  "chips": {"BB": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19], "FH": [11, 12, 13, 14, 15, 16, 17, 18, 19]},
+  "fh_start": 16,
+  "maks_bytter": 4,
+  "input_mappe": "codex/input",
+  "minuttabell": "codex/minutter_antatt.csv",
+  "alternativer": [
+    {"navn": "Claude_Iwobi", "ut": ["Dasilva", "Ødegaard"], "inn": ["Van Hecke", "Iwobi"]},
+    {"navn": "Claude_Evanilson", "ut": ["Dasilva", "Isak"], "inn": ["Evanilson", "Van Hecke"]}
+  ],
+  "felles_chip": {"BB": 12, "FH": 13},
+  "ft_folsomhet": [],
+  "skadesim": {"trekk": 4, "rater": [0.02], "fro": 7089878}
+}

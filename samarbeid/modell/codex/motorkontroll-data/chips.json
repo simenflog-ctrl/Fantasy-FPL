@@ -1,0 +1,217 @@
+[
+  {
+    "test": "Tomme BB/FH-lister: CLI og Motor full analyse",
+    "dom": "OK",
+    "rutenett": [
+      {
+        "bytter": 0,
+        "FH": "",
+        "BB": "",
+        "codex": 206.36173634434155,
+        "repo_hybrid": 255.4503486788827,
+        "blend": 230.90604251161213
+      }
+    ]
+  },
+  {
+    "test": "CLI stopper før spillerpoeng",
+    "dom": "OK",
+    "oppsett": {
+      "chips": {
+        "WC": [
+          6
+        ]
+      }
+    },
+    "melding": "Feil i oppsett.json: chips ['WC'] støttes ikke; bare BB og FH (Wildcard og Triple Captain: plan-v2.md del D)"
+  },
+  {
+    "test": "CLI stopper før spillerpoeng",
+    "dom": "OK",
+    "oppsett": {
+      "chips": {
+        "TC": [
+          6
+        ]
+      }
+    },
+    "melding": "Feil i oppsett.json: chips ['TC'] støttes ikke; bare BB og FH (Wildcard og Triple Captain: plan-v2.md del D)"
+  },
+  {
+    "test": "CLI stopper før spillerpoeng",
+    "dom": "OK",
+    "oppsett": {
+      "chips": {
+        "FH": [
+          6
+        ]
+      }
+    },
+    "melding": "Feil i oppsett.json: Free Hit i inneværende runde (6) støttes ikke"
+  },
+  {
+    "test": "CLI stopper før spillerpoeng",
+    "dom": "OK",
+    "oppsett": {
+      "felles_chip": {
+        "WC": 6
+      }
+    },
+    "melding": "Feil i oppsett.json: felles_chip kan bare ha BB og FH"
+  },
+  {
+    "test": "CLI stopper før spillerpoeng",
+    "dom": "OK",
+    "oppsett": {
+      "felles_chip": {
+        "TC": 6
+      }
+    },
+    "melding": "Feil i oppsett.json: felles_chip kan bare ha BB og FH"
+  },
+  {
+    "test": "F7: Motor avviser BB-runde utenfor horisonten",
+    "dom": "RETTET",
+    "melding": "BB-runde [20] ligger utenfor horisonten 6-9"
+  },
+  {
+    "test": "F7: Motor avviser FH-runde utenfor horisonten",
+    "dom": "RETTET",
+    "melding": "FH-runde [10] ligger utenfor horisonten 6-9"
+  },
+  {
+    "test": "Motor avviser wc_runder",
+    "dom": "OK",
+    "melding": "TypeError: __init__() got an unexpected keyword argument 'wc_runder'"
+  },
+  {
+    "test": "Motor avviser tc_runder",
+    "dom": "OK",
+    "melding": "TypeError: __init__() got an unexpected keyword argument 'tc_runder'"
+  },
+  {
+    "test": "Motor.bane avviser wc",
+    "dom": "OK",
+    "melding": "TypeError: bane() got an unexpected keyword argument 'wc'"
+  },
+  {
+    "test": "Motor.bane avviser tc",
+    "dom": "OK",
+    "melding": "TypeError: bane() got an unexpected keyword argument 'tc'"
+  },
+  {
+    "test": "Motor avviser FH nå i tilgjengelighetslisten",
+    "dom": "OK",
+    "melding": "AssertionError: Free Hit i inneværende runde er ikke støttet (se plan-v2.md del D)"
+  },
+  {
+    "test": "Motor.bane avviser FH nå",
+    "dom": "OK",
+    "melding": "AssertionError: FH må ligge i horisonten og ikke i første runde"
+  },
+  {
+    "test": "Motor.faste_planer avviser FH nå",
+    "dom": "OK",
+    "melding": "AssertionError: Free Hit i runde 6 er ikke tilgjengelig"
+  },
+  {
+    "test": "Motor.standardanalyse avviser fh_start nå",
+    "dom": "OK",
+    "melding": "AssertionError: fh_start 6 er ikke blant de tilgjengelige FH-rundene []"
+  },
+  {
+    "test": "Motor.alternativ avviser BB=FH med tilgjengelige chips",
+    "dom": "OK",
+    "melding": "AssertionError: Bench Boost og Free Hit kan ikke brukes i samme runde (7)"
+  },
+  {
+    "test": "Motor.faste_planer avviser utilgjengelig FH",
+    "dom": "OK",
+    "melding": "AssertionError: Free Hit i runde 9 er ikke tilgjengelig"
+  },
+  {
+    "test": "R20-vindu: BB20/FH21 gjennom full CLI-funksjon",
+    "dom": "OK",
+    "maks_avvik": 0.0
+  },
+  {
+    "test": "R20 horisont godtas",
+    "dom": "OK",
+    "slutt": 29
+  },
+  {
+    "test": "R20 horisont godtas",
+    "dom": "OK",
+    "slutt": 38
+  },
+  {
+    "test": "R20 til R39 stoppes av CLI",
+    "dom": "OK",
+    "melding": "ValueError: Feil i oppsett.json: horisont_til 39 må ligge i 20-38 (chipvinduet slutter i runde 38)"
+  },
+  {
+    "test": "FH20 stoppes av CLI",
+    "dom": "OK",
+    "melding": "ValueError: Feil i oppsett.json: Free Hit i inneværende runde (20) støttes ikke; felles_chip BB 20 er ikke blant chips BB []; felles_chip FH 21 er ikke blant chips FH [20]"
+  },
+  {
+    "test": "FH20 stoppes av Motor",
+    "dom": "OK",
+    "melding": "AssertionError: Free Hit i inneværende runde er ikke støttet (se plan-v2.md del D)"
+  },
+  {
+    "test": "F7: direkte Motor på tvers av vindu/sesong",
+    "dom": "RETTET",
+    "melding": "Horisonten (til runde 20) går forbi chipvinduet, som slutter i runde 19",
+    "fra": 19,
+    "til": 20
+  },
+  {
+    "test": "F7: direkte Motor på tvers av vindu/sesong",
+    "dom": "RETTET",
+    "melding": "Horisonten (til runde 39) går forbi chipvinduet, som slutter i runde 38",
+    "fra": 38,
+    "til": 39
+  },
+  {
+    "test": "F2: full CLI med ugyldig tall",
+    "dom": "RETTET",
+    "oppsett": {
+      "ft_folsomhet": [
+        -1
+      ]
+    },
+    "melding": "Feil i oppsett.json: ft_folsomhet: -1 er ikke et heltall 0-5"
+  },
+  {
+    "test": "F2: full CLI med ugyldig tall",
+    "dom": "RETTET",
+    "oppsett": {
+      "vekt_codex": 2
+    },
+    "melding": "Feil i oppsett.json: vekt_codex må være et tall i [0, 1], ikke 2"
+  },
+  {
+    "test": "F2: full CLI med ugyldig tall",
+    "dom": "RETTET",
+    "oppsett": {
+      "gratisbytter": 1.9
+    },
+    "melding": "Feil i oppsett.json: gratisbytter må være et heltall 0-5, ikke 1.9"
+  },
+  {
+    "test": "F1: utilgjengelig FH i bane/alternativ",
+    "dom": "RETTET",
+    "melding": "Free Hit i runde 7 er ikke tilgjengelig (FH: [])"
+  },
+  {
+    "test": "F1: utilgjengelig FH i ft_folsomhet",
+    "dom": "RETTET",
+    "melding": "Free Hit i runde 7 er ikke tilgjengelig (FH: [])"
+  },
+  {
+    "test": "Chipkontroll ferdig",
+    "dom": "OK",
+    "sekunder": 11.03
+  }
+]

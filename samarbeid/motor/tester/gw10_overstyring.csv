@@ -1,0 +1,9 @@
+id,lag,gw_fra,gw_til,faktor,p_start,forventede_min,kilde
+,BHA,10,10,0.95,,,torsdag Europa/søndag liga: 5 % reduksjon (antakelse)
+,BOU,10,10,0.95,,,torsdag Europa/søndag liga: 5 % reduksjon (antakelse)
+,SUN,10,10,0.95,,,torsdag Europa/søndag liga: 5 % reduksjon (antakelse)
+,CRY,10,10,0.95,,,torsdag Europa/søndag liga: 5 % reduksjon (antakelse)
+124,,10,10,0.85,,,fot-smell: 15 % reduksjon; diagnose ukjent
+238,,10,10,0,,,kjent fravær R10 fra bruker
+289,,10,10,0,,,kjent fravær R10 fra bruker
+563,,10,19,0,,,kjent fravær; ukjent retur

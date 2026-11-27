@@ -4,16 +4,25 @@ Simen starter med én setning, for eksempel **«Start FPL-analyse for runde 9»*
 spørsmål underveis, og leverer ett samlet svar på norsk. Simen gjør bare byttene i FPL-appen selv.
 
 Første gjennomføring: `gw08/` (22. okt 2026). Bruk den som mal. Les `gw08/beslutning.md` og forrige ukes `beslutning.md` først.
+Fra R13 regnes uken med ukemotoren `samarbeid/motor/` (bruksanvisning i `README.md` der; kontrollert av Codex 23. nov,
+`samarbeid/modell/codex/motorkontroll.md`). Mal for `motor/oppsett.json` er forrige ukes (første gang `gw11/motor/oppsett.json`;
+R12 ble regnet med Codex' egne skript).
 
 ## Faste rammer
 
 - Mål: høyest forventet totalpoengsum resten av sesongen. Lag 7089878, «lifegivesyoulammens».
 - **Aldri** gjør bytter, aktiver chips eller endre laget på FPL-kontoen. Ingen passord, innloggingskapsler eller betalt API-bruk.
 - Claude er hovedagent og tar sluttbeslutningen. Codex gjør reelle beregninger via pluginen; svarene simuleres aldri.
+- Ingen endrer `samarbeid/motor/` under en ukeanalyse: motoren rettes ikke midt i en runde. Feil i motoren noteres i `oppgaver.md`
+  og rettes etter fristen i en egen økt på egen gren, der `samarbeid/motor/tester` skal bestå.
+- **Reserveløsning:** Kan motoren ikke kjøres, stopper den med en feil som ikke kan rettes raskt, eller melder `motor/kontroll.json`
+  avvik, regner Codex uken med sine egne skript fra forrige uke slik som før (siste versjon: `gw12/codex/modell.py` og
+  `modell_r2.py`). Det noteres i `oppgaver.md`. En feil i Claudes eget oppsett eller overstyringsfil er ikke en motorfeil:
+  den rettes, og motoren kjøres på nytt.
 - Skill alltid mellom verifiserte data, opplysninger fra Simen, modellresultater og antakelser.
-- Hver uke er en ny mappe `samarbeid/gwNN/` med samme struktur som `gw08/`.
-- Filansvar: Claude skriver i `claude/`, `grunnlag.md`, `oppgaver.md`, `beslutning.md`, `prognose/` og `samarbeid/kalibrering/`.
-  Codex skriver bare i `codex/`.
+- Hver uke er en ny mappe `samarbeid/gwNN/` med samme struktur som `gw11/` (med `motor/`).
+- Filansvar: Claude skriver i `claude/`, `motor/oppsett.json`, `grunnlag.md`, `oppgaver.md`, `beslutning.md`, `prognose/` og
+  `samarbeid/kalibrering/`. Codex skriver bare i `codex/`. Motoren skriver resten av `motor/`.
   Ingen endrer `src/`, `config/`, `tests/` eller `data/` i repoets rot. `gwNN/data/` fryses etter henting.
 
 ## Steg 0: Klargjøring
@@ -21,6 +30,9 @@ Første gjennomføring: `gw08/` (22. okt 2026). Bruk den som mal. Les `gw08/besl
 1. Node for Codex: `export PATH="$HOME/.nvm/versions/node/v24.22.1/bin:$PATH"` i hver Bash-kommando som kaller Codex
    (`~/.zprofile` har den også, men appens skall leser den ikke alltid).
 2. Sjekk Codex: `node ~/.claude/plugins/cache/openai-codex/codex/<versjon>/scripts/codex-companion.mjs setup --json`.
+   Codex bruker modellen i `~/.codex/config.toml` (ingen `--model`). `setup` fanger ikke en modell som ikke støttes (23. nov ga
+   `gpt-6-astra` en periode «model is not supported when using Codex with a ChatGPT account»). Feiler første Codex-kall fordi
+   modellen ikke støttes, byttes ikke modell på egen hånd: det sies fra til Simen øverst i svaret og noteres i `oppgaver.md`.
 3. Hent GitHub-botens dataoppdateringer: `git fetch origin && git merge origin/main`.
    - Konflikter i `data/` → ta botens versjon (`git checkout --theirs`), den er nyest.
    - Konflikter i `src/` → undersøk begge sider med `git log` før du velger (se mergen 22. okt: opplastingen hadde eldre kode).
@@ -56,7 +68,8 @@ Verifiser og skriv `grunnlag.md`:
 4. **Prognoseevaluering** (endrer ikke modellen, bare måler den). Legg til forrige runde i `samarbeid/kalibrering/logg.csv`:
    én rad per spiller med forventet poeng ≥ 1 i ett av poengsettene, med kolonnene `runde, id, navn, posisjon, pris, minutter,
    xp_codex, xp_repo, faktisk, i_tropp, kaptein`. Forventet poeng hentes fra den frosne spillerfilen som står i forrige ukes
-   `prognose/SHA256SUMS` (i gw08: `codex/spillerpoeng_r2.csv`), aldri fra en fil som er laget eller endret etter fristen.
+   `prognose/SHA256SUMS` (fra gw13: `motor/spillerpoeng.csv`; før det Codex' spillerfil, f.eks. `codex/spillerpoeng.csv`), aldri fra en fil som er
+   laget eller endret etter fristen.
    Faktisk fra `event/<runde>/live/`, pris fra forrige ukes `data/bootstrap.json`. Ta med spillere med 0 minutter
    (prognosen skal også fange minuttrisiko). Skriptet er `samarbeid/kalibrering/oppdater.py`: lag det første gang, gjenbruk det etterpå,
    og la det nekte å legge inn en runde som allerede finnes.
@@ -65,26 +78,43 @@ Verifiser og skriv `grunnlag.md`:
    En skjevhet regnes som tydelig først når den er over 2 standardfeil, har samme fortegn i minst fire runder og bygger på minst
    fire runder. Svakere mønstre noteres, men brukes ikke.
 
-## Steg 3: Selvstendige analyser (parallelt)
+## Steg 3: Antakelser, oppsett og motorkjøring
 
-**Codex (start først, i bakgrunnen):** skriv `codex/oppdrag-1.md` (XML-blokker: `<task>`, `<required_alternatives>`,
-`<model_rules>`, `<action_safety>`, `<deliverables>`, `<completeness_contract>`) og kjør:
+**Claude først** (motoren trenger Claudes antakelser):
+1. `claude/forutsetninger.md` (skader, roller, minutter, kampprogram, kildebelagt), og de samme antakelsene i
+   `claude/minutter_overstyring.csv` (format og regler i `samarbeid/motor/README.md`; `kilde` på hver rad).
+2. `claude/forslag.md` (eget forslag med enkel kontrollregning), ferdig **før** motorens tall leses. Notér klokkeslett.
+3. `motor/oppsett.json`: `runde`, `gratisbytter`, `bank` (oppgis hvis Simen har byttet etter forrige frist), `chips` (lovlige runder
+   innenfor horisonten; Free Hit kan ikke stå i inneværende runde), `fh_start`, Claudes forslag som `alternativer` (spiller-ID), `ft_folsomhet` med
+   FT−1 og FT+1 (innenfor 1–5), og `skadesim`.
+4. Frys repoets poengfiler én gang: `python samarbeid/motor/kjor.py samarbeid/gwNN --frys`
+   (Anaconda: `export PATH=/Users/simenflogstad/opt/anaconda3/bin:$PATH PYTHONDONTWRITEBYTECODE=1`).
+
+**Codex (i bakgrunnen):** skriv `codex/oppdrag-1.md` (XML-blokker: `<task>`, `<required_checks>`, `<action_safety>`,
+`<deliverables>`, `<completeness_contract>`) og kjør:
 
 ```bash
-node <companion> task --write "$(cat samarbeid/gwNN/codex/oppdrag-1.md)"
+node <companion> task --fresh --write --prompt-file samarbeid/gwNN/codex/oppdrag-1.md
 ```
 
-med `run_in_background: true`. Ny uke = ny tråd (ikke `--resume-last`). Be Codex ta utgangspunkt i forrige ukes `codex/modell_r3.py`
-(eller nyeste), bruke denne ukens data, og vurdere minst: spare, 1 FT, 2+ FT, trekk, WC nå, WC senere (konkret runde), BB og FH før R19.
-Ikke vis Codex Claudes forslag i første oppdrag.
-
-**Claude (mens Codex jobber):** `claude/forutsetninger.md` (skader, roller, minutter, kampprogram, kildebelagt) og
-`claude/forslag.md` (eget forslag med enkel kontrollregning), ferdig **før** Codex' resultat leses. Notér klokkeslett.
+med `run_in_background: true`. Ny uke = ny tråd. Codex kjører motoren (`python samarbeid/motor/kjor.py samarbeid/gwNN`,
+ca. 15 min med skadesimulering) og kontrollerer resultatet i `codex/kontroll.md`: status og avvik i `motor/kontroll.json`,
+gjenregning av minst én plan fra `motor/planer.json` og `motor/spillerpoeng.csv`, toppspillernes nivå, kjøpsuniverset, og om søket
+har oversett åpenbare kandidater. Codex vurderer minst spare, 1 FT, 2+ FT, trekk, BB og FH før R19 (WC og TC fra R20), og tester
+egne alternativer med motoren (`kjor.kjor(uke, ut='samarbeid/gwNN/codex/<navn>', oppsett=...)` fra Python), ikke med egne
+modellskript. Stopper Codex på bruksgrensen før motoren er kjørt, kjører Claude den (samme kode, samme tall) og noterer det i
+`oppgaver.md`.
 
 ## Steg 4: Kritikk og revisjon (maks tre runder)
 
-- Claude kontrollerer Codex' tall og antakelser i `claude/kritikk-av-codex.md`, og sender `codex/oppdrag-2.md` med `task --write --resume-last`.
-- Codex kritiserer Claudes forslag og tester innvendingene. Uenighet avgjøres med beregninger, ikke enighet.
+- Claude kontrollerer motorens tall og Codex' kontroll i `claude/kritikk.md`, og sender `codex/oppdrag-2.md` med `task --write --resume-last`.
+  Etter en omstart av økten finner ikke `--resume-last` tråden (pluginens jobbliste tømmes når økten avsluttes): gi da
+  oppdraget med `task --fresh` og be Codex lese sin egen `codex/kontroll.md` først.
+- Codex kritiserer Claudes forslag og tester innvendingene med motoren: endret oppsett eller egen overstyringsfil i `codex/`,
+  aldri endret motorkode. Uenighet avgjøres med beregninger, ikke enighet.
+- Alternativer sammenlignes i `motor/alternativer_felles.csv` (samme BB- og FH-runde for alle), ikke i `alternativer.csv`.
+- `fh_start` styrer hvilke kandidater søket finner (R11). Er rutenettets beste FH-runde en annen enn `fh_start`, kjøres motoren
+  på nytt med `fh_start` lik den før beslutningen.
 - Faste kontroller som avslørte feil i gw08:
   - Toppspillernes nivå (Haaland, Fernandes) mot observert snitt og repoets `data/derived/expected_points.csv`.
   - Kjøpsuniverset: ingen status `u`/`n`/`i`/0 %, benkespillere med p_start ≥ 0,5.
@@ -96,11 +126,21 @@ Ikke vis Codex Claudes forslag i første oppdrag.
 - `beslutning.md`: handling nå, inn/ut, trekk, bank, ellever, kaptein, visekaptein, benk, plan for neste åtte runder (foreløpig merket),
   hvorfor fremfor å spare og fremfor beste WC-alternativ, forventet gevinst med periode, usikkerheter, hva som bør sjekkes før fristen,
   uenighet og hva kritikken endret.
+- **Beslutningsregel** (fra 27. nov; Simen valgte ikke en av de to andre variantene, så forslaget fra R11-lærdommen gjelder til
+  han bestemmer noe annet): førstevalget X er planen med høyest blanding (`vekt_codex`)
+  i `motor/alternativer_felles.csv`, med den parede skadetesten når den finnes. R er den beste planen som ikke er dårligere enn rull i
+  noe poengsett (rull oppfyller kravet selv). Velg R i stedet for X bare når poengsettene er uenige om fortegnet på X − R **og**
+  blandingsfordelen er mindre enn søkestøyen S: det største fallet i totalen til X eller R, i ett av poengsettene, når antall
+  gratisbytter øker med én (FT−1 og FT+1 i `motor/ft_folsomhet.csv`, FT i `motor/alternativer_felles.csv`), men minst 1,0.
+  Forventningstapet oppgis da i `beslutning.md`.
+  Bakgrunn: R11-lærdommen i `samarbeid/modell/STATUS.md`.
 - Tydelige skjevheter fra `samarbeid/kalibrering/oversikt.md` kan brukes som uttalt antakelse (særlig ved kapteinsvalg),
   og står da i `beslutning.md` med størrelse og antall runder. Modellen endres ikke av dette; en modellendring går via
   forhåndsregistrering i `samarbeid/modell/`.
-- Kopier `gw08/claude/frys_prognose.py`, oppdater planene og runde-tallene, og kjør. Den nekter å overskrive en frosset prognose.
-  Spillerfilen med forventet poeng for alle spillere (begge poengsettene) skal stå i `SHA256SUMS`, siden prognoseevalueringen bygger på den.
+- Kopier forrige ukes `claude/frys_prognose.py` (første uke med motoren: ta den fra `gw11/`, som fryser `motor/spillerpoeng.csv`;
+  den i `gw12/` fryser bare Codex' fil), oppdater planene og runde-tallene, og kjør. Den nekter å
+  overskrive en frosset prognose. Spillerfilen `motor/spillerpoeng.csv` (forventet poeng for alle spillere i begge poengsett) skal stå
+  i `SHA256SUMS`, siden prognoseevalueringen bygger på den.
 - Oppdater `oppgaver.md` (status og logg med UTC-tider fra filenes endringstid).
 
 ## Steg 6: Lagre

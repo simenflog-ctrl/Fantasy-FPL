@@ -1,0 +1,7 @@
+  fjorårsprior funnet for 317 av 668 spillere
+  xG→mål-skalering: 0.931
+  ingen overspredning målt (760 lag-kamper fra i fjor) — bruker Poisson
+  fjorårsprior funnet for 317 av 668 spillere
+  xG→mål-skalering: 0.931
+  ingen overspredning målt (760 lag-kamper fra i fjor) — bruker Poisson
+PRODUCTION REGRESSION OK 4008 rows; max unexpected delta 0.0 ; max GK delta 0.0 ; diagnostics {'tau': 4.0, 'goal_scale': 0.9311281512868373, 'dispersion': 1000000.0}

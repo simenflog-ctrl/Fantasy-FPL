@@ -1,0 +1,28 @@
+{"test": "Ekvivalens lag.py", "dom": "OK", "ast_identiske": ["benchweights", "evaluate_selection", "select", "obj_batch"]}
+{"test": "Dobbel/blank, begge poengsett, autobytter og BB", "dom": "OK", "maks_avvik": 7.318590178329032e-13}
+{"test": "Overstyringer: rekkefølge, flagg, retur, kilde, id og eksklusivitet", "dom": "OK"}
+{"test": "FH nå via ordinær liste/bane avvises", "dom": "OK", "melding": "AssertionError: Free Hit i inneværende runde er ikke støttet (se plan-v2.md del D)"}
+{"test": "F1: BB/FH samtidig og utilgjengelig", "dom": "RETTET", "melding": "AssertionError: Bench Boost i runde 7 er ikke tilgjengelig"}
+{"test": "F1: BB utenfor horisonten", "dom": "RETTET", "melding": "AssertionError: Bench Boost i runde 5 er ikke tilgjengelig"}
+{"test": "FT: +1, tak fem og lokal FH-antakelse", "dom": "OK", "FT": [[1, 2], [2, 2], [2, 3], [3, 4]]}
+{"test": "F2: ugyldig FT i Motor", "dom": "GJENSTÅR", "input": 6}
+{"test": "F2: ugyldig FT i Motor", "dom": "GJENSTÅR", "input": -1}
+{"test": "F2: ugyldig FT i Motor", "dom": "GJENSTÅR", "input": 1.9}
+{"test": "F2: ugyldig gratisbytter i CLI-validator", "dom": "RETTET", "melding": "ValueError: Feil i oppsett.json: gratisbytter må være 0-5", "input": 6}
+{"test": "F2: ugyldig gratisbytter i CLI-validator", "dom": "RETTET", "melding": "ValueError: Feil i oppsett.json: gratisbytter må være 0-5", "input": -1}
+{"test": "F2: ugyldig gratisbytter i CLI-validator", "dom": "GJENSTÅR", "input": 1.9}
+{"test": "Salgspris, gjenkjøp, budsjett, 2/5/5/3, klubbgrense, trekk og FT-følsomhet", "dom": "OK"}
+{"test": "F3: eksplisitt manglende overstyringsfil", "dom": "RETTET", "melding": "ValueError: Feil i oppsett.json: overstyringsfilen claude/finnes-ikke.csv finnes ikke"}
+{"test": "F4: WC og TC i chips", "dom": "RETTET", "melding": "ValueError: Feil i oppsett.json: chips ['TC', 'WC'] støttes ikke; bare BB og FH (Wildcard og Triple Captain: plan-v2.md del D)"}
+{"test": "F1: full kjøring med BB/FH-kollisjon", "dom": "RETTET", "melding": "ValueError: Feil i oppsett.json: felles_chip BB 7 er ikke blant chips BB []; felles_chip FH 7 er ikke blant chips FH []; Bench Boost og Free Hit kan ikke stå i samme runde (7)"}
+{"test": "F5: frysing delegert til prognoseskriptet i README", "dom": "AKSEPTERT", "hash_for": "6f700fb290e56e8de1238d9f0043b3a61e01584abd195b5aea98e7ed5da7585b", "hash_etter": "ccb8725315cefcabe6915e83c068a76025f174171de595602a4a3a395a43cd76"}
+{"test": "CLI --frys: riktige bytes og nekter overskriving", "dom": "OK"}
+{"test": "CLI --bare-poeng, standard bank og bare skriving i motor/", "dom": "OK"}
+{"test": "CLI full, Claudes eget alternativ og ft_folsomhet", "dom": "OK"}
+{"test": "F6: bestilt skadesim uten BB", "dom": "GJENSTÅR", "status": "OK", "simulert": false}
+{"test": "F7: CLI horisont over R19/R20", "dom": "RETTET", "melding": "ValueError: Feil i oppsett.json: horisont_til 20 må ligge i 19-19 (chipvinduet slutter i runde 19)"}
+{"test": "F1: fh_start uten tilgjengelig FH", "dom": "GJENSTÅR"}
+{"test": "Standard horisont R12/R19/R20/R35 og fh_start", "dom": "OK", "horisonter": [19, 19, 29, 38]}
+{"test": "Repo-fallback ved manglende rader (arvet og tillatt)", "dom": "OK", "repo_mangler": 0, "antall_rader": 0}
+{"test": "Første 20 skadeverdener mot GW10 r2", "dom": "OK", "maks_avvik": 0.0}
+{"test": "Kontrollskript ferdig", "dom": "OK", "sekunder": 33.13}

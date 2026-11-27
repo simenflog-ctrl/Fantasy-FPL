@@ -1,0 +1,7 @@
+{"test": "test_dobbeltrunde_teller_to_ganger", "dom": "OK"}
+{"test": "test_blank_runde_gir_null", "dom": "OK"}
+{"test": "test_repo_hybrid_summerer_dobbeltrunde", "dom": "OK"}
+{"test": "test_dobbeltrunde_mot_enkeltrunde_programmet", "dom": "OK"}
+{"test": "R2: 200 tilfeldighetsblokker/verdener og stabilt 20-prefiks", "dom": "OK", "verdener": 200}
+{"test": "F12: frossen minuttabell mister kjent returdato", "dom": "RETTET", "id": 3, "gw": 7, "codex_fra_overstyring": 5.16910756522077, "codex_fra_frossen": 5.16910756522077, "repo_fra_overstyring": 6.125, "repo_fra_frossen": 6.125, "retur_for": 3, "retur_etter": 3}
+{"test": "Ekvivalenseksempler ferdig", "dom": "OK", "sekunder": 0.11}

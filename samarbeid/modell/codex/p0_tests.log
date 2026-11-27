@@ -1,0 +1,9 @@
+...............                                                          [100%]
+============================= slowest 6 durations ==============================
+0.33s call     tests/test_parity.py::test_production_main_and_engine_parity[False]
+0.30s call     tests/test_parity.py::test_production_main_and_engine_parity[True]
+0.16s call     tests/test_parity.py::test_keeper_rule_only_changes_keeper_goals
+0.05s call     tests/test_build_matches.py::test_team_derived_from_fixture_not_current_club
+0.04s call     tests/test_parity.py::test_compare_uses_production_flags_and_restores_on_failure
+0.02s setup    tests/test_optimize.py::test_purchase_and_selling_prices_gw08
+15 passed in 2.24s

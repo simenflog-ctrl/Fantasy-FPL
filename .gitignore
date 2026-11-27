@@ -8,3 +8,13 @@ __pycache__/
 # Samarbeidsmappene: samme regel for rå element-summary.
 samarbeid/*/data/element_summary/
 .DS_Store
+
+# Lokal kopi av vaastavs historiske sesonger for offline backtest (samarbeid/motor/historikk.py).
+data/cache/
+
+# Store prediksjonsdumper fra målemotoren; gjenskapes av skriptene.
+samarbeid/modell/**/*prediksjoner*.csv.gz
+samarbeid/modell/**/p1p2_*.csv.gz
+
+# Codex' motorkontroll: kopier av ukedata som kontrollskriptene lager på nytt (logger og sammendrag på toppnivå committes).
+samarbeid/modell/codex/motorkontroll-data/*/

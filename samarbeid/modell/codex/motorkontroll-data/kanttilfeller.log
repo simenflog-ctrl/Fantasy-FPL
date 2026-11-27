@@ -1,0 +1,16 @@
+{"test": "F8: feil modellspredning i kapteinsalternativer (arvet)", "avvik": [{"alternativ": "G_L6S12", "oppgitt": 49.08861233454115, "riktig": 48.278810810332544}, {"alternativ": "G_L6S07", "oppgitt": 49.08861233454115, "riktig": 50.650247461936374}, {"alternativ": "G_L4S02", "oppgitt": 49.08861233454115, "riktig": 50.80800494121314}]}
+{"test": "F9: inkonsistente minutter gir poeng med P(spiller)=0", "id": 13, "p_start": 0, "minutter": 30, "p_spiller": 0.0, "codex": 0.7662484903675185, "repo": 1.875}
+{"test": "F3: omvendt overstyringsintervall ignoreres", "gw_fra": 8, "gw_til": 7, "faktor": "feil tall"}
+{"test": "F2: ugyldig følsomhets-FT/vekt", "ft": -1, "trekk_rull": 4, "vekt_godtatt": 2}
+{"test": "F4: felles_chip WC/TC ignoreres", "status": "OK"}
+{"test": "F7: full kjøring over vindu/etter sesongslutt", "runde": 19, "horisont_til": 20, "BB": 20, "status": "OK"}
+{"test": "F7: full kjøring over vindu/etter sesongslutt", "runde": 38, "horisont_til": 39, "BB": 39, "status": "OK"}
+Frosset /Users/simenflogstad/Documents/GitHub/Fantasy-FPL/.claude/worktrees/happy-sutherland-2bb9aa/samarbeid/modell/codex/motorkontroll-data/delvis-frys-1795106164695499000/motor/input/player_matches.csv
+{"test": "F10: --frys etterlater delvis frosset par ved feil", "player_matches": "ny kopi", "expected_points": "gammel fil", "avslutning": "SystemExit"}
+{"test": "Kjøpsunivers: u/n/i/s/0 prosent og can_select", "dom": "OK"}
+{"test": "Frossen minuttabell har prioritet over overstyringer", "dom": "OK"}
+{"test": "Repo dobbeltrunde fallback", "dom": "OK", "variant": "mangler_en"}
+{"test": "Repo dobbeltrunde fallback", "dom": "OK", "variant": "null_minutter"}
+{"test": "F11: egne alternativer mangler eget chiprutenett", "felles": ["A", "Claude_test"], "rutenett_bytteantall": [0]}
+{"test": "Skadesim: avvik fra R2 ved 150 trekk, korrekt stabil blokkregel", "dom": "OK", "første_100_identiske": true, "varigheter_101_150_identiske": false}
+{"test": "Kanttilfeller ferdig", "dom": "OK"}

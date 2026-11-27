@@ -1,0 +1,17 @@
+{"test": "F8: feil modellspredning i kapteinsalternativer (arvet)", "dom": "RETTET", "avvik": []}
+{"test": "F9: inkonsistente minutter gir poeng med P(spiller)=0", "dom": "GJENSTÅR", "id": 13, "p_spiller": 0.0, "codex": 0.7662484903675185, "repo": 1.875}
+{"test": "F3: omvendt overstyringsintervall", "dom": "GJENSTÅR"}
+{"test": "F2: vekt=2 i Motor", "dom": "GJENSTÅR"}
+{"test": "F2: trekk ved rull", "trekk": 4}
+{"test": "F2: FT-følsomhet -1", "dom": "GJENSTÅR"}
+{"test": "F4: felles_chip WC/TC", "dom": "RETTET", "melding": "ValueError: Feil i oppsett.json: felles_chip kan bare ha BB og FH"}
+{"test": "F7: full kjøring over vindu/etter sesongslutt", "dom": "RETTET", "melding": "ValueError: Feil i oppsett.json: horisont_til 20 må ligge i 19-19 (chipvinduet slutter i runde 19)", "runde": 19, "horisont_til": 20}
+{"test": "F7: full kjøring over vindu/etter sesongslutt", "dom": "RETTET", "melding": "ValueError: Feil i oppsett.json: horisont_til 39 må ligge i 38-38 (chipvinduet slutter i runde 38)", "runde": 38, "horisont_til": 39}
+{"test": "F10: --frys etterlater delvis frosset par ved feil", "dom": "RETTET", "melding": "Finnes allerede, overskriver ikke: /Users/simenflogstad/Documents/GitHub/Fantasy-FPL/.claude/worktrees/compassionate-wozniak-6e22cd/samarbeid/modell/codex/motorkontroll-data/frys-repo/samarbeid/gw-kontroll/motor/input/expected_points.csv"}
+{"test": "Kjøpsunivers: u/n/i/s/0 prosent og can_select", "dom": "OK"}
+{"test": "Frossen minuttabell har prioritet over overstyringer", "dom": "OK"}
+{"test": "Repo dobbeltrunde fallback", "dom": "OK", "variant": "mangler_en"}
+{"test": "Repo dobbeltrunde fallback", "dom": "OK", "variant": "null_minutter"}
+{"test": "F11: egne alternativer mangler eget chiprutenett", "dom": "GJENSTÅR", "felles": ["A", "Claude_test"], "eget_rutenett_celler": 0, "rutenett_bytteantall": [0]}
+{"test": "Skadesim: avvik fra R2 ved 150 trekk, korrekt stabil blokkregel", "dom": "OK", "første_100_identiske": true, "varigheter_101_150_identiske": false}
+{"test": "Kanttilfeller ferdig", "dom": "OK", "sekunder": -30.23}

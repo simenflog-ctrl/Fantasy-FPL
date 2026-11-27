@@ -1,0 +1,4 @@
+GW10 OPPSETT OK; horisont 10-19; BB 10-19; FH 11-19; 8 overstyringsrader innenfor horisonten 10-19.
+GW11 OPPSETT OK; horisont 11-19; BB 11-19; FH 12-19; 6 overstyringsrader innenfor horisonten 11-19.
+R12 OPPSETT OK; horisont 12-19; BB tom; FH 13-19; fh_start 13.
+Tall for gyldige planer er ikke endret av d428750: diffen endrer bare validering, dokumentasjon og tester. Claudes langsomtest 66/66 bestått; test_gw10 ende-til-ende sammenligner fem alternativer med alternativer_r2.csv innen toleranse og forventer valgt plan B, BB12/FH13. Gjeldende standardtest 64 bestått, 2 hoppet over.
