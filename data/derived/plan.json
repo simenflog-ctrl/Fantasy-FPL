@@ -1,34 +1,9 @@
 {
- "generated_for_gw": 12,
+ "generated_for_gw": 13,
  "status": "Optimal",
- "objective": 345.97,
+ "objective": 347.68,
  "chip_note": "",
  "plan": [
-  {
-   "gw": 12,
-   "chip": "",
-   "in": [
-    "E.Le Fée"
-   ],
-   "out": [
-    "Ødegaard"
-   ],
-   "hits": 0,
-   "captain": "Groß",
-   "xi": [
-    "Trafford",
-    "Gabriel",
-    "De Cuyper",
-    "Van Hecke",
-    "Silva",
-    "Mbeumo",
-    "Tavernier",
-    "Groß",
-    "E.Le Fée",
-    "Haaland",
-    "Barry"
-   ]
-  },
   {
    "gw": 13,
    "chip": "",
@@ -43,34 +18,34 @@
    "xi": [
     "Tzolakis",
     "Gabriel",
+    "De Cuyper",
     "Van Hecke",
-    "Silva",
     "Mbeumo",
     "Tavernier",
     "Groß",
-    "E.Le Fée",
     "Rudoni",
     "Haaland",
-    "Evanilson"
+    "Evanilson",
+    "Barry"
    ]
   },
   {
    "gw": 14,
    "chip": "",
    "in": [
-    "B.Fernandes"
+    "E.Le Fée"
    ],
    "out": [
-    "Mbeumo"
+    "Ødegaard"
    ],
    "hits": 0,
    "captain": "Haaland",
    "xi": [
     "Trafford",
     "Gabriel",
-    "Van Hecke",
-    "Silva",
-    "B.Fernandes",
+    "Bogle",
+    "Justin",
+    "Mbeumo",
     "Tavernier",
     "Groß",
     "E.Le Fée",
@@ -82,8 +57,12 @@
   {
    "gw": 15,
    "chip": "",
-   "in": [],
-   "out": [],
+   "in": [
+    "B.Fernandes"
+   ],
+   "out": [
+    "Mbeumo"
+   ],
    "hits": 0,
    "captain": "Haaland",
    "xi": [
@@ -104,25 +83,48 @@
    "gw": 16,
    "chip": "",
    "in": [
-    "Rogers",
-    "Gibbs-White"
+    "Verbruggen"
    ],
    "out": [
-    "Rudoni",
-    "B.Fernandes"
+    "Tzolakis"
    ],
    "hits": 0,
    "captain": "Haaland",
    "xi": [
-    "Trafford",
+    "Verbruggen",
     "Gabriel",
     "De Cuyper",
-    "Silva",
-    "Rogers",
-    "Gibbs-White",
+    "Bogle",
+    "Justin",
+    "B.Fernandes",
     "Tavernier",
     "Groß",
     "E.Le Fée",
+    "Haaland",
+    "Evanilson"
+   ]
+  },
+  {
+   "gw": 17,
+   "chip": "",
+   "in": [
+    "Konsa"
+   ],
+   "out": [
+    "Bogle"
+   ],
+   "hits": 0,
+   "captain": "Haaland",
+   "xi": [
+    "Verbruggen",
+    "Gabriel",
+    "Van Hecke",
+    "Konsa",
+    "B.Fernandes",
+    "Tavernier",
+    "Groß",
+    "E.Le Fée",
+    "Rudoni",
     "Haaland",
     "Evanilson"
    ]
